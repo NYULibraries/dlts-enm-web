@@ -11,3 +11,7 @@
     background-color: white;
     border: none;
 }
+
+.container {
+    width: 90%;
+}
