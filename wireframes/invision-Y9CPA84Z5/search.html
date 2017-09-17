@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Search screen</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="container">
+
+    <div class="page-header">
+        Search screen: https://projects.invisionapp.com/share/Y9CPA84Z5#/screens/245102061
+    </div>
+
+    <div class="row" id="search-form">
+        <div class="col-md-6">
+            <form id="search">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-search"></span>
+                    </span>
+                    <input type="text" class="form-control" placeholder="Search" aria-describedby="search">
+                </div>
+            </form>
+        </div>
+        <div class="col-md-6"></div>
+    </div>
+
+    <div class="row" id="search-results-header">
+        <div class="col-md-6">
+            <div class="col-md-8"><span id="found-in-header">"X" is found in the topics or fulltext of Y books:</span></div>
+            <div class="col-md-4">
+
+                <div class="input-group">
+
+                    <span class="input-group-addon" id="sorted-by-label">
+                        Sorted by Relevance
+                    </span>
+
+                    <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle"
+                                type="button"
+                                id="toggle-sort-by"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="true">
+                            <span class="caret"></span>
+                        </button>
+
+                        <ul class="dropdown-menu dropdown-menu-right" id="sort-by-dropdown" aria-labelledby="sort by dropdown">
+                            <li><a href="#">Relevance</a></li>
+                            <li><a href="#">Title</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6"><hr/></div>
+        <div class="col-md-6"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row">
+                <div class="col-md-2">
+                    Icon
+                </div>
+
+                <div class="col-md-10">
+                    Result 1
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    Icon
+                </div>
+
+                <div class="col-md-10">
+                    Result 2
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-2">
+                    Icon
+                </div>
+
+                <div class="col-md-10">
+                    Result 3
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            Book text
+        </div>
+    </div>
+
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
