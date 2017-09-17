@@ -44,36 +44,27 @@
     <div class="row" id="search-results-header">
         <div class="col-md-6">
 
-            <div class="col-md-8">
-                <span id="found-in-header">
-                    "X" is found in the topics or fulltext of Y books:
+            <div class="input-group">
+                <span>"[QUERY]" is found in the topics or fulltext of [NUMBER] books:</span>
+
+                <span class="input-group-addon" id="sorted-by-label">
+                    Sorted by [FIELD]
                 </span>
-            </div>
 
-            <div class="col-md-4">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle"
+                            type="button"
+                            id="toggle-sort-by"
+                            data-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="true">
+                        <span class="caret"></span>
+                    </button>
 
-                <div class="input-group">
-
-                    <span class="input-group-addon" id="sorted-by-label">
-                        Sorted by Relevance
-                    </span>
-
-                    <div class="dropdown">
-                        <button class="btn btn-default dropdown-toggle"
-                                type="button"
-                                id="toggle-sort-by"
-                                data-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="true">
-                            <span class="caret"></span>
-                        </button>
-
-                        <ul class="dropdown-menu dropdown-menu-right" id="sort-by-dropdown" aria-labelledby="sort by dropdown">
-                            <li><a href="#">Relevance</a></li>
-                            <li><a href="#">Title</a></li>
-                        </ul>
-                    </div>
-
+                    <ul class="dropdown-menu dropdown-menu-right" id="sort-by-dropdown" aria-labelledby="sort by dropdown">
+                        <li><a href="#">Relevance</a></li>
+                        <li><a href="#">Title</a></li>
+                    </ul>
                 </div>
 
 
