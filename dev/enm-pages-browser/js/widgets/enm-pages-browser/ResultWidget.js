@@ -43,9 +43,11 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
       $(this.target).append(this.template(doc));
 
       var items = [];
-      items = items.concat(this.facetLinks('topics', doc.topics));
-      items = items.concat(this.facetLinks('organisations', doc.organisations));
-      items = items.concat(this.facetLinks('exchanges', doc.exchanges));
+      items = items.concat(this.facetLinks('titles', doc.title_facet));
+      items = items.concat(this.facetLinks('authors', doc.authors_facet));
+      items = items.concat(this.facetLinks('years', doc.yearOfPublication));
+      items = items.concat(this.facetLinks('isbn', doc.isbn));
+      items = items.concat(this.facetLinks('topics', doc.topicNames_facet));
 
       var $links = $('#links_' + doc.id);
       $links.empty();
@@ -57,18 +59,34 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
 
   template: function (doc) {
     var snippet = '';
-    if (doc.text.length > 300) {
-      snippet += doc.dateline + ' ' + doc.text.substring(0, 300);
-      snippet += '<span style="display:none;">' + doc.text.substring(300);
+    if (doc.pageText.length > 300) {
+      snippet += doc.pageText.substring(0, 300);
+      snippet += '<span style="display:none;">' + doc.pageText.substring(300);
       snippet += '</span> <a href="#" class="more">more</a>';
     }
     else {
-      snippet += doc.dateline + ' ' + doc.text;
+      snippet += doc.pageText;
     }
 
-    var output = '<div><h2>' + doc.title + '</h2>';
+    var topics = JSON.parse( doc.topicNamesForDisplay );
+    var topicsList = '';
+    Object.keys( topics ).forEach( function( displayName ) {
+      var alternateTopics = topics[ displayName ];
+
+      if ( alternateTopics.length > 0 ) {
+        topicsList += '    <li>' + displayName + ' (' + alternateTopics.join( ' | ' ) + ') </li>';
+      } else {
+        topicsList += '    <li>' + displayName + '</li>';
+      }
+    } );
+
+    var output = '<article><h2>' + doc.title + '</h2>';
     output += '<p id="links_' + doc.id + '" class="links"></p>';
-    output += '<p>' + snippet + '</p></div>';
+    output += '<div class="authors">' + doc.authors + '</div>';
+    output += '<div class="year">' + doc.yearOfPublication + '</div>';
+    output += '<div class="isbn">' + doc.isbn + '</div>';
+    output += '<ul class="topics">' + topicsList + '</ul>';
+    output += '<div class="fulltext">' + snippet + '</div></article>';
     return output;
   },
 
