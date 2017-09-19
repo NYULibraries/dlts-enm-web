@@ -4,7 +4,7 @@ var Manager;
 
   $(function () {
     Manager = new AjaxSolr.Manager({
-      solrUrl: 'http://reuters-demo.tree.ewdev.ca:9090/reuters/'
+      solrUrl: 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/'
       // If you are using a local Solr instance with a "reuters" core, use:
       // solrUrl: 'http://localhost:8983/solr/reuters/'
       // If you are using a local Solr instance with a single core, use:
@@ -55,15 +55,12 @@ var Manager;
     Manager.store.addByValue('q', '*:*');
     var params = {
       facet: true,
-      'facet.field': [ 'topics', 'organisations', 'exchanges', 'countryCodes' ],
+      'facet.field': [ 'title_facet', 'authors_facet', 'publisher_facet', 'isbn_facet', 'topicNames_facet', 'yearOfPublication' ],
       'facet.limit': 20,
       'facet.mincount': 1,
-      'f.topics.facet.limit': 50,
-      'f.countryCodes.facet.limit': -1,
-      'facet.date': 'date',
-      'facet.date.start': '1987-02-26T00:00:00.000Z/DAY',
-      'facet.date.end': '1987-10-20T00:00:00.000Z/DAY+1DAY',
-      'facet.date.gap': '+1DAY',
+      'f.topicNames_facet.facet.limit': 50,
+      'f.title.facet.limit': -1,
+       indent: 'on',
       'json.nl': 'map'
     };
     for (var name in params) {
