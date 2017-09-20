@@ -70,7 +70,7 @@ var Manager;
       'f.topicNames_facet.facet.limit': 100,
 
       'hl': 'on',
-      'hl.fl': 'pageText,title,topicNamesForDisplay',
+      'hl.fl': 'pageText,title,topicNames',
       'hl.simple.pre': '<span class=\"highlight\">',
       'hl.simple.post': '</span>',
 
