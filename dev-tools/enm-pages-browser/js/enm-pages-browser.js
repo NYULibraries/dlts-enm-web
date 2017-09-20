@@ -44,13 +44,13 @@ var Manager;
     Manager.addWidget(new AjaxSolr.AutocompleteWidget({
       id: 'text',
       target: '#search',
-      fields: [ 'title', 'authors', 'publisher', 'isbn', 'pageText', 'topicNames' ]
+      fields: [ 'authors', 'isbn', 'pageText', 'publisher', 'title', 'topicNames' ]
     }));
     Manager.init();
     Manager.store.addByValue('q', '*:*');
     var params = {
       'defType': 'edismax',
-      'qf': 'pageText title topicNames',
+      'qf': 'authors isbn pageText publisher title topicNames',
 
       facet: true,
       'facet.field': [
@@ -65,7 +65,7 @@ var Manager;
       'f.topicNames_facet.facet.limit': 100,
 
       'hl': 'on',
-      'hl.fl': 'pageText,title,topicNames',
+      'hl.fl': 'authors, isbn, pageText, publisher, title, topicNames',
       'hl.simple.pre': '<span class=\"highlight\">',
       'hl.simple.post': '</span>',
 
