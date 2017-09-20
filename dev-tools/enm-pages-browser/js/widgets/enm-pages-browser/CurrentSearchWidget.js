@@ -45,7 +45,7 @@ AjaxSolr.CurrentSearchWidget = AjaxSolr.AbstractWidget.extend({
       }
     }
     else {
-      $(this.target).html('<li>Viewing all documents!</li>');
+      $(this.target).html('<li>Viewing all documents in the Solr index</li>');
     }
   },
 
