@@ -175,6 +175,14 @@ article {
   margin: 10px;
 }
 
+.highlight {
+  background-color: yellow;
+}
+
+.highlights-list {
+  margin-left: 40px;
+}
+
 .infolabel {
   color: #999;
   font-weight : bold;
