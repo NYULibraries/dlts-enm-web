@@ -64,10 +64,10 @@ var Manager;
           'publisher_facet',
           'topicNames_facet'
       ],
-      'facet.limit': 50,
+      'facet.limit': -1,
       'facet.mincount': 1,
-      // 'f.topicNames_facet.facet.limit': 50,
-      // 'f.title.facet.limit': -1,
+
+      'f.topicNames_facet.facet.limit': 100,
 
       'hl': 'on',
       'hl.fl': 'pageText,title,topicNamesForDisplay',
