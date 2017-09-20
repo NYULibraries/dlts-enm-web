@@ -116,7 +116,7 @@ a:hover {
 .tagcloud_item {
   float: left;
   display: block;
-  margin-right: 4px;
+  margin-right: 35px;
   color: #6998f0;
 }
 .tagcloud_item:hover {
