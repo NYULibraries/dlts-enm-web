@@ -46,11 +46,6 @@ var Manager;
       target: '#search',
       fields: [ 'title', 'authors', 'publisher', 'isbn', 'pageText', 'topicNames' ]
     }));
-    Manager.addWidget(new AjaxSolr.CountryCodeWidget({
-      id: 'countries',
-      target: '#countries',
-      field: 'countryCodes'
-    }));
     Manager.init();
     Manager.store.addByValue('q', '*:*');
     var params = {
