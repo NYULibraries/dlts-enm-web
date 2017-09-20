@@ -200,3 +200,8 @@ article {
 .topics-list {
   margin-left: 40px;
 }
+
+.warning {
+  color: red;
+  font-weight: bold;
+}
