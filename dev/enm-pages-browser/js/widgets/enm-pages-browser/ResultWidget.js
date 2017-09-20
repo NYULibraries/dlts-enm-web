@@ -63,9 +63,14 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
 
       var $topics = $('#topics_' + doc.id);
       $topics.empty();
-      topicNameLinks.forEach( function( topicNameLink ) {
-        $topics.append($('<li></li>').append(topicNameLink));
-      } );
+
+      if (topicNameLinks.length > 0) {
+          topicNameLinks.forEach( function( topicNameLink ) {
+              $topics.append($('<li></li>').append(topicNameLink));
+          } );
+      } else {
+          $topics.append($('<li>[none]</li>'));
+      }
 
       // var items = [];
       // items = items.concat(this.facetLinks('topics', doc.topicNames_facet));
