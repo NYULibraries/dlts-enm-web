@@ -72,7 +72,7 @@ var Manager;
       'hl': 'on',
       'hl.fl': 'pageText,title,topicNamesForDisplay',
       'hl.simple.pre': '<span class=\"highlight\">',
-      'hl.simple.post': '<span>',
+      'hl.simple.post': '</span>',
 
       indent: 'on',
 
