@@ -28,7 +28,6 @@ var Manager;
         'title_facet',
         'authors_facet',
         'publisher_facet',
-        'yearOfPublication',
         'topicNames_facet'
     ];
     for (var i = 0, l = fields.length; i < l; i++) {
@@ -61,7 +60,6 @@ var Manager;
           'authors_facet',
           'publisher_facet',
           'topicNames_facet',
-          'yearOfPublication'
       ],
       'facet.limit': 50,
       'facet.mincount': 1,
