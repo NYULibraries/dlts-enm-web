@@ -24,7 +24,14 @@ var Manager;
         $('#pager-header').html($('<span></span>').text('displaying ' + Math.min(total, offset + 1) + ' to ' + Math.min(total, offset + perPage) + ' of ' + total));
       }
     }));
-    var fields = [ 'topics', 'organisations', 'exchanges' ];
+    var fields = [
+        'title_facet',
+        'authors_facet',
+        'publisher_facet',
+        'yearOfPublication',
+        'isbn',
+        'topicNames_facet'
+    ];
     for (var i = 0, l = fields.length; i < l; i++) {
       Manager.addWidget(new AjaxSolr.TagcloudWidget({
         id: fields[i],
@@ -55,7 +62,14 @@ var Manager;
     Manager.store.addByValue('q', '*:*');
     var params = {
       facet: true,
-      'facet.field': [ 'title_facet', 'authors_facet', 'publisher_facet', 'isbn_facet', 'topicNames_facet', 'yearOfPublication' ],
+      'facet.field': [
+          'title_facet',
+          'authors_facet',
+          'publisher_facet',
+          'isbn_facet',
+          'topicNames_facet',
+          'yearOfPublication'
+      ],
       'facet.limit': 20,
       'facet.mincount': 1,
       'f.topicNames_facet.facet.limit': 50,
