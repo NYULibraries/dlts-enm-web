@@ -65,7 +65,14 @@ var Manager;
       'facet.mincount': 1,
       // 'f.topicNames_facet.facet.limit': 50,
       // 'f.title.facet.limit': -1,
-       indent: 'on',
+
+      'hl': 'on',
+      'hl.fl': 'pageText,title,topicNamesForDisplay',
+      'hl.simple.pre': '<span class=\"highlight\">',
+      'hl.simple.post': '<span>',
+
+      indent: 'on',
+
       'json.nl': 'map'
     };
     for (var name in params) {
