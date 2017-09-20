@@ -65,10 +65,10 @@ var Manager;
           'topicNames_facet',
           'yearOfPublication'
       ],
-      'facet.limit': 20,
+      'facet.limit': 50,
       'facet.mincount': 1,
-      'f.topicNames_facet.facet.limit': 50,
-      'f.title.facet.limit': -1,
+      // 'f.topicNames_facet.facet.limit': 50,
+      // 'f.title.facet.limit': -1,
        indent: 'on',
       'json.nl': 'map'
     };
