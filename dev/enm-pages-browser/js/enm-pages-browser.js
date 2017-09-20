@@ -59,7 +59,7 @@ var Manager;
           'title_facet',
           'authors_facet',
           'publisher_facet',
-          'topicNames_facet',
+          'topicNames_facet'
       ],
       'facet.limit': 50,
       'facet.mincount': 1,
