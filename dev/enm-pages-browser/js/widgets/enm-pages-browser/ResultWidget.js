@@ -74,7 +74,8 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
       var alternateTopics = topics[ displayName ];
 
       if ( alternateTopics.length > 0 ) {
-        topicsList += '    <li>' + displayName + ' (' + alternateTopics.join( ' | ' ) + ') </li>';
+        topicsList += '    <li>' + displayName + ' <span class="alternate-topics">' +
+            '(' + alternateTopics.join( ' | ' ) + ')</span> </li>';
       } else {
         topicsList += '    <li>' + displayName + '</li>';
       }
