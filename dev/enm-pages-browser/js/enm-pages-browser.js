@@ -53,11 +53,6 @@ var Manager;
       target: '#countries',
       field: 'countryCodes'
     }));
-    Manager.addWidget(new AjaxSolr.CalendarWidget({
-      id: 'calendar',
-      target: '#calendar',
-      field: 'date'
-    }));
     Manager.init();
     Manager.store.addByValue('q', '*:*');
     var params = {
