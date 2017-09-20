@@ -89,7 +89,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
       snippet += doc.pageText;
     }
 
-    var output = '<article><h2>' + doc.title + '</h2>';
+    var output = '<article><h2>' + doc.title + ' (page ' + doc.pageNumberForDisplay + ')</h2>';
     output += '<div class="authors">' + doc.authors + '</div>';
     output += '<div class="year">' + doc.yearOfPublication + '</div>';
     output += '<div class="isbn">' + doc.isbn + '</div>';
