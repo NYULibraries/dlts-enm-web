@@ -54,6 +54,9 @@ var Manager;
     Manager.init();
     Manager.store.addByValue('q', '*:*');
     var params = {
+      'defType': 'edismax',
+      'qf': 'pageText title topicNames',
+
       facet: true,
       'facet.field': [
           'title_facet',
