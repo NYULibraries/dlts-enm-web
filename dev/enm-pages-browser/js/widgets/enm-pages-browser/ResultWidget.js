@@ -92,7 +92,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     var output = '<article><h1 class="title">' + doc.title + ' (page ' + doc.pageNumberForDisplay + ')</h1>';
     output += '<div class="authors"><span class="infolabel">Authors: </span> ' + doc.authors + '</div>';
     output += '<div class="isbn"><span class="infolabel">ISBN: </span>' + doc.isbn + '</div>';
-    output += '<ul class="topics" id="topics_' + doc.id + '"></ul>';
+    output += '<div class="topics"><span class="infolabel">Topics: </span><ul class="topicslist" id="topics_' + doc.id + '"></ul></div>';
     output += '<div class="fulltext">' + snippet + '</div></article>';
     return output;
   },

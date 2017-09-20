@@ -177,6 +177,7 @@ article {
 
 .infolabel {
   color: #999;
+  font-weight : bold;
 }
 
 .isbn {
@@ -186,4 +187,8 @@ article {
 .title {
   color: rgb(51,51,51);
   margin-bottom : 10px;
+}
+
+.topicslist {
+  margin-left: 40px;
 }
