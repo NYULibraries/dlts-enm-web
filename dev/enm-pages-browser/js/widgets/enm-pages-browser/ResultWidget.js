@@ -99,9 +99,17 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     Object.keys( highlights ).forEach( function( field ) {
       var highlightsForField = highlights[ field ];
       highlightsForField.forEach( function( highlightForField ) {
-        highlightsDisplay += '<li><span class="infolabel">[' + field + ']</span> ' +
-                             '<quote>' + highlightForField + '</quote>' +
-                             '</li>';
+
+        if (field === 'pageText') {
+          highlightsDisplay += '<li><span class="infolabel">[' + field + ']</span> ' +
+                               '"...' + highlightForField + '..."' +
+                               '</li>';
+        } else {
+          highlightsDisplay += '<li><span class="infolabel">[' + field + ']</span> ' +
+                               highlightForField +
+                               '</li>';
+        }
+
       } );
     } );
 
