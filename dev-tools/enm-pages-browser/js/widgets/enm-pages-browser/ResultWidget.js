@@ -87,7 +87,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
     var snippet = '';
     if (doc.pageText.length > 300) {
       snippet += doc.pageText.substring(0, 300);
-      snippet += '<span style="display:none;">' + doc.pageText.substring(300);
+      snippet += '<span id="fulltext-toggle" style="display:none;">' + doc.pageText.substring(300);
       snippet += '</span> <a href="#" class="more">more</a>';
     }
     else {
@@ -134,7 +134,7 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
   init: function () {
     $(document).on('click', 'a.more', function () {
       var $this = $(this),
-          span = $this.parent().find('span');
+          span = $this.parent().find('span#fulltext-toggle');
 
       if (span.is(':visible')) {
         span.hide();
