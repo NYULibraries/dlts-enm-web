@@ -29,7 +29,6 @@ var Manager;
         'authors_facet',
         'publisher_facet',
         'yearOfPublication',
-        'isbn',
         'topicNames_facet'
     ];
     for (var i = 0, l = fields.length; i < l; i++) {
@@ -61,7 +60,6 @@ var Manager;
           'title_facet',
           'authors_facet',
           'publisher_facet',
-          'isbn_facet',
           'topicNames_facet',
           'yearOfPublication'
       ],
