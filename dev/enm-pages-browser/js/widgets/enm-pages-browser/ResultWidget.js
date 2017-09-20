@@ -37,23 +37,44 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
   },
 
   afterRequest: function () {
+    var that = this;
+
+    var topicNameLinks;
+
     $(this.target).empty();
     for (var i = 0, l = this.manager.response.response.docs.length; i < l; i++) {
       var doc = this.manager.response.response.docs[i];
       $(this.target).append(this.template(doc));
 
-      var items = [];
-      items = items.concat(this.facetLinks('titles', doc.title_facet));
-      items = items.concat(this.facetLinks('authors', doc.authors_facet));
-      items = items.concat(this.facetLinks('years', doc.yearOfPublication));
-      items = items.concat(this.facetLinks('isbn', doc.isbn));
-      items = items.concat(this.facetLinks('topics', doc.topicNames_facet));
+      topicNameLinks = [];
+      var topics = JSON.parse( doc.topicNamesForDisplay );
+      Object.keys( topics ).forEach( function( displayName ) {
+          var alternateTopics = topics[ displayName ];
+          var alternateTopicsText = '';
+          if ( alternateTopics.length > 0 ) {
+              alternateTopicsText = ' (' + alternateTopics.join( ' | ' ) + ')';
+          }
 
-      var $links = $('#links_' + doc.id);
-      $links.empty();
-      for (var j = 0, m = items.length; j < m; j++) {
-        $links.append($('<li></li>').append(items[j]));
-      }
+          topicNameLinks = topicNameLinks.concat(
+              $('<a href="#"></a>')
+                .text(displayName + alternateTopicsText)
+                .click(that.facetHandler('topicNames_facet', displayName)));
+      } );
+
+      var $topics = $('#topics_' + doc.id);
+      $topics.empty();
+      topicNameLinks.forEach( function( topicNameLink ) {
+        $topics.append($('<li></li>').append(topicNameLink));
+      } );
+
+      // var items = [];
+      // items = items.concat(this.facetLinks('topics', doc.topicNames_facet));
+      //
+      // var $links = $('#topics_' + doc.id);
+      // $links.empty();
+      // for (var j = 0, m = items.length; j < m; j++) {
+      //   $links.append($('<li></li>').append(items[j]));
+      // }
     }
   },
 
@@ -68,25 +89,11 @@ AjaxSolr.ResultWidget = AjaxSolr.AbstractWidget.extend({
       snippet += doc.pageText;
     }
 
-    var topics = JSON.parse( doc.topicNamesForDisplay );
-    var topicsList = '';
-    Object.keys( topics ).forEach( function( displayName ) {
-      var alternateTopics = topics[ displayName ];
-
-      if ( alternateTopics.length > 0 ) {
-        topicsList += '    <li>' + displayName + ' <span class="alternate-topics">' +
-            '(' + alternateTopics.join( ' | ' ) + ')</span> </li>';
-      } else {
-        topicsList += '    <li>' + displayName + '</li>';
-      }
-    } );
-
     var output = '<article><h2>' + doc.title + '</h2>';
-    output += '<p id="links_' + doc.id + '" class="links"></p>';
     output += '<div class="authors">' + doc.authors + '</div>';
     output += '<div class="year">' + doc.yearOfPublication + '</div>';
     output += '<div class="isbn">' + doc.isbn + '</div>';
-    output += '<ul class="topics">' + topicsList + '</ul>';
+    output += '<ul class="topics" id="topics_' + doc.id + '"></ul>';
     output += '<div class="fulltext">' + snippet + '</div></article>';
     return output;
   },
