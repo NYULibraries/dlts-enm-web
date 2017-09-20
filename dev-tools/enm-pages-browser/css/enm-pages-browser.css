@@ -1,0 +1,46 @@
+article {
+  margin: 15px;
+}
+
+.alternate-topics {
+  font-style : italic;
+}
+
+.authors {
+  font-weight : bold;
+}
+
+.fulltext {
+  margin-top: 10px;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+.highlights-list {
+  margin-left: 40px;
+}
+
+.infolabel {
+  color: #999;
+  font-weight : bold;
+}
+
+.isbn {
+  font-weight : bold;
+}
+
+.title {
+  color: rgb(51,51,51);
+  margin-bottom : 10px;
+}
+
+.topics-list {
+  margin-left: 40px;
+}
+
+.warning {
+  color: red;
+  font-weight: bold;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>AJAX Solr</title>
+  <link rel="stylesheet" href="css/original-reuters-demo.css">
+  <link rel="stylesheet" href="css/enm-pages-browser.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/jquery-ui.min.js"></script>
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.24/themes/smoothness/jquery-ui.css">
+  <script src="js/enm-pages-browser.js"></script>
+  <script src="js/core/Core.js"></script>
+  <script src="js/core/AbstractManager.js"></script>
+  <script src="js/managers/Manager.jquery.js"></script>
+  <script src="js/core/Parameter.js"></script>
+  <script src="js/core/ParameterStore.js"></script>
+  <script src="js/core/AbstractWidget.js"></script>
+  <script src="js/widgets/enm-pages-browser/ResultWidget.js"></script>
+  <script src="js/widgets/jquery/PagerWidget.js"></script>
+  <script src="js/core/AbstractFacetWidget.js"></script>
+  <script src="js/widgets/enm-pages-browser/TagcloudWidget.js"></script>
+  <script src="js/widgets/enm-pages-browser/CurrentSearchWidget.js"></script>
+  <script src="js/core/AbstractTextWidget.js"></script>
+  <script src="js/widgets/enm-pages-browser/AutocompleteWidget.js"></script>
+</head>
+<body>
+  <div id="wrap">
+    <div id="header">
+      <h1><a href="http://dev-discovery.dlib.nyu.edu:8983/solr/#/enm-pages/query">enm-pages</a> Solr index browser</h1>
+      <h2>
+        Hacked together tool for browsing and analyzing the prototype
+        <a href="http://dev-discovery.dlib.nyu.edu:8983/solr/#/enm-pages/query">enm-pages Solr index</a>
+        (see JIRA <a href="https://jira.nyu.edu/jira/browse/NYUP-279">NYUP-279</a>).
+        Based on the <a href="http://evolvingweb.github.io/ajax-solr/examples/reuters/index.html">AJAX Solr demo site</a>,
+        built with <a href="https://github.com/evolvingweb/ajax-solr">ajax-solr</a>.
+        <span class="warning">Unstable and unsupported &mdash; for internal use only!</span>
+      </h2>
+    </div>
+
+    <div class="right">
+      <div id="result">
+        <div id="navigation">
+          <ul id="pager"></ul>
+          <div id="pager-header"></div>
+        </div>
+        <div id="docs"></div>
+      </div>
+    </div>
+
+    <div class="left">
+      <h2>Current Selection</h2>
+      <ul id="selection"></ul>
+
+      <h2>Search</h2>
+      <span id="search_help">(press ESC to close suggestions)</span>
+      <ul id="search">
+        <input type="text" id="query" name="query" autocomplete="off">
+      </ul>
+
+      <h2>Titles</h2>
+      <div class="tagcloud" id="title_facet"></div>
+
+      <h2>Authors</h2>
+      <div class="tagcloud" id="authors_facet"></div>
+
+      <h2>Publishers</h2>
+      <div class="tagcloud" id="publisher_facet"></div>
+
+      <h2>Topics</h2>
+      <div class="tagcloud" id="topicNames_facet"></div>
+
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</body>
+</html>
