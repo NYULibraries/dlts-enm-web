@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>enm-pages grouped results</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/grouped-results.css">
+    <link rel="stylesheet" href="css/spinner.css">
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/vue"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div id="page-header">
+        <h1>enm-pages grouped results</h1>
+    </div>
+
+    <div id="app">
+
+        <form v-on:submit.prevent="sendQuery" id="search-form">
+            <div class="form-group">
+                <input v-model="search"
+                       placeholder='Enter search terms or "*" for all results'
+                       id="search-box">
+
+                <small class="form-text text-muted" id="search-box-help">
+                    Fields searched:
+                    authors, isbn, pageText, publisher, title, topicNames
+                </small>
+
+                <small class="form-text text-muted" id="solr-query-url">
+                    <a v-bind:href="solrQueryUrl">{{ solrQueryUrl }}</a>
+                </small>
+            </div>
+        </form>
+
+        <div class="card" v-if="displayResults" id="results">
+            <div class="card-body">
+                <h4 class="card-title">Top {{ rows }} grouped results for "{{ search }}"</h4>
+                <h6 class="card-subtitle mb-2 text-muted">Solr QTime: {{ qTime }}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Total time (not including rendering): {{ totalTime }}</h6>
+                <pre class="card-text">{{ results }}</pre>
+            </div>
+        </div>
+
+        <!--
+        From: http://cssload.net/en/spinners
+        Author: https://codepen.io/Terramaster/
+        -->
+        <div v-if="displaySpinner" id="spinner">
+            <div class="overlay-loader">
+                <div class="loader">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="js/grouped-results.js"></script>
+</body>
+</html>
