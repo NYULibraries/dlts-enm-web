@@ -2,13 +2,15 @@ var app = new Vue(
     {
         el: '#app',
         data: {
-            displayResults : false,
-            displaySpinner : false,
-            qTime          : null,
-            results        : '',
-            rows           : 10,
-            search         : '',
             totalTime      : null
+            displayResultsHeader : false,
+            displayResults       : false,
+            displaySpinner       : false,
+            qTime                : null,
+            results              : '',
+            rows                 : 10,
+            search               : '',
+            start                : null,
         },
         computed: {
             solrQueryUrl: function() {
