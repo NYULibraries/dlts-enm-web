@@ -2,12 +2,18 @@
     width: 80%;
 }
 
+#json-tree-view {
+    margin: 2%;
+    padding: 1%;
+    width: 100%;
+}
+
 #page-header {
     border-bottom: solid black 3px;
     margin-top: 3%;
 }
 
-#results {
+.results {
     margin: 2%;
     padding: 1%;
     width: 100%;
