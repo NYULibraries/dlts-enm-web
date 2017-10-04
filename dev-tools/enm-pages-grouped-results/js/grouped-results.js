@@ -13,8 +13,8 @@ var app = new Vue(
             rows                     : 10,
             search                   : '',
             start                    : null,
-            timeSolrResponseReceived : null,
             timeAfterVueUpdated      : null,
+            timeSolrResponseReceived : null,
             updateResults            : false
         },
         computed: {
@@ -73,7 +73,7 @@ var app = new Vue(
                 axios.get( this.solrQueryUrl )
                     .then( function( response ) {
                         that.qTime = getQTimeDisplay( response );
-                        that.timeData = getTimeElapsedSinceStart( start );
+                        that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
                         that.results = response;
 
@@ -87,7 +87,7 @@ var app = new Vue(
                         that.results = error;
 
                         that.qTime = getQTimeDisplay( response );
-                        that.timeData = getTimeElapsedSinceStart( start );
+                        that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
                         that.displaySpinner = HIDE;
                         that.displayResultsHeader = SHOW;
