@@ -5,16 +5,17 @@ var app = new Vue(
     {
         el: '#app',
         data: {
-            displayResultsHeader : HIDE,
-            displayResults       : HIDE,
-            displaySpinner       : HIDE,
-            qTime                : null,
-            results              : '',
-            rows                 : 10,
-            search               : '',
-            start                : null,
-            timeData             : null,
-            timeTotal            : null
+            displayResultsHeader     : HIDE,
+            displayResults           : HIDE,
+            displaySpinner           : HIDE,
+            qTime                    : null,
+            results                  : '',
+            rows                     : 10,
+            search                   : '',
+            start                    : null,
+            timeSolrResponseReceived : null,
+            timeAfterVueUpdated      : null,
+            updateResults            : false
         },
         computed: {
             solrQueryUrl: function() {
@@ -79,6 +80,8 @@ var app = new Vue(
                         that.displaySpinner = HIDE;
                         that.displayResultsHeader = SHOW;
                         that.displayResults = SHOW;
+
+                        that.updateResults = true;
                     } )
                     .catch( function( error ) {
                         that.results = error;
@@ -91,6 +94,15 @@ var app = new Vue(
                         that.displayResults = SHOW;
                     } );
             }
+        },
+        updated: function() {
+            this.$nextTick( function() {
+                if ( this.updateResults ) {
+                    this.timeAfterVueUpdated = getTimeElapsedSinceStart( this.start );
+                    this.start               = null;
+                    this.updateResults       = false;
+                }
+            } );
         }
     }
 );
