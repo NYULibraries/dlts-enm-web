@@ -12,12 +12,14 @@
 }
 
 #results {
+    display: none;
     margin: 2%;
     padding: 1%;
     width: 100%;
 }
 
 #results-header {
+    display: none;
     margin: 2%;
     padding: 1%;
     width: 100%;
