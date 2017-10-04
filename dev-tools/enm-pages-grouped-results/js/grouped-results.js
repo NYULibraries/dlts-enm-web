@@ -2,7 +2,6 @@ var app = new Vue(
     {
         el: '#app',
         data: {
-            totalTime      : null
             displayResultsHeader : false,
             displayResults       : false,
             displaySpinner       : false,
@@ -11,6 +10,8 @@ var app = new Vue(
             rows                 : 10,
             search               : '',
             start                : null,
+            timeData             : null,
+            timeTotal            : null
         },
         computed: {
             solrQueryUrl: function() {
@@ -58,13 +59,17 @@ var app = new Vue(
 
                 this.displayResults = false;
                 this.displaySpinner = true;
+                this.qTime = null;
+                this.start = start;
+                this.timeData = null;
+                this.timeTotal = null;
 
                 axios.get( this.solrQueryUrl )
                     .then( function( response ) {
                         that.results = response;
 
                         that.qTime = getQTimeDisplay( response );
-                        that.totalTime = getTotalTimeDisplay( start );
+                        that.timeData = getTimeElapsedSinceStart( start );
 
                         that.displaySpinner = false;
                         that.displayResults = true;
@@ -73,7 +78,7 @@ var app = new Vue(
                         that.results = error;
 
                         that.qTime = getQTimeDisplay( response );
-                        that.totalTime = getTotalTimeDisplay( start );
+                        that.timeData = getTimeElapsedSinceStart( start );
 
                         that.displaySpinner = false;
                         that.displayResults = true;
@@ -87,6 +92,6 @@ function getQTimeDisplay( response ) {
     return response.data.responseHeader.QTime / 1000 + ' seconds';
 }
 
-function getTotalTimeDisplay( start ) {
+function getTimeElapsedSinceStart( start ) {
     return ( ( (new Date()) - start ) / 1000 ) + ' seconds';
 }
