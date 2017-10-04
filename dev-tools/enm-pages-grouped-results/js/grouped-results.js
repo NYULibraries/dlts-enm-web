@@ -72,6 +72,7 @@ var app = new Vue(
                         that.timeData = getTimeElapsedSinceStart( start );
 
                         that.displaySpinner = false;
+                        that.displayResultsHeader = true;
                         that.displayResults = true;
                     } )
                     .catch( function( error ) {
@@ -81,6 +82,7 @@ var app = new Vue(
                         that.timeData = getTimeElapsedSinceStart( start );
 
                         that.displaySpinner = false;
+                        that.displayResultsHeader = true;
                         that.displayResults = true;
                     } );
             }
