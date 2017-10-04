@@ -1,14 +1,21 @@
+const SHOW = 'block';
+const HIDE = 'none';
+
 var app = new Vue(
     {
         el: '#app',
         data: {
-            displayResults : false,
-            displaySpinner : false,
-            qTime          : null,
-            results        : '',
-            rows           : 10,
-            search         : '',
-            totalTime      : null
+            displayResultsHeader     : HIDE,
+            displayResults           : HIDE,
+            displaySpinner           : HIDE,
+            qTime                    : null,
+            results                  : '',
+            rows                     : 10,
+            search                   : '',
+            start                    : null,
+            timeSolrResponseReceived : null,
+            timeAfterVueUpdated      : null,
+            updateResults            : false
         },
         computed: {
             solrQueryUrl: function() {
@@ -54,29 +61,48 @@ var app = new Vue(
                     // Can't use `this` for then or catch, as it is bound to Window object
                     that = this;
 
-                this.displayResults = false;
-                this.displaySpinner = true;
+                that.displaySpinner = SHOW;
+                that.displayResultsHeader = HIDE;
+                that.displayResults = HIDE;
+
+                this.qTime = null;
+                this.start = start;
+                this.timeData = null;
+                this.timeTotal = null;
 
                 axios.get( this.solrQueryUrl )
                     .then( function( response ) {
+                        that.qTime = getQTimeDisplay( response );
+                        that.timeData = getTimeElapsedSinceStart( start );
+
                         that.results = response;
 
-                        that.qTime = getQTimeDisplay( response );
-                        that.totalTime = getTotalTimeDisplay( start );
+                        that.displaySpinner = HIDE;
+                        that.displayResultsHeader = SHOW;
+                        that.displayResults = SHOW;
 
-                        that.displaySpinner = false;
-                        that.displayResults = true;
+                        that.updateResults = true;
                     } )
                     .catch( function( error ) {
                         that.results = error;
 
                         that.qTime = getQTimeDisplay( response );
-                        that.totalTime = getTotalTimeDisplay( start );
+                        that.timeData = getTimeElapsedSinceStart( start );
 
-                        that.displaySpinner = false;
-                        that.displayResults = true;
+                        that.displaySpinner = HIDE;
+                        that.displayResultsHeader = SHOW;
+                        that.displayResults = SHOW;
                     } );
             }
+        },
+        updated: function() {
+            this.$nextTick( function() {
+                if ( this.updateResults ) {
+                    this.timeAfterVueUpdated = getTimeElapsedSinceStart( this.start );
+                    this.start               = null;
+                    this.updateResults       = false;
+                }
+            } );
         }
     }
 );
@@ -85,6 +111,6 @@ function getQTimeDisplay( response ) {
     return response.data.responseHeader.QTime / 1000 + ' seconds';
 }
 
-function getTotalTimeDisplay( start ) {
+function getTimeElapsedSinceStart( start ) {
     return ( ( (new Date()) - start ) / 1000 ) + ' seconds';
 }

@@ -44,11 +44,17 @@
             </div>
         </form>
 
-        <div class="card" v-if="displayResults" id="results">
+        <div class="card" v-bind:style="{ display: displayResultsHeader }" id="results-header">
             <div class="card-body">
                 <h4 class="card-title">Top {{ rows }} grouped results for "{{ search }}"</h4>
                 <h6 class="card-subtitle mb-2 text-muted">Solr QTime: {{ qTime }}</h6>
-                <h6 class="card-subtitle mb-2 text-muted">Total time (not including rendering): {{ totalTime }}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Time Solr response received: {{ timeSolrResponseReceived }}</h6>
+                <h6 class="card-subtitle mb-2 text-muted">Time Vue updated : {{ timeAfterVueUpdated }}</h6>
+            </div>
+        </div>
+
+        <div class="card" v-bind:style="{ display: displayResults }" id="results">
+            <div class="card-body">
                 <pre class="card-text">{{ results }}</pre>
             </div>
         </div>
@@ -57,7 +63,7 @@
         From: http://cssload.net/en/spinners
         Author: https://codepen.io/Terramaster/
         -->
-        <div v-if="displaySpinner" id="spinner">
+        <div v-bind:style="{ display: displaySpinner }" id="spinner">
             <div class="overlay-loader">
                 <div class="loader">
                     <div></div>
