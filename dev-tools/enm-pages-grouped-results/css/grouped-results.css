@@ -2,24 +2,18 @@
     width: 80%;
 }
 
-.hidden {
-    display: none;
-}
-
 #page-header {
     border-bottom: solid black 3px;
     margin-top: 3%;
 }
 
 #results {
-    display: none;
     margin: 2%;
     padding: 1%;
     width: 100%;
 }
 
 #results-header {
-    display: none;
     margin: 2%;
     padding: 1%;
     width: 100%;

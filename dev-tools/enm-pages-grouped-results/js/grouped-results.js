@@ -1,10 +1,13 @@
+const SHOW = 'block';
+const HIDE = 'none';
+
 var app = new Vue(
     {
         el: '#app',
         data: {
-            displayResultsHeader : false,
-            displayResults       : false,
-            displaySpinner       : false,
+            displayResultsHeader : HIDE,
+            displayResults       : HIDE,
+            displaySpinner       : HIDE,
             qTime                : null,
             results              : '',
             rows                 : 10,
@@ -57,8 +60,10 @@ var app = new Vue(
                     // Can't use `this` for then or catch, as it is bound to Window object
                     that = this;
 
-                this.displayResults = false;
-                this.displaySpinner = true;
+                that.displaySpinner = SHOW;
+                that.displayResultsHeader = HIDE;
+                that.displayResults = HIDE;
+
                 this.qTime = null;
                 this.start = start;
                 this.timeData = null;
@@ -71,9 +76,9 @@ var app = new Vue(
 
                         that.results = response;
 
-                        that.displaySpinner = false;
-                        that.displayResultsHeader = true;
-                        that.displayResults = true;
+                        that.displaySpinner = HIDE;
+                        that.displayResultsHeader = SHOW;
+                        that.displayResults = SHOW;
                     } )
                     .catch( function( error ) {
                         that.results = error;
@@ -81,9 +86,9 @@ var app = new Vue(
                         that.qTime = getQTimeDisplay( response );
                         that.timeData = getTimeElapsedSinceStart( start );
 
-                        that.displaySpinner = false;
-                        that.displayResultsHeader = true;
-                        that.displayResults = true;
+                        that.displaySpinner = HIDE;
+                        that.displayResultsHeader = SHOW;
+                        that.displayResults = SHOW;
                     } );
             }
         }
