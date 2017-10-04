@@ -66,10 +66,10 @@ var app = new Vue(
 
                 axios.get( this.solrQueryUrl )
                     .then( function( response ) {
-                        that.results = response;
-
                         that.qTime = getQTimeDisplay( response );
                         that.timeData = getTimeElapsedSinceStart( start );
+
+                        that.results = response;
 
                         that.displaySpinner = false;
                         that.displayResultsHeader = true;
