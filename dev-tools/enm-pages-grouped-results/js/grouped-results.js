@@ -11,7 +11,7 @@ var app = new Vue(
             qTime                    : null,
             results                  : '',
             rows                     : 10,
-            search                   : '',
+            query                    : '',
             start                    : null,
             timeAfterVueUpdated      : null,
             timeSolrResponseReceived : null,
@@ -20,39 +20,39 @@ var app = new Vue(
         computed: {
             solrQueryUrl: function() {
                 return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
-                    'q=' + encodeURIComponent( this.search ) +
-                    '&' +
-                    'defType=edismax' +
-                    '&' +
-                    'facet.field=authors' +
-                    '&' +
-                    'facet.field=publisher' +
-                    '&' +
-                    'facet.field=title' +
-                    '&' +
-                    'facet.field=topicNames' +
-                    '&' +
-                    'facet=on' +
-                    '&' +
-                    'group.field=isbn' +
-                    '&' +
-                    'group=true' +
-                    '&' +
-                    'group.limit=999' +
-                    '&' +
-                    'hl.fl=authors,%20isbn,%20pageText,%20publisher,%20title,%20topicNames' +
-                    '&' +
-                    'hl.simple.post=%3C/span%3E' +
-                    '&' +
-                    'hl.simple.pre=%3Cspan%20class=%22highlight%22%3E' +
-                    '&' +
-                    'hl=on' +
-                    '&' +
-                    'indent=on' +
-                    '&' +
-                    'qf=authors,%20isbn,%20pageText,%20publisher,%20title,%20topicNames' +
-                    '&' +
-                    'wt=json'
+                       'q=' + encodeURIComponent( this.query ) +
+                       '&' +
+                       'defType=edismax' +
+                       '&' +
+                       'facet.field=authors' +
+                       '&' +
+                       'facet.field=publisher' +
+                       '&' +
+                       'facet.field=title' +
+                       '&' +
+                       'facet.field=topicNames' +
+                       '&' +
+                       'facet=on' +
+                       '&' +
+                       'group.field=isbn' +
+                       '&' +
+                       'group=true' +
+                       '&' +
+                       'group.limit=999' +
+                       '&' +
+                       'hl.fl=authors,%20isbn,%20pageText,%20publisher,%20title,%20topicNames' +
+                       '&' +
+                       'hl.simple.post=%3C/span%3E' +
+                       '&' +
+                       'hl.simple.pre=%3Cspan%20class=%22highlight%22%3E' +
+                       '&' +
+                       'hl=on' +
+                       '&' +
+                       'indent=on' +
+                       '&' +
+                       'qf=authors,%20isbn,%20pageText,%20publisher,%20title,%20topicNames' +
+                       '&' +
+                       'wt=json'
             }
         },
         methods: {
