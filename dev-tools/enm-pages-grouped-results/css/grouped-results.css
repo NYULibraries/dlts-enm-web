@@ -55,3 +55,5 @@
 #sub-heading {
     float: right;
 }
+
+[v-cloak] { display: none; }

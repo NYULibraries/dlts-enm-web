@@ -49,49 +49,53 @@
             </div>
         </form>
 
-        <div class="card" v-show="displayResultsHeader" id="results-header">
-            <div class="card-body">
-                <h4 class="card-title">Top {{ rows }} grouped results for "{{ query }}"</h4>
-                <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
-                <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
-                <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
-            </div>
-        </div>
+        <div v-cloak>
 
-        <div class="card results" v-show="displayResults">
-            <div class="card-body">
-                <h4 class="card-title">
-                    JSON tree view
-                </h4>
-
-                <tree-view :data="results" max-depth="1"></tree-view>
-            </div>
-        </div>
-
-        <div class="card results" v-show="displayResults">
-            <div class="card-body">
-                <h4 class="card-title">Raw response</h4>
-
-                <pre class="card-text">{{ results }}</pre>
-            </div>
-        </div>
-
-        <!--
-        From: http://cssload.net/en/spinners
-        Author: https://codepen.io/Terramaster/
-        -->
-        <div v-show="displaySpinner" id="spinner">
-            <div class="overlay-loader">
-                <div class="loader">
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+            <div class="card" v-show="displayResultsHeader" id="results-header">
+                <div class="card-body">
+                    <h4 class="card-title">Top {{ rows }} grouped results for "{{ query }}"</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
                 </div>
             </div>
+
+            <div class="card results" v-show="displayResults">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        JSON tree view
+                    </h4>
+
+                    <tree-view :data="results" max-depth="1"></tree-view>
+                </div>
+            </div>
+
+            <div class="card results" v-show="displayResults">
+                <div class="card-body">
+                    <h4 class="card-title">Raw response</h4>
+
+                    <pre class="card-text">{{ results }}</pre>
+                </div>
+            </div>
+
+            <!--
+            From: http://cssload.net/en/spinners
+            Author: https://codepen.io/Terramaster/
+            -->
+            <div v-show="displaySpinner" id="spinner">
+                <div class="overlay-loader">
+                    <div class="loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
     </div>
