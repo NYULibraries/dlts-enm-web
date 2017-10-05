@@ -1,13 +1,10 @@
-const SHOW = 'block';
-const HIDE = 'none';
-
 var app = new Vue(
     {
         el: '#app',
         data: {
-            displayResultsHeader     : HIDE,
-            displayResults           : HIDE,
-            displaySpinner           : HIDE,
+            displayResultsHeader     : false,
+            displayResults           : false,
+            displaySpinner           : false,
             qTime                    : null,
             results                  : '',
             rows                     : 10,
@@ -61,9 +58,9 @@ var app = new Vue(
                     // Can't use `this` for then or catch, as it is bound to Window object
                     that = this;
 
-                that.displaySpinner = SHOW;
-                that.displayResultsHeader = HIDE;
-                that.displayResults = HIDE;
+                that.displaySpinner = true;
+                that.displayResultsHeader = false;
+                that.displayResults = false;
 
                 this.qTime = null;
                 this.start = start;
@@ -77,9 +74,9 @@ var app = new Vue(
 
                         that.results = response;
 
-                        that.displaySpinner = HIDE;
-                        that.displayResultsHeader = SHOW;
-                        that.displayResults = SHOW;
+                        that.displaySpinner = false;
+                        that.displayResultsHeader = true;
+                        that.displayResults = true;
 
                         that.updateResults = true;
                     } )
@@ -89,9 +86,9 @@ var app = new Vue(
                         that.qTime = getQTimeDisplay( response );
                         that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
-                        that.displaySpinner = HIDE;
-                        that.displayResultsHeader = SHOW;
-                        that.displayResults = SHOW;
+                        that.displaySpinner = false;
+                        that.displayResultsHeader = true;
+                        that.displayResults = true;
                     } );
             }
         },

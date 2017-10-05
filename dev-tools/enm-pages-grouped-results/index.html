@@ -49,7 +49,7 @@
             </div>
         </form>
 
-        <div class="card" v-bind:style="{ display: displayResultsHeader }" id="results-header">
+        <div class="card" v-show="displayResultsHeader" id="results-header">
             <div class="card-body">
                 <h4 class="card-title">Top {{ rows }} grouped results for "{{ query }}"</h4>
                 <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
@@ -58,7 +58,7 @@
             </div>
         </div>
 
-        <div class="card results" v-bind:style="{ display: displayResults }">
+        <div class="card results" v-show="displayResults">
             <div class="card-body">
                 <h4 class="card-title">
                     JSON tree view
@@ -68,7 +68,7 @@
             </div>
         </div>
 
-        <div class="card results" v-bind:style="{ display: displayResults }">
+        <div class="card results" v-show="displayResults">
             <div class="card-body">
                 <h4 class="card-title">Raw response</h4>
 
@@ -80,7 +80,7 @@
         From: http://cssload.net/en/spinners
         Author: https://codepen.io/Terramaster/
         -->
-        <div v-bind:style="{ display: displaySpinner }" id="spinner">
+        <div v-show="displaySpinner" id="spinner">
             <div class="overlay-loader">
                 <div class="loader">
                     <div></div>
