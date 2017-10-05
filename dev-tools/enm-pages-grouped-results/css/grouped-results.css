@@ -8,6 +8,10 @@
     width: 100%;
 }
 
+#main-heading {
+    display: inline;
+}
+
 #page-header {
     border-bottom: solid black 3px;
     margin-top: 3%;
@@ -46,4 +50,8 @@
 #solr-query-url {
     overflow-wrap: break-word;
     width: 100%;
+}
+
+#sub-heading {
+    float: right;
 }
