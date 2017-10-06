@@ -59,9 +59,9 @@ var app = new Vue(
                     // Can't use `this` for then or catch, as it is bound to Window object
                     that = this;
 
-                that.displaySpinner = true;
-                that.displayResultsHeader = false;
-                that.displayResults = false;
+                this.displaySpinner = true;
+                this.displayResultsHeader = false;
+                this.displayResults = false;
 
                 this.qTime = null;
                 this.start = start;
