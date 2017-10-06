@@ -6,9 +6,10 @@ var app = new Vue(
             displayResults           : false,
             displaySpinner           : false,
             qTime                    : null,
+            query                    : '',
+            queryEcho                : '',
             results                  : '',
             rows                     : 10,
-            query                    : '',
             start                    : null,
             timeAfterVueUpdated      : null,
             timeSolrResponseReceived : null,
@@ -66,6 +67,10 @@ var app = new Vue(
                 this.start = start;
                 this.timeData = null;
                 this.timeTotal = null;
+
+                // Can't bind query echo to this.query because when user types in
+                // a new query in search the echo will react.
+                this.queryEcho = this.query;
 
                 axios.get( this.solrQueryUrl )
                     .then( function( response ) {

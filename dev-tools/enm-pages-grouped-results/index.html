@@ -53,7 +53,7 @@
 
             <div class="card" v-show="displayResultsHeader" id="results-header">
                 <div class="card-body">
-                    <h4 class="card-title">Top {{ rows }} grouped results for "{{ query }}"</h4>
+                    <h4 class="card-title">Top {{ rows }} grouped results for "{{ queryEcho }}"</h4>
                     <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
                     <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
                     <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
