@@ -38,10 +38,31 @@
                        placeholder='Enter query terms or "*" for all results'
                        id="search-box">
 
-                <small class="form-text text-muted" id="search-box-help">
-                    Fields searched:
-                    authors, isbn, pageText, publisher, title, topicNames
-                </small>
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           v-on:click="clickAllFieldsCheckbox"
+                           id="allCheckbox"
+                           v-model="selectAllQueryFields"
+                           value="all">
+                        All
+                    </label>
+                </div>
+
+                <template v-for="queryField in queryFields">
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   v-bind:id="queryField.id"
+                                   v-on:click="clickFieldCheckbox( $event.checked )"
+                                   v-bind:value="queryField.value"
+                                   v-model="selectedQueryFields">
+                            {{ queryField.name }}
+                        </label>
+                    </div>
+                </template>
 
                 <small class="form-text text-muted" id="solr-query-url">
                     <a v-bind:href="solrQueryUrl">{{ solrQueryUrl }}</a>

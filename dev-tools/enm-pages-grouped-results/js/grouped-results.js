@@ -1,15 +1,45 @@
-var app = new Vue(
+var queryFields = [
+        {
+            name: 'authors',
+            value: 'authors'
+        },
+        {
+            name: 'isbn',
+            value: 'isbn'
+        },
+        {
+            name: 'pageText',
+            value: 'pageText'
+        },
+        {
+            name: 'publisher',
+            value: 'publisher'
+        },
+        {
+            name: 'title',
+            value: 'title'
+        },
+        {
+            name: 'topicNames',
+            value: 'topicNames'
+        },
+    ],
+    app = new Vue(
     {
         el: '#app',
         data: {
+            allQueryFields           : true,
             displayResultsHeader     : false,
             displayResults           : false,
             displaySpinner           : false,
             qTime                    : null,
             query                    : '',
             queryEcho                : '',
+            queryFields              : queryFields,
             results                  : '',
             rows                     : 10,
+            selectAllQueryFields     : true,
+            selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
             start                    : null,
             timeAfterVueUpdated      : null,
             timeSolrResponseReceived : null,
@@ -54,7 +84,28 @@ var app = new Vue(
             }
         },
         methods: {
-            sendQuery: function() {
+            // Check all checkboxes functionality loosely based on the accepted answer for
+            // https://stackoverflow.com/questions/33571382/check-all-checkboxes-vuejs
+            // ...which points to JSFiddle
+            // https://jsfiddle.net/okv0rgrk/3747/
+            // ...which actually contains bugs and also uses interpolation inside
+            // attributes, a feature that has since been removed.
+            clickFieldCheckbox     : function( checked ) {
+                if ( ! checked ) {
+                    this.selectAllQueryFields = false;
+                }
+            },
+            clickAllFieldsCheckbox : function() {
+                if ( this.selectAllQueryFields ) {
+                   this.selectedQueryFields =
+                       queryFields.map(
+                           function( queryField ) {
+                               return queryField.value;
+                           }
+                       )
+                }
+            },
+            sendQuery              : function() {
                 var start = new Date(),
                     // Can't use `this` for then or catch, as it is bound to Window object
                     that = this;

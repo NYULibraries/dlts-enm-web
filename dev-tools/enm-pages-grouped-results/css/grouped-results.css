@@ -32,15 +32,9 @@
 #search-box {
     display: inline;
     margin-bottom: 1%;
+    margin-right: 5%;
     padding: 1%;
-    width: 50%;
-}
-
-#search-box-help {
-    display: inline;
-    margin: 1%;
-    padding: 1%;
-    width: 50%;
+    width: 30%;
 }
 
 #search-form {
