@@ -47,6 +47,11 @@ var queryFields = [
         },
         computed: {
             solrQueryUrl: function() {
+                var qf = this.selectedQueryFields
+                        .sort()
+                        .join( '%20' ),
+                    highlightFields = qf;
+
                 return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
                        'q=' + encodeURIComponent( this.query ) +
                        '&' +
@@ -68,7 +73,7 @@ var queryFields = [
                        '&' +
                        'group.limit=999' +
                        '&' +
-                       'hl.fl=authors%20isbn%20pageText%20publisher%20title%20topicNames' +
+                       'hl.fl=' + highlightFields +
                        '&' +
                        'hl.simple.post=%3C/span%3E' +
                        '&' +
@@ -78,7 +83,7 @@ var queryFields = [
                        '&' +
                        'indent=on' +
                        '&' +
-                       'qf=authors%20isbn%20pageText%20publisher%20title%20topicNames' +
+                       'qf=' + qf +
                        '&' +
                        'wt=json'
             }
