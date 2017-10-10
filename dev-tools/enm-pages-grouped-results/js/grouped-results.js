@@ -38,7 +38,7 @@ var app = new Vue(
                        '&' +
                        'group.limit=999' +
                        '&' +
-                       'hl.fl=authors,%20isbn,%20pageText,%20publisher,%20title,%20topicNames' +
+                       'hl.fl=authors%20isbn%20pageText%20publisher%20title%20topicNames' +
                        '&' +
                        'hl.simple.post=%3C/span%3E' +
                        '&' +
@@ -48,7 +48,7 @@ var app = new Vue(
                        '&' +
                        'indent=on' +
                        '&' +
-                       'qf=authors,%20isbn,%20pageText,%20publisher,%20title,%20topicNames' +
+                       'qf=authors%20isbn%20pageText%20publisher%20title%20topicNames' +
                        '&' +
                        'wt=json'
             }
