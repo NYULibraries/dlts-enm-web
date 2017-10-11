@@ -1,5 +1,6 @@
 // From: https://devblog.digimondo.io/building-a-json-tree-view-component-in-vue-js-from-scratch-in-six-steps-ce0c05c2fdd8
 // Author: Arvid Kahl - https://github.com/arvidkahl
+// Made some bugfixes to original code.
 
 Vue.component("tree-view-item", Vue.extend({
                                                name: "tree-view-item",
@@ -66,8 +67,8 @@ Vue.component("tree-view-item", Vue.extend({
       </div>
     	<div class="tree-view-item-leaf" v-if="isValue(data)">
         <span class="tree-view-item-key">{{getKey(data)}}</span>       
-        <span class="tree-view-item-value">{{getValue(data)}}          
-			</div>
+        <span class="tree-view-item-value">{{getValue(data)}}</span>
+      </div>
     </div>
   `
                                            }));
