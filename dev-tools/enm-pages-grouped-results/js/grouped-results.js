@@ -29,6 +29,7 @@ var queryFields = [
         el: '#app',
         data: {
             allQueryFields           : true,
+            displayResultsRaw        : false,
             displayResultsHeader     : false,
             displayResults           : false,
             displaySpinner           : false,
@@ -43,7 +44,7 @@ var queryFields = [
             start                    : null,
             timeAfterVueUpdated      : null,
             timeSolrResponseReceived : null,
-            updateResults            : false
+            updateTreeView           : false
         },
         computed: {
             solrQueryUrl: function() {
@@ -139,7 +140,7 @@ var queryFields = [
                         that.displayResultsHeader = true;
                         that.displayResults = true;
 
-                        that.updateResults = true;
+                        that.updateTreeView = true;
                     } )
                     .catch( function( error ) {
                         that.results = error;
@@ -155,10 +156,10 @@ var queryFields = [
         },
         updated: function() {
             this.$nextTick( function() {
-                if ( this.updateResults ) {
+                if ( this.updateTreeView ) {
                     this.timeAfterVueUpdated = getTimeElapsedSinceStart( this.start );
                     this.start               = null;
-                    this.updateResults       = false;
+                    this.updateTreeView      = false;
                 }
             } );
         }
