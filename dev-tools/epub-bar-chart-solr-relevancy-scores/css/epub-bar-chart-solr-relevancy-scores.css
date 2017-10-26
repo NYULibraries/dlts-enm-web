@@ -4,7 +4,7 @@
 
 #epub-dropdown {
     display: block;
-    margin: 10px 0px 15px 0px;
+    margin: 10px 0px 10px 0px;
 }
 
 #main-heading {
@@ -17,14 +17,15 @@
 }
 
 .results {
+    height: 300px;
     margin: 2%;
     padding: 1%;
     width: 100%;
 }
 
 #results-header {
-    margin: 2%;
-    padding: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
     width: 100%;
 }
 

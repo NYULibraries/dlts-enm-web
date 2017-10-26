@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>EPUB bar chart visualizations of Solr relevancy scores</title>
+    <title>EPUB bar chart of Solr relevancy scores</title>
 
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
@@ -27,7 +27,7 @@
 <div class="container">
 
     <div id="page-header">
-        <h1 id="main-heading">EPUB bar chart visualizations of Solr relevancy scores</h1>
+        <h1 id="main-heading">EPUB bar chart of Solr relevancy scores</h1>
         <span id="sub-heading">
             <a href="https://jira.nyu.edu/jira/browse/NYUP-310">JIRA NYUP-310</a>
         </span>
@@ -97,9 +97,11 @@
                                ( epubTitle ? ' / ' + epubTitle : ' / no EPUB selected' )
                         }}
                     </h4>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
+                    <span class="card-subtitle mb-2 text-muted">Solr QTime in {{ qTime }} --></span>
+
+                    <span class="card-subtitle mb-2 text-muted">received results from Solr in {{ timeSolrResponseReceived }} --></span>
+
+                    <span class="card-subtitle mb-2 text-muted">Vue <code>updated</code> hook executed in {{ timeAfterVueUpdated }}</span>
                 </div>
             </div>
 
