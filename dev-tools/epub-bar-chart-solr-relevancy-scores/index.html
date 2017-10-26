@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>EPUB bar chart visualizations of Solr relevancy scores</title>
+
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+          crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/epub-bar-chart-solr-relevancy-scores.css">
+    <link rel="stylesheet" href="css/spinner.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!--This CDN URL was returning 520 errors 2017-10-16, so for now just locally
+    store the current version v2.5.2-->
+    <!--<script src="https://unpkg.com/vue"></script>-->
+    <script src="js/vue.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <div id="page-header">
+        <h1 id="main-heading">EPUB bar chart visualizations of Solr relevancy scores</h1>
+        <span id="sub-heading">
+            <a href="https://jira.nyu.edu/jira/browse/NYUP-310">JIRA NYUP-310</a>
+        </span>
+    </div>
+
+    <div id="app">
+
+        <form v-on:submit.prevent="sendQuery" id="search-form">
+            <div class="form-group">
+                <input v-model="query"
+                       placeholder='Enter query terms or "*" for all results'
+                       id="search-box">
+
+                <div class="form-check form-check-inline">
+                    <label class="form-check-label">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           v-on:click="clickAllFieldsCheckbox"
+                           id="allCheckbox"
+                           v-model="selectAllQueryFields"
+                           value="all">
+                        All
+                    </label>
+                </div>
+
+                <template v-for="queryField in queryFields">
+                    <div class="form-check form-check-inline">
+                        <label class="form-check-label">
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   v-bind:id="queryField.id"
+                                   v-on:click="clickFieldCheckbox( $event.checked )"
+                                   v-bind:value="queryField.value"
+                                   v-model="selectedQueryFields">
+                            {{ queryField.name }}
+                        </label>
+                    </div>
+                </template>
+
+                <select v-model="epubTitle"
+                        v-on:change="sendQuery"
+                        id="epub-dropdown">
+                    <option value="" disabled :selected="epubTitle === ''">
+                        [ Select an EPUB ]
+                    </option>
+
+                    <option v-for="epubDropdownOption in epubDropdownOptions"
+                            v-bind:value="epubDropdownOption.title"
+                            :selected="epubTitle === epubDropdownOption.title">
+                        {{ epubDropdownOption.title + ' [' + epubDropdownOption.numHits + ']' }}
+                    </option>
+                </select>
+
+                <small class="form-text text-muted" id="solr-query-url">
+                    <a v-bind:href="solrQueryUrl">{{ solrQueryUrl }}</a>
+                </small>
+            </div>
+        </form>
+
+        <div v-cloak>
+
+            <div class="card" v-show="displayResultsHeader" id="results-header">
+                <div class="card-body">
+                    <h4 class="card-title">{{ epubTitle }}</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
+                </div>
+            </div>
+
+            <div class="card results" v-show="displayResults">
+                <div class="card-body">
+
+                </div>
+            </div>
+
+            <div class="form-check form-check-inline" v-show="displayResults">
+                <label class="form-check-label">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           v-model="displayResultsRaw">
+                    Show raw JSON
+                </label>
+            </div>
+
+            <div class="card results" v-show="displayResultsRaw">
+                <div class="card-body">
+                    <h4 class="card-title">Raw response</h4>
+
+                    <pre class="card-text">{{ results }}</pre>
+                </div>
+            </div>
+
+            <!--
+            From: http://cssload.net/en/spinners
+            Author: https://codepen.io/Terramaster/
+            -->
+            <div v-show="displaySpinner" id="spinner">
+                <div class="overlay-loader">
+                    <div class="loader">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="js/epub-bar-chart-solr-relevancy-scores.js"></script>
+</body>
+</html>
