@@ -91,7 +91,12 @@
 
             <div class="card" v-show="displayResultsHeader" id="results-header">
                 <div class="card-body">
-                    <h4 class="card-title">{{ epubTitle }}</h4>
+                    <h4 class="card-title">
+                        {{
+                           '"' + query + '"' +
+                               ( epubTitle ? ' / ' + epubTitle : ' / no EPUB selected' )
+                        }}
+                    </h4>
                     <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
                     <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
                     <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
