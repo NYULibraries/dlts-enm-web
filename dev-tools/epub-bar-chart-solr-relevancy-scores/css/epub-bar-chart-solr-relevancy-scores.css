@@ -1,5 +1,5 @@
 .container {
-    width: 80%;
+    width: 1100px;
 }
 
 #epub-dropdown {
@@ -17,16 +17,15 @@
 }
 
 .results {
-    height: 300px;
+    height: 340px;
     margin: 2%;
-    padding: 1%;
-    width: 100%;
+    width: 1100px;
 }
 
 #results-header {
     margin-left: 2%;
     margin-right: 2%;
-    width: 100%;
+    width: 1100px;
 }
 
 #search-box {
@@ -43,7 +42,7 @@
 
 #solr-query-url {
     overflow-wrap: break-word;
-    width: 100%;
+    width: 1100px;
 }
 
 #sub-heading {

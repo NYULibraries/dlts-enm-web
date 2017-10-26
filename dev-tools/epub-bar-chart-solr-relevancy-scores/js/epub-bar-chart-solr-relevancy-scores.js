@@ -140,7 +140,8 @@ var queryFields = [
                     .then( function( response ) {
                         var titleFacetItems = response.data.facet_counts.facet_fields.title_facet,
                             i,
-                            title, numHits;
+                            title, numHits,
+                        results;
 
                         if ( event.type === 'submit' ) {
                             if ( titleFacetItems ) {
@@ -155,6 +156,17 @@ var queryFields = [
                                     );
                                 }
                             }
+                        } else {
+                            results = response.data.response.docs.map( function ( doc ) {
+                                return {
+                                    page  : doc.pageNumberForDisplay,
+                                    score : doc.score
+                                };
+                            } );
+
+                            drawGraph( results );
+
+                            that.displayResults = true;
                         }
 
                         that.qTime = getQTimeDisplay( response );
@@ -164,14 +176,12 @@ var queryFields = [
 
                         that.displaySpinner = false;
                         that.displayResultsHeader = true;
-                        that.displayResults = true;
 
                         that.updateTreeView = true;
                     } )
                     .catch( function( error ) {
                         that.results = error;
 
-                        that.qTime = getQTimeDisplay( response );
                         that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
                         that.displaySpinner = false;
@@ -198,4 +208,56 @@ function getQTimeDisplay( response ) {
 
 function getTimeElapsedSinceStart( start ) {
     return ( ( (new Date()) - start ) / 1000 ) + ' seconds';
+}
+
+function drawGraph( data ) {
+    var svg    = d3.select( 'svg' ),
+        margin = { top : 10, right : 10, bottom : 10, left : 10 },
+        width  = +svg.attr( 'width' ) - margin.left - margin.right,
+        height = +svg.attr( 'height' ) - margin.top - margin.bottom,
+
+        x = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
+        y = d3.scaleLinear().rangeRound( [ height, 0 ] ),
+
+        g = svg.append( 'g' )
+            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' );
+
+    x.domain( data.map( function ( d ) {
+        return d.page;
+    } ) );
+    y.domain( [
+                  0, d3.max( data, function ( d ) {
+            return d.score;
+        } )
+              ] );
+
+    g.append( 'g' )
+        .attr( 'class', 'axis axis--x' )
+        .attr( 'transform', 'translate(0,' + height + ')' )
+        .call( d3.axisBottom( x ) );
+
+    g.append( 'g' )
+        .attr( 'class', 'axis axis--y' )
+        .call( d3.axisLeft( y ).ticks( 10 ) )
+        .append( 'text' )
+        .attr( 'transform', 'rotate(-90)' )
+        .attr( 'y', 6 )
+        .attr( 'dy', '0.71em' )
+        .attr( 'text-anchor', 'end' )
+        .text( 'Score' );
+
+    g.selectAll( '.bar' )
+        .data( data )
+        .enter().append( 'rect' )
+        .attr( 'class', 'bar' )
+        .attr( 'x', function ( d ) {
+            return x( d.page );
+        } )
+        .attr( 'y', function ( d ) {
+            return y( d.score );
+        } )
+        .attr( 'width', x.bandwidth() )
+        .attr( 'height', function ( d ) {
+            return height - y( d.score );
+        } );
 }

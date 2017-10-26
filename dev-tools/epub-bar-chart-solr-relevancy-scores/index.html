@@ -11,6 +11,7 @@
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
           crossorigin="anonymous">
 
+    <link rel="stylesheet" href="css/bar-chart.css">
     <link rel="stylesheet" href="css/epub-bar-chart-solr-relevancy-scores.css">
     <link rel="stylesheet" href="css/spinner.css">
 
@@ -21,6 +22,7 @@
     store the current version v2.5.2-->
     <!--<script src="https://unpkg.com/vue"></script>-->
     <script src="js/vue.js"></script>
+    <script src="js/d3.v4.min.js"></script>
 </head>
 <body>
 
@@ -107,7 +109,8 @@
 
             <div class="card results" v-show="displayResults">
                 <div class="card-body">
-
+                    <svg width="1000" height="280">
+                    </svg>
                 </div>
             </div>
 
