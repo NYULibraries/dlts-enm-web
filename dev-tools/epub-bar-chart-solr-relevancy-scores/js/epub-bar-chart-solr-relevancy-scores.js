@@ -222,11 +222,20 @@ function drawBarChart( data ) {
         width  = +svg.attr( 'width' ) - margin.left - margin.right,
         height = +svg.attr( 'height' ) - margin.top - margin.bottom,
 
-        x = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
-        y = d3.scaleLinear().rangeRound( [ height, 0 ] ),
+        x      = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
+        y      = d3.scaleLinear().rangeRound( [ height, 0 ] ),
 
-        g = svg.append( 'g' )
-            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' );
+        g      = svg.append( 'g' )
+            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' ),
+
+        tip = d3.tip()
+            .attr( 'class', 'd3-tip' )
+            .offset( [ -10, 0 ] )
+            .html( function ( d ) {
+                return 'Page ' + d.page + ' [ score: ' + d.score + ' ]';
+            } );
+
+    svg.call( tip );
 
     x.domain( data.map( function ( d ) {
         return d.page;
@@ -265,5 +274,7 @@ function drawBarChart( data ) {
         .attr( 'width', x.bandwidth() )
         .attr( 'height', function ( d ) {
             return height - y( d.score );
-        } );
+        } )
+        .on( 'mouseover', tip.show )
+        .on( 'mouseout', tip.hide );
 }
