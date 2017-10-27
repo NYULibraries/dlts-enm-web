@@ -164,9 +164,9 @@ var queryFields = [
                                 };
                             } );
 
-                            clearGraph();
+                            clearBarChart();
 
-                            drawGraph( results );
+                            drawBarChart( results );
 
                             that.displayResults = true;
                         }
@@ -212,11 +212,11 @@ function getTimeElapsedSinceStart( start ) {
     return ( ( (new Date()) - start ) / 1000 ) + ' seconds';
 }
 
-function clearGraph() {
+function clearBarChart() {
     d3.selectAll("svg > *").remove();
 }
 
-function drawGraph( data ) {
+function drawBarChart( data ) {
     var svg    = d3.select( 'svg' ),
         margin = { top : 20, right : 20, bottom : 30, left : 40 },
         width  = +svg.attr( 'width' ) - margin.left - margin.right,
