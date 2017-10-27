@@ -4,15 +4,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>enm-pages grouped results</title>
+    <title>EPUB bar chart of Solr relevancy scores</title>
 
     <link rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
           integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
           crossorigin="anonymous">
 
-    <link rel="stylesheet" href="css/grouped-results.css">
-    <link rel="stylesheet" href="css/json-tree-view.css">
+    <link rel="stylesheet" href="css/bar-chart.css">
+    <link rel="stylesheet" href="css/d3-tip.css">
+    <link rel="stylesheet" href="css/epub-bar-chart-solr-relevancy-scores.css">
     <link rel="stylesheet" href="css/spinner.css">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
@@ -22,18 +23,17 @@
     store the current version v2.5.2-->
     <!--<script src="https://unpkg.com/vue"></script>-->
     <script src="js/vue-2.5.2.js"></script>
-
-    <!--Vue components have to be registered before they are instantiated.-->
-    <script src="js/json-tree-view.js"></script>
+    <script src="js/d3.v4.min.js"></script>
+    <script src="js/d3-tip.js"></script>
 </head>
 <body>
 
 <div class="container">
 
     <div id="page-header">
-        <h1 id="main-heading">enm-pages grouped results</h1>
+        <h1 id="main-heading">EPUB bar chart of Solr relevancy scores</h1>
         <span id="sub-heading">
-            <a href="https://jira.nyu.edu/jira/browse/NYUP-300">JIRA NYUP-300</a>
+            <a href="https://jira.nyu.edu/jira/browse/NYUP-310">JIRA NYUP-310</a>
         </span>
     </div>
 
@@ -71,6 +71,20 @@
                     </div>
                 </template>
 
+                <select v-model="epubTitle"
+                        v-on:change="sendQuery"
+                        id="epub-dropdown">
+                    <option value="" disabled :selected="epubTitle === ''">
+                        [ Select an EPUB ]
+                    </option>
+
+                    <option v-for="epubDropdownOption in epubDropdownOptions"
+                            v-bind:value="epubDropdownOption.title"
+                            :selected="epubTitle === epubDropdownOption.title">
+                        {{ epubDropdownOption.title + ' [' + epubDropdownOption.numHits + ']' }}
+                    </option>
+                </select>
+
                 <small class="form-text text-muted" id="solr-query-url">
                     <a v-bind:href="solrQueryUrl">{{ solrQueryUrl }}</a>
                 </small>
@@ -81,21 +95,22 @@
 
             <div class="card" v-show="displayResultsHeader" id="results-header">
                 <div class="card-body">
-                    <h4 class="card-title">Top {{ rows }} grouped results for "{{ queryEcho }}"</h4>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ qTime }} - Solr QTime</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ timeSolrResponseReceived }} - received results from Solr</h6>
-                    <h6 class="card-subtitle mb-2 text-muted">{{ timeAfterVueUpdated }} - Vue <code>updated</code> hook executed</h6>
+                    <h4 class="card-title">
+                        {{
+                           '"' + query + '"' +
+                               ( epubTitle ? ' / ' + epubTitle : ' / no EPUB selected' )
+                        }}
+                    </h4>
+                    <span class="card-subtitle mb-2 text-muted">Solr QTime in {{ qTime }} --></span>
+
+                    <span class="card-subtitle mb-2 text-muted">received results from Solr in {{ timeSolrResponseReceived }} --></span>
+
+                    <span class="card-subtitle mb-2 text-muted">Vue <code>updated</code> hook executed in {{ timeAfterVueUpdated }}</span>
                 </div>
             </div>
 
-            <div class="card results" v-show="displayResults">
-                <div class="card-body">
-                    <h4 class="card-title">
-                        JSON tree view
-                    </h4>
-
-                    <tree-view :data="results" max-depth="1"></tree-view>
-                </div>
+            <div class="results" v-show="displayResults">
+                <svg width="1000" height="340"></svg>
             </div>
 
             <div class="form-check form-check-inline" v-show="displayResults">
@@ -139,6 +154,6 @@
 
 </div>
 
-<script src="js/grouped-results.js"></script>
+<script src="js/epub-bar-chart-solr-relevancy-scores.js"></script>
 </body>
 </html>
