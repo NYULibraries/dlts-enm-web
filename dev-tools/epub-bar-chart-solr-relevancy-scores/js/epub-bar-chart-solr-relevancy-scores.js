@@ -179,7 +179,7 @@ var queryFields = [
                         that.displaySpinner = false;
                         that.displayResultsHeader = true;
 
-                        that.updateTreeView = true;
+                        that.updateBarChart = true;
                     } )
                     .catch( function( error ) {
                         that.results = error;
