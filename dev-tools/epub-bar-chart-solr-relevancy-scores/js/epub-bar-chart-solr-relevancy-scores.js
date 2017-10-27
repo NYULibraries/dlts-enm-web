@@ -164,6 +164,8 @@ var queryFields = [
                                 };
                             } );
 
+                            clearGraph();
+
                             drawGraph( results );
 
                             that.displayResults = true;
@@ -208,6 +210,10 @@ function getQTimeDisplay( response ) {
 
 function getTimeElapsedSinceStart( start ) {
     return ( ( (new Date()) - start ) / 1000 ) + ' seconds';
+}
+
+function clearGraph() {
+    d3.selectAll("svg > *").remove();
 }
 
 function drawGraph( data ) {
