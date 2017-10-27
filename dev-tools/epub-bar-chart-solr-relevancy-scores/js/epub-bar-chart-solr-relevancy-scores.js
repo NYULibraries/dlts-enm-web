@@ -235,7 +235,11 @@ function drawBarChart( data ) {
             .attr( 'class', 'd3-tip' )
             .offset( [ -10, 0 ] )
             .html( function ( d ) {
-                return 'Page ' + d.page + ' [ score: ' + d.score + ' ]';
+                return 'Page: ' + d.page +
+                       '<br>' +
+                       '<span class="tooltip-score">' +
+                       'Score: ' + d.score +
+                       '</span>';
             } );
 
     svg.call( tip );

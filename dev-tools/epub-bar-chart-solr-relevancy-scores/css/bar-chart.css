@@ -6,6 +6,7 @@
     fill: brown;
 }
 
-.axis--x path {
-    display: none;
+.tooltip-score {
+    font-size: 12px;
+    margin-top: 15px;
 }
