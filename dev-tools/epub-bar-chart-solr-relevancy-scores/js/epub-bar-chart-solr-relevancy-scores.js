@@ -46,7 +46,7 @@ var queryFields = [
             start                    : null,
             timeAfterVueUpdated      : null,
             timeSolrResponseReceived : null,
-            updateTreeView           : false
+            updateBarChart           : false
         },
         computed: {
             solrQueryUrl: function() {
@@ -194,10 +194,10 @@ var queryFields = [
         },
         updated: function() {
             this.$nextTick( function() {
-                if ( this.updateTreeView ) {
+                if ( this.updateBarChart ) {
                     this.timeAfterVueUpdated = getTimeElapsedSinceStart( this.start );
                     this.start               = null;
-                    this.updateTreeView      = false;
+                    this.updateBarChart      = false;
                 }
             } );
         }
