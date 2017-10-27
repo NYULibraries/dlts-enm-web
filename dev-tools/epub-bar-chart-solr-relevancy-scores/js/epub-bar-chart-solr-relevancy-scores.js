@@ -1,23 +1,7 @@
 var queryFields = [
         {
-            name: 'authors',
-            value: 'authors'
-        },
-        {
-            name: 'isbn',
-            value: 'isbn'
-        },
-        {
             name: 'pageText',
             value: 'pageText'
-        },
-        {
-            name: 'publisher',
-            value: 'publisher'
-        },
-        {
-            name: 'title',
-            value: 'title'
         },
         {
             name: 'topicNames',
