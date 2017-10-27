@@ -217,6 +217,9 @@ function clearBarChart() {
 }
 
 function drawBarChart( data ) {
+    // Based on https://bl.ocks.org/mbostock/3885304, with tooltips added using
+    // https://github.com/Caged/d3-tip.
+
     var svg    = d3.select( 'svg' ),
         margin = { top : 20, right : 20, bottom : 30, left : 40 },
         width  = +svg.attr( 'width' ) - margin.left - margin.right,
