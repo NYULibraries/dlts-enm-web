@@ -85,7 +85,7 @@
 
         <div v-cloak>
 
-            <div class="card" v-show="displayResultsHeader" id="results-header">
+            <div class="card" v-show="displayResultsHeader" id="results-header" v-on:click="barChartShowAllPages = ! barChartShowAllPages">
                 <div class="card-body">
                     <h4 class="card-title">
                         {{
@@ -100,6 +100,7 @@
                     <span class="card-subtitle mb-2 text-muted">Vue <code>updated</code> hook executed in {{ timeAfterVueUpdated }}</span>
                 </div>
             </div>
+
 
             <div class="results" v-show="displayResults">
                 <svg width="1000" height="340"></svg>

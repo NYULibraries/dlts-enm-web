@@ -13,7 +13,9 @@ var queryFields = [
         el: '#app',
         data: {
             allQueryFields           : true,
+            barChartDataAllPages     : [],
             barChartDataMatchedPages : [],
+            barChartShowAllPages     : false,
             displayResultsRaw        : false,
             displayResultsHeader     : false,
             displayResults           : false,
@@ -51,7 +53,7 @@ var queryFields = [
                            '&' +
                            'facet=on' +
                            '&' +
-                           'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,score' +
+                           'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,epubNumberOfPages,score' +
                            '&' +
                            'sort=pageSequenceNumber+asc' +
                            '&' +
@@ -93,6 +95,15 @@ var queryFields = [
                                return queryField.value;
                            }
                        )
+                }
+            },
+            drawBarChart: function() {
+                clearBarChart();
+
+                if ( this.barChartShowAllPages === true ) {
+                    _drawBarChart( this.barChartDataAllPages );
+                } else {
+                    _drawBarChart( this.barChartDataMatchedPages );
                 }
             },
             sendQuery              : function( event ) {
@@ -142,17 +153,55 @@ var queryFields = [
                                 }
                             }
                         } else {
-                            that.barChartDataMatchedPages = response.data.response.docs.map(
-                                function ( doc ) {
-                                    return {
-                                        page  : doc.pageNumberForDisplay,
-                                        score : doc.score
-                                    };
+                            var docs = response.data.response.docs;
+                            var epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
+                            var lastPageSequenceNumber = 0,
+                                i;
+
+                            that.barChartDataAllPages = [];
+                            that.barChartDataMatchedPages = [];
+
+                            // docs are sorted by pageSequenceNumber in asc order
+                            docs.forEach( function( doc ) {
+                                var currentPageSequenceNumber = doc.pageSequenceNumber;
+
+                                for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
+                                    // Can't start barChartDataAllPages at element index 1 because an
+                                    // that would leave element 0 undefined, which causes
+                                    // d3.max() call in _drawChart() to fail when
+                                    // it tries to read score property of the undefined
+                                    // object.  Doing barChartDataAllPages.unshift() doesn't
+                                    // work.  The first element still has index of 1
+                                    // and d3.max() still fails.
+                                    that.barChartDataAllPages.push( {
+                                        page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                        score : 0
+                                    } );
+                                }
+
+                                that.barChartDataAllPages.push( {
+                                    page  : doc.pageNumberForDisplay,
+                                    score : doc.score
                                 } );
 
-                            clearBarChart();
+                                that.barChartDataMatchedPages.push(
+                                    {
+                                        page  : doc.pageNumberForDisplay,
+                                        score : doc.score
+                                    }
+                                );
 
-                            drawBarChart( that.barChartDataMatchedPages );
+                                lastPageSequenceNumber = currentPageSequenceNumber;
+                            } );
+
+                            for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
+                                that.barChartDataAllPages[ i - 1 ] = {
+                                    page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                    score : 0
+                                };
+                            }
+
+                            that.drawBarChart();
 
                             that.displayResults = true;
                         }
@@ -176,6 +225,11 @@ var queryFields = [
                         that.displayResultsHeader = true;
                         that.displayResults = true;
                     } );
+            }
+        },
+        watch: {
+            barChartShowAllPages: function( newBarChartShowAllPagesValue ) {
+                this.drawBarChart();
             }
         },
         updated: function() {
@@ -202,7 +256,7 @@ function clearBarChart() {
     d3.selectAll("svg > *").remove();
 }
 
-function drawBarChart( data ) {
+function _drawBarChart( data ) {
     // Based on https://bl.ocks.org/mbostock/3885304, with tooltips added using
     // https://github.com/Caged/d3-tip.
 
