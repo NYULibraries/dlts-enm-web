@@ -13,6 +13,7 @@ var queryFields = [
         el: '#app',
         data: {
             allQueryFields           : true,
+            barChartDataMatchedPages : [],
             displayResultsRaw        : false,
             displayResultsHeader     : false,
             displayResults           : false,
@@ -141,16 +142,17 @@ var queryFields = [
                                 }
                             }
                         } else {
-                            results = response.data.response.docs.map( function ( doc ) {
-                                return {
-                                    page  : doc.pageNumberForDisplay,
-                                    score : doc.score
-                                };
-                            } );
+                            that.barChartDataMatchedPages = response.data.response.docs.map(
+                                function ( doc ) {
+                                    return {
+                                        page  : doc.pageNumberForDisplay,
+                                        score : doc.score
+                                    };
+                                } );
 
                             clearBarChart();
 
-                            drawBarChart( results );
+                            drawBarChart( that.barChartDataMatchedPages );
 
                             that.displayResults = true;
                         }
