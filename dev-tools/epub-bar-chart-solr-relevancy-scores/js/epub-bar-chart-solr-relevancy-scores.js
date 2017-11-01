@@ -205,7 +205,7 @@ function drawBarChart( data ) {
     // https://github.com/Caged/d3-tip.
 
     var svg    = d3.select( 'svg' ),
-        margin = { top : 20, right : 20, bottom : 30, left : 40 },
+        margin = { top : 20, right : 20, bottom : 20, left : 20 },
         width  = +svg.attr( 'width' ) - margin.left - margin.right,
         height = +svg.attr( 'height' ) - margin.top - margin.bottom,
 
@@ -236,21 +236,6 @@ function drawBarChart( data ) {
             return d.score;
         } )
               ] );
-
-    g.append( 'g' )
-        .attr( 'class', 'axis axis--x' )
-        .attr( 'transform', 'translate(0,' + height + ')' )
-        .call( d3.axisBottom( x ) );
-
-    g.append( 'g' )
-        .attr( 'class', 'axis axis--y' )
-        .call( d3.axisLeft( y ).ticks( 10 ) )
-        .append( 'text' )
-        .attr( 'transform', 'rotate(-90)' )
-        .attr( 'y', 6 )
-        .attr( 'dy', '0.71em' )
-        .attr( 'text-anchor', 'end' )
-        .text( 'Score' );
 
     g.selectAll( '.bar' )
         .data( data )
