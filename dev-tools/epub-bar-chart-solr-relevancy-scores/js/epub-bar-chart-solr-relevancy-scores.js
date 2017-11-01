@@ -126,7 +126,7 @@ var queryFields = [
                         var titleFacetItems = response.data.facet_counts.facet_fields.title_facet,
                             i,
                             title, numHits,
-                        results;
+                            results;
 
                         if ( event.type === 'submit' ) {
                             if ( titleFacetItems ) {
