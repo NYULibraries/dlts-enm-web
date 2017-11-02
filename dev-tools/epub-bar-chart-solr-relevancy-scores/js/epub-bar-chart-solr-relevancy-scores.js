@@ -101,9 +101,9 @@ var queryFields = [
                 clearBarChart();
 
                 if ( this.barChartShowAllPages === true ) {
-                    _drawBarChart( this.barChartDataAllPages );
+                    _drawBarChart( this.barChartDataAllPages, { 'x-axis' : true } );
                 } else {
-                    _drawBarChart( this.barChartDataMatchedPages );
+                    _drawBarChart( this.barChartDataMatchedPages, false );
                 }
             },
             sendQuery              : function( event ) {
@@ -256,7 +256,7 @@ function clearBarChart() {
     d3.selectAll("svg > *").remove();
 }
 
-function _drawBarChart( data ) {
+function _drawBarChart( data, options ) {
     // Based on https://bl.ocks.org/mbostock/3885304, with tooltips added using
     // https://github.com/Caged/d3-tip.
 
@@ -292,6 +292,15 @@ function _drawBarChart( data ) {
             return d.score;
         } )
               ] );
+
+    if ( options[ 'x-axis' ] === true ) {
+        g.append( 'g' )
+            .attr( 'class', 'axis axis--x' )
+            .attr( 'transform', 'translate(0,' + height + ')' )
+            .call( d3.axisBottom( x ) )
+            // https://stackoverflow.com/questions/19787925/create-a-d3-axis-without-tick-labels
+            .selectAll( 'text' ).remove();
+    }
 
     g.selectAll( '.bar' )
         .data( data )
