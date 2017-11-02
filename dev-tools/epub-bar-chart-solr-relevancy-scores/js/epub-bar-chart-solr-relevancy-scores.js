@@ -265,10 +265,10 @@ function _drawBarChart( data ) {
         width  = +svg.attr( 'width' ) - margin.left - margin.right,
         height = +svg.attr( 'height' ) - margin.top - margin.bottom,
 
-        x      = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
-        y      = d3.scaleLinear().rangeRound( [ height, 0 ] ),
+        x = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
+        y = d3.scaleLinear().rangeRound( [ height, 0 ] ),
 
-        g      = svg.append( 'g' )
+        g = svg.append( 'g' )
             .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' ),
 
         tip = d3.tip()
