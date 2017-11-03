@@ -227,6 +227,20 @@ var queryFields = [
                     } );
             }
         },
+        mounted: function() {
+            tip = d3.tip()
+                .attr( 'class', 'd3-tip' )
+                .offset( [ -10, 0 ] )
+                .html( function ( d ) {
+                    return 'Page: ' + d.page +
+                           '<br>' +
+                           '<span class="tooltip-score">' +
+                           'Score: ' + d.score +
+                           '</span>';
+                } );
+
+            d3.select( 'svg' ).call( tip );
+        },
         watch: {
             barChartShowAllPages: function( newBarChartShowAllPagesValue ) {
                 this.drawBarChart();
@@ -269,20 +283,7 @@ function _drawBarChart( data, options ) {
         y = d3.scaleLinear().rangeRound( [ height, 0 ] ),
 
         g = svg.append( 'g' )
-            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' ),
-
-        tip = d3.tip()
-            .attr( 'class', 'd3-tip' )
-            .offset( [ -10, 0 ] )
-            .html( function ( d ) {
-                return 'Page: ' + d.page +
-                       '<br>' +
-                       '<span class="tooltip-score">' +
-                       'Score: ' + d.score +
-                       '</span>';
-            } );
-
-    svg.call( tip );
+            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' );
 
     x.domain( data.map( function ( d ) {
         return d.page;
