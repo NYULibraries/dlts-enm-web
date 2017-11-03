@@ -6,17 +6,13 @@
 
     <title>EPUB bar chart of Solr relevancy scores</title>
 
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-          integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
-          crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/bar-chart.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/d3-tip.css">
     <link rel="stylesheet" href="css/epub-bar-chart-solr-relevancy-scores.css">
     <link rel="stylesheet" href="css/spinner.css">
 
-    <script src="js/lodash.min.js"></script>
+    <script src="js/lodash-4.17.4.js"></script>
     <script src="js/axios-v0.17.0.min.js"></script>
     <script src="js/vue-2.5.2.js"></script>
     <script src="js/d3.v4.min.js"></script>
@@ -103,6 +99,15 @@
 
                     <span class="card-subtitle mb-2 text-muted">Vue <code>updated</code> hook executed in {{ timeAfterVueUpdated }}</span>
                 </div>
+            </div>
+
+            <div class="form-check form-check-inline float-right" v-show="displayResults">
+                <label class="form-check-label" id="bar-chart-show-all-pages-checkbox">
+                    <input class="form-check-input"
+                           type="checkbox"
+                           v-model="barChartShowAllPages">
+                    Show all pages in bar chart
+                </label>
             </div>
 
             <div class="results" v-show="displayResults">

@@ -6,13 +6,16 @@ var queryFields = [
         {
             name: 'topicNames',
             value: 'topicNames'
-        },
+        }
     ],
     app = new Vue(
     {
         el: '#app',
         data: {
             allQueryFields           : true,
+            barChartDataAllPages     : [],
+            barChartDataMatchedPages : [],
+            barChartShowAllPages     : false,
             displayResultsRaw        : false,
             displayResultsHeader     : false,
             displayResults           : false,
@@ -50,7 +53,7 @@ var queryFields = [
                            '&' +
                            'facet=on' +
                            '&' +
-                           'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,score' +
+                           'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,epubNumberOfPages,score' +
                            '&' +
                            'sort=pageSequenceNumber+asc' +
                            '&' +
@@ -94,6 +97,15 @@ var queryFields = [
                        )
                 }
             },
+            drawBarChart: function() {
+                clearBarChart();
+
+                if ( this.barChartShowAllPages === true ) {
+                    _drawBarChart( this.barChartDataAllPages, { 'x-axis' : true } );
+                } else {
+                    _drawBarChart( this.barChartDataMatchedPages, false );
+                }
+            },
             sendQuery              : function( event ) {
                 var start = new Date(),
                     // Can't use `this` for then or catch, as it is bound to Window object
@@ -125,7 +137,7 @@ var queryFields = [
                         var titleFacetItems = response.data.facet_counts.facet_fields.title_facet,
                             i,
                             title, numHits,
-                        results;
+                            docs, epubNumberOfPages, lastPageSequenceNumber;
 
                         if ( event.type === 'submit' ) {
                             if ( titleFacetItems ) {
@@ -141,16 +153,54 @@ var queryFields = [
                                 }
                             }
                         } else {
-                            results = response.data.response.docs.map( function ( doc ) {
-                                return {
+                            docs = response.data.response.docs;
+                            epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
+                            lastPageSequenceNumber = 0;
+
+                            that.barChartDataAllPages = [];
+                            that.barChartDataMatchedPages = [];
+
+                            // docs are sorted by pageSequenceNumber in asc order
+                            docs.forEach( function( doc ) {
+                                var currentPageSequenceNumber = doc.pageSequenceNumber;
+
+                                for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
+                                    // Can't start barChartDataAllPages at element index 1 because an
+                                    // that would leave element 0 undefined, which causes
+                                    // d3.max() call in _drawChart() to fail when
+                                    // it tries to read score property of the undefined
+                                    // object.  Doing barChartDataAllPages.unshift() doesn't
+                                    // work.  The first element still has index of 1
+                                    // and d3.max() still fails.
+                                    that.barChartDataAllPages.push( {
+                                        page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                        score : 0
+                                    } );
+                                }
+
+                                that.barChartDataAllPages.push( {
                                     page  : doc.pageNumberForDisplay,
                                     score : doc.score
-                                };
+                                } );
+
+                                that.barChartDataMatchedPages.push(
+                                    {
+                                        page  : doc.pageNumberForDisplay,
+                                        score : doc.score
+                                    }
+                                );
+
+                                lastPageSequenceNumber = currentPageSequenceNumber;
                             } );
 
-                            clearBarChart();
+                            for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
+                                that.barChartDataAllPages[ i - 1 ] = {
+                                    page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                    score : 0
+                                };
+                            }
 
-                            drawBarChart( results );
+                            that.drawBarChart();
 
                             that.displayResults = true;
                         }
@@ -174,6 +224,25 @@ var queryFields = [
                         that.displayResultsHeader = true;
                         that.displayResults = true;
                     } );
+            }
+        },
+        mounted: function() {
+            tip = d3.tip()
+                .attr( 'class', 'd3-tip' )
+                .offset( [ -10, 0 ] )
+                .html( function ( d ) {
+                    return 'Page: ' + d.page +
+                           '<br>' +
+                           '<span class="tooltip-score">' +
+                           'Score: ' + d.score +
+                           '</span>';
+                } );
+
+            d3.select( 'svg' ).call( tip );
+        },
+        watch: {
+            barChartShowAllPages: function( newBarChartShowAllPagesValue ) {
+                this.drawBarChart();
             }
         },
         updated: function() {
@@ -200,33 +269,20 @@ function clearBarChart() {
     d3.selectAll("svg > *").remove();
 }
 
-function drawBarChart( data ) {
+function _drawBarChart( data, options ) {
     // Based on https://bl.ocks.org/mbostock/3885304, with tooltips added using
     // https://github.com/Caged/d3-tip.
 
     var svg    = d3.select( 'svg' ),
-        margin = { top : 20, right : 20, bottom : 30, left : 40 },
+        margin = { top : 20, right : 20, bottom : 20, left : 20 },
         width  = +svg.attr( 'width' ) - margin.left - margin.right,
         height = +svg.attr( 'height' ) - margin.top - margin.bottom,
 
-        x      = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
-        y      = d3.scaleLinear().rangeRound( [ height, 0 ] ),
+        x = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
+        y = d3.scaleLinear().rangeRound( [ height, 0 ] ),
 
-        g      = svg.append( 'g' )
-            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' ),
-
-        tip = d3.tip()
-            .attr( 'class', 'd3-tip' )
-            .offset( [ -10, 0 ] )
-            .html( function ( d ) {
-                return 'Page: ' + d.page +
-                       '<br>' +
-                       '<span class="tooltip-score">' +
-                       'Score: ' + d.score +
-                       '</span>';
-            } );
-
-    svg.call( tip );
+        g = svg.append( 'g' )
+            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' );
 
     x.domain( data.map( function ( d ) {
         return d.page;
@@ -237,20 +293,14 @@ function drawBarChart( data ) {
         } )
               ] );
 
-    g.append( 'g' )
-        .attr( 'class', 'axis axis--x' )
-        .attr( 'transform', 'translate(0,' + height + ')' )
-        .call( d3.axisBottom( x ) );
-
-    g.append( 'g' )
-        .attr( 'class', 'axis axis--y' )
-        .call( d3.axisLeft( y ).ticks( 10 ) )
-        .append( 'text' )
-        .attr( 'transform', 'rotate(-90)' )
-        .attr( 'y', 6 )
-        .attr( 'dy', '0.71em' )
-        .attr( 'text-anchor', 'end' )
-        .text( 'Score' );
+    if ( options[ 'x-axis' ] === true ) {
+        g.append( 'g' )
+            .attr( 'class', 'axis axis--x' )
+            .attr( 'transform', 'translate(0,' + height + ')' )
+            .call( d3.axisBottom( x ) )
+            // https://stackoverflow.com/questions/19787925/create-a-d3-axis-without-tick-labels
+            .selectAll( 'text' ).remove();
+    }
 
     g.selectAll( '.bar' )
         .data( data )
