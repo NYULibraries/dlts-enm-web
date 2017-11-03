@@ -136,7 +136,8 @@ var queryFields = [
                     .then( function( response ) {
                         var titleFacetItems = response.data.facet_counts.facet_fields.title_facet,
                             i,
-                            title, numHits;
+                            title, numHits,
+                            docs, epubNumberOfPages, lastPageSequenceNumber;
 
                         if ( event.type === 'submit' ) {
                             if ( titleFacetItems ) {
@@ -152,10 +153,9 @@ var queryFields = [
                                 }
                             }
                         } else {
-                            var docs = response.data.response.docs;
-                            var epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
-                            var lastPageSequenceNumber = 0,
-                                i;
+                            docs = response.data.response.docs;
+                            epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
+                            lastPageSequenceNumber = 0;
 
                             that.barChartDataAllPages = [];
                             that.barChartDataMatchedPages = [];
