@@ -6,7 +6,7 @@ var queryFields = [
         {
             name: 'topicNames',
             value: 'topicNames'
-        },
+        }
     ],
     app = new Vue(
     {
