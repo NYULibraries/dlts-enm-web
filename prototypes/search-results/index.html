@@ -19,6 +19,8 @@
 
 <body>
 
+<div id="app">
+
   <!-- BANNER -->
 
   <div class="enm-topnav">
@@ -109,21 +111,35 @@
     <div class="container">
 
       <!--SEARCH FORM-->
-      <form class="enm-searchform">
+      <form class="enm-searchform" v-on:submit.prevent="sendQuery">
         <div class="columns is-centered">
           <div class="column is-three-quarters enm-searchbox">
             <div class="columns level">
               <div class="column level-item">
                 <p class="control has-icons-left">
-                  <input class="input is-large" type="text" placeholder="Search all books">
+                  <input class="input is-large"
+                         type="text"
+                         placeholder="Search all books"
+                         v-model="query">
                   <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
                 </p>
               </div>
+
               <div class="column is-narrow">
-                <input type="checkbox" class="is-medium is-checkbox" name="topicsChx" id="topicsChx" checked>
-                <label for="topicsChx" class="">Topics</label>
-                <input type="checkbox" class="is-medium is-checkbox" name="fulltextChx" id="fulltextChx" checked>
-                <label for="fulltextChx">Full Text</label>
+
+                <template v-for="queryField in queryFields">
+                  <input type="checkbox" class="is-medium is-checkbox"
+                         v-bind:name="queryField.name + 'Chx'"
+                         v-bind:id="queryField.name + 'Chx'"
+                         v-bind:id="queryField.id"
+                         v-on:click="clickFieldCheckbox( $event.checked )"
+                         v-bind:value="queryField.value"
+                         v-model="selectedQueryFields">
+                  <label v-bind:for="queryField.name + 'Chx'" class="">
+                    {{ queryField.label }}
+                  </label>
+                </template>
+
               </div>
             </div>
           </div>
@@ -546,6 +562,8 @@
     <p class="is-centered">Footer text here <p>
   </footer>
   <!--FOOTER-->
+
+</div>
 
   <script src="js/search-results.js"></script>
 </body>

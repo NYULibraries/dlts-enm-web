@@ -1,10 +1,12 @@
 var queryFields = [
         {
-            name: 'pageText',
+            label: 'Full Text',
+            name: 'fulltext',
             value: 'pageText'
         },
         {
-            name: 'topicNames',
+            label: 'Topics',
+            name: 'topics',
             value: 'topicNames'
         }
     ],
