@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ENM">
+  <title>ENM Search Results - Prototype</title>
+  <link rel="stylesheet" href="css/font-awesome-4.7.0.min.css">
+  <link rel="stylesheet" href="css/bulma.css">
+</head>
+
+<body>
+
+  <!-- BANNER -->
+
+  <div class="enm-topnav">
+    <div class="container ">
+      <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <h1 class="navbar-item enm-logo">
+            <a href="#">
+              Enhanced Networked Monographs
+            </a>
+          </h1>
+          <div class="navbar-burger burger" data-target="navMenuIndex">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="navMenuIndex" class="navbar-menu">
+          <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link  " href="#">
+                Browse
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <div class="navbar-item">
+                  <div>
+                    <p class="is-size-6-desktop">
+                      <strong>Featured Topics</strong>
+                    </p>
+                    <a class="navbar-item" href="#">Women</a>
+                    <a class="navbar-item" href="#">Art</a>
+                    <a class="navbar-item" href="#">Food</a>
+                  </div>
+                </div>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  All topics
+                </a>
+                <a class="navbar-item " href="https://bulma.io/documentation/modifiers/syntax/">
+                  All books
+                </a>
+                <a class="navbar-item " href="#">
+                  All Publishers
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <div class="navbar-link">
+                Visualize
+              </div>
+              <div id="moreDropdown" class="navbar-dropdown is-boxed">
+                <a class="navbar-item " href="#">
+                  <p>
+                    <strong>Persons</strong>
+                    <br>
+                    <small>A nicely laid out description of this item </small>
+                  </p>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  <p>
+                    <strong>Places</strong>
+                    <br>
+                    <small>A nicely laid out description of this item </small>
+                  </p>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  <p>
+                    <strong>Things</strong>
+                    <br>
+                    <small>A nicely laid out description of this item </small>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- BANNER -->
+
+  <hr class="is-marginless">
+
+  <main class="enm-searchpage">
+    <div class="container">
+
+      <!--SEARCH FORM-->
+      <form class="enm-searchform">
+        <div class="columns is-centered">
+          <div class="column is-three-quarters enm-searchbox">
+            <div class="columns level">
+              <div class="column level-item">
+                <p class="control has-icons-left">
+                  <input class="input is-large" type="text" placeholder="Search all books">
+                  <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
+                </p>
+              </div>
+              <div class="column is-narrow">
+                <input type="checkbox" class="is-medium is-checkbox" name="topicsChx" id="topicsChx" checked>
+                <label for="topicsChx" class="">Topics</label>
+                <input type="checkbox" class="is-medium is-checkbox" name="fulltextChx" id="fulltextChx" checked>
+                <label for="fulltextChx">Full Text</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!--SEARCH FORM-->
+
+      <!--SEARCH ECHO-->
+      <div class="columns enm-searchecho">
+        <div class="column is-2">&nbsp;
+        </div>
+        <div class="column">
+          <span class="tag">Searching topics and full texts for: "Eliot"
+            <button class="delete is-small"></button>
+          </span>
+        </div>
+      </div>
+      <hr class="enm-hr">
+      <!--SEARCH ECHO-->
+
+      <div class="columns enm-panes">
+        <div class="column enm-pane enm-pane-facets is-2">
+
+          <!--FACETS-->
+          <div class="content">
+            <h2 class="enm-pane-heading is-size-5">Limit by Topic</h2>
+            <div class="enm-facets-list">
+              <a href="#">&quot;Holy War,&quot; Eliot and her father</a>
+              <a href="#"> Aggression -- Marner
+              </a>
+              <a href="#"> Aggression -- Mill
+              </a>
+              <a href="#"> Aggression -- Romola
+              </a>
+              <a href="#"> Aggression -- and Eliot
+              </a>
+              <a href="#"> Aggression -- and characters in Bede
+              </a>
+              <a href="#"> Anniversary reaction
+              </a>
+              <a href="#"> Anthiel, George
+              </a>
+              <a href="#"> Attachments
+              </a>
+              <a href="#"> Austen, Jane
+              </a>
+              <a href="#"> Barnes, Djuna
+              </a>
+              <a href="#"> Barney, Natalie Clifford -- and selling stock in artists
+              </a>
+              <a href="#"> Bassiano, Princesse di -- and selling stock in artists
+              </a>
+              <a href="#"> Beach, Sylvia
+              </a>
+              <a href="#"> Blackwood, John (editor and publisher)
+              </a>
+              <a href="#"> -- and Deronda
+              </a>
+              <a href="#"> Bowlby, John
+              </a>
+              <a href="#"> Bowlby, John -- on reactions to loss
+              </a>
+              <a href="#"> Bray, Charles and Cara, friendship with Eliot
+              </a>
+              <a href="#">Bronte, Charlotte
+              </a>
+              <a href="#"> Chapman, John -- editor of Westminster Review
+              </a>
+              <a href="#">Chapman, John -- relationship with Eliot
+              </a>
+              <a href="#">Chessick, Richard D.
+              </a>
+              <a href="#">Conrad, Joseph
+              </a>
+              <a href="#">Coventry -- Eliot's 1841 move from Griff
+              </a>
+              <a href="#">Cross, John Walter
+              </a>
+              <a href="#">Cross, John Walter -- marriage to Eliot
+              </a>
+              <a href="#">Depression -- and Eliot
+              </a>
+              <a href="#">Depression -- and Eliot's mother
+              </a>
+              <a href="#">Dickens, Charles -- Bleak House
+              </a>
+              <a href="#">Dickens, Charles -- Great Expectations
+              </a>
+              <a href="#">Eliot, George
+              </a>
+              <a href="#"> Eliot, George, aggression/rage
+              </a>
+              <a href="#">Eliot, George, biography
+              </a>
+              <a href="#">Eliot, George, depression
+              </a>
+              <a href="#"> Eliot, George, depression -- Bede, Deronda,
+              </a>
+              <a href="#">Felix, Marner
+              </a>
+              <a href="#">Eliot, George, depression -- Middlemarch
+              </a>
+              <a href="#"> Eliot, George, depression -- Mill
+              </a>
+              <a href="#"> Eliot, George, loss
+              </a>
+              <a href="#">Eliot, George, loss -- Chrissey's death
+              </a>
+              <a href="#">Eliot, George, loss -- Thornie's death
+              </a>
+              <a href="#">Eliot, George, loss -- father's death
+              </a>
+              <a href="#">Eliot, George, loss -- mother's death
+              </a>
+              <a href="#">Eliot, George, loss -- twin siblings' deaths
+              </a>
+              <a href="#">Eliot, George, loss, estrangement from family
+              </a>
+              <a href="#">Eliot, George, writing process -- Romola
+              </a>
+              <a href="#">Eliot, George, writings -- &quot;Janet's Repentance&quot;</a>
+            </div>
+          </div>
+          <!--FACETS-->
+
+        </div>
+        <div class="column enm-pane enm-pane-results is-4">
+
+          <!--RESULTS-->
+          <header>
+            <h2 class="is-size-4">Results: 238 pages in 22 Books</h2>
+            <div class="control field is-pulled-right">
+              <div class="select">
+                <select>
+                  <option>Relevance</option>
+                  <option>Title</option>
+                  <option>Date: Recent</option>
+                  <option>Date: Earliest</option>
+                </select>
+              </div>
+            </div>
+          </header>
+          <div class="enm-results">
+
+            <!--BOOK1-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <!-- da70 Here, the link to load the preview is repeated.  THe first one is for fancy "whole div" rollovrers and the second is for accessibility.  Not sure how this will work with vue.js  -->
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title is-spaced"><a href="#">The Transformation of Rage</a></h3>
+                  <div class="subtitle">Mourning and Creativity in George Eliot's Fiction</div>
+                  <div class="meta">Peggy Fitzhugh Johnstone; New York University Press, 1997</div>
+                  <div class="matches">
+                    145 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK1-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--BOOK2-->
+            <div class="box">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
+                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
+                  <div class="matches">
+                    104 matched pages
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK2-->
+
+            <!--PAGINATION-->
+            <nav class="pagination" role="navigation" aria-label="Pagination Navigation">
+              <a class="pagination-previous" aria-label="Goto Previous Page">Previous</a>
+              <a class="pagination-next" aria-label="Goto Next Page">Next page</a>
+              <ul class="pagination-list">
+                <li>
+                  <a class="pagination-link is-current" aria-current="true" aria-label="Current Page, Page 1">1</a>
+                </li>
+                <li>
+                  <a class="pagination-link " aria-label="Goto Page 2">2</a>
+                </li>
+                <li>
+                  <a class="pagination-link " aria-label="Goto Page 3">3</a>
+                </li>
+              </ul>
+            </nav>
+            <!--PAGINATION-->
+
+          </div>
+          <!--RESULTS-->
+
+        </div>
+        <div class="column enm-pane enm-pane-preview">
+
+          <!--PREVIEW-->
+          <div>
+            <header>
+              <div class="pageno">page 21</div>
+              <h2 class="title is-spaced">The Transformation of Rage</h2>
+              <div class="subtitle">Mourning and Creativity in George Eliot's Fiction</div>
+            </header>
+            <img src="chart2.svg">
+            <div class="enm-buttons">
+              <a href="#" class="button" title="View previous matched page in this book">
+                < previous </a>
+              <a href="#" class="button" title="View next matched page in this book">next ></a>
+            </div>
+            <div class="topicsonthispage">
+              <h3>Topics on this page</h3>
+              <a href="#">
+                <mark>Eliot</mark>, George, writings -- "Janet's Repentance" </a>
+              <a href="#">
+                <mark>Eliot</mark>, George, writings -- Adam Bede </a>
+              <a href="#">
+                <mark>Eliot</mark>, George, writings -- Silas Marner </a>
+              <a href="#">
+                <mark>Eliot</mark>, George, writings -- The Mill on the Floss </a>
+            </div>
+            <hr>
+            <div class="enm-pageText">real Janet alas! had a far sadder end than mine" (347). At this point, Lewes added (in a separate letter) his opinion that "I was in raptures with 'Janet’s Repentance' when
+              <mark>Eliot</mark> first read it to me and declared it to be the finest thing he had written" (351). Blackwood responded, characteristically, with reassurance (352). Yet when he ventured still another criticism of a scene in "Janet’s Repentance," Lewes, revealing what turned out to be a lifelong tendency to protect
+              <mark>Eliot</mark> from criticism, finally wrote, "Entre nous let me hint that unless you have any serious objection to make to
+              <mark>Eliot</mark>’s stories, don't make any. He is so easily discouraged, so diffident of himself, that not being prompted by necessity to write, he will close the series in the belief that his writing is not relished. . . . Don’t allude to this hint of mine. He wouldn’t like my interfering" (363–64). Although the next letter from Blackwood expresses admiration for the ending of "Janet’s Repentance" (371),
+              <mark>Eliot</mark> apparently still rankled from his earlier criticism. As she recorded in her journal, "I had meant to carry on the series beyond 'Janet’s Repentance,' . . . but my annoyance at Blackwood’s want of sympathy in the first two parts of 'Janet,' . . . determined me to close the series and republish them in two volumes" (410). Despite their tentative beginnings,
+              <mark>Eliot</mark>, Blackwood, and Lewes nonetheless developed a good working relationship over the years that followed. Blackwood was still
+              <mark>Eliot</mark>’s editor, except for a short rift over the publication of Romola, when she wrote her last novel, Daniel Deronda. George
+              <mark>Eliot</mark> was paid generously for her fiction. After 1857, she and Lewes, who was also doing well with his publications, no longer had to worry about money, and
+              <mark>Eliot</mark> was able to give up her article writing. Scenes of Clerical Life was well received in literary circles, and although there were only three reviews, they were encouraging (Laski 55). With the publication of Adam Bede,
+              <mark>Eliot</mark>’s reputation was established. Her early fiction, which was drawn largely from a combination of various elements of memory and imagination, became less literally based on figures from the past after the Scenes as she began to make rapid progress in her artistic technique. Her early works were also rapidly composed. Scenes of Clerical Life was completed in only a little over a year, as was each of the long novels, Adam Bede and The Mill on the Floss. The short novel, Silas Marner, proved to be a transitional work, written as
+              <mark>Eliot</mark> was beginning to move toward the writing of her more complex novels,</div>
+          </div>
+          <!--PREVIEW-->
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!--FOOTER-->
+  <footer role="contentinfo">
+    <hr class="is-marginless">
+    <p class="is-centered">Footer text here <p>
+  </footer>
+  <!--FOOTER-->
+
+</body>
+
+</html>
