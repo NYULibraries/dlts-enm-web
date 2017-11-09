@@ -38,43 +38,42 @@ var queryFields = [
                 updateBarChart           : false
             },
             computed: {
-                solrQueryUrl: function() {
+                searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
                             .join( '%20' ),
-                        highlightFields = qf,
-                        solrQueryUrl =
-                            'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
-                            'q=' + encodeURIComponent( this.query ) +
-                            '&' +
-                            'defType=edismax' +
-                            '&' +
-                            'facet.field=title_facet' +
-                            '&' +
-                            'facet.mincount=1' +
-                            '&' +
-                            'facet=on' +
-                            '&' +
-                            'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,epubNumberOfPages,score' +
-                            '&' +
-                            'sort=pageSequenceNumber+asc' +
-                            '&' +
-                            'rows=999' +
-                            '&' +
-                            '&' +
-                            'wt=json' +
-                            '&' +
-                            'indent=on' +
-                            '&' +
-                            'qf=' + qf,
-                        epubTitle = this.epubTitle;
+                        highlightFields = qf;
 
-
-                    if ( epubTitle ) {
-                        solrQueryUrl += '&fq=' + encodeURIComponent( 'title_facet:"' + epubTitle + '"' );
-                    }
-
-                    return solrQueryUrl;
+                    return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                           'q=' + encodeURIComponent( this.query ) +
+                           '&' +
+                           'defType=edismax' +
+                           '&' +
+                           'facet.field=topicNames' +
+                           '&' +
+                           'facet=on' +
+                           '&' +
+                           'fl=title,authors,publisher,yearOfPublication' +
+                           '&' +
+                           'group.field=isbn' +
+                           '&' +
+                           'group=true' +
+                           '&' +
+                           'group.limit=999' +
+                           '&' +
+                           'hl.fl=' + highlightFields +
+                           '&' +
+                           'hl.simple.post=%3C/span%3E' +
+                           '&' +
+                           'hl.simple.pre=%3Cspan%20class=%22highlight%22%3E' +
+                           '&' +
+                           'hl=on' +
+                           '&' +
+                           'indent=on' +
+                           '&' +
+                           'qf=' + qf +
+                           '&' +
+                           'wt=json';
                 }
             },
             methods: {
@@ -134,7 +133,7 @@ var queryFields = [
                         this.epubTitle = null;
                     }
 
-                    axios.get( this.solrQueryUrl )
+                    axios.get( this.searchSolrQueryUrl )
                         .then( function( response ) {
                             var titleFacetItems = response.data.facet_counts.facet_fields.title_facet,
                                 i,
