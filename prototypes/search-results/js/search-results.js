@@ -155,7 +155,6 @@ var queryFields = [
                         .then( function( response ) {
                             var topicFacetItems = response.data.facet_counts.facet_fields.topicNames_facet,
                                 i,
-                                topicFacetItemString, topicFacetItemJson,
                                 numHits,
                                 docs, epubNumberOfPages, lastPageSequenceNumber;
 
