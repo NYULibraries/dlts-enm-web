@@ -124,7 +124,68 @@ var queryFields = [
                         _drawBarChart( this.barChartDataMatchedPages, false );
                     }
                 },
-                sendSearchQuery: function( event ) {
+                sendEpubSelectedQuery: function() {
+                    docs = response.data.response.docs;
+                    epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
+                    lastPageSequenceNumber = 0;
+
+                    that.barChartDataAllPages = [];
+                    that.barChartDataMatchedPages = [];
+
+                    // docs are sorted by pageSequenceNumber in asc order
+                    docs.forEach( function( doc ) {
+                        var currentPageSequenceNumber = doc.pageSequenceNumber;
+
+                        for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
+                            // Can't start barChartDataAllPages at element index 1 because an
+                            // that would leave element 0 undefined, which causes
+                            // d3.max() call in _drawChart() to fail when
+                            // it tries to read score property of the undefined
+                            // object.  Doing barChartDataAllPages.unshift() doesn't
+                            // work.  The first element still has index of 1
+                            // and d3.max() still fails.
+                            that.barChartDataAllPages.push( {
+                                                                page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                                                score : 0
+                                                            } );
+                        }
+
+                        that.barChartDataAllPages.push( {
+                                                            page  : doc.pageNumberForDisplay,
+                                                            score : doc.score
+                                                        } );
+
+                        that.barChartDataMatchedPages.push(
+                            {
+                                page  : doc.pageNumberForDisplay,
+                                score : doc.score
+                            }
+                        );
+
+                        lastPageSequenceNumber = currentPageSequenceNumber;
+                    } );
+
+                    for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
+                        that.barChartDataAllPages[ i - 1 ] = {
+                            page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                            score : 0
+                        };
+                    }
+
+                    that.drawBarChart();
+
+                    that.qTime = getQTimeDisplay( response );
+                    that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
+
+                    that.displaySpinner = false;
+                    that.displayFacetPane = true;
+                    that.displayResultsPane = true;
+                    that.displayPreviewPane = true;
+
+
+                    that.updateBarChart = true;
+                },
+                sendSearchQuery: function() {
                     var start = new Date(),
                         // Can't use `this` for then or catch, as it is bound to Window object
                         that = this;
@@ -158,74 +219,20 @@ var queryFields = [
                                 numHits,
                                 docs, epubNumberOfPages, lastPageSequenceNumber;
 
-                            if ( event.type === 'submit' ) {
-                                that.numBooks = response.data.grouped.isbn.groups.length;
-                                that.numPages = response.data.grouped.isbn.matches;
+                            that.numBooks = response.data.grouped.isbn.groups.length;
+                            that.numPages = response.data.grouped.isbn.matches;
 
-                                if ( topicFacetItems ) {
-                                    for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
-                                        topic = topicFacetItems[ i ];
-                                        numHits = topicFacetItems[ i + 1 ];
-                                        that.topicFacetList.push(
-                                            topic + ' [' + numHits + ']'
-                                        );
-                                    }
-                                }
-
-                                that.results = response.data.grouped.isbn.groups;
-
-                            } else {
-                                docs = response.data.response.docs;
-                                epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
-                                lastPageSequenceNumber = 0;
-
-                                that.barChartDataAllPages = [];
-                                that.barChartDataMatchedPages = [];
-
-                                // docs are sorted by pageSequenceNumber in asc order
-                                docs.forEach( function( doc ) {
-                                    var currentPageSequenceNumber = doc.pageSequenceNumber;
-
-                                    for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
-                                        // Can't start barChartDataAllPages at element index 1 because an
-                                        // that would leave element 0 undefined, which causes
-                                        // d3.max() call in _drawChart() to fail when
-                                        // it tries to read score property of the undefined
-                                        // object.  Doing barChartDataAllPages.unshift() doesn't
-                                        // work.  The first element still has index of 1
-                                        // and d3.max() still fails.
-                                        that.barChartDataAllPages.push( {
-                                                                            page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
-                                                                            score : 0
-                                                                        } );
-                                    }
-
-                                    that.barChartDataAllPages.push( {
-                                                                        page  : doc.pageNumberForDisplay,
-                                                                        score : doc.score
-                                                                    } );
-
-                                    that.barChartDataMatchedPages.push(
-                                        {
-                                            page  : doc.pageNumberForDisplay,
-                                            score : doc.score
-                                        }
+                            if ( topicFacetItems ) {
+                                for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
+                                    topic = topicFacetItems[ i ];
+                                    numHits = topicFacetItems[ i + 1 ];
+                                    that.topicFacetList.push(
+                                        topic + ' [' + numHits + ']'
                                     );
-
-                                    lastPageSequenceNumber = currentPageSequenceNumber;
-                                } );
-
-                                for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
-                                    that.barChartDataAllPages[ i - 1 ] = {
-                                        page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
-                                        score : 0
-                                    };
                                 }
-
-                                that.drawBarChart();
-
-                                that.displayResults = true;
                             }
+
+                            that.results = response.data.grouped.isbn.groups;
 
                             that.qTime = getQTimeDisplay( response );
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
