@@ -152,7 +152,8 @@
         <div class="column is-2">&nbsp;
         </div>
         <div class="column">
-          <span class="tag">Searching topics and full texts for: "Eliot"
+          <span class="tag" v-for="searchTag in searchTags">
+            {{ searchTag }}
             <button class="delete is-small"></button>
           </span>
         </div>

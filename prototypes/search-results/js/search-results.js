@@ -74,6 +74,12 @@ var queryFields = [
                            'qf=' + qf +
                            '&' +
                            'wt=json';
+                },
+                searchTags : function() {
+                    return [
+                        'Searching topics and full texts for: ' +
+                           '"' + this.query + '"'
+                    ];
                 }
             },
             methods: {
