@@ -35,6 +35,7 @@ var queryFields = [
                 start                    : null,
                 timeAfterVueUpdated      : null,
                 timeSolrResponseReceived : null,
+                topicFacetList           : [],
                 updateBarChart           : false
             },
             computed: {
@@ -49,11 +50,13 @@ var queryFields = [
                            '&' +
                            'defType=edismax' +
                            '&' +
-                           'facet.field=topicNamesForDisplay' +
+                           'facet.field=topicNames_facet' +
                            '&' +
                            'facet.limit=-1' +
                            '&' +
                            'facet.mincount=1' +
+                           '&' +
+                           'facet.sort=count' +
                            '&' +
                            'facet=on' +
                            '&' +
@@ -145,21 +148,19 @@ var queryFields = [
 
                     axios.get( this.searchSolrQueryUrl )
                         .then( function( response ) {
-                            var titleFacetItems = response.data.facet_counts.facet_fields.title_facet,
+                            var topicFacetItems = response.data.facet_counts.facet_fields.topicNames_facet,
                                 i,
-                                title, numHits,
+                                topicFacetItemString, topicFacetItemJson,
+                                numHits,
                                 docs, epubNumberOfPages, lastPageSequenceNumber;
 
                             if ( event.type === 'submit' ) {
-                                if ( titleFacetItems ) {
-                                    for ( i = 0; i < titleFacetItems.length; i = i + 2 ) {
-                                        title   = titleFacetItems[ i ];
-                                        numHits = titleFacetItems[ i + 1 ];
-                                        that.epubDropdownOptions.push(
-                                            {
-                                                title   : title,
-                                                numHits : numHits
-                                            }
+                                if ( topicFacetItems ) {
+                                    for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
+                                        topic = topicFacetItems[ i ];
+                                        numHits = topicFacetItems[ i + 1 ];
+                                        that.topicFacetList.push(
+                                            topic + ' [' + numHits + ']'
                                         );
                                     }
                                 }
