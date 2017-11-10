@@ -243,9 +243,9 @@ var queryFields = [
 
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
-                            that.displaySpinner = false;
-                            that.displayResultsHeader = true;
-                            that.displayResults = true;
+                            that.displayFacetPane = false;
+                            that.displayResultsPane = false;
+                            that.displayPreviewPane = false;
                         } );
                 }
             },
