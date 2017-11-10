@@ -196,8 +196,8 @@
           </header>
           <div class="enm-results">
 
-            <!--BOOK1-->
-            <div class="box">
+            <!--BOOK-->
+            <div class="box" v-if="results" v-for="result in results">
               <article class="media enm-book">
                 <div class="media-left">
                   <figure class="image is-64x64">
@@ -207,216 +207,22 @@
                 <div class="media-content">
                   <!-- da70 Here, the link to load the preview is repeated.  THe first one is for fancy "whole div" rollovrers and the second is for accessibility.  Not sure how this will work with vue.js  -->
                   <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title is-spaced"><a href="#">The Transformation of Rage</a></h3>
-                  <div class="subtitle">Mourning and Creativity in George Eliot's Fiction</div>
-                  <div class="meta">Peggy Fitzhugh Johnstone; New York University Press, 1997</div>
+                  <h3 class="title is-spaced"><a href="#">{{ result.doclist.docs[ 0 ].title }}</a></h3>
+                  <div class="subtitle">[ SUBTITLE ]</div>
+                  <div class="meta">
+                    {{ result.doclist.docs[ 0 ].authors.join( '; ' )  +
+                       '; ' +
+                       result.doclist.docs[ 0 ].publisher +
+                       ', ' +
+                       '[ YEAR ]' }}
+                  </div>
                   <div class="matches">
-                    145 matched pages
+                    {{ result.doclist.numFound }} matched pages
                   </div>
                 </div>
               </article>
             </div>
-            <!--BOOK1-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
-
-            <!--BOOK2-->
-            <div class="box">
-              <article class="media enm-book">
-                <div class="media-left">
-                  <figure class="image is-64x64">
-                    <img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">
-                  </figure>
-                </div>
-                <div class="media-content">
-                  <a class="enm-divlink" href="#">&nbsp;</a>
-                  <h3 class="title">Poetry's Afterlife: Verse in the Digital Age</h3>
-                  <div class="meta">Stein, Kevin; The University of Michigan Press; 1992</div>
-                  <div class="matches">
-                    104 matched pages
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!--BOOK2-->
+            <!--BOOK-->
 
           </div>
           <!--RESULTS-->

@@ -30,7 +30,7 @@ var queryFields = [
                 query                    : '',
                 queryEcho                : '',
                 queryFields              : queryFields,
-                results                  : '',
+                results                  : null,
                 rows                     : 1999,
                 selectAllQueryFields     : true,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
@@ -171,6 +171,9 @@ var queryFields = [
                                         );
                                     }
                                 }
+
+                                that.results = response.data.grouped.isbn.groups;
+
                             } else {
                                 docs = response.data.response.docs;
                                 epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
@@ -226,8 +229,6 @@ var queryFields = [
 
                             that.qTime = getQTimeDisplay( response );
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
-
-                            that.results = response;
 
                             that.displaySpinner = false;
                             that.displayResultsHeader = true;
