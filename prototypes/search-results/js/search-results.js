@@ -31,7 +31,7 @@ var queryFields = [
                 queryEcho                : '',
                 queryFields              : queryFields,
                 results                  : '',
-                rows                     : 10,
+                rows                     : 1999,
                 selectAllQueryFields     : true,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
                 start                    : null,
@@ -81,6 +81,8 @@ var queryFields = [
                            'indent=on' +
                            '&' +
                            'qf=' + qf +
+                           '&' +
+                           'rows=' + this.rows +
                            '&' +
                            'wt=json';
                 },
