@@ -24,6 +24,8 @@ var queryFields = [
                 displaySpinner           : false,
                 epubDropdownOptions      : [],
                 epubTitle                : '',
+                numBooks                 : null,
+                numPages                 : null,
                 qTime                    : null,
                 query                    : '',
                 queryEcho                : '',
@@ -155,6 +157,9 @@ var queryFields = [
                                 docs, epubNumberOfPages, lastPageSequenceNumber;
 
                             if ( event.type === 'submit' ) {
+                                that.numBooks = response.data.grouped.isbn.groups.length;
+                                that.numPages = response.data.grouped.isbn.matches;
+
                                 if ( topicFacetItems ) {
                                     for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
                                         topic = topicFacetItems[ i ];
