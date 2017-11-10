@@ -49,7 +49,7 @@ var queryFields = [
                            '&' +
                            'defType=edismax' +
                            '&' +
-                           'facet.field=topicNames' +
+                           'facet.field=topicNamesForDisplay' +
                            '&' +
                            'facet=on' +
                            '&' +
