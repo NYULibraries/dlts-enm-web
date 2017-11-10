@@ -51,6 +51,8 @@ var queryFields = [
                            '&' +
                            'facet.field=topicNamesForDisplay' +
                            '&' +
+                           'facet.limit=-1' +
+                           '&' +
                            'facet=on' +
                            '&' +
                            'fl=title,authors,publisher,yearOfPublication' +
