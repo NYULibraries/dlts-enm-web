@@ -18,9 +18,9 @@ var queryFields = [
                 barChartDataAllPages     : [],
                 barChartDataMatchedPages : [],
                 barChartShowAllPages     : false,
-                displayResultsRaw        : false,
-                displayResultsHeader     : false,
-                displayResults           : false,
+                displayFacetPane         : false,
+                dipslayResultsPane       : false,
+                dipslayPreviewPane       : false,
                 displaySpinner           : false,
                 epubDropdownOptions      : [],
                 epubTitle                : '',
@@ -130,8 +130,9 @@ var queryFields = [
                         that = this;
 
                     this.displaySpinner = true;
-                    this.displayResultsHeader = false;
-                    this.displayResults = false;
+                    this.displayFacetPane = false;
+                    this.displayResultsPane = false;
+                    this.displayPreviewPane = false;
 
                     this.qTime = null;
                     this.start = start;
@@ -231,7 +232,10 @@ var queryFields = [
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
                             that.displaySpinner = false;
-                            that.displayResultsHeader = true;
+                            that.displayFacetPane = true;
+                            that.displayResultsPane = true;
+                            that.displayPreviewPane = true;
+
 
                             that.updateBarChart = true;
                         } )
