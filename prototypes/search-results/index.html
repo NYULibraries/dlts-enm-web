@@ -9,6 +9,7 @@
   <title>ENM Search Results - Prototype</title>
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/search-results.css">
 
   <script src="js/lodash-4.17.4.js"></script>
   <script src="js/axios-v0.17.0.min.js"></script>
@@ -161,11 +162,13 @@
       <hr class="enm-hr">
       <!--SEARCH ECHO-->
 
+      <div v-cloak>
+
       <div class="columns enm-panes">
         <div class="column enm-pane enm-pane-facets is-2">
 
           <!--FACETS-->
-          <div class="content">
+          <div class="content" v-show="displayFacetPane">
             <h2 class="enm-pane-heading is-size-5">Limit by Topic</h2>
             <div class="enm-facets-list">
 
@@ -194,7 +197,7 @@
               </div>
             </div>
           </header>
-          <div class="enm-results">
+          <div class="enm-results" v-show="displayResultsPane">
 
             <!--BOOK-->
             <div class="box" v-if="results" v-for="result in results">
@@ -229,7 +232,7 @@
           <!--RESULTS-->
 
         </div>
-        <div class="column enm-pane enm-pane-preview">
+        <div class="column enm-pane enm-pane-preview" v-show="displayPreviewPane">
 
           <!--PREVIEW-->
           <div>
@@ -272,6 +275,10 @@
 
         </div>
       </div>
+
+      <!--v-cloak-->
+      </div>
+
     </div>
   </main>
 
