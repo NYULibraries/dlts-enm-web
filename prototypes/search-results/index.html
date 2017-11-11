@@ -184,7 +184,12 @@
         <div class="column enm-pane enm-pane-results is-4">
 
           <!--RESULTS-->
-          <header>
+          <template v-show="displayResultsPane">
+          <!-- v-show is necessary on this <header> element for some reason.
+               Its visibility is not being toggled along with the other elements
+               in this <template>.
+          -->
+          <header v-show="displayResultsPane">
             <h2 class="is-size-4">Results: {{ numPages}} pages in {{ numBooks }} Books</h2>
             <div class="control field is-pulled-right">
               <div class="select">
@@ -200,7 +205,7 @@
           <div class="enm-results" v-show="displayResultsPane">
 
             <!--BOOK-->
-            <div class="box" v-if="results" v-for="result in results">
+            <div class="box" v-for="result in results">
               <article class="media enm-book">
                 <div class="media-left">
                   <figure class="image is-64x64">
@@ -229,6 +234,7 @@
             <!--BOOK-->
 
           </div>
+          </template>
           <!--RESULTS-->
 
         </div>
