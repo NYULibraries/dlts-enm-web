@@ -163,6 +163,9 @@ var queryFields = [
                     }
                 },
                 previewEpub            : function( event ) {
+                    var start = new Date(),
+                        that = this;
+
                     this.selectedIsbn = event.currentTarget.attributes.name;
 
                     axios.get( this.previewEpubSolrQueryUrl() )
