@@ -47,6 +47,38 @@ var queryFields = [
                 numPagesFormatted : function() {
                     return this.numPages ? this.numPages.toLocaleString() : '';
                 },
+                previewEpubSolrQueryUrl : function() {
+                    var qf = this.selectedQueryFields
+                            .sort()
+                            .join( '%20' ),
+                        highlightFields = qf;
+
+                    return  'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                            'q=' + encodeURIComponent( this.query ) +
+                            '&' +
+                            'defType=edismax' +
+                            '&' +
+                            'facet.field=title_facet' +
+                            '&' +
+                            'facet.mincount=1' +
+                            '&' +
+                            'facet=on' +
+                            '&' +
+                            'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,epubNumberOfPages,score' +
+                            '&' +
+                            'sort=pageSequenceNumber+asc' +
+                            '&' +
+                            'rows=999' +
+                            '&' +
+                            '&' +
+                            'wt=json' +
+                            '&' +
+                            'indent=on' +
+                            '&' +
+                            'qf=' + qf +
+                            '&' +
+                            'fq=' + encodeURIComponent( 'isbn_facet:"' + this.selectedIsbn + '"' );
+                },
                 searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
