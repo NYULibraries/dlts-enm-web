@@ -168,7 +168,7 @@ var queryFields = [
 
                     this.selectedIsbn = event.currentTarget.attributes.name;
 
-                    axios.get( this.previewEpubSolrQueryUrl() )
+                    axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
                             docs = response.data.response.docs;
                             epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
