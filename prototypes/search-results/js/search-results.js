@@ -162,66 +162,79 @@ var queryFields = [
                         _drawBarChart( this.barChartDataMatchedPages, false );
                     }
                 },
-                sendEpubSelectedQuery: function() {
-                    docs = response.data.response.docs;
-                    epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
-                    lastPageSequenceNumber = 0;
+                previewEpub            : function( event ) {
+                    this.selectedIsbn = event.currentTarget.attributes.name;
 
-                    that.barChartDataAllPages = [];
-                    that.barChartDataMatchedPages = [];
+                    axios.get( this.previewEpubSolrQueryUrl() )
+                        .then( function( response ) {
+                            docs = response.data.response.docs;
+                            epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
+                            lastPageSequenceNumber = 0;
 
-                    // docs are sorted by pageSequenceNumber in asc order
-                    docs.forEach( function( doc ) {
-                        var currentPageSequenceNumber = doc.pageSequenceNumber;
+                            that.barChartDataAllPages = [];
+                            that.barChartDataMatchedPages = [];
 
-                        for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
-                            // Can't start barChartDataAllPages at element index 1 because an
-                            // that would leave element 0 undefined, which causes
-                            // d3.max() call in _drawChart() to fail when
-                            // it tries to read score property of the undefined
-                            // object.  Doing barChartDataAllPages.unshift() doesn't
-                            // work.  The first element still has index of 1
-                            // and d3.max() still fails.
-                            that.barChartDataAllPages.push( {
-                                                                page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
-                                                                score : 0
-                                                            } );
-                        }
+                            // docs are sorted by pageSequenceNumber in asc order
+                            docs.forEach( function( doc ) {
+                                var currentPageSequenceNumber = doc.pageSequenceNumber;
 
-                        that.barChartDataAllPages.push( {
-                                                            page  : doc.pageNumberForDisplay,
-                                                            score : doc.score
-                                                        } );
+                                for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
+                                    // Can't start barChartDataAllPages at element index 1 because an
+                                    // that would leave element 0 undefined, which causes
+                                    // d3.max() call in _drawChart() to fail when
+                                    // it tries to read score property of the undefined
+                                    // object.  Doing barChartDataAllPages.unshift() doesn't
+                                    // work.  The first element still has index of 1
+                                    // and d3.max() still fails.
+                                    that.barChartDataAllPages.push( {
+                                                                        page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                                                        score : 0
+                                                                    } );
+                                }
 
-                        that.barChartDataMatchedPages.push(
-                            {
-                                page  : doc.pageNumberForDisplay,
-                                score : doc.score
+                                that.barChartDataAllPages.push( {
+                                                                    page  : doc.pageNumberForDisplay,
+                                                                    score : doc.score
+                                                                } );
+
+                                that.barChartDataMatchedPages.push(
+                                    {
+                                        page  : doc.pageNumberForDisplay,
+                                        score : doc.score
+                                    }
+                                );
+
+                                lastPageSequenceNumber = currentPageSequenceNumber;
+                            } );
+
+                            for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
+                                that.barChartDataAllPages[ i - 1 ] = {
+                                    page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
+                                    score : 0
+                                };
                             }
-                        );
 
-                        lastPageSequenceNumber = currentPageSequenceNumber;
-                    } );
+                            that.drawBarChart();
 
-                    for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
-                        that.barChartDataAllPages[ i - 1 ] = {
-                            page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
-                            score : 0
-                        };
-                    }
+                            that.qTime = getQTimeDisplay( response );
+                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
-                    that.drawBarChart();
+                            that.displaySpinner = false;
+                            that.displayFacetPane = true;
+                            that.displayResultsPane = true;
+                            that.displayPreviewPane = true;
 
-                    that.qTime = getQTimeDisplay( response );
-                    that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
+                            that.updateBarChart = true;
+                        } )
+                        .catch( function( error ) {
+                            that.results = error;
 
-                    that.displaySpinner = false;
-                    that.displayFacetPane = true;
-                    that.displayResultsPane = true;
-                    that.displayPreviewPane = true;
+                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
-
-                    that.updateBarChart = true;
+                            that.displayFacetPane = false;
+                            that.displayResultsPane = false;
+                            that.displayPreviewPane = false;
+                        } );
                 },
                 sendSearchQuery: function() {
                     var start = new Date(),

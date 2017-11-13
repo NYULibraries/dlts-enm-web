@@ -224,7 +224,9 @@
           <div class="enm-results" v-show="displayResultsPane">
 
             <!--BOOK-->
-            <div class="box" v-for="result in results">
+            <div class="box" v-for="result in results"
+                 v-bind:name="result.groupValue"
+                 v-on:click="previewEpub">
               <article class="media enm-book">
                 <div class="media-left">
                   <figure class="image is-64x64">
