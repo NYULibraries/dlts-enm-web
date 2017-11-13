@@ -41,6 +41,12 @@ var queryFields = [
                 updateBarChart           : false
             },
             computed: {
+                numBooksFormatted : function() {
+                    return this.numBooks ? this.numBooks.toLocaleString() : '';
+                },
+                numPagesFormatted : function() {
+                    return this.numPages ? this.numPages.toLocaleString() : '';
+                },
                 searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
@@ -227,7 +233,7 @@ var queryFields = [
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
                                     that.topicFacetList.push(
-                                        topic + ' [' + numHits + ']'
+                                        topic + ' [' + numHits.toLocaleString() + ']'
                                     );
                                 }
                             }

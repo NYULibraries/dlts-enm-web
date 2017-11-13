@@ -209,7 +209,7 @@
                in this <template>.
           -->
           <header v-show="displayResultsPane">
-            <h2 class="is-size-4">Results: {{ numPages }} pages in {{ numBooks }} Books</h2>
+            <h2 class="is-size-4">Results: {{ numPagesFormatted }} pages in {{ numBooksFormatted }} Books</h2>
             <div class="control field is-pulled-right">
               <div class="select">
                 <select>
@@ -245,7 +245,7 @@
                        '[ YEAR ]' }}
                   </div>
                   <div class="matches">
-                    {{ result.doclist.numFound }} matched pages
+                    {{ result.doclist.numFound.toLocaleString() }} matched pages
                   </div>
                 </div>
               </article>
