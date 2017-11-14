@@ -74,6 +74,13 @@ var queryFields = [
                             '&' +
                             'rows=999' +
                             '&' +
+                            'hl.fl=' + highlightFields +
+                            '&' +
+                            'hl.simple.post=%3C/mark%3E' +
+                            '&' +
+                            'hl.simple.pre=%3Cmark%3E' +
+                            '&' +
+                            'hl=on' +
                             '&' +
                             'wt=json' +
                             '&' +
