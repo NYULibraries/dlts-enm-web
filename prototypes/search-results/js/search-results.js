@@ -258,6 +258,12 @@ var queryFields = [
                     this.timeData = null;
                     this.timeTotal = null;
 
+                    this.previewPane.epubPageNumber = null;
+                    this.previewPane.epubIsbn = null;
+                    this.previewPane.epubTitle = null;
+
+                    clearBarChart();
+
                     // Can't bind query echo to this.query because when user types in
                     // a new query in search the echo will react.
                     this.queryEcho = this.query;
