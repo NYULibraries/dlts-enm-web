@@ -267,9 +267,9 @@
           <!--PREVIEW-->
           <div>
             <header>
-              <div class="enm-pageno">{{ previewPane.epubPageNumber }}</div>
-              <h2 class="title is-spaced">{{ previewPane.epubTitle }}</h2>
-              <div class="subtitle">[ SUBTITLE ]</div>
+              <div class="enm-pageno" v-show="previewPane.epubPageNumber">{{ previewPane.epubPageNumber }}</div>
+              <h2 class="title is-spaced" v-show="previewPane.epubTitle">{{ previewPane.epubTitle }}</h2>
+              <div class="subtitle" v-show="previewPane.epubTitle">[ SUBTITLE ]</div>
             </header>
 
             <svg width="572" height="190"></svg>
