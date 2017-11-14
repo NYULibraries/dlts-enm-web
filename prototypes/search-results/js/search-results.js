@@ -166,7 +166,7 @@ var queryFields = [
                     var start = new Date(),
                         that = this;
 
-                    this.selectedIsbn = event.currentTarget.attributes.name;
+                    this.selectedIsbn = event.currentTarget.attributes.name.nodeValue;
 
                     axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
