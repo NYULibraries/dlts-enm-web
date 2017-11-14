@@ -289,6 +289,7 @@ var queryFields = [
                             that.numPages = response.data.grouped.isbn.matches;
 
                             if ( topicFacetItems ) {
+                                that.topicFacetList = [];
                                 for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
