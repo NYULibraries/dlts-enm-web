@@ -161,9 +161,14 @@ var queryFields = [
                     clearBarChart();
 
                     if ( this.barChartShowAllPages === true ) {
-                        _drawBarChart( this.barChartDataAllPages, { 'x-axis' : true } );
+                        _drawBarChart( this.barChartDataAllPages, {
+                            pageClickCallback: this.previewEpubPage,
+                            'x-axis' : true
+                        } );
                     } else {
-                        _drawBarChart( this.barChartDataMatchedPages, false );
+                        _drawBarChart( this.barChartDataMatchedPages, {
+                            pageClickCallback: this.previewEpubPage
+                        } );
                     }
                 },
                 previewEpub            : function( event ) {
@@ -234,6 +239,9 @@ var queryFields = [
 
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
                         } );
+                },
+                previewEpubPage: function( event ) {
+                    alert( 'Called previewEpubPage!' );
                 },
                 sendSearchQuery: function() {
                     var start = new Date(),
@@ -394,6 +402,7 @@ function _drawBarChart( data, options ) {
         .attr( 'height', function ( d ) {
             return height - y( d.score );
         } )
+        .on( 'click', options.pageClickCallback )
         .on( 'mouseover', tip.show )
         .on( 'mouseout', tip.hide );
 }
