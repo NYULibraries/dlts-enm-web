@@ -358,15 +358,13 @@ function _drawBarChart( data, options ) {
     // https://github.com/Caged/d3-tip.
 
     var svg    = d3.select( 'svg' ),
-        margin = { top : 20, right : 20, bottom : 20, left : 20 },
-        width  = +svg.attr( 'width' ) - margin.left - margin.right,
-        height = +svg.attr( 'height' ) - margin.top - margin.bottom,
+        width  = svg.attr( 'width' ),
+        height = svg.attr( 'height' ),
 
         x = d3.scaleBand().rangeRound( [ 0, width ] ).padding( 0.1 ),
         y = d3.scaleLinear().rangeRound( [ height, 0 ] ),
 
-        g = svg.append( 'g' )
-            .attr( 'transform', 'translate(' + margin.left + ',' + margin.top + ')' );
+        g = svg.append( 'g' );
 
     x.domain( data.map( function ( d ) {
         return d.page;
