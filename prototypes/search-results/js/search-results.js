@@ -119,14 +119,6 @@ var queryFields = [
                            '&' +
                            'group.limit=999' +
                            '&' +
-                           'hl.fl=' + highlightFields +
-                           '&' +
-                           'hl.simple.post=%3C/span%3E' +
-                           '&' +
-                           'hl.simple.pre=%3Cspan%20class=%22highlight%22%3E' +
-                           '&' +
-                           'hl=on' +
-                           '&' +
                            'indent=on' +
                            '&' +
                            'qf=' + qf +
