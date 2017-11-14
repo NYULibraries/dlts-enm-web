@@ -241,7 +241,7 @@ var queryFields = [
                         } );
                 },
                 previewEpubPage: function( event ) {
-                    alert( 'Called previewEpubPage!' );
+                    this.previewPane.epubPageNumber = event.page;
                 },
                 sendSearchQuery: function() {
                     var start = new Date(),
@@ -392,6 +392,9 @@ function _drawBarChart( data, options ) {
         .data( data )
         .enter().append( 'rect' )
         .attr( 'class', 'bar' )
+        .attr( 'name', function( d ) {
+            return d.page;
+        } )
         .attr( 'x', function ( d ) {
             return x( d.page );
         } )
