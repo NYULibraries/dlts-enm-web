@@ -170,7 +170,8 @@ var queryFields = [
                     var start = new Date(),
                         that = this;
 
-                    this.previewPane.epubIsbn = event.currentTarget.attributes.name.nodeValue;
+                    this.previewPane.epubIsbn = event.currentTarget.id;
+                    this.previewPane.epubTitle = event.currentTarget.attributes.name.nodeValue;
 
                     axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
