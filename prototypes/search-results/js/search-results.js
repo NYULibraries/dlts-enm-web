@@ -25,6 +25,11 @@ var queryFields = [
                 epubDropdownOptions      : [],
                 numBooks                 : null,
                 numPages                 : null,
+                previewPane              : {
+                    epubIsbn: null,
+                    epubPageNumber: null,
+                    epubTitle: null
+                },
                 qTime                    : null,
                 query                    : '',
                 queryEcho                : '',
