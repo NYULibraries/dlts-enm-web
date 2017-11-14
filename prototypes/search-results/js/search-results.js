@@ -230,7 +230,7 @@ var queryFields = [
                             that.updateBarChart = true;
                         } )
                         .catch( function( error ) {
-                            that.results = error;
+                            that.previewPane.epubTitle = error;
 
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
                         } );
