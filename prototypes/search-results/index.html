@@ -241,7 +241,7 @@
                   <!-- da70 Here, the link to load the preview is repeated.  THe first one is for fancy "whole div" rollovrers and the second is for accessibility.  Not sure how this will work with vue.js  -->
                   <a class="enm-divlink" href="#">&nbsp;</a>
                   <h3 class="title is-spaced"><a href="#">{{ result.doclist.docs[ 0 ].title }}</a></h3>
-                  <div class="subtitle">[ SUBTITLE ]</div>
+                  <div class="SUBTITLE NOT AVAILABLE">[ SUBTITLE NOT AVAILABLE ]</div>
                   <div class="meta">
                     {{ result.doclist.docs[ 0 ].authors.join( '; ' )  +
                        '; ' +
@@ -269,7 +269,7 @@
             <header>
               <div class="enm-pageno" v-show="previewPane.epubPageNumber">page {{ previewPane.epubPageNumber }}</div>
               <h2 class="title is-spaced" v-show="previewPane.epubTitle">{{ previewPane.epubTitle }}</h2>
-              <div class="subtitle" v-show="previewPane.epubTitle">[ SUBTITLE ]</div>
+              <div class="SUBTITLE NOT AVAILABLE" v-show="previewPane.epubTitle">[ SUBTITLE NOT AVAILABLE ]</div>
             </header>
 
             <svg width="572" height="190"></svg>
