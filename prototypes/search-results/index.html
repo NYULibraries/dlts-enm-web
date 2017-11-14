@@ -274,12 +274,12 @@
 
             <svg width="572" height="190"></svg>
 
-            <div class="enm-buttons">
+            <div class="enm-buttons" v-show="previewPane.epubIsbn">
               <a href="#" class="button" title="View previous matched page in this book">
                 < previous </a>
               <a href="#" class="button" title="View next matched page in this book">next ></a>
             </div>
-            <div class="enm-topicsonthispage">
+            <div class="enm-topicsonthispage" v-show="previewPane.epubPageNumber">
               <h3>Topics on this page</h3>
               <a href="#">
                 <mark>Eliot</mark>, George, writings -- "Janet's Repentance" </a>
@@ -291,7 +291,7 @@
                 <mark>Eliot</mark>, George, writings -- The Mill on the Floss </a>
             </div>
             <hr>
-            <div class="enm-pageText">real Janet alas! had a far sadder end than mine" (347). At this point, Lewes added (in a separate letter) his opinion that "I was in raptures with 'Janet’s Repentance' when
+            <div class="enm-pageText" v-show="previewPane.epubPageNumber">real Janet alas! had a far sadder end than mine" (347). At this point, Lewes added (in a separate letter) his opinion that "I was in raptures with 'Janet’s Repentance' when
               <mark>Eliot</mark> first read it to me and declared it to be the finest thing he had written" (351). Blackwood responded, characteristically, with reassurance (352). Yet when he ventured still another criticism of a scene in "Janet’s Repentance," Lewes, revealing what turned out to be a lifelong tendency to protect
               <mark>Eliot</mark> from criticism, finally wrote, "Entre nous let me hint that unless you have any serious objection to make to
               <mark>Eliot</mark>’s stories, don't make any. He is so easily discouraged, so diffident of himself, that not being prompted by necessity to write, he will close the series in the belief that his writing is not relished. . . . Don’t allude to this hint of mine. He wouldn’t like my interfering" (363–64). Although the next letter from Blackwood expresses admiration for the ending of "Janet’s Repentance" (371),
