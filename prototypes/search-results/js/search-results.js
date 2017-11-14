@@ -227,21 +227,12 @@ var queryFields = [
                             that.qTime = getQTimeDisplay( response );
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
-                            that.displaySpinner = false;
-                            that.displayFacetPane = true;
-                            that.displayResultsPane = true;
-                            that.displayPreviewPane = true;
-
                             that.updateBarChart = true;
                         } )
                         .catch( function( error ) {
                             that.results = error;
 
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
-
-                            that.displayFacetPane = false;
-                            that.displayResultsPane = false;
-                            that.displayPreviewPane = false;
                         } );
                 },
                 sendSearchQuery: function() {
