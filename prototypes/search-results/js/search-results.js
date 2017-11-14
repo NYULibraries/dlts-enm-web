@@ -37,7 +37,6 @@ var queryFields = [
                 results                  : null,
                 rows                     : 1999,
                 selectAllQueryFields     : true,
-                selectedIsbn             : null,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
                 start                    : null,
                 timeAfterVueUpdated      : null,
@@ -82,7 +81,7 @@ var queryFields = [
                             '&' +
                             'qf=' + qf +
                             '&' +
-                            'fq=' + encodeURIComponent( 'isbn_facet:"' + this.selectedIsbn + '"' );
+                            'fq=' + encodeURIComponent( 'isbn_facet:"' + this.previewPane.epubIsbn + '"' );
                 },
                 searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
@@ -171,7 +170,7 @@ var queryFields = [
                     var start = new Date(),
                         that = this;
 
-                    this.selectedIsbn = event.currentTarget.attributes.name.nodeValue;
+                    this.previewPane.epubIsbn = event.currentTarget.attributes.name.nodeValue;
 
                     axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
