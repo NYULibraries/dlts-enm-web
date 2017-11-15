@@ -28,7 +28,9 @@ var queryFields = [
                 previewPane              : {
                     epubIsbn: null,
                     epubPageNumber: null,
-                    epubTitle: null
+                    epubTitle: null,
+                    pageText : null,
+                    topicsOnPage: []
                 },
                 qTime                    : null,
                 query                    : '',
@@ -42,7 +44,8 @@ var queryFields = [
                 timeAfterVueUpdated      : null,
                 timeSolrResponseReceived : null,
                 topicFacetList           : [],
-                updateBarChart           : false
+                updateBarChart           : false,
+                updatePagePreview        : false
             },
             computed: {
                 numBooksFormatted : function() {
@@ -89,6 +92,41 @@ var queryFields = [
                             'qf=' + qf +
                             '&' +
                             'fq=' + encodeURIComponent( 'isbn_facet:"' + this.previewPane.epubIsbn + '"' );
+                },
+                previewEpubPageSolrQueryUrl : function() {
+                    var qf = this.selectedQueryFields
+                            .sort()
+                            .join( '%20' ),
+                        highlightFields = qf;
+
+                    return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                           'q=' + encodeURIComponent( this.query ) +
+                           '&' +
+                           'defType=edismax' +
+                           '&' +
+                           'fl=topicNames_facet,pageText' +
+                           '&' +
+                           'rows=1' +
+                           '&' +
+                           'hl.fl=' + highlightFields +
+                           '&' +
+                           'hl.fragsize=0' +
+                           '&' +
+                           'hl.simple.post=%3C/mark%3E' +
+                           '&' +
+                           'hl.simple.pre=%3Cmark%3E' +
+                           '&' +
+                           'hl=on' +
+                           '&' +
+                           'wt=json' +
+                           '&' +
+                           'indent=on' +
+                           '&' +
+                           'qf=' + qf +
+                           '&' +
+                           'fq=' + encodeURIComponent( 'isbn:' + this.previewPane.epubIsbn ) +
+                           '&' +
+                           'fq=' + encodeURIComponent( 'pageNumberForDisplay:' + this.previewPane.epubPageNumber );
                 },
                 searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
@@ -242,7 +280,41 @@ var queryFields = [
                         } );
                 },
                 previewEpubPage: function( event ) {
+                    var start = new Date(),
+                        that = this;
+
                     this.previewPane.epubPageNumber = event.page;
+
+                    axios.get( this.previewEpubPageSolrQueryUrl )
+                        .then( function( response ) {
+                            doc = response.data.response.docs[ 0 ];
+                            highlights = response.data.highlighting[
+                                Object.keys(response.data.highlighting)[0]
+                                ];
+
+                            if ( highlights.pageText ) {
+                                that.previewPane.pageText = highlights.pageText[ 0 ];
+                            } else {
+                                that.previewPane.pageText = doc.pageText;
+                            }
+
+                            if ( highlights.topicNames ) {
+                                that.previewPane.topicsOnPage = highlights.topicNames;
+                            } else {
+                                that.previewPane.topicsOnPage = doc.topicNames_facet;
+                            }
+
+                            that.qTime = getQTimeDisplay( response );
+                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
+
+                            that.updatePagePreview = true;
+                        } )
+                        .catch( function( error ) {
+                            that.previewPane.epubTitle = error;
+
+                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
+                        } );
+
                 },
                 sendSearchQuery: function() {
                     var start = new Date(),
