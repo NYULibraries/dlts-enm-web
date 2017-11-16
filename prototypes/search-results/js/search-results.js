@@ -23,6 +23,11 @@ var queryFields = [
                 displayPreviewPane       : false,
                 displaySpinner           : false,
                 epubDropdownOptions      : [],
+
+                facetPane : {
+                    topicFacetList       : []
+                },
+
                 numBooks                 : null,
                 numPages                 : null,
                 previewPane              : {
@@ -43,7 +48,6 @@ var queryFields = [
                 start                    : null,
                 timeAfterVueUpdated      : null,
                 timeSolrResponseReceived : null,
-                topicFacetList           : [],
                 updateBarChart           : false,
                 updatePagePreview        : false
             },
@@ -370,11 +374,11 @@ var queryFields = [
                             that.numPages = response.data.grouped.isbn.matches;
 
                             if ( topicFacetItems ) {
-                                that.topicFacetList = [];
+                                that.facetPane.topicFacetList = [];
                                 for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
-                                    that.topicFacetList.push(
+                                    that.facetPane.topicFacetList.push(
                                         topic + ' [' + numHits.toLocaleString() + ']'
                                     );
                                 }
