@@ -317,6 +317,16 @@ var queryFields = [
 
                 },
                 sendSearchQuery: function() {
+                    if ( this.selectedQueryFields.length === 0 ) {
+                        alert( 'Please check one or more boxes: ' +
+                            this.queryFields.map(
+                                function( e ) { return e.label; }
+                            ).join( ', ' )
+                        );
+
+                        return;
+                    }
+
                     var start = new Date(),
                         // Can't use `this` for then or catch, as it is bound to Window object
                         that = this;
