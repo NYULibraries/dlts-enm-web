@@ -25,7 +25,9 @@ var queryFields = [
                 epubDropdownOptions      : [],
 
                 facetPane : {
-                    topicFacetList       : []
+                    showAllTopics        : false,
+                    topicFacetList       : [],
+                    topicsFacetListLimit : 100
                 },
 
                 numBooks                 : null,
@@ -368,14 +370,15 @@ var queryFields = [
                             var topicFacetItems = response.data.facet_counts.facet_fields.topicNames_facet,
                                 i,
                                 numHits,
-                                docs, epubNumberOfPages, lastPageSequenceNumber;
+                                docs, epubNumberOfPages, lastPageSequenceNumber
+                                numTopicsToShowInFacet = that.facetPane.topicsFacetListLimit;
 
                             that.numBooks = response.data.grouped.isbn.groups.length;
                             that.numPages = response.data.grouped.isbn.matches;
 
                             if ( topicFacetItems ) {
                                 that.facetPane.topicFacetList = [];
-                                for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
+                                for ( i = 0; i < numTopicsToShowInFacet; i = i + 2 ) {
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
                                     that.facetPane.topicFacetList.push(
