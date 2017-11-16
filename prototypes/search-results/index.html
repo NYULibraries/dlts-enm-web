@@ -175,6 +175,11 @@
               </a>
 
             </div>
+
+            <a v-show="! facetPane.showAllTopics"
+               v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+              See more...
+            </a>
           </div>
           <!--FACETS-->
 

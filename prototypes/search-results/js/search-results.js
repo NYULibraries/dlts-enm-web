@@ -370,8 +370,10 @@ var queryFields = [
                             var topicFacetItems = response.data.facet_counts.facet_fields.topicNames_facet,
                                 i,
                                 numHits,
-                                docs, epubNumberOfPages, lastPageSequenceNumber
-                                numTopicsToShowInFacet = that.facetPane.topicsFacetListLimit;
+                                docs, epubNumberOfPages, lastPageSequenceNumber,
+                                numTopicsToShowInFacet = that.facetPane.showAllTopics ?
+                                                         topicFacetItems.length :
+                                                         that.facetPane.topicsFacetListLimit;
 
                             that.numBooks = response.data.grouped.isbn.groups.length;
                             that.numPages = response.data.grouped.isbn.matches;
