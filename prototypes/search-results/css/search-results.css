@@ -1,1 +1,6 @@
 [v-cloak] { display: none; }
+
+.book-cover-thumbnail {
+    max-height: 64px;
+    width: auto !important;
+}
