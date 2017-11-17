@@ -399,7 +399,6 @@ var queryFields = [
                             that.displayResultsPane = true;
                             that.displayPreviewPane = true;
 
-
                             that.updateBarChart = true;
                         } )
                         .catch( function( error ) {
