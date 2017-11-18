@@ -26,7 +26,7 @@ var queryFields = [
 
                 facetPane : {
                     showAllTopics        : false,
-                    topicFacetList       : [],
+                    topicsFacetList      : [],
                     topicsFacetListLimit : 100
                 },
 
@@ -179,9 +179,9 @@ var queryFields = [
                 },
                 topicFacetItems: function() {
                     if ( this.facetPane.showAllTopics ) {
-                        return this.facetPane.topicFacetList;
+                        return this.facetPane.topicsFacetList;
                     } else {
-                        return this.facetPane.topicFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
+                        return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
                     }
                 }
             },
@@ -384,11 +384,11 @@ var queryFields = [
                             that.numPages = response.data.grouped.isbn.matches;
 
                             if ( topicFacetItems ) {
-                                that.facetPane.topicFacetList = [];
+                                that.facetPane.topicsFacetList = [];
                                 for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
-                                    that.facetPane.topicFacetList.push(
+                                    that.facetPane.topicsFacetList.push(
                                         topic + ' [' + numHits.toLocaleString() + ']'
                                     );
                                 }
