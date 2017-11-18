@@ -176,6 +176,13 @@ var queryFields = [
                         'Searching topics and full texts for: ' +
                            '"' + this.query + '"'
                     ];
+                },
+                topicFacetItems: function() {
+                    if ( this.facetPane.showAllTopics ) {
+                        return this.facetPane.topicFacetList;
+                    } else {
+                        return this.facetPane.topicFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
+                    }
                 }
             },
             methods: {
@@ -347,6 +354,8 @@ var queryFields = [
                     this.timeData = null;
                     this.timeTotal = null;
 
+                    this.facetPane.showAllTopics = false;
+
                     this.previewPane.epubPageNumber = null;
                     this.previewPane.epubIsbn = null;
                     this.previewPane.epubTitle = null;
@@ -369,17 +378,14 @@ var queryFields = [
                         .then( function( response ) {
                             var topicFacetItems = response.data.facet_counts.facet_fields.topicNames_facet,
                                 i,
-                                numHits,
-                                numTopicsToShowInFacet = that.facetPane.showAllTopics ?
-                                                         topicFacetItems.length :
-                                                         that.facetPane.topicsFacetListLimit;
+                                numHits;
 
                             that.numBooks = response.data.grouped.isbn.groups.length;
                             that.numPages = response.data.grouped.isbn.matches;
 
                             if ( topicFacetItems ) {
                                 that.facetPane.topicFacetList = [];
-                                for ( i = 0; i < numTopicsToShowInFacet; i = i + 2 ) {
+                                for ( i = 0; i < topicFacetItems.length; i = i + 2 ) {
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
                                     that.facetPane.topicFacetList.push(
