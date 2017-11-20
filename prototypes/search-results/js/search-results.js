@@ -221,7 +221,8 @@ var queryFields = [
                     }
                 },
                 clickTopicFacetItem: function( event ) {
-                    alert( 'Clicked ' + event.currentTarget.id );
+                    this.selectedTopicFacetItems.push( event.currentTarget.id );
+                    this.sendSearchQuery();
                 },
                 drawBarChart: function() {
                     clearBarChart();
