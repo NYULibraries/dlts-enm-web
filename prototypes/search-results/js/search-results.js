@@ -142,7 +142,6 @@ var queryFields = [
                         preferredTopicNames = this.selectedTopicFacetItems
                             .sort()
                             .join( '$20' ),
-                        highlightFields = qf,
 
                         url = 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
