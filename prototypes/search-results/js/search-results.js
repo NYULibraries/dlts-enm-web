@@ -216,7 +216,10 @@ var queryFields = [
                             )
                     }
                 },
-                clickDeleteDCI: function( event ) {
+                clickDeleteSearchDCI: function( event ) {
+                    alert( 'User clicked delete button of search DCI' );
+                },
+                clickDeleteTopicDCI: function( event ) {
                     alert( 'Delete ' + event.currentTarget.id );
                 },
                 // Check all checkboxes functionality loosely based on the accepted answer for
