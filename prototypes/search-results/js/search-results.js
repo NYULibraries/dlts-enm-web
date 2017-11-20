@@ -389,7 +389,10 @@ var queryFields = [
                                     topic = topicFacetItems[ i ];
                                     numHits = topicFacetItems[ i + 1 ];
                                     that.facetPane.topicsFacetList.push(
-                                        topic + ' [' + numHits.toLocaleString() + ']'
+                                        {
+                                            name: topic,
+                                            numHits: numHits.toLocaleString()
+                                        }
                                     );
                                 }
                             }

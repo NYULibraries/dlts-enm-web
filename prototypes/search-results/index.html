@@ -166,23 +166,55 @@
         <div class="column enm-pane enm-pane-facets is-2">
 
           <!--FACETS-->
-          <div class="content" v-show="displayFacetPane">
-            <h2 class="enm-pane-heading is-size-5">Limit by Topic</h2>
-            <div class="enm-facets-list">
+          <div class="enm-facets-list">
+            <div class="enm-topics enm-facets-group-visible">
 
-              <a href="#" v-for="topic in topicFacetItems">
-              {{ topic }}
-              </a>
-
-              <a v-show="( ! facetPane.showAllTopics )
-                       &&
-                      ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
-                 v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
-                See more...
-              </a>
+              <template v-for="topic in topicFacetItems">
+                <a href="#">
+                  {{ topic.name }}
+                  <span class="enm-hitcount">({{ topic.numHits }})</span>
+                </a>
+              </template>
 
             </div>
 
+            <a class="listui seemore" href="#"
+               v-show="( ! facetPane.showAllTopics )
+                       &&
+                      ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
+               v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+              <i class="fa fa-angle-double-down" aria-hidden="true"></i>See All
+            </a>
+
+            <!--<div class="enm-topics enm-facets-group-togglable">
+              <a href="#"> Eliot, George, loss &#45;&#45; mother's death
+                <span class="enm-hitcount">(5)</span>
+              </a>
+              <a href="#"> Evans, Mr. Robert (Eliot's father)
+                <span class="enm-hitcount">(5)</span>
+              </a>
+              <a href="#">Other topic
+                <span class="enm-hitcount">(5)</span>
+              </a>
+              <a href="#">Other topic
+                <span class="enm-hitcount">(4)</span>
+              </a>
+              <a href="#">Other topic with a long title
+                <span class="enm-hitcount">(4)</span>
+              </a>
+              <a href="#">Other topic with an extremely long title
+                <span class="enm-hitcount">(3)</span>
+              </a>
+              <a href="#">Other topic
+                <span class="enm-hitcount">(3)</span>
+              </a>
+              <a href="#">Other topic
+                <span class="enm-hitcount">(1)</span>
+              </a>
+            </div>
+
+            <a class="listui seemore" href="#"><i class="fa fa-angle-double-up" aria-hidden="true"></i>See Less</a>
+-->
           </div>
           <!--FACETS-->
 
