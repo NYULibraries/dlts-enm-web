@@ -139,9 +139,12 @@ var queryFields = [
                     var qf = this.selectedQueryFields
                             .sort()
                             .join( '%20' ),
-                        highlightFields = qf;
+                        preferredTopicNames = this.selectedTopicFacetItems
+                            .sort()
+                            .join( '$20' ),
+                        highlightFields = qf,
 
-                    return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                        url = 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
@@ -171,6 +174,12 @@ var queryFields = [
                            'rows=' + this.rows +
                            '&' +
                            'wt=json';
+
+                    if ( preferredTopicNames ) {
+                        url += '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:' + preferredTopicNames );
+                    }
+
+                    return url;
                 },
                 searchTags : function() {
                     return [
