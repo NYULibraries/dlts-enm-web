@@ -180,8 +180,13 @@ var queryFields = [
                     return url;
                 },
                 searchDCI: function() {
-                    return 'Searching topics and full texts for: ' +
-                           '"' + this.query + '"';
+                    if ( this.query && this.query !== '' ) {
+                        return 'Searching topics and full texts for: ' +
+                               '"' + this.query + '"';
+                    } else {
+                        return null;
+                    }
+
                 },
                 topicFacetItemsAlwaysVisible : function() {
                     return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );

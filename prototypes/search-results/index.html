@@ -151,7 +151,8 @@
         <div class="column is-2">&nbsp;
         </div>
         <div class="column">
-          <span class="tag">
+          <span class="tag"
+                v-if="searchDCI">
             {{ searchDCI }}
             <button class="delete is-small"
                     id="search-dci"
