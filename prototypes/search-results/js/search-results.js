@@ -222,7 +222,9 @@ var queryFields = [
                     }
                 },
                 clickDeleteSearchDCI: function( event ) {
-                    alert( 'User clicked delete button of search DCI' );
+                    this.query = '';
+
+                    this.sendSearchQuery();
                 },
                 clickDeleteTopicDCI: function( event ) {
                     // Delete element from array code based on:
