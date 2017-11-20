@@ -206,6 +206,16 @@ var queryFields = [
                 clearTopicFilters: function() {
                     this.selectedTopicFacetItems = [];
                 },
+                clickAllFieldsCheckbox : function() {
+                    if ( this.selectAllQueryFields ) {
+                        this.selectedQueryFields =
+                            queryFields.map(
+                                function( queryField ) {
+                                    return queryField.value;
+                                }
+                            )
+                    }
+                },
                 clickDeleteDCI: function( event ) {
                     alert( 'Delete ' + event.currentTarget.id );
                 },
@@ -218,16 +228,6 @@ var queryFields = [
                 clickFieldCheckbox     : function( checked ) {
                     if ( ! checked ) {
                         this.selectAllQueryFields = false;
-                    }
-                },
-                clickAllFieldsCheckbox : function() {
-                    if ( this.selectAllQueryFields ) {
-                        this.selectedQueryFields =
-                            queryFields.map(
-                                function( queryField ) {
-                                    return queryField.value;
-                                }
-                            )
                     }
                 },
                 clickTopicFacetItem: function( event ) {
