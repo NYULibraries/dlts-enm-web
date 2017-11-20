@@ -151,14 +151,19 @@
         <div class="column is-2">&nbsp;
         </div>
         <div class="column">
-          <span class="tag" id="search-dci">
+          <span class="tag">
             {{ searchDCI }}
-            <button class="delete is-small"></button>
+            <button class="delete is-small"
+                    id="search-dci"
+                    v-on:click="clickDeleteDCI"></button>
           </span>
 
-          <span class="tag" v-for="topicDCI in topicDCIs">
+          <span class="tag"
+                v-for="topicDCI in topicDCIs">
             Topic:&nbsp;<span class="enm-topic">{{ topicDCI.topic }}<span>
-            <button class="delete is-small"></button>
+            <button class="delete is-small"
+                    v-bind:id="topicDCI.id"
+                    v-on:click="clickDeleteDCI"></button>
           </span>
         </div>
       </div>

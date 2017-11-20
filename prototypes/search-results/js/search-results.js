@@ -206,6 +206,9 @@ var queryFields = [
                 clearTopicFilters: function() {
                     this.selectedTopicFacetItems = [];
                 },
+                clickDeleteDCI: function( event ) {
+                    alert( 'Delete ' + event.currentTarget.id );
+                },
                 // Check all checkboxes functionality loosely based on the accepted answer for
                 // https://stackoverflow.com/questions/33571382/check-all-checkboxes-vuejs
                 // ...which points to JSFiddle
