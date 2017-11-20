@@ -198,6 +198,9 @@ var queryFields = [
                 }
             },
             methods: {
+                clearTopicFilters: function() {
+                    this.selectedTopicFacetItems = [];
+                },
                 // Check all checkboxes functionality loosely based on the accepted answer for
                 // https://stackoverflow.com/questions/33571382/check-all-checkboxes-vuejs
                 // ...which points to JSFiddle
@@ -434,6 +437,10 @@ var queryFields = [
                             that.displayResultsPane = false;
                             that.displayPreviewPane = false;
                         } );
+                },
+                submitSearchForm: function() {
+                    this.clearTopicFilters();
+                    this.sendSearchQuery();
                 }
             },
             mounted: function() {
