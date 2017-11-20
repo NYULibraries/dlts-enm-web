@@ -177,11 +177,14 @@ var queryFields = [
                            '"' + this.query + '"'
                     ];
                 },
-                topicFacetItems: function() {
+                topicFacetItemsAlwaysVisible : function() {
+                    return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
+                },
+                topicFacetItemsToggleable : function() {
                     if ( this.facetPane.showAllTopics ) {
-                        return this.facetPane.topicsFacetList;
+                        return this.facetPane.topicsFacetList.slice( this.facetPane.topicsFacetListLimit );
                     } else {
-                        return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
+                        return [];
                     }
                 }
             },
