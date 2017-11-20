@@ -448,11 +448,14 @@ var queryFields = [
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
                             that.displaySpinner = false;
-                            that.displayFacetPane = true;
-                            that.displayResultsPane = true;
-                            that.displayPreviewPane = true;
 
-                            that.updateBarChart = true;
+                            if ( that.results.length > 0 ) {
+                                that.displayFacetPane = true;
+                                that.displayResultsPane = true;
+                                that.displayPreviewPane = true;
+
+                                that.updateBarChart = true;
+                            }
                         } )
                         .catch( function( error ) {
                             that.results = error;
