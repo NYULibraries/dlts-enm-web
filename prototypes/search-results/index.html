@@ -182,14 +182,13 @@
             <div class="enm-facets-list">
               <div class="enm-topics enm-facets-group-visible">
 
-                <template v-for="topic in topicFacetItemsAlwaysVisible">
-                  <a href="#"
-                     v-on:click="clickTopicFacetItem"
-                     v-bind:id="topic.name">
-                    {{ topic.name }}
-                    <span class="enm-hitcount">({{ topic.numHits }})</span>
-                  </a>
-                </template>
+                <a href="#"
+                   v-for="topic in topicFacetItemsAlwaysVisible"
+                   v-on:click="clickTopicFacetItem"
+                   v-bind:id="topic.name">
+                  {{ topic.name }}
+                  <span class="enm-hitcount">({{ topic.numHits }})</span>
+                </a>
 
               </div>
 
@@ -201,19 +200,18 @@
                 <i class="fa fa-angle-double-down" aria-hidden="true"></i>See All
               </a>
 
-              <div class="enm-topics enm-facets-group-togglable">
-
-                <template v-show="( facetPane.showAllTopics )
+              <div class="enm-topics enm-facets-group-togglable"
+                   v-show="( facetPane.showAllTopics )
                           &&
-                          ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
-                          v-for="topic in topicFacetItemsToggleable">
-                  <a href="#"
-                     v-on:click="clickTopicFacetItem"
-                     v-bind:id="topic.name">
-                    {{ topic.name }}
-                    <span class="enm-hitcount">({{ topic.numHits }})</span>
-                  </a>
-                </template>
+                          ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )">
+
+                <a href="#"
+                   v-for="topic in topicFacetItemsToggleable"
+                   v-on:click="clickTopicFacetItem"
+                   v-bind:id="topic.name">
+                  {{ topic.name }}
+                  <span class="enm-hitcount">({{ topic.numHits }})</span>
+                </a>
 
               </div>
 
