@@ -179,11 +179,9 @@ var queryFields = [
 
                     return url;
                 },
-                searchDCIs: function() {
-                    return [
-                        'Searching topics and full texts for: ' +
-                           '"' + this.query + '"'
-                    ];
+                searchDCI: function() {
+                    return 'Searching topics and full texts for: ' +
+                           '"' + this.query + '"';
                 },
                 topicFacetItemsAlwaysVisible : function() {
                     return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
