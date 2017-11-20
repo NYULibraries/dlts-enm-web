@@ -194,6 +194,10 @@ var queryFields = [
                     } else {
                         return [];
                     }
+                },
+                topicTags: function() {
+                    // For now, just return the topics straight.
+                    return this.selectedTopicFacetItems;
                 }
             },
             methods: {
