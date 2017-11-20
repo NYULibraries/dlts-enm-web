@@ -220,7 +220,15 @@ var queryFields = [
                     alert( 'User clicked delete button of search DCI' );
                 },
                 clickDeleteTopicDCI: function( event ) {
-                    alert( 'Delete ' + event.currentTarget.id );
+                    // Delete element from array code based on:
+                    // https://blog.mariusschulz.com/2016/07/16/removing-elements-from-javascript-arrays
+                    const index = this.selectedTopicFacetItems.indexOf( event.currentTarget.id );
+
+                    if ( index !== -1 ) {
+                        this.selectedTopicFacetItems.splice( index, 1 );
+                    }
+
+                    this.sendSearchQuery();
                 },
                 // Check all checkboxes functionality loosely based on the accepted answer for
                 // https://stackoverflow.com/questions/33571382/check-all-checkboxes-vuejs
