@@ -450,7 +450,8 @@ var queryFields = [
                         } );
                 },
                 submitSearchForm: function() {
-                    this.clearTopicFilters();
+                    // TODO: probably will need to re-enable this
+                    // this.clearTopicFilters();
                     this.sendSearchQuery();
                 }
             },
