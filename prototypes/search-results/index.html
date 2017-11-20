@@ -174,14 +174,15 @@
               {{ topic }}
               </a>
 
-            </div>
-
-            <a v-show="( ! facetPane.showAllTopics )
+              <a v-show="( ! facetPane.showAllTopics )
                        &&
                       ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
-               v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
-              See more...
-            </a>
+                 v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+                See more...
+              </a>
+
+            </div>
+
           </div>
           <!--FACETS-->
 
