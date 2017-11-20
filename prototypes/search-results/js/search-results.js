@@ -47,6 +47,7 @@ var queryFields = [
                 rows                     : 1999,
                 selectAllQueryFields     : true,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
+                selectedTopicFacetItems  : [],
                 start                    : null,
                 timeAfterVueUpdated      : null,
                 timeSolrResponseReceived : null,
@@ -209,6 +210,9 @@ var queryFields = [
                                 }
                             )
                     }
+                },
+                clickTopicFacetItem: function( event ) {
+                    alert( 'Clicked ' + event.currentTarget.id );
                 },
                 drawBarChart: function() {
                     clearBarChart();

@@ -170,7 +170,9 @@
             <div class="enm-topics enm-facets-group-visible">
 
               <template v-for="topic in topicFacetItemsAlwaysVisible">
-                <a href="#">
+                <a href="#"
+                   v-on:click="clickTopicFacetItem"
+                   v-bind:id="topic.name">
                   {{ topic.name }}
                   <span class="enm-hitcount">({{ topic.numHits }})</span>
                 </a>
@@ -192,7 +194,9 @@
                         &&
                         ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
                         v-for="topic in topicFacetItemsToggleable">
-                <a href="#">
+                <a href="#"
+                   v-on:click="clickTopicFacetItem"
+                   v-bind:id="topic.name">
                   {{ topic.name }}
                   <span class="enm-hitcount">({{ topic.numHits }})</span>
                 </a>
