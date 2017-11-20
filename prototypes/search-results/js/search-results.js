@@ -179,7 +179,7 @@ var queryFields = [
 
                     return url;
                 },
-                searchTags : function() {
+                searchDCIs: function() {
                     return [
                         'Searching topics and full texts for: ' +
                            '"' + this.query + '"'
@@ -188,14 +188,14 @@ var queryFields = [
                 topicFacetItemsAlwaysVisible : function() {
                     return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
                 },
-                topicFacetItemsToggleable : function() {
+                topicFacetItemsToggleable    : function() {
                     if ( this.facetPane.showAllTopics ) {
                         return this.facetPane.topicsFacetList.slice( this.facetPane.topicsFacetListLimit );
                     } else {
                         return [];
                     }
                 },
-                topicTags: function() {
+                topicDCIs: function() {
                     // For now, just return the topics straight.
                     return this.selectedTopicFacetItems;
                 }
