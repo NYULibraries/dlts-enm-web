@@ -139,9 +139,6 @@ var queryFields = [
                     var qf = this.selectedQueryFields
                             .sort()
                             .join( '%20' ),
-                        preferredTopicNames = this.selectedTopicFacetItems
-                            .sort()
-                            .join( '$20' ),
 
                         url = 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
@@ -174,8 +171,10 @@ var queryFields = [
                            '&' +
                            'wt=json';
 
-                    if ( preferredTopicNames ) {
-                        url += '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:\"' + preferredTopicNames + '\"');
+                    if ( this.selectedTopicFacetItems ) {
+                        url += this.selectedTopicFacetItems.map( function( selectedTopicFacetItem ) {
+                            return '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:\"' + selectedTopicFacetItem + '\"');
+                        } ).join( '' );
                     }
 
                     return url;
