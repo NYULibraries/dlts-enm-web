@@ -176,7 +176,7 @@ var queryFields = [
                            'wt=json';
 
                     if ( preferredTopicNames ) {
-                        url += '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:' + preferredTopicNames );
+                        url += '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:\"' + preferredTopicNames + '\"');
                     }
 
                     return url;
