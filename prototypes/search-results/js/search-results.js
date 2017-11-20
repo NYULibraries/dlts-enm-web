@@ -196,8 +196,12 @@ var queryFields = [
                     }
                 },
                 topicDCIs: function() {
-                    // For now, just return the topics straight.
-                    return this.selectedTopicFacetItems;
+                    return this.selectedTopicFacetItems.map( function( topic ) {
+                        return {
+                            id: topic,
+                            topic: topic
+                        }
+                    } );
                 }
             },
             methods: {
