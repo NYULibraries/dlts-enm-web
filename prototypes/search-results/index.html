@@ -146,32 +146,32 @@
       </form>
       <!--SEARCH FORM-->
 
+      <div v-cloak>
+
       <!--SEARCH ECHO-->
       <div class="columns enm-searchecho">
         <div class="column is-2">&nbsp;
         </div>
         <div class="column">
-          <span class="tag"
-                v-if="searchDCI">
-            {{ searchDCI }}
-            <button class="delete is-small"
-                    id="search-dci"
-                    v-on:click="clickDeleteSearchDCI"></button>
-          </span>
+        <span class="tag"
+              v-if="searchDCI">
+          {{ searchDCI }}
+          <button class="delete is-small"
+                  id="search-dci"
+                  v-on:click="clickDeleteSearchDCI"></button>
+        </span>
 
           <span class="tag"
                 v-for="topicDCI in topicDCIs">
-            Topic:&nbsp;<span class="enm-topic">{{ topicDCI.topic }}<span>
-            <button class="delete is-small"
-                    v-bind:id="topicDCI.id"
-                    v-on:click="clickDeleteTopicDCI"></button>
-          </span>
+          Topic:&nbsp;<span class="enm-topic">{{ topicDCI.topic }}<span>
+          <button class="delete is-small"
+                  v-bind:id="topicDCI.id"
+                  v-on:click="clickDeleteTopicDCI"></button>
+        </span>
         </div>
       </div>
       <hr class="enm-hr">
       <!--SEARCH ECHO-->
-
-      <div v-cloak>
 
       <div class="columns enm-panes">
         <div class="column enm-pane enm-pane-facets is-2">
