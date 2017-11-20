@@ -27,7 +27,7 @@ var queryFields = [
                 facetPane : {
                     showAllTopics        : false,
                     topicsFacetList      : [],
-                    topicsFacetListLimit : 100
+                    topicsFacetListLimit : 15
                 },
 
                 numBooks                 : null,
