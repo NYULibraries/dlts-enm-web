@@ -166,51 +166,56 @@
         <div class="column enm-pane enm-pane-facets is-2">
 
           <!--FACETS-->
-          <div class="enm-facets-list">
-            <div class="enm-topics enm-facets-group-visible">
+          <div class="content" v-show="displayFacetPane">
+            <h2 class="enm-pane-heading is-size-5">Limit by Topic</h2>
 
-              <template v-for="topic in topicFacetItemsAlwaysVisible">
-                <a href="#"
-                   v-on:click="clickTopicFacetItem"
-                   v-bind:id="topic.name">
-                  {{ topic.name }}
-                  <span class="enm-hitcount">({{ topic.numHits }})</span>
-                </a>
-              </template>
+            <div class="enm-facets-list">
+              <div class="enm-topics enm-facets-group-visible">
 
-            </div>
+                <template v-for="topic in topicFacetItemsAlwaysVisible">
+                  <a href="#"
+                     v-on:click="clickTopicFacetItem"
+                     v-bind:id="topic.name">
+                    {{ topic.name }}
+                    <span class="enm-hitcount">({{ topic.numHits }})</span>
+                  </a>
+                </template>
 
-            <a class="listui seemore" href="#"
-               v-show="( ! facetPane.showAllTopics )
-                       &&
-                      ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
-               v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
-              <i class="fa fa-angle-double-down" aria-hidden="true"></i>See All
-            </a>
+              </div>
 
-            <div class="enm-topics enm-facets-group-togglable">
-
-              <template v-show="( facetPane.showAllTopics )
-                        &&
+              <a class="listui seemore" href="#"
+                 v-show="( ! facetPane.showAllTopics )
+                         &&
                         ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
-                        v-for="topic in topicFacetItemsToggleable">
-                <a href="#"
-                   v-on:click="clickTopicFacetItem"
-                   v-bind:id="topic.name">
-                  {{ topic.name }}
-                  <span class="enm-hitcount">({{ topic.numHits }})</span>
-                </a>
-              </template>
+                 v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>See All
+              </a>
+
+              <div class="enm-topics enm-facets-group-togglable">
+
+                <template v-show="( facetPane.showAllTopics )
+                          &&
+                          ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
+                          v-for="topic in topicFacetItemsToggleable">
+                  <a href="#"
+                     v-on:click="clickTopicFacetItem"
+                     v-bind:id="topic.name">
+                    {{ topic.name }}
+                    <span class="enm-hitcount">({{ topic.numHits }})</span>
+                  </a>
+                </template>
+
+              </div>
+
+              <a class="listui seemore" href="#"
+                 v-show="( facetPane.showAllTopics )
+                         &&
+                        ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
+                 v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>See Less
+              </a>
 
             </div>
-
-            <a class="listui seemore" href="#"
-               v-show="( facetPane.showAllTopics )
-                       &&
-                      ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
-               v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
-              <i class="fa fa-angle-double-up" aria-hidden="true"></i>See Less
-            </a>
 
           </div>
           <!--FACETS-->
