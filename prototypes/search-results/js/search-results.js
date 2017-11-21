@@ -254,6 +254,13 @@ var queryFields = [
 
                     this.sendSearchQuery();
                 },
+                clickEpubPage: function( pageIndex ) {
+                    var pageNameForDisplay = this.barChartDataMatchedPages[ pageIndex ].page;
+
+                    d3.select( 'rect[ name = "' + pageNameForDisplay + '" ]' )
+                        .dispatch( 'click' );
+
+                },
                 // Check all checkboxes functionality loosely based on the accepted answer for
                 // https://stackoverflow.com/questions/33571382/check-all-checkboxes-vuejs
                 // ...which points to JSFiddle
@@ -347,8 +354,7 @@ var queryFields = [
 
                             that.drawBarChart();
 
-                            d3.select( 'rect[ name = "' + that.epubFirstPage + '" ]' )
-                                .dispatch( 'click' );
+                            that.clickEpubPage( 0 );
 
                             that.qTime = getQTimeDisplay( response );
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
