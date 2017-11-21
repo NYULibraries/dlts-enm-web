@@ -468,8 +468,7 @@ var queryFields = [
                         } );
                 },
                 submitSearchForm: function() {
-                    // TODO: probably will need to re-enable this
-                    // this.clearTopicFilters();
+                    this.clearTopicFilters();
                     this.sendSearchQuery();
                 }
             },
