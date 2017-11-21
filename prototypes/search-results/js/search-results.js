@@ -277,9 +277,9 @@ var queryFields = [
 
                     axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
-                            docs = response.data.response.docs;
-                            epubNumberOfPages = docs[ 0 ].epubNumberOfPages;
-                            lastPageSequenceNumber = 0;
+                            docs                          = response.data.response.docs;
+                            epubNumberOfPages             = docs[ 0 ].epubNumberOfPages;
+                            placeholderPageSequenceNumber = 0;
 
                             that.barChartDataAllPages = [];
                             that.barChartDataMatchedPages = [];
@@ -288,7 +288,7 @@ var queryFields = [
                             docs.forEach( function( doc ) {
                                 var currentPageSequenceNumber = doc.pageSequenceNumber;
 
-                                for ( i = lastPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
+                                for ( i = placeholderPageSequenceNumber + 1; i < currentPageSequenceNumber; i++ ) {
                                     // Can't start barChartDataAllPages at element index 1 because an
                                     // that would leave element 0 undefined, which causes
                                     // d3.max() call in _drawChart() to fail when
@@ -314,10 +314,10 @@ var queryFields = [
                                     }
                                 );
 
-                                lastPageSequenceNumber = currentPageSequenceNumber;
+                                placeholderPageSequenceNumber = currentPageSequenceNumber;
                             } );
 
-                            for ( i = lastPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
+                            for ( i = placeholderPageSequenceNumber + 1; i <= epubNumberOfPages; i++ ) {
                                 that.barChartDataAllPages[ i - 1 ] = {
                                     page  : '[USER SHOULD NEVER SEE THIS (' + i + ')]',
                                     score : 0
