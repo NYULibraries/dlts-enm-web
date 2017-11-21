@@ -332,6 +332,9 @@ var queryFields = [
 
                             that.drawBarChart();
 
+                            d3.select( 'rect[ name = "' + that.previewPane.epubFirstPage + '" ]' )
+                                .dispatch( 'click' );
+
                             that.qTime = getQTimeDisplay( response );
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
