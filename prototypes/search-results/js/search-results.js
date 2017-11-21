@@ -34,8 +34,6 @@ var queryFields = [
                 numBooks                 : null,
                 numPages                 : null,
                 previewPane              : {
-                    epubFirstPage: null,
-                    epubLastPage: null,
                     epubIsbn: null,
                     epubPageNumber: null,
                     epubTitle: null,
@@ -59,6 +57,22 @@ var queryFields = [
                 updatePagePreview        : false
             },
             computed: {
+                epubFirstPage: function() {
+                    if ( this.barChartDataMatchedPages ) {
+                        return this.barChartDataMatchedPages[ 0 ].page;
+                    } else {
+                        return null;
+                    }
+                },
+                epubLastPage: function() {
+                    if ( this.barChartDataMatchedPages ) {
+                        return this.barChartDataMatchedPages[
+                            this.barChartDataMatchedPages.length - 1
+                            ].page;
+                    } else {
+                        return null;
+                    }
+                },
                 numBooksFormatted : function() {
                     return this.numBooks ? this.numBooks.toLocaleString() : '';
                 },
@@ -288,9 +302,6 @@ var queryFields = [
                             epubNumberOfPages             = docs[ 0 ].epubNumberOfPages;
                             placeholderPageSequenceNumber = 0;
 
-                            that.previewPane.epubFirstPage = docs[ 0 ].pageNumberForDisplay;
-                            that.previewPane.epubLastPage = docs[ docs.length - 1 ].pageNumberForDisplay;
-
                             that.barChartDataAllPages = [];
                             that.barChartDataMatchedPages = [];
 
@@ -336,7 +347,7 @@ var queryFields = [
 
                             that.drawBarChart();
 
-                            d3.select( 'rect[ name = "' + that.previewPane.epubFirstPage + '" ]' )
+                            d3.select( 'rect[ name = "' + that.epubFirstPage + '" ]' )
                                 .dispatch( 'click' );
 
                             that.qTime = getQTimeDisplay( response );
