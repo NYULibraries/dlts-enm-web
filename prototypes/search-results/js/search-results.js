@@ -269,6 +269,10 @@ var queryFields = [
                         } );
                     }
                 },
+                loadFirstEpub: function() {
+                    document.getElementById( this.previewPane.firstEpubInResults )
+                        .click();
+                },
                 previewEpub            : function( event ) {
                     var start = new Date(),
                         that = this;

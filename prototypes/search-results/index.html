@@ -303,7 +303,7 @@
           <div id="message" class="message is-valign is-centered" v-show="! previewPane.epubIsbn">
             <p class="message-body has-text-centered">Choose a book at left to view matched pages, or
               <br>
-              <a href="#">Load the first matched page</a>
+              <a href="#" v-on:click="loadFirstEpub">Load the first matched page</a>
             </p>
           </div>
           <!--PREVIEW: NO EPUB SELECTED-->
