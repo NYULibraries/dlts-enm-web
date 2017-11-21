@@ -199,7 +199,7 @@ var queryFields = [
                 },
                 searchDCI: function() {
                     if ( this.query && this.query !== '' ) {
-                        return 'Searching topics and full texts for: ' + this.query;
+                        return 'Searching for: ' + this.query;
                     } else {
                         return null;
                     }
