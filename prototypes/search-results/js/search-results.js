@@ -39,6 +39,7 @@ var queryFields = [
                     epubIsbn: null,
                     epubPageNumber: null,
                     epubTitle: null,
+                    firstEpubInResults: null,
                     pageText : null,
                     topicsOnPage: []
                 },
@@ -456,6 +457,8 @@ var queryFields = [
                             that.displaySpinner = false;
 
                             if ( that.results.length > 0 ) {
+                                that.previewPane.firstEpubInResults = that.results[ 0 ].groupValue;
+
                                 that.displayFacetPane = true;
                                 that.displayResultsPane = true;
                                 that.displayPreviewPane = true;
