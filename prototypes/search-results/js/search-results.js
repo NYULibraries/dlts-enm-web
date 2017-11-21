@@ -21,6 +21,7 @@ var queryFields = [
                 displayFacetPane         : false,
                 displayResultsPane       : false,
                 displayPreviewPane       : false,
+                displaySearchDCI         : false,
                 displaySpinner           : false,
                 epubDropdownOptions      : [],
 
@@ -388,6 +389,7 @@ var queryFields = [
                         // Can't use `this` for then or catch, as it is bound to Window object
                         that = this;
 
+                    this.displaySearchDCI = true;
                     this.displaySpinner = true;
                     this.displayFacetPane = false;
                     this.displayResultsPane = false;
@@ -488,6 +490,9 @@ var queryFields = [
             watch: {
                 barChartShowAllPages: function( newBarChartShowAllPagesValue ) {
                     this.drawBarChart();
+                },
+                searchDCI: function( newSearchDCI ) {
+                    this.displaySearchDCI = false;
                 }
             },
             updated: function() {
