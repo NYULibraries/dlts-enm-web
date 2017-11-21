@@ -34,6 +34,8 @@ var queryFields = [
                 numBooks                 : null,
                 numPages                 : null,
                 previewPane              : {
+                    epubFirstPage: null,
+                    epubLastPage: null,
                     epubIsbn: null,
                     epubPageNumber: null,
                     epubTitle: null,
@@ -280,6 +282,9 @@ var queryFields = [
                             docs                          = response.data.response.docs;
                             epubNumberOfPages             = docs[ 0 ].epubNumberOfPages;
                             placeholderPageSequenceNumber = 0;
+
+                            that.previewPane.epubFirstPage = docs[ 0 ].pageNumberForDisplay;
+                            that.previewPane.epubLastPage = docs[ docs.length - 1 ].pageNumberForDisplay;
 
                             that.barChartDataAllPages = [];
                             that.barChartDataMatchedPages = [];
