@@ -36,6 +36,8 @@ var queryFields = [
                 previewPane              : {
                     firstEpubInResults: null,
                     isbn: null,
+                    matchedPagesIndex: {},
+                    pageIndex: null,
                     pageNumberForDisplay: null,
                     pageText : null,
                     title: null,
@@ -259,6 +261,20 @@ var queryFields = [
                         this.selectAllQueryFields = false;
                     }
                 },
+                clickNext: function() {
+                    if ( this.previewPane.pageIndex === this.barChartDataMatchedPages.length - 1 ) {
+                        return;
+                    }
+
+                    this.triggerClickPage( this.previewPane.pageIndex + 1 );
+                },
+                clickPrevious: function() {
+                    if ( this.previewPane.pageIndex === 0 ) {
+                        return;
+                    }
+
+                    this.triggerClickPage( this.previewPane.pageIndex - 1 );
+                },
                 clickTopicFacetItem: function( event ) {
                     this.selectedTopicFacetItems.push( event.currentTarget.id );
                     this.sendSearchQuery();
@@ -338,6 +354,10 @@ var queryFields = [
                                     score : 0
                                 };
                             }
+
+                            that.barChartDataMatchedPages.forEach( function( matchedPage, index ) {
+                                that.previewPane.matchedPagesIndex[ matchedPage.page ] = index;
+                            } );
 
                             that.drawBarChart();
 
@@ -538,6 +558,9 @@ var queryFields = [
                         .classed( 'enm-page-active', false );
                     d3.select('rect[ name = "' + newPageNumberForDisplay + '" ]')
                         .classed( 'enm-page-active', true );
+
+                    this.previewPane.pageIndex =
+                        this.previewPane.matchedPagesIndex[ this.previewPane.pageNumberForDisplay ];
                 },
                 searchDCI: function( newSearchDCI ) {
                     this.displaySearchDCI = false;
