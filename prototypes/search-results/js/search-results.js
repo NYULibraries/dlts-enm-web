@@ -376,10 +376,19 @@ var queryFields = [
                                 that.previewPane.pageText = doc.pageText;
                             }
 
+                            // TODO: Implement alternate names
                             if ( highlights.topicNames ) {
-                                that.previewPane.topicsOnPage = highlights.topicNames;
+                                that.previewPane.topicsOnPage = highlights.topicNames.map(
+                                    function( topicName ) {
+                                        return topicName + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED)</span>';
+                                    }
+                                );
                             } else {
-                                that.previewPane.topicsOnPage = doc.topicNames_facet;
+                                that.previewPane.topicsOnPage = doc.topicNames_facet.map(
+                                    function( topicName_facet ) {
+                                        return topicName_facet + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED)</span>';
+                                    }
+                                );
                             }
 
                             that.qTime = getQTimeDisplay( response );
