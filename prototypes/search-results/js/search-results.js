@@ -381,13 +381,13 @@ var queryFields = [
                             if ( highlights.topicNames ) {
                                 that.previewPane.topicsOnPage = highlights.topicNames.map(
                                     function( topicName ) {
-                                        return topicName + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED)</span>';
+                                        return topicName + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED])</span>';
                                     }
                                 );
                             } else if ( doc.topicNames_facet ) {
                                 that.previewPane.topicsOnPage = doc.topicNames_facet.map(
                                     function( topicName_facet ) {
-                                        return topicName_facet + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED)</span>';
+                                        return topicName_facet + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED])</span>';
                                     }
                                 );
                             } else {
