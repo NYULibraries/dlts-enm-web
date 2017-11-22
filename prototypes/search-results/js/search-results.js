@@ -624,6 +624,7 @@ function _drawBarChart( data, options ) {
         .attr( 'height', function ( d ) {
             return height - y( d.score );
         } )
+        .attr( 'stroke', 'black' )
         .on( 'click', options.pageClickCallback )
         .on( 'mouseover', tip.show )
         .on( 'mouseout', tip.hide );
