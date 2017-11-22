@@ -238,8 +238,14 @@ var queryFields = [
 
                     this.sendSearchQuery();
                 },
-                clickEpubPage: function( pageIndex ) {
-                    var pageNameForDisplay = this.barChartDataMatchedPages[ pageIndex ].page;
+                clickEpubPage: function( page ) {
+                    var pageNameForDisplay;
+
+                    if ( typeof page === 'string' ) {
+                        pageNameForDisplay = page;
+                    } else if ( typeof page === 'number' ) {
+                        pageNameForDisplay = this.barChartDataMatchedPages[ page ].page;
+                    }
 
                     d3.select( 'rect[ name = "' + pageNameForDisplay + '" ]' )
                         .dispatch( 'click' );
