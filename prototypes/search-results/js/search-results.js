@@ -238,19 +238,6 @@ var queryFields = [
 
                     this.sendSearchQuery();
                 },
-                clickEpubPage: function( page ) {
-                    var pageNameForDisplay;
-
-                    if ( typeof page === 'string' ) {
-                        pageNameForDisplay = page;
-                    } else if ( typeof page === 'number' ) {
-                        pageNameForDisplay = this.barChartDataMatchedPages[ page ].page;
-                    }
-
-                    d3.select( 'rect[ name = "' + pageNameForDisplay + '" ]' )
-                        .dispatch( 'click' );
-
-                },
                 // Check all checkboxes functionality loosely based on the accepted answer for
                 // https://stackoverflow.com/questions/33571382/check-all-checkboxes-vuejs
                 // ...which points to JSFiddle
@@ -344,7 +331,7 @@ var queryFields = [
 
                             that.drawBarChart();
 
-                            that.clickEpubPage( 0 );
+                            that.triggerClickPage( 0 );
 
                             that.qTime = getQTimeDisplay( response );
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
@@ -502,6 +489,19 @@ var queryFields = [
                 submitSearchForm: function() {
                     this.clearTopicFilters();
                     this.sendSearchQuery();
+                },
+                triggerClickPage: function(page ) {
+                    var pageNameForDisplay;
+
+                    if ( typeof page === 'string' ) {
+                        pageNameForDisplay = page;
+                    } else if ( typeof page === 'number' ) {
+                        pageNameForDisplay = this.barChartDataMatchedPages[ page ].page;
+                    }
+
+                    d3.select( 'rect[ name = "' + pageNameForDisplay + '" ]' )
+                        .dispatch( 'click' );
+
                 }
             },
             mounted: function() {
