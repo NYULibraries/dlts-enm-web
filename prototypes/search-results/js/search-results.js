@@ -209,6 +209,16 @@ var queryFields = [
                 }
             },
             methods: {
+                clearPreviewPaneData: function() {
+                    this.previewPane.firstEpubInResults = null;
+                    this.previewPane.isbn = null;
+                    this.previewPane.matchedPagesIndex = {};
+                    this.previewPane.index = null;
+                    this.previewPane.pageNumberForDisplay = null;
+                    this.previewPane.pageText  = null;
+                    this.previewPane.title = null;
+                    this.previewPane.topicsOnPage = []
+                },
                 clearTopicFilters: function() {
                     this.selectedTopicFacetItems = [];
                 },
@@ -487,6 +497,7 @@ var queryFields = [
                         } );
                 },
                 submitSearchForm: function() {
+                    this.clearPreviewPaneData();
                     this.clearTopicFilters();
                     this.sendSearchQuery();
                 },
