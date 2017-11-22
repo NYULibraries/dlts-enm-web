@@ -59,22 +59,6 @@ var queryFields = [
                 updatePagePreview        : false
             },
             computed: {
-                epubFirstPage: function() {
-                    if ( this.barChartDataMatchedPages ) {
-                        return this.barChartDataMatchedPages[ 0 ].page;
-                    } else {
-                        return null;
-                    }
-                },
-                epubLastPage: function() {
-                    if ( this.barChartDataMatchedPages ) {
-                        return this.barChartDataMatchedPages[
-                            this.barChartDataMatchedPages.length - 1
-                            ].page;
-                    } else {
-                        return null;
-                    }
-                },
                 numBooksFormatted : function() {
                     return this.numBooks ? this.numBooks.toLocaleString() : '';
                 },
