@@ -106,8 +106,7 @@ var queryFields = [
                 previewEpubPageSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
-                            .join( '%20' ),
-                        highlightFields = qf;
+                            .join( '%20' );
 
                     return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
@@ -118,7 +117,7 @@ var queryFields = [
                            '&' +
                            'rows=1' +
                            '&' +
-                           'hl.fl=' + highlightFields +
+                           'hl.fl=' + qf +
                            '&' +
                            'hl.fragsize=0' +
                            '&' +
