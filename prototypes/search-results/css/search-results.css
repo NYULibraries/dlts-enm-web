@@ -4,3 +4,7 @@
     max-height: 64px;
     width: auto !important;
 }
+
+.enm-page-active {
+    fill: lightgrey;
+}
