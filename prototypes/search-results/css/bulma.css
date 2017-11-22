@@ -10571,69 +10571,78 @@ label.panel-block:hover {
   padding: 3rem 1.5rem 6rem;
 }
 
-/* line 23, ../sass/_enm.scss */
+/* line 29, ../sass/_enm.scss */
 hr {
   background-color: #dddddd;
 }
-/* line 25, ../sass/_enm.scss */
+/* line 31, ../sass/_enm.scss */
 hr.enm-hr {
   margin: 0;
 }
 
-/* line 30, ../sass/_enm.scss */
+/* line 36, ../sass/_enm.scss */
 .enm-logo {
   font-size: 1.2rem;
   font-weight: bold;
   text-transform: uppercase;
   padding-right: 50px;
 }
-/* line 35, ../sass/_enm.scss */
+/* line 41, ../sass/_enm.scss */
 .enm-logo a:link,
 .enm-logo a:hover,
 .enm-logo a:visited {
   color: #4a4a4a;
 }
 @media screen and (max-width: 499px) {
-  /* line 30, ../sass/_enm.scss */
+  /* line 36, ../sass/_enm.scss */
   .enm-logo {
     font-size: .9rem;
     flex-shrink: 1;
   }
 }
 
-/* line 48, ../sass/_enm.scss */
+/* line 52, ../sass/_enm.scss */
 .enm-topnav {
   box-shadow: 0 4px 2px -2px #dddddd;
 }
+/* line 54, ../sass/_enm.scss */
+.enm-topnav nav {
+  background-color: transparent;
+}
 
-/* line 53, ../sass/_enm.scss */
+/* line 60, ../sass/_enm.scss */
 main.enm-searchpage {
   padding: 3rem 1.5rem 0;
 }
-/* line 55, ../sass/_enm.scss */
+/* line 62, ../sass/_enm.scss */
 main.enm-searchpage form {
   border-bottom: 1px solid #dddddd;
 }
 
-/* line 63, ../sass/_enm.scss */
+/* line 70, ../sass/_enm.scss */
 .columns.enm-searchecho {
   padding-top: .75rem;
   margin-bottom: 0;
 }
-/* line 66, ../sass/_enm.scss */
+/* line 73, ../sass/_enm.scss */
+.columns.enm-searchecho .column {
+  padding-bottom: 0;
+}
+/* line 76, ../sass/_enm.scss */
 .columns.enm-searchecho .delete {
   margin-left: .4em;
   margin-right: -3px;
 }
-/* line 70, ../sass/_enm.scss */
-.columns.enm-searchecho .tag:not(:first-child) {
-  margin-left: 8px;
+/* line 80, ../sass/_enm.scss */
+.columns.enm-searchecho .tag:not(:last-child) {
+  margin-right: 8px;
 }
-/* line 74, ../sass/_enm.scss */
+/* line 84, ../sass/_enm.scss */
 .columns.enm-searchecho .tag:not(body) {
-  font-size: .85rem;
+  font-size: .9rem;
+  margin-bottom: 8px;
 }
-/* line 78, ../sass/_enm.scss */
+/* line 88, ../sass/_enm.scss */
 .columns.enm-searchecho .tag:not(body) .enm-topic {
   margin-left: .3rem;
   text-transform: uppercase;
@@ -10644,56 +10653,64 @@ main.enm-searchpage form {
 .columns.enm-searchecho .tag:not(body) .enm-topic:link, .columns.enm-searchecho .tag:not(body) .enm-topic:visited {
   color: teal !important;
 }
-/* line 11, ../sass/_enm.scss */
+/* line 12, ../sass/_enm.scss */
+.columns.enm-searchecho .tag:not(body) .enm-topic[href]:hover {
+  text-decoration: underline;
+  color: #00d4d4 !important;
+  text-decoration: none;
+}
+/* line 16, ../sass/_enm.scss */
+.columns.enm-searchecho .tag:not(body) .enm-topic[href]:hover .enm-hitcount {
+  color: #000;
+}
+/* line 19, ../sass/_enm.scss */
+.columns.enm-searchecho .tag:not(body) .enm-topic[href]:hover .enm-alt-names {
+  color: #222;
+}
+/* line 23, ../sass/_enm.scss */
 .columns.enm-searchecho .tag:not(body) .enm-topic .enm-hitcount {
   color: #222;
 }
-/* line 14, ../sass/_enm.scss */
-.columns.enm-searchecho .tag:not(body) .enm-topic:hover {
-  text-decoration: underline;
-  background-color: #eee;
-  text-decoration: none;
-}
 
 /****************************************************************************************************************************************/
-/* line 107, ../sass/_enm.scss */
+/* line 124, ../sass/_enm.scss */
 .enm-panes {
   margin-top: 0;
   margin-bottom: 0 !important;
 }
 
-/* line 112, ../sass/_enm.scss */
+/* line 129, ../sass/_enm.scss */
 .enm-pane {
   height: calc(98vh - 260px);
   overflow-y: scroll;
 }
 
-/* line 117, ../sass/_enm.scss */
+/* line 134, ../sass/_enm.scss */
 .enm-pane-facets {
   padding-top: 30px;
   padding-bottom: 60px;
 }
-/* line 121, ../sass/_enm.scss */
+/* line 138, ../sass/_enm.scss */
 .enm-pane-facets .listui {
   color: black;
   display: block;
   font-size: .85rem;
   padding: 5px 0;
 }
-/* line 126, ../sass/_enm.scss */
+/* line 143, ../sass/_enm.scss */
 .enm-pane-facets .listui i {
   padding-right: 3px;
   display: inline-block;
 }
-/* line 131, ../sass/_enm.scss */
+/* line 148, ../sass/_enm.scss */
 .enm-pane-facets .enm-pane-heading {
   padding-top: .54rem;
 }
-/* line 134, ../sass/_enm.scss */
+/* line 151, ../sass/_enm.scss */
 .enm-pane-facets .content {
   padding-right: 20px;
 }
-/* line 138, ../sass/_enm.scss */
+/* line 155, ../sass/_enm.scss */
 .enm-pane-facets .enm-topics a {
   display: block;
   padding-left: 15px;
@@ -10708,22 +10725,30 @@ main.enm-searchpage form {
 .enm-pane-facets .enm-topics a:link, .enm-pane-facets .enm-topics a:visited {
   color: teal !important;
 }
-/* line 11, ../sass/_enm.scss */
+/* line 12, ../sass/_enm.scss */
+.enm-pane-facets .enm-topics a[href]:hover {
+  text-decoration: underline;
+  color: #00d4d4 !important;
+  text-decoration: none;
+}
+/* line 16, ../sass/_enm.scss */
+.enm-pane-facets .enm-topics a[href]:hover .enm-hitcount {
+  color: #000;
+}
+/* line 19, ../sass/_enm.scss */
+.enm-pane-facets .enm-topics a[href]:hover .enm-alt-names {
+  color: #222;
+}
+/* line 23, ../sass/_enm.scss */
 .enm-pane-facets .enm-topics a .enm-hitcount {
   color: #222;
 }
-/* line 14, ../sass/_enm.scss */
-.enm-pane-facets .enm-topics a:hover {
-  text-decoration: underline;
-  background-color: #eee;
-  text-decoration: none;
-}
 
-/* line 151, ../sass/_enm.scss */
+/* line 168, ../sass/_enm.scss */
 .enm-pane-results {
   padding-top: 30px;
 }
-/* line 153, ../sass/_enm.scss */
+/* line 170, ../sass/_enm.scss */
 .enm-pane-results header {
   margin-bottom: 20px;
 }
@@ -10733,47 +10758,48 @@ main.enm-searchpage form {
   content: " ";
   display: table;
 }
-/* line 157, ../sass/_enm.scss */
+/* line 174, ../sass/_enm.scss */
 .enm-pane-results .enm-thumbnail {
   max-width: 90px;
   height: auto;
 }
-/* line 161, ../sass/_enm.scss */
+/* line 178, ../sass/_enm.scss */
 .enm-pane-results .enm-book {
   font-size: .9rem;
 }
-/* line 163, ../sass/_enm.scss */
+/* line 180, ../sass/_enm.scss */
 .enm-pane-results .enm-book .title {
   font-size: 1.1rem;
   margin-bottom: .3rem;
 }
-/* line 166, ../sass/_enm.scss */
+/* line 183, ../sass/_enm.scss */
 .enm-pane-results .enm-book .title a:link,
 .enm-pane-results .enm-book .title a:hover,
 .enm-pane-results .enm-book .title a:visited {
   color: inherit;
 }
-/* line 172, ../sass/_enm.scss */
+/* line 189, ../sass/_enm.scss */
 .enm-pane-results .enm-book .subtitle {
   font-size: .95rem;
   margin-top: -.2rem;
   margin-bottom: .3rem;
   font-weight: bold;
 }
-/* line 178, ../sass/_enm.scss */
+/* line 195, ../sass/_enm.scss */
 .enm-pane-results .enm-book .meta {
   font-size: .9rem;
   margin-bottom: .4rem;
+  line-height: 1.3;
 }
-/* line 182, ../sass/_enm.scss */
+/* line 200, ../sass/_enm.scss */
 .enm-pane-results .enm-book .matches {
   font-size: .8rem;
 }
-/* line 186, ../sass/_enm.scss */
+/* line 204, ../sass/_enm.scss */
 .enm-pane-results .box {
   position: relative;
 }
-/* line 188, ../sass/_enm.scss */
+/* line 206, ../sass/_enm.scss */
 .enm-pane-results .box a.enm-divlink {
   position: absolute;
   width: 100%;
@@ -10782,51 +10808,57 @@ main.enm-searchpage form {
   left: 0;
   z-index: 1;
 }
-/* line 196, ../sass/_enm.scss */
+/* line 214, ../sass/_enm.scss */
 .enm-pane-results .box:hover {
   background-color: whitesmoke;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.3), 0 0 0 1px rgba(10, 10, 10, 0.3);
 }
 
-/* line 205, ../sass/_enm.scss */
+/* line 223, ../sass/_enm.scss */
 .enm-pane-preview {
   padding: 35px 50px 50px;
   margin-right: .75rem;
 }
-/* line 209, ../sass/_enm.scss */
+/* line 227, ../sass/_enm.scss */
 .enm-pane-preview .title {
   font-size: 1.3rem;
   margin-bottom: .4rem;
 }
-/* line 213, ../sass/_enm.scss */
+/* line 231, ../sass/_enm.scss */
 .enm-pane-preview .subtitle {
   font-size: 1.1rem;
   margin-bottom: .4rem;
 }
-/* line 217, ../sass/_enm.scss */
+/* line 235, ../sass/_enm.scss */
 .enm-pane-preview h5 {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 221, ../sass/_enm.scss */
+/* line 239, ../sass/_enm.scss */
 .enm-pane-preview .enm-pageno {
   float: right;
 }
-/* line 224, ../sass/_enm.scss */
+/* line 242, ../sass/_enm.scss */
 .enm-pane-preview .enm-buttons {
   width: 100%;
 }
-/* line 226, ../sass/_enm.scss */
+/* line 244, ../sass/_enm.scss */
 .enm-pane-preview .enm-buttons > a {
   width: 49%;
 }
-/* line 230, ../sass/_enm.scss */
+/* line 248, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #dddddd;
 }
-/* line 234, ../sass/_enm.scss */
+/* line 252, ../sass/_enm.scss */
+.enm-pane-preview .enm-topicsonthispage h3 {
+  color: #171616;
+  font-size: .9rem;
+  line-height: 2;
+}
+/* line 257, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage a {
   text-transform: uppercase;
   font-family: Georgia;
@@ -10836,60 +10868,51 @@ main.enm-searchpage form {
 .enm-pane-preview .enm-topicsonthispage a:link, .enm-pane-preview .enm-topicsonthispage a:visited {
   color: teal !important;
 }
-/* line 11, ../sass/_enm.scss */
+/* line 12, ../sass/_enm.scss */
+.enm-pane-preview .enm-topicsonthispage a[href]:hover {
+  text-decoration: underline;
+  color: #00d4d4 !important;
+  text-decoration: none;
+}
+/* line 16, ../sass/_enm.scss */
+.enm-pane-preview .enm-topicsonthispage a[href]:hover .enm-hitcount {
+  color: #000;
+}
+/* line 19, ../sass/_enm.scss */
+.enm-pane-preview .enm-topicsonthispage a[href]:hover .enm-alt-names {
+  color: #222;
+}
+/* line 23, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage a .enm-hitcount {
   color: #222;
 }
-/* line 14, ../sass/_enm.scss */
-.enm-pane-preview .enm-topicsonthispage a:hover {
-  text-decoration: underline;
-  background-color: #eee;
-  text-decoration: none;
-}
-/* line 238, ../sass/_enm.scss */
+/* line 261, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage li {
   display: inline;
 }
-/* line 240, ../sass/_enm.scss */
+/* line 263, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage li:not(:last-child) {
   margin-right: 20px;
 }
-/* line 244, ../sass/_enm.scss */
+/* line 267, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage .enm-alt-names {
-  text-transform: uppercase;
-  font-family: Georgia;
-  font-size: .8rem;
   color: #555;
   font-size: .75rem;
 }
-/* line 7, ../sass/_enm.scss */
-.enm-pane-preview .enm-topicsonthispage .enm-alt-names:link, .enm-pane-preview .enm-topicsonthispage .enm-alt-names:visited {
-  color: teal !important;
-}
-/* line 11, ../sass/_enm.scss */
-.enm-pane-preview .enm-topicsonthispage .enm-alt-names .enm-hitcount {
-  color: #222;
-}
-/* line 14, ../sass/_enm.scss */
-.enm-pane-preview .enm-topicsonthispage .enm-alt-names:hover {
-  text-decoration: underline;
-  background-color: #eee;
-  text-decoration: none;
-}
 
-/* line 253, ../sass/_enm.scss */
+/* line 276, ../sass/_enm.scss */
 .enm-searchbox {
   margin-bottom: 35px;
 }
 
-/* line 257, ../sass/_enm.scss */
+/* line 280, ../sass/_enm.scss */
 footer {
   box-shadow: 0 -4px 2px -2px #dddddd;
   position: relative;
   text-align: center;
   font-size: .9rem;
 }
-/* line 262, ../sass/_enm.scss */
+/* line 285, ../sass/_enm.scss */
 footer p {
   padding-top: 5px;
 }
