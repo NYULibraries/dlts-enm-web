@@ -35,7 +35,7 @@ var queryFields = [
                 numPages                 : null,
                 previewPane              : {
                     epubIsbn: null,
-                    epubPageNumber: null,
+                    epubPageNumberForDisplay: null,
                     epubTitle: null,
                     firstEpubInResults: null,
                     pageText : null,
@@ -135,7 +135,7 @@ var queryFields = [
                            '&' +
                            'fq=' + encodeURIComponent( 'isbn:' + this.previewPane.epubIsbn ) +
                            '&' +
-                           'fq=' + encodeURIComponent( 'pageNumberForDisplay:' + this.previewPane.epubPageNumber );
+                           'fq=' + encodeURIComponent( 'pageNumberForDisplay:' + this.previewPane.epubPageNumberForDisplay );
                 },
                 searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
@@ -291,7 +291,7 @@ var queryFields = [
                     this.previewPane.epubIsbn = event.currentTarget.id;
                     this.previewPane.epubTitle = event.currentTarget.attributes.name.nodeValue;
 
-                    this.previewPane.epubPageNumber = null;
+                    this.previewPane.epubPageNumberForDisplay = null;
 
                     axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
@@ -361,7 +361,7 @@ var queryFields = [
                     var start = new Date(),
                         that = this;
 
-                    this.previewPane.epubPageNumber = event.page;
+                    this.previewPane.epubPageNumberForDisplay = event.page;
 
                     axios.get( this.previewEpubPageSolrQueryUrl )
                         .then( function( response ) {
@@ -422,7 +422,7 @@ var queryFields = [
 
                     this.facetPane.showAllTopics = false;
 
-                    this.previewPane.epubPageNumber = null;
+                    this.previewPane.epubPageNumberForDisplay = null;
                     this.previewPane.epubIsbn = null;
                     this.previewPane.epubTitle = null;
 
