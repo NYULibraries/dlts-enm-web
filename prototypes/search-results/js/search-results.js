@@ -522,6 +522,12 @@ var queryFields = [
                 barChartShowAllPages: function( newBarChartShowAllPagesValue ) {
                     this.drawBarChart();
                 },
+                'previewPane.pageNumberForDisplay': function( newPageNumberForDisplay ) {
+                    d3.select('.enm-page-active')
+                        .classed( 'enm-page-active', false );
+                    d3.select('rect[ name = "' + newPageNumberForDisplay + '" ]')
+                        .classed( 'enm-page-active', true );
+                },
                 searchDCI: function( newSearchDCI ) {
                     this.displaySearchDCI = false;
                 }
