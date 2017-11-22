@@ -490,7 +490,7 @@ var queryFields = [
                     this.clearTopicFilters();
                     this.sendSearchQuery();
                 },
-                triggerClickPage: function(page ) {
+                triggerClickPage: function( page ) {
                     var pageNameForDisplay;
 
                     if ( typeof page === 'string' ) {
