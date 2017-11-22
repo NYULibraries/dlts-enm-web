@@ -34,11 +34,11 @@ var queryFields = [
                 numBooks                 : null,
                 numPages                 : null,
                 previewPane              : {
-                    epubIsbn: null,
-                    epubPageNumberForDisplay: null,
-                    epubTitle: null,
                     firstEpubInResults: null,
+                    isbn: null,
+                    pageNumberForDisplay: null,
                     pageText : null,
+                    title: null,
                     topicsOnPage: []
                 },
                 qTime                    : null,
@@ -101,7 +101,7 @@ var queryFields = [
                             '&' +
                             'qf=' + qf +
                             '&' +
-                            'fq=' + encodeURIComponent( 'isbn_facet:"' + this.previewPane.epubIsbn + '"' );
+                            'fq=' + encodeURIComponent( 'isbn_facet:"' + this.previewPane.isbn + '"' );
                 },
                 previewEpubPageSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
@@ -133,9 +133,9 @@ var queryFields = [
                            '&' +
                            'qf=' + qf +
                            '&' +
-                           'fq=' + encodeURIComponent( 'isbn:' + this.previewPane.epubIsbn ) +
+                           'fq=' + encodeURIComponent( 'isbn:' + this.previewPane.isbn ) +
                            '&' +
-                           'fq=' + encodeURIComponent( 'pageNumberForDisplay:' + this.previewPane.epubPageNumberForDisplay );
+                           'fq=' + encodeURIComponent( 'pageNumberForDisplay:' + this.previewPane.pageNumberForDisplay );
                 },
                 searchSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
@@ -288,10 +288,10 @@ var queryFields = [
                     var start = new Date(),
                         that = this;
 
-                    this.previewPane.epubIsbn = event.currentTarget.id;
-                    this.previewPane.epubTitle = event.currentTarget.attributes.name.nodeValue;
+                    this.previewPane.isbn = event.currentTarget.id;
+                    this.previewPane.title = event.currentTarget.attributes.name.nodeValue;
 
-                    this.previewPane.epubPageNumberForDisplay = null;
+                    this.previewPane.pageNumberForDisplay = null;
 
                     axios.get( this.previewEpubSolrQueryUrl )
                         .then( function( response ) {
@@ -352,7 +352,7 @@ var queryFields = [
                             that.updateBarChart = true;
                         } )
                         .catch( function( error ) {
-                            that.previewPane.epubTitle = error;
+                            that.previewPane.title = error;
 
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
                         } );
@@ -361,7 +361,7 @@ var queryFields = [
                     var start = new Date(),
                         that = this;
 
-                    this.previewPane.epubPageNumberForDisplay = event.page;
+                    this.previewPane.pageNumberForDisplay = event.page;
 
                     axios.get( this.previewEpubPageSolrQueryUrl )
                         .then( function( response ) {
@@ -388,7 +388,7 @@ var queryFields = [
                             that.updatePagePreview = true;
                         } )
                         .catch( function( error ) {
-                            that.previewPane.epubTitle = error;
+                            that.previewPane.title = error;
 
                             that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
                         } );
@@ -422,9 +422,9 @@ var queryFields = [
 
                     this.facetPane.showAllTopics = false;
 
-                    this.previewPane.epubPageNumberForDisplay = null;
-                    this.previewPane.epubIsbn = null;
-                    this.previewPane.epubTitle = null;
+                    this.previewPane.pageNumberForDisplay = null;
+                    this.previewPane.isbn = null;
+                    this.previewPane.title = null;
 
                     clearBarChart();
 
@@ -437,7 +437,7 @@ var queryFields = [
                     // refresh the dropdown.  Likewise simply
                     if ( event.type === 'submit' ) {
                         this.epubDropdownOptions = [];
-                        this.epubTitle = null;
+                        this.title = null;
                     }
 
                     axios.get( this.searchSolrQueryUrl )
