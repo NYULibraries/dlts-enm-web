@@ -384,12 +384,14 @@ var queryFields = [
                                         return topicName + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED)</span>';
                                     }
                                 );
-                            } else {
+                            } else if ( doc.topicNames_facet ) {
                                 that.previewPane.topicsOnPage = doc.topicNames_facet.map(
                                     function( topicName_facet ) {
                                         return topicName_facet + ' <span class="enm-alt-names">(also: [ALT NAMES - SEMICOLON DELIMITED)</span>';
                                     }
                                 );
+                            } else {
+                                // TODO: no topics on page
                             }
 
                             that.qTime = getQTimeDisplay( response );
