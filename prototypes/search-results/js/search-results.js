@@ -246,6 +246,8 @@ var queryFields = [
                     }
                 },
                 clickNext: function() {
+                    // Next button should disable itself automatically if on last matched page, but just in case, disable
+                    // here, too.
                     if ( this.previewPane.pageIndex === this.barChartDataMatchedPages.length - 1 ) {
                         return;
                     }
@@ -253,6 +255,8 @@ var queryFields = [
                     this.triggerClickPage( this.previewPane.pageIndex + 1 );
                 },
                 clickPrevious: function() {
+                    // Previous button should disable itself automatically if on first matched page, but just in case, disable
+                    // here, too.
                     if ( this.previewPane.pageIndex === 0 ) {
                         return;
                     }

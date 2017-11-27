@@ -319,10 +319,12 @@
 
             <div class="enm-buttons" v-show="previewPane.isbn">
               <a href="#" class="button" title="View previous matched page in this book"
-                 v-on:click="clickPrevious">
+                 v-on:click="clickPrevious"
+                 v-bind:disabled="this.previewPane.pageIndex === 0">
                 < previous </a>
               <a href="#" class="button" title="View next matched page in this book"
-                 v-on:click="clickNext">
+                 v-on:click="clickNext"
+                 v-bind:disabled="this.previewPane.pageIndex === this.barChartDataMatchedPages.length - 1">
                 next ></a>
             </div>
 
