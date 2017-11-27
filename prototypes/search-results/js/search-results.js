@@ -92,18 +92,19 @@ var queryFields = [
                 previewEpubPageSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
-                            .join( '%20' );
+                            .join( '%20' ),
+                        highlightFields = qf.replace( 'topicNames', 'topicNamesForDisplay' );
 
                     return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
                            '&' +
-                           'fl=topicNames_facet,pageText' +
+                           'fl=topicNames_facet,topicNamesForDisplay,pageText' +
                            '&' +
                            'rows=1' +
                            '&' +
-                           'hl.fl=' + qf +
+                           'hl.fl=' + highlightFields +
                            '&' +
                            'hl.fragsize=0' +
                            '&' +
@@ -396,6 +397,7 @@ var queryFields = [
                                 );
                             } else {
                                 // TODO: no topics on page
+                                that.previewPane.topicsOnPage = null;
                             }
 
                             that.qTime = getQTimeDisplay( response );
