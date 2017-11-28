@@ -4,16 +4,20 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
     queryFields = [
         {
+            dciLabel: 'full texts',
             label: 'Full Text',
             name: 'fulltext',
             value: 'pageText'
         },
         {
+            dciLabel: 'topics',
             label: 'Topics',
             name: 'topics',
             value: 'topicNames'
         }
     ],
+    queryFieldsByValue = getQueryFieldsByValueMap( queryFields ),
+
     app = new Vue(
         {
             el: '#app',
@@ -53,6 +57,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 queryFields              : queryFields,
                 results                  : null,
                 rows                     : 1999,
+                searchDCI                : null,
                 selectAllQueryFields     : true,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
                 selectedTopicFacetItems  : [],
@@ -171,14 +176,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     }
 
                     return url;
-                },
-                searchDCI: function() {
-                    if ( this.query && this.query !== '' ) {
-                        return 'Searching for: ' + this.query;
-                    } else {
-                        return null;
-                    }
-
                 },
                 topicFacetItemsAlwaysVisible : function() {
                     return this.facetPane.topicsFacetList.slice( 0, this.facetPane.topicsFacetListLimit );
@@ -453,6 +450,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                         // Can't use `this` for then or catch, as it is bound to Window object
                         that = this;
 
+                    this.setSearchDCI();
+
                     this.displaySearchDCI = true;
                     this.displaySpinner = true;
                     this.displayFacetPane = false;
@@ -534,6 +533,19 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             that.displayPreviewPane = false;
                         } );
                 },
+                setSearchDCI: function() {
+                    if ( this.query && this.query !== '' ) {
+                        this.searchDCI = 'Searching ' +
+                            this.selectedQueryFields.map(
+                                function( selectedQueryField ) {
+                                    return queryFieldsByValue[ selectedQueryField ].dciLabel;
+                                }
+                            ).join( ' and ' ) +
+                            ' for: ' + this.query;
+                    } else {
+                        this.searchDCI = null;
+                    }
+                },
                 submitSearchForm: function() {
                     this.clearPreviewPaneData();
                     this.clearTopicFilters();
@@ -582,9 +594,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
                     this.previewPane.pageIndex =
                         this.previewPane.matchedPagesIndex[ this.previewPane.pageNumberForDisplay ];
-                },
-                searchDCI: function( newSearchDCI ) {
-                    this.displaySearchDCI = false;
                 }
             },
             updated: function() {
@@ -663,6 +672,16 @@ function _drawBarChart( data, options ) {
         .on( 'click', options.pageClickCallback )
         .on( 'mouseover', tip.show )
         .on( 'mouseout', tip.hide );
+}
+
+function getQueryFieldsByValueMap( queryFields ) {
+    var queryFieldsByValueMap = {};
+
+    queryFields.forEach( function( queryField ) {
+        queryFieldsByValueMap[ queryField.value ] = queryField;
+    } );
+
+    return queryFieldsByValueMap;
 }
 
 function namesListContainsHighlights( alternateNames ) {
