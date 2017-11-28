@@ -1,6 +1,7 @@
 var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
     HIGHLIGHT_PRE = '<mark>',
     HIGHLIGHT_POST = '</mark>',
+
     queryFields = [
         {
             label: 'Full Text',
