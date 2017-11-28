@@ -378,7 +378,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 highlights = response.data.highlighting[
                                     Object.keys(response.data.highlighting)[0]
                                 ],
-                                topicHighlights;
+                                topicHighlights, topicHighlightsSortedKeys;
 
                             if ( highlights.pageText ) {
                                 that.previewPane.pageText = highlights.pageText[ 0 ];
@@ -389,7 +389,14 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             // TODO: Implement alternate names
                             if ( highlights.topicNamesForDisplay ) {
                                 topicHighlights = JSON.parse( highlights.topicNamesForDisplay );
-                                that.previewPane.topicsOnPage = Object.keys( topicHighlights ).map(
+                                topicHighlightsSortedKeys = Object.keys( topicHighlights )
+                                    .sort( function( a, b ) {
+                                        var strippedA = stripHighlightMarkup( a ),
+                                            strippedB = stripHighlightMarkup( b );
+
+                                        return strippedA.localeCompare( strippedB, 'en', { sensitivity: 'base' } );
+                                    } );
+                                that.previewPane.topicsOnPage = topicHighlightsSortedKeys.map(
                                     function( preferredName ) {
                                         var topicHtml,
                                             alternateNames = topicHighlights[ preferredName ];
@@ -660,4 +667,9 @@ function namesListContainsHighlights( alternateNames ) {
                return alternateName.indexOf( HIGHLIGHT_PRE ) !== -1 &&
                       alternateName.indexOf( HIGHLIGHT_POST ) !== -1
            } ).length > 0;
+}
+
+function stripHighlightMarkup( str ) {
+    return str.replace( new RegExp( HIGHLIGHT_PRE ), '' )
+              .replace( new RegExp( HIGHLIGHT_POST ), '' );
 }
