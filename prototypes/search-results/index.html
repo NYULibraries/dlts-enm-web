@@ -288,6 +288,9 @@
                   <div class="matches">
                     {{ result.doclist.numFound.toLocaleString() }} matched pages
                   </div>
+                  <div class="relevance">
+                    Maximum page relevance score: <span>{{ result.doclist.maxScore }}</span>
+                  </div>
                 </div>
               </article>
             </div>
