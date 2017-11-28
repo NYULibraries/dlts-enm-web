@@ -405,7 +405,7 @@ var queryFields = [
                             } else if ( doc.topicNames_facet ) {
                                 that.previewPane.topicsOnPage = doc.topicNames_facet.map(
                                     function( topicName_facet ) {
-                                        return topicName_facet + ' <span class="enm-alt-names">(also: [ALT NAMES])</span>';
+                                        return topicName_facet;
                                     }
                                 );
                             } else {
