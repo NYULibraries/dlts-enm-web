@@ -378,7 +378,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 highlights = response.data.highlighting[
                                     Object.keys(response.data.highlighting)[0]
                                 ],
-                                topicHighlights, topicHighlightsSortedKeys;
+                                topicHighlights, topicHighlightsSortedKeys,
+                                topicNames;
 
                             if ( highlights.pageText ) {
                                 that.previewPane.pageText = highlights.pageText[ 0 ];
@@ -412,10 +413,11 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                         return topicHtml;
                                     }
                                 );
-                            } else if ( doc.topicNames_facet ) {
-                                that.previewPane.topicsOnPage = doc.topicNames_facet.map(
-                                    function( topicName_facet ) {
-                                        return topicName_facet;
+                            } else if ( doc.topicNamesForDisplay ) {
+                                topicNames = JSON.parse( doc.topicNamesForDisplay );
+                                that.previewPane.topicsOnPage = Object.keys( topicNames ).sort(
+                                    function( a, b ) {
+                                        return a.localeCompare( b, 'en', { sensitivity: 'base' } );
                                     }
                                 );
                             } else {
