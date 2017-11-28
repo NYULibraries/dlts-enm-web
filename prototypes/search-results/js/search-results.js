@@ -153,7 +153,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                            '&' +
                            'facet=on' +
                            '&' +
-                           'fl=title,authors,publisher,yearOfPublication' +
+                           'fl=title,authors,publisher,yearOfPublication,score' +
                            '&' +
                            'group.field=isbn' +
                            '&' +
