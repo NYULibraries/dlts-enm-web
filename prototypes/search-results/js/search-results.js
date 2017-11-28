@@ -371,9 +371,9 @@ var queryFields = [
 
                     axios.get( this.previewEpubPageSolrQueryUrl )
                         .then( function( response ) {
-                            doc = response.data.response.docs[ 0 ];
-                            highlights = response.data.highlighting[
-                                Object.keys(response.data.highlighting)[0]
+                            var doc = response.data.response.docs[ 0 ],
+                                highlights = response.data.highlighting[
+                                    Object.keys(response.data.highlighting)[0]
                                 ];
 
                             if ( highlights.pageText ) {
