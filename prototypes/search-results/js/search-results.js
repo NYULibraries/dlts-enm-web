@@ -557,6 +557,9 @@ var queryFields = [
             watch: {
                 barChartShowAllPages: function( newBarChartShowAllPagesValue ) {
                     this.drawBarChart();
+
+                    d3.select('rect[ name = "' + this.previewPane.pageNumberForDisplay + '" ]')
+                        .classed( 'enm-page-active', true );
                 },
                 'previewPane.pageNumberForDisplay': function( newPageNumberForDisplay ) {
                     d3.select('.enm-page-active')

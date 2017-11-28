@@ -310,7 +310,7 @@
 
           <!--PREVIEW-->
           <div>
-            <header>
+            <header v-on:click="barChartShowAllPages = ! barChartShowAllPages">
               <div class="enm-pageno" v-show="previewPane.pageNumberForDisplay">page {{ previewPane.pageNumberForDisplay }}</div>
               <h2 class="title is-spaced" v-show="previewPane.title">{{ previewPane.title }}</h2>
             </header>
