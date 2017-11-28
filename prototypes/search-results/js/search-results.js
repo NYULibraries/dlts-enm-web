@@ -393,7 +393,7 @@ var HIGHLIGHT_PRE = '<mark>',
                                         var topicHtml,
                                             alternateNames = topicHighlights[ preferredName ];
 
-                                        if ( alternateNames.length > 0 ) {
+                                        if ( namesListContainsHighlights( alternateNames ) ) {
                                             topicHtml = preferredName +
                                                 ' <span class="enm-alt-names">(also: ' +
                                                 alternateNames +
@@ -652,4 +652,11 @@ function _drawBarChart( data, options ) {
         .on( 'click', options.pageClickCallback )
         .on( 'mouseover', tip.show )
         .on( 'mouseout', tip.hide );
+}
+
+function namesListContainsHighlights( alternateNames ) {
+    return alternateNames.filter( function( alternateName ) {
+               return alternateName.indexOf( HIGHLIGHT_PRE ) !== -1 &&
+                      alternateName.indexOf( HIGHLIGHT_POST ) !== -1
+           } ).length > 0;
 }
