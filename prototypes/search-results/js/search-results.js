@@ -420,7 +420,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 );
                             } else {
                                 // TODO: no topics on page
-                                that.previewPane.topicsOnPage = null;
+                                that.previewPane.topicsOnPage = [];
                             }
 
                             that.qTime = getQTimeDisplay( response );

@@ -344,7 +344,9 @@
               </ul>
 
               <div class="enm-notopics"
-                   v-if="previewPane.topicsOnPage === null">No topics are associated with this page.</div>
+                   v-if="previewPane.topicsOnPage === null || previewPane.topicsOnPage.length === 0">
+                No topics are associated with this page.
+              </div>
 
             </div>
 
