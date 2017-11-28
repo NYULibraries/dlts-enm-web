@@ -1,4 +1,6 @@
-var queryFields = [
+var HIGHLIGHT_PRE = '<mark>',
+    HIGHLIGHT_POST = '</mark>',
+    queryFields = [
         {
             label: 'Full Text',
             name: 'fulltext',
@@ -108,9 +110,9 @@ var queryFields = [
                            '&' +
                            'hl.fragsize=0' +
                            '&' +
-                           'hl.simple.post=%3C/mark%3E' +
+                           'hl.simple.post=' + encodeURIComponent( HIGHLIGHT_POST ) +
                            '&' +
-                           'hl.simple.pre=%3Cmark%3E' +
+                           'hl.simple.pre=' + encodeURIComponent( HIGHLIGHT_PRE ) +
                            '&' +
                            'hl=on' +
                            '&' +
