@@ -1,4 +1,7 @@
-var queryFields = [
+var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
+    HIGHLIGHT_PRE = '<mark>',
+    HIGHLIGHT_POST = '</mark>',
+    queryFields = [
         {
             label: 'Full Text',
             name: 'fulltext',
@@ -108,9 +111,9 @@ var queryFields = [
                            '&' +
                            'hl.fragsize=0' +
                            '&' +
-                           'hl.simple.post=%3C/mark%3E' +
+                           'hl.simple.post=' + encodeURIComponent( HIGHLIGHT_POST ) +
                            '&' +
-                           'hl.simple.pre=%3Cmark%3E' +
+                           'hl.simple.pre=' + encodeURIComponent( HIGHLIGHT_PRE ) +
                            '&' +
                            'hl=on' +
                            '&' +
@@ -375,7 +378,8 @@ var queryFields = [
                                 highlights = response.data.highlighting[
                                     Object.keys(response.data.highlighting)[0]
                                 ],
-                                topicHighlights;
+                                topicHighlights, topicHighlightsSortedKeys,
+                                topicNames;
 
                             if ( highlights.pageText ) {
                                 that.previewPane.pageText = highlights.pageText[ 0 ];
@@ -386,15 +390,22 @@ var queryFields = [
                             // TODO: Implement alternate names
                             if ( highlights.topicNamesForDisplay ) {
                                 topicHighlights = JSON.parse( highlights.topicNamesForDisplay );
-                                that.previewPane.topicsOnPage = Object.keys( topicHighlights ).map(
+                                topicHighlightsSortedKeys = Object.keys( topicHighlights )
+                                    .sort( function( a, b ) {
+                                        var strippedA = stripHighlightMarkup( a ),
+                                            strippedB = stripHighlightMarkup( b );
+
+                                        return strippedA.localeCompare( strippedB, 'en', { sensitivity: 'base' } );
+                                    } );
+                                that.previewPane.topicsOnPage = topicHighlightsSortedKeys.map(
                                     function( preferredName ) {
                                         var topicHtml,
                                             alternateNames = topicHighlights[ preferredName ];
 
-                                        if ( alternateNames.length > 0 ) {
+                                        if ( namesListContainsHighlights( alternateNames ) ) {
                                             topicHtml = preferredName +
                                                 ' <span class="enm-alt-names">(also: ' +
-                                                alternateNames +
+                                                alternateNames.join( ALTERNATE_NAMES_LIST_SEPARATOR ) +
                                                 ')</span>';
                                         } else {
                                             topicHtml = preferredName;
@@ -402,10 +413,11 @@ var queryFields = [
                                         return topicHtml;
                                     }
                                 );
-                            } else if ( doc.topicNames_facet ) {
-                                that.previewPane.topicsOnPage = doc.topicNames_facet.map(
-                                    function( topicName_facet ) {
-                                        return topicName_facet;
+                            } else if ( doc.topicNamesForDisplay ) {
+                                topicNames = JSON.parse( doc.topicNamesForDisplay );
+                                that.previewPane.topicsOnPage = Object.keys( topicNames ).sort(
+                                    function( a, b ) {
+                                        return a.localeCompare( b, 'en', { sensitivity: 'base' } );
                                     }
                                 );
                             } else {
@@ -650,4 +662,16 @@ function _drawBarChart( data, options ) {
         .on( 'click', options.pageClickCallback )
         .on( 'mouseover', tip.show )
         .on( 'mouseout', tip.hide );
+}
+
+function namesListContainsHighlights( alternateNames ) {
+    return alternateNames.filter( function( alternateName ) {
+               return alternateName.indexOf( HIGHLIGHT_PRE ) !== -1 &&
+                      alternateName.indexOf( HIGHLIGHT_POST ) !== -1
+           } ).length > 0;
+}
+
+function stripHighlightMarkup( str ) {
+    return str.replace( new RegExp( HIGHLIGHT_PRE ), '' )
+              .replace( new RegExp( HIGHLIGHT_POST ), '' );
 }
