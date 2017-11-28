@@ -374,7 +374,8 @@ var queryFields = [
                             var doc = response.data.response.docs[ 0 ],
                                 highlights = response.data.highlighting[
                                     Object.keys(response.data.highlighting)[0]
-                                ];
+                                ],
+                                topicHighlights;
 
                             if ( highlights.pageText ) {
                                 that.previewPane.pageText = highlights.pageText[ 0 ];
@@ -383,16 +384,28 @@ var queryFields = [
                             }
 
                             // TODO: Implement alternate names
-                            if ( highlights.topicNames ) {
-                                that.previewPane.topicsOnPage = highlights.topicNames.map(
-                                    function( topicName ) {
-                                        return topicName + ' <span class="enm-alt-names">(also: [ALT NAMES])</span>';
+                            if ( highlights.topicNamesForDisplay ) {
+                                topicHighlights = JSON.parse( highlights.topicNamesForDisplay );
+                                that.previewPane.topicsOnPage = Object.keys( topicHighlights ).map(
+                                    function( preferredName ) {
+                                        var topicHtml,
+                                            alternateNames = topicHighlights[ preferredName ];
+
+                                        if ( alternateNames.length > 0 ) {
+                                            topicHtml = preferredName +
+                                                ' <span class="enm-alt-names">(also: ' +
+                                                alternateNames +
+                                                ')</span>';
+                                        } else {
+                                            topicHtml = preferredName;
+                                        }
+                                        return topicHtml;
                                     }
                                 );
                             } else if ( doc.topicNames_facet ) {
                                 that.previewPane.topicsOnPage = doc.topicNames_facet.map(
                                     function( topicName_facet ) {
-                                        return topicName_facet + ' <span class="enm-alt-names">(also: [ALT NAMES])</span>';
+                                        return topicName_facet;
                                     }
                                 );
                             } else {
