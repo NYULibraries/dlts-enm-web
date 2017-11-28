@@ -1,4 +1,5 @@
-var HIGHLIGHT_PRE = '<mark>',
+var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
+    HIGHLIGHT_PRE = '<mark>',
     HIGHLIGHT_POST = '</mark>',
     queryFields = [
         {
@@ -396,7 +397,7 @@ var HIGHLIGHT_PRE = '<mark>',
                                         if ( namesListContainsHighlights( alternateNames ) ) {
                                             topicHtml = preferredName +
                                                 ' <span class="enm-alt-names">(also: ' +
-                                                alternateNames +
+                                                alternateNames.join( ALTERNATE_NAMES_LIST_SEPARATOR ) +
                                                 ')</span>';
                                         } else {
                                             topicHtml = preferredName;
