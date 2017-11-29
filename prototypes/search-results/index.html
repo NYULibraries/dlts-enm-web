@@ -162,9 +162,9 @@
                   v-on:click="clickDeleteSearchDCI"></button>
         </span>
 
-          <span class="tag"
+        <span class="tag"
                 v-for="topicDCI in topicDCIs">
-          Topic:&nbsp;<span class="enm-topic">{{ topicDCI.topic }}<span>
+          Topic:&nbsp;<span class="enm-topic">{{ topicDCI.topic }}</span>
           <button class="delete is-small"
                   v-bind:id="topicDCI.id"
                   v-on:click="clickDeleteTopicDCI"></button>
