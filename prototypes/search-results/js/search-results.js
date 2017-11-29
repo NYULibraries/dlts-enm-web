@@ -466,6 +466,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     this.displayPreviewPane = false;
 
                     this.qTime = null;
+                    this.results = null;
                     this.start = start;
                     this.timeData = null;
                     this.timeTotal = null;
