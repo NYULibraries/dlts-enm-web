@@ -74,6 +74,13 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 numPagesFormatted : function() {
                     return this.numPages ? this.numPages.toLocaleString() : '';
                 },
+                resultsHeader: function() {
+                    if ( this.results && this.results.length > 0 ) {
+                        return this.numPagesFormatted() + ' pages in ' + this.numBooksFormatted() + ' books'
+                    } else {
+                        return 'None'
+                    }
+                },
                 previewEpubSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
@@ -459,6 +466,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     this.displayPreviewPane = false;
 
                     this.qTime = null;
+                    this.results = null;
                     this.start = start;
                     this.timeData = null;
                     this.timeTotal = null;
@@ -521,6 +529,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 that.displayPreviewPane = true;
 
                                 that.updateBarChart = true;
+                            } else {
+                                that.displayResultsPane = true;
                             }
                         } )
                         .catch( function( error ) {

@@ -258,9 +258,13 @@
                in this <template>.
           -->
           <header v-show="displayResultsPane">
-            <h2 class="is-size-4">Results: {{ numPagesFormatted }} pages in {{ numBooksFormatted }} Books</h2>
+            <h2 class="is-size-4">Results: {{ resultsHeader }}</h2>
           </header>
           <div class="enm-results" v-show="displayResultsPane">
+
+            <span v-if="! results || results.length === 0">
+              Please try another search.
+            </span>
 
             <!--BOOK-->
             <div class="box" v-for="result in results"
