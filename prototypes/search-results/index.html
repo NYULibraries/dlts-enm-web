@@ -231,7 +231,7 @@
           <!--FACETS-->
 
         </div>
-        <div class="column enm-pane enm-pane-results is-4">
+        <div v-bind:class="previewPane.isbn ? resultsPane.classes.previewPaneLoaded : resultsPane.classes.previewPaneNotLoaded">
 
           <!--
           From: http://cssload.net/en/spinners
