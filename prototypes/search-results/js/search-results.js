@@ -51,6 +51,12 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     title: null,
                     topicsOnPage: []
                 },
+                resultsPane              : {
+                    classes : {
+                        previewPaneLoaded: "column enm-pane enm-pane-results is-4",
+                        previewPaneNotLoaded: "column enm-pane enm-pane-results is-half"
+                    }
+                },
                 qTime                    : null,
                 query                    : '',
                 queryEcho                : '',
