@@ -76,7 +76,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 },
                 resultsHeader: function() {
                     if ( this.results && this.results.length > 0 ) {
-                        return this.numPagesFormatted() + ' pages in ' + this.numBooksFormatted() + ' books'
+                        return this.numPagesFormatted + ' pages in ' + this.numBooksFormatted + ' books'
                     } else {
                         return 'None'
                     }
