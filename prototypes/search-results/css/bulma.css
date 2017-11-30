@@ -10674,44 +10674,45 @@ main.enm-searchpage form {
 }
 
 /****************************************************************************************************************************************/
-/* line 126, ../sass/_enm.scss */
+/* line 127, ../sass/_enm.scss */
 .enm-panes {
   margin-top: 0;
   margin-bottom: 0 !important;
 }
 
-/* line 131, ../sass/_enm.scss */
+/* line 132, ../sass/_enm.scss */
 .enm-pane {
   height: calc(98vh - 260px);
   overflow-y: scroll;
+  transition: width 0.2s ease-in-out;
 }
 
-/* line 136, ../sass/_enm.scss */
+/* line 138, ../sass/_enm.scss */
 .enm-pane-facets {
   padding-top: 30px;
   padding-bottom: 60px;
 }
-/* line 140, ../sass/_enm.scss */
+/* line 142, ../sass/_enm.scss */
 .enm-pane-facets .listui {
   color: black;
   display: block;
   font-size: .85rem;
   padding: 5px 0;
 }
-/* line 145, ../sass/_enm.scss */
+/* line 147, ../sass/_enm.scss */
 .enm-pane-facets .listui i {
   padding-right: 3px;
   display: inline-block;
 }
-/* line 150, ../sass/_enm.scss */
+/* line 152, ../sass/_enm.scss */
 .enm-pane-facets .enm-pane-heading {
   padding-top: .54rem;
 }
-/* line 153, ../sass/_enm.scss */
+/* line 155, ../sass/_enm.scss */
 .enm-pane-facets .content {
   padding-right: 5px;
 }
-/* line 157, ../sass/_enm.scss */
+/* line 159, ../sass/_enm.scss */
 .enm-pane-facets .enm-topics a {
   display: block;
   padding-left: 15px;
@@ -10745,11 +10746,11 @@ main.enm-searchpage form {
   font-size: .9rem;
 }
 
-/* line 170, ../sass/_enm.scss */
+/* line 172, ../sass/_enm.scss */
 .enm-pane-results {
   padding-top: 30px;
 }
-/* line 172, ../sass/_enm.scss */
+/* line 174, ../sass/_enm.scss */
 .enm-pane-results header {
   margin-bottom: 20px;
 }
@@ -10759,48 +10760,49 @@ main.enm-searchpage form {
   content: " ";
   display: table;
 }
-/* line 176, ../sass/_enm.scss */
+/* line 178, ../sass/_enm.scss */
 .enm-pane-results .enm-thumbnail {
   max-width: 90px;
   height: auto;
 }
-/* line 180, ../sass/_enm.scss */
+/* line 182, ../sass/_enm.scss */
 .enm-pane-results .enm-book {
   font-size: .9rem;
 }
-/* line 182, ../sass/_enm.scss */
+/* line 184, ../sass/_enm.scss */
 .enm-pane-results .enm-book .title {
   font-size: 1.1rem;
   margin-bottom: .3rem;
 }
-/* line 185, ../sass/_enm.scss */
+/* line 187, ../sass/_enm.scss */
 .enm-pane-results .enm-book .title a:link,
 .enm-pane-results .enm-book .title a:hover,
 .enm-pane-results .enm-book .title a:visited {
   color: inherit;
 }
-/* line 191, ../sass/_enm.scss */
+/* line 193, ../sass/_enm.scss */
 .enm-pane-results .enm-book .subtitle {
   font-size: .95rem;
   margin-top: -.2rem;
   margin-bottom: .3rem;
   font-weight: bold;
 }
-/* line 197, ../sass/_enm.scss */
+/* line 199, ../sass/_enm.scss */
 .enm-pane-results .enm-book .meta {
   font-size: .9rem;
   margin-bottom: .4rem;
   line-height: 1.3;
 }
-/* line 202, ../sass/_enm.scss */
-.enm-pane-results .enm-book .matches {
+/* line 204, ../sass/_enm.scss */
+.enm-pane-results .enm-book .matches,
+.enm-pane-results .enm-book .relevance {
   font-size: .8rem;
 }
-/* line 206, ../sass/_enm.scss */
+/* line 209, ../sass/_enm.scss */
 .enm-pane-results .box {
   position: relative;
 }
-/* line 208, ../sass/_enm.scss */
+/* line 211, ../sass/_enm.scss */
 .enm-pane-results .box a.enm-divlink {
   position: absolute;
   width: 100%;
@@ -10809,57 +10811,57 @@ main.enm-searchpage form {
   left: 0;
   z-index: 1;
 }
-/* line 216, ../sass/_enm.scss */
+/* line 219, ../sass/_enm.scss */
 .enm-pane-results .box:hover {
   background-color: whitesmoke;
   box-shadow: 0 2px 3px rgba(10, 10, 10, 0.3), 0 0 0 1px rgba(10, 10, 10, 0.3);
 }
 
-/* line 225, ../sass/_enm.scss */
+/* line 228, ../sass/_enm.scss */
 .enm-pane-preview {
   padding: 35px 50px 50px;
   margin-right: .75rem;
 }
-/* line 229, ../sass/_enm.scss */
+/* line 232, ../sass/_enm.scss */
 .enm-pane-preview .title {
   font-size: 1.3rem;
   margin-bottom: .4rem;
 }
-/* line 233, ../sass/_enm.scss */
+/* line 236, ../sass/_enm.scss */
 .enm-pane-preview .subtitle {
   font-size: 1.1rem;
   margin-bottom: .4rem;
 }
-/* line 237, ../sass/_enm.scss */
+/* line 240, ../sass/_enm.scss */
 .enm-pane-preview h5 {
   font-weight: bold;
   text-transform: uppercase;
 }
-/* line 241, ../sass/_enm.scss */
+/* line 244, ../sass/_enm.scss */
 .enm-pane-preview .enm-pageno {
   float: right;
 }
-/* line 244, ../sass/_enm.scss */
+/* line 247, ../sass/_enm.scss */
 .enm-pane-preview .enm-buttons {
   width: 100%;
 }
-/* line 246, ../sass/_enm.scss */
+/* line 249, ../sass/_enm.scss */
 .enm-pane-preview .enm-buttons > a {
   width: 49%;
 }
-/* line 250, ../sass/_enm.scss */
+/* line 253, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage {
   margin-top: 20px;
   padding-top: 20px;
   border-top: 1px solid #dddddd;
 }
-/* line 254, ../sass/_enm.scss */
+/* line 257, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage h3 {
   color: #171616;
   font-size: .9rem;
   line-height: 2;
 }
-/* line 259, ../sass/_enm.scss */
+/* line 262, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage a {
   font-family: 'Crimson Text', Georgia, serif;
   font-size: 1rem;
@@ -10887,37 +10889,44 @@ main.enm-searchpage form {
   color: #444;
   font-size: .9rem;
 }
-/* line 263, ../sass/_enm.scss */
+/* line 266, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage li {
   display: inline;
 }
-/* line 265, ../sass/_enm.scss */
+/* line 268, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage li:not(:last-child) {
   margin-right: 20px;
 }
-/* line 269, ../sass/_enm.scss */
+/* line 272, ../sass/_enm.scss */
 .enm-pane-preview .enm-topicsonthispage .enm-alt-names {
   color: #555;
 }
 
-/* line 277, ../sass/_enm.scss */
+/* line 280, ../sass/_enm.scss */
 .enm-searchbox {
   margin-bottom: 35px;
 }
 
-/* line 281, ../sass/_enm.scss */
+/* line 284, ../sass/_enm.scss */
 footer {
   box-shadow: 0 -4px 2px -2px #dddddd;
   position: relative;
   text-align: center;
   font-size: .9rem;
 }
-/* line 286, ../sass/_enm.scss */
+/* line 289, ../sass/_enm.scss */
 footer p {
   padding-top: 5px;
 }
 
-/* line 291, ../sass/_enm.scss */
+/* line 294, ../sass/_enm.scss */
 .loader {
   border: none !important;
+}
+
+/* line 298, ../sass/_enm.scss */
+.enm-notopics {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: .9rem;
 }
