@@ -1,0 +1,11 @@
+[v-cloak] { display: none; }
+
+.book-cover-thumbnail {
+    max-height: 64px;
+    width: auto !important;
+}
+
+.enm-page-active {
+    fill: lightgrey;
+    stroke: black;
+}

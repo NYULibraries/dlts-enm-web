@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ENM">
+  <title>ENM Search Results - Prototype</title>
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/bar-chart.css">
+  <link rel="stylesheet" href="css/d3-tip.css">
+  <link rel="stylesheet" href="css/search-results.css">
+  <link rel="stylesheet" href="css/spinner.css">
+
+  <script src="js/lodash-4.17.4.js"></script>
+  <script src="js/axios-v0.17.0.min.js"></script>
+  <script src="js/vue-2.5.2.js"></script>
+  <script src="js/d3.v4.min.js"></script>
+  <script src="js/d3-tip.js"></script>
+</head>
+
+<body>
+
+<div id="app">
+
+  <!-- BANNER -->
+
+  <div class="enm-topnav">
+    <div class="container ">
+      <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+          <h1 class="navbar-item enm-logo">
+            <a href="https://jira.nyu.edu/jira/browse/NYUP-320">
+              Enhanced Networked Monographs
+              <span class="tag is-danger">PROTOTYPE</span>
+            </a>
+          </h1>
+          <div class="navbar-burger burger" data-target="navMenuIndex">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div id="navMenuIndex" class="navbar-menu">
+          <div class="navbar-start">
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link  " href="#">
+                Browse
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <div class="navbar-item">
+                  <div>
+                    <p class="is-size-6-desktop">
+                      <strong>Featured Topics</strong>
+                    </p>
+                    <a class="navbar-item" href="#">Women</a>
+                    <a class="navbar-item" href="#">Art</a>
+                    <a class="navbar-item" href="#">Food</a>
+                  </div>
+                </div>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  All topics
+                </a>
+              </div>
+            </div>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <div class="navbar-link">
+                Visualize
+              </div>
+              <div id="moreDropdown" class="navbar-dropdown is-boxed">
+                <a class="navbar-item " href="#">
+                  <p>
+                    <strong>Persons</strong>
+                    <br>
+                    <small>A nicely laid out description of this item </small>
+                  </p>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  <p>
+                    <strong>Places</strong>
+                    <br>
+                    <small>A nicely laid out description of this item </small>
+                  </p>
+                </a>
+                <hr class="navbar-divider">
+                <a class="navbar-item " href="#">
+                  <p>
+                    <strong>Things</strong>
+                    <br>
+                    <small>A nicely laid out description of this item </small>
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- BANNER -->
+
+  <hr class="is-marginless">
+
+  <main class="enm-searchpage">
+    <div class="container">
+
+      <!--SEARCH FORM-->
+      <form class="enm-searchform" v-on:submit.prevent="submitSearchForm">
+        <div class="columns is-centered">
+          <div class="column is-three-quarters enm-searchbox">
+            <div class="columns level">
+              <div class="column level-item">
+                <p class="control has-icons-left">
+                  <input class="input is-large"
+                         type="text"
+                         placeholder="Search all books"
+                         v-model="query">
+                  <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
+                </p>
+              </div>
+
+              <div class="column is-narrow">
+
+                <template v-for="queryField in queryFields">
+                  <input type="checkbox" class="is-medium is-checkbox"
+                         v-bind:name="queryField.name + 'Chx'"
+                         v-bind:id="queryField.name + 'Chx'"
+                         v-bind:id="queryField.id"
+                         v-on:click="clickFieldCheckbox( $event.checked )"
+                         v-bind:value="queryField.value"
+                         v-model="selectedQueryFields">
+                  <label v-bind:for="queryField.name + 'Chx'" class="">
+                    {{ queryField.label }}
+                  </label>
+                </template>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+      <!--SEARCH FORM-->
+
+      <div v-cloak>
+
+      <!--SEARCH ECHO-->
+      <div class="columns enm-searchecho">
+        <div class="column is-2">&nbsp;
+        </div>
+        <div class="column">
+        <span class="tag"
+              v-show="searchDCI && displaySearchDCI">
+          {{ searchDCI }}
+          <button class="delete is-small"
+                  id="search-dci"
+                  v-on:click="clickDeleteSearchDCI"></button>
+        </span>
+
+        <span class="tag"
+                v-for="topicDCI in topicDCIs">
+          Topic:&nbsp;<span class="enm-topic">{{ topicDCI.topic }}</span>
+          <button class="delete is-small"
+                  v-bind:id="topicDCI.id"
+                  v-on:click="clickDeleteTopicDCI"></button>
+        </span>
+        </div>
+      </div>
+      <hr class="enm-hr">
+      <!--SEARCH ECHO-->
+
+      <div class="columns enm-panes">
+        <div class="column enm-pane enm-pane-facets is-2">
+
+          <!--FACETS-->
+          <div class="content" v-show="displayFacetPane">
+            <h2 class="enm-pane-heading is-size-5">Limit by Topic</h2>
+
+            <div class="enm-facets-list">
+              <div class="enm-topics enm-facets-group-visible">
+
+                <a href="#"
+                   v-for="topic in topicFacetItemsAlwaysVisible"
+                   v-on:click="clickTopicFacetItem"
+                   v-bind:id="topic.name">
+                  {{ topic.name }}
+                  <span class="enm-hitcount">({{ topic.numHits }})</span>
+                </a>
+
+              </div>
+
+              <a class="listui seemore" href="#"
+                 v-show="( ! facetPane.showAllTopics )
+                         &&
+                        ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
+                 v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+                <i class="fa fa-angle-double-down" aria-hidden="true"></i>See All
+              </a>
+
+              <div class="enm-topics enm-facets-group-togglable"
+                   v-show="( facetPane.showAllTopics )
+                          &&
+                          ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )">
+
+                <a href="#"
+                   v-for="topic in topicFacetItemsToggleable"
+                   v-on:click="clickTopicFacetItem"
+                   v-bind:id="topic.name">
+                  {{ topic.name }}
+                  <span class="enm-hitcount">({{ topic.numHits }})</span>
+                </a>
+
+              </div>
+
+              <a class="listui seemore" href="#"
+                 v-show="( facetPane.showAllTopics )
+                         &&
+                        ( facetPane.topicsFacetList.length > facetPane.topicsFacetListLimit )"
+                 v-on:click="facetPane.showAllTopics = ! facetPane.showAllTopics">
+                <i class="fa fa-angle-double-up" aria-hidden="true"></i>See Less
+              </a>
+
+            </div>
+
+          </div>
+          <!--FACETS-->
+
+        </div>
+        <div v-bind:class="previewPane.isbn ? resultsPane.classes.previewPaneLoaded : resultsPane.classes.previewPaneNotLoaded">
+
+          <!--
+          From: http://cssload.net/en/spinners
+          Author: https://codepen.io/Terramaster/
+          -->
+          <div v-show="displaySpinner" id="spinner">
+            <div class="overlay-loader">
+              <div class="loader">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+          </div>
+
+          <!--RESULTS-->
+          <template v-show="displayResultsPane">
+          <!-- v-show is necessary on this <header> element for some reason.
+               Its visibility is not being toggled along with the other elements
+               in this <template>.
+          -->
+          <header v-show="displayResultsPane">
+            <h2 class="is-size-4">Results: {{ resultsHeader }}</h2>
+          </header>
+          <div class="enm-results" v-show="displayResultsPane">
+
+            <span v-if="! results || results.length === 0">
+              Please try another search.
+            </span>
+
+            <!--BOOK-->
+            <div class="box" v-for="result in results"
+                 v-bind:id="result.groupValue"
+                 v-bind:name="result.doclist.docs[ 0 ].title"
+                 v-on:click="previewEpub">
+              <article class="media enm-book">
+                <div class="media-left">
+                  <figure class="image enm-thumbnail">
+                    <!--<img src="https://bulma.io/images/placeholders/128x128.png" alt="Image">-->
+                    <img v-bind:src="'assets/covers/' + result.groupValue + '.jpg'">
+                  </figure>
+                </div>
+                <div class="media-content">
+                  <!-- da70 Here, the link to load the preview is repeated.  THe first one is for fancy "whole div" rollovrers and the second is for accessibility.  Not sure how this will work with vue.js  -->
+                  <a class="enm-divlink" href="#">&nbsp;</a>
+                  <h3 class="title is-spaced"><a href="#">{{ result.doclist.docs[ 0 ].title }}</a></h3>
+                  <div class="meta">
+                    {{ result.doclist.docs[ 0 ].authors.join( '; ' )  +
+                       '; ' +
+                       result.doclist.docs[ 0 ].publisher }}
+                  </div>
+                  <div class="matches">
+                    {{ result.doclist.numFound.toLocaleString() }} matched pages
+                  </div>
+                  <div class="relevance">
+                    Maximum page relevance score: <span>{{ result.doclist.maxScore }}</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <!--BOOK-->
+
+          </div>
+          </template>
+          <!--RESULTS-->
+
+        </div>
+        <div class="column enm-pane enm-pane-preview" v-show="displayPreviewPane">
+
+          <!--PREVIEW: NO EPUB SELECTED-->
+          <div id="message" class="message is-valign is-centered" v-show="! previewPane.isbn">
+            <p class="message-body has-text-centered">Choose a book at left to view matched pages, or
+              <br>
+              <a href="#" v-on:click="loadFirstEpub">Load the first matched page</a>
+            </p>
+          </div>
+          <!--PREVIEW: NO EPUB SELECTED-->
+
+          <!--PREVIEW-->
+          <div>
+            <header v-on:click="barChartShowAllPages = ! barChartShowAllPages">
+              <div class="enm-pageno" v-show="previewPane.pageNumberForDisplay">page {{ previewPane.pageNumberForDisplay }}</div>
+              <h2 class="title is-spaced" v-show="previewPane.title">{{ previewPane.title }}</h2>
+            </header>
+
+            <svg width="572" height="190"></svg>
+
+            <div class="enm-buttons" v-show="previewPane.isbn">
+              <a href="#" class="button" title="View previous matched page in this book"
+                 v-on:click="clickPrevious"
+                 v-bind:disabled="this.previewPane.pageIndex === 0">
+                < previous </a>
+              <a href="#" class="button" title="View next matched page in this book"
+                 v-on:click="clickNext"
+                 v-bind:disabled="this.previewPane.pageIndex === this.barChartDataMatchedPages.length - 1">
+                next ></a>
+            </div>
+
+            <div class="enm-topicsonthispage" v-show="previewPane.pageNumberForDisplay">
+              <h3>Topics on this page</h3>
+
+              <ul>
+                <li v-for="topicOnPage in previewPane.topicsOnPage">
+                  <a href="#"
+                     v-html="topicOnPage">
+                  </a>
+                </li>
+              </ul>
+
+              <div class="enm-notopics"
+                   v-if="previewPane.topicsOnPage === null || previewPane.topicsOnPage.length === 0">
+                No topics are associated with this page.
+              </div>
+
+            </div>
+
+            <hr>
+
+            <div class="enm-pageText"
+                 v-show="previewPane.pageNumberForDisplay"
+                 v-html="previewPane.pageText">
+            </div>
+          </div>
+          <!--PREVIEW-->
+
+        </div>
+      </div>
+
+      <!--v-cloak-->
+      </div>
+
+    </div>
+  </main>
+
+  <!--FOOTER-->
+  <footer role="contentinfo">
+    <hr class="is-marginless">
+    <p class="is-centered">Footer text here <p>
+  </footer>
+  <!--FOOTER-->
+
+</div>
+
+  <script src="js/search-results.js"></script>
+</body>
+
+</html>
