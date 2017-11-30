@@ -489,14 +489,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     // a new query in search the echo will react.
                     this.queryEcho = this.query;
 
-                    // If user input a new query, reset the EPUBs dropdown and also
-                    // clear epubTitle.  Simply clearing epubTitle does not seem to
-                    // refresh the dropdown.  Likewise simply
-                    if ( event.type === 'submit' ) {
-                        this.epubDropdownOptions = [];
-                        this.title = null;
-                    }
-
                     axios.get( this.searchSolrQueryUrl )
                         .then( function( response ) {
                             var topicFacetItems = response.data.facet_counts.facet_fields.topicNames_facet,
