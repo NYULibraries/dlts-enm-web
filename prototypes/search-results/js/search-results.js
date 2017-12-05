@@ -4,16 +4,16 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
     queryFields = [
         {
-            dciLabel: 'full texts',
-            label: 'Full Text',
-            name: 'fulltext',
-            value: 'pageText'
+            dciLabel : 'full texts',
+            label    : 'Full Text',
+            name     : 'fulltext',
+            value    : 'pageText'
         },
         {
-            dciLabel: 'topics',
-            label: 'Topics',
-            name: 'topics',
-            value: 'topicNames'
+            dciLabel : 'topics',
+            label    : 'Topics',
+            name     : 'topics',
+            value    : 'topicNames'
         }
     ],
     queryFieldsByValue = getQueryFieldsByValueMap( queryFields ),
