@@ -57,7 +57,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                         previewPaneNotLoaded: "column enm-pane enm-pane-results is-half"
                     }
                 },
-                qTime                    : null,
                 query                    : '',
                 queryEcho                : '',
                 queryFields              : queryFields,
@@ -66,12 +65,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 searchDCI                : null,
                 selectAllQueryFields     : true,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
-                selectedTopicFacetItems  : [],
-                start                    : null,
-                timeAfterVueUpdated      : null,
-                timeSolrResponseReceived : null,
-                updateBarChart           : false,
-                updatePagePreview        : false
+                selectedTopicFacetItems  : []
             },
             computed: {
                 numBooksFormatted : function() {
@@ -301,8 +295,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                         .click();
                 },
                 previewEpub            : function( event ) {
-                    var start = new Date(),
-                        that = this;
+                    var that = this;
 
                     this.previewPane.isbn = event.currentTarget.id;
                     this.previewPane.title = event.currentTarget.attributes.name.nodeValue;
@@ -365,21 +358,13 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             that.drawBarChart();
 
                             that.triggerClickPage( 0 );
-
-                            that.qTime = getQTimeDisplay( response );
-                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
-
-                            that.updateBarChart = true;
                         } )
                         .catch( function( error ) {
                             that.previewPane.title = error;
-
-                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
                         } );
                 },
                 previewEpubPage: function( event ) {
-                    var start = new Date(),
-                        that = this;
+                    var that = this;
 
                     this.previewPane.pageNumberForDisplay = event.page;
 
@@ -435,16 +420,9 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 // TODO: no topics on page
                                 that.previewPane.topicsOnPage = [];
                             }
-
-                            that.qTime = getQTimeDisplay( response );
-                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
-
-                            that.updatePagePreview = true;
                         } )
                         .catch( function( error ) {
                             that.previewPane.title = error;
-
-                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
                         } );
 
                 },
@@ -459,9 +437,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                         return;
                     }
 
-                    var start = new Date(),
-                        // Can't use `this` for then or catch, as it is bound to Window object
-                        that = this;
+                    // Can't use `this` for then or catch, as it is bound to Window object
+                    var  that = this;
 
                     this.setSearchDCI();
 
@@ -471,11 +448,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     this.displayResultsPane = false;
                     this.displayPreviewPane = false;
 
-                    this.qTime = null;
                     this.results = null;
-                    this.start = start;
-                    this.timeData = null;
-                    this.timeTotal = null;
 
                     this.facetPane.showAllTopics = false;
 
@@ -514,9 +487,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
                             that.results = response.data.grouped.isbn.groups;
 
-                            that.qTime = getQTimeDisplay( response );
-                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
-
                             that.displaySpinner = false;
 
                             if ( that.results.length > 0 ) {
@@ -525,16 +495,12 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 that.displayFacetPane = true;
                                 that.displayResultsPane = true;
                                 that.displayPreviewPane = true;
-
-                                that.updateBarChart = true;
                             } else {
                                 that.displayResultsPane = true;
                             }
                         } )
                         .catch( function( error ) {
                             that.results = error;
-
-                            that.timeSolrResponseReceived = getTimeElapsedSinceStart( start );
 
                             that.displayFacetPane = false;
                             that.displayResultsPane = false;
@@ -603,26 +569,9 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     this.previewPane.pageIndex =
                         this.previewPane.matchedPagesIndex[ this.previewPane.pageNumberForDisplay ];
                 }
-            },
-            updated: function() {
-                this.$nextTick( function() {
-                    if ( this.updateBarChart ) {
-                        this.timeAfterVueUpdated = getTimeElapsedSinceStart( this.start );
-                        this.start               = null;
-                        this.updateBarChart      = false;
-                    }
-                } );
             }
         }
     );
-
-function getQTimeDisplay( response ) {
-    return response.data.responseHeader.QTime / 1000 + ' seconds';
-}
-
-function getTimeElapsedSinceStart( start ) {
-    return ( ( (new Date()) - start ) / 1000 ) + ' seconds';
-}
 
 function clearBarChart() {
     d3.selectAll("svg > *").remove();
