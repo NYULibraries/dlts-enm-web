@@ -390,7 +390,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 that.previewPane.pageText = doc.pageText;
                             }
 
-                            // TODO: Implement alternate names
                             if ( highlights.topicNamesForDisplay ) {
                                 topicHighlights = JSON.parse( highlights.topicNamesForDisplay );
                                 topicHighlightsSortedKeys = Object.keys( topicHighlights )
@@ -424,7 +423,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                     }
                                 );
                             } else {
-                                // TODO: no topics on page
                                 that.previewPane.topicsOnPage = [];
                             }
                         } )
