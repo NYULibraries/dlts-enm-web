@@ -9,3 +9,7 @@
     fill: lightgrey;
     stroke: black;
 }
+
+#navPrototypeLabel {
+    margin-left: 5px;
+}
