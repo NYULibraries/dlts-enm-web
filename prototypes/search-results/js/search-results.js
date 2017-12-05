@@ -23,14 +23,17 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
             el: '#app',
             data: {
                 allQueryFields           : true,
+
                 barChartDataAllPages     : [],
                 barChartDataMatchedPages : [],
                 barChartShowAllPages     : false,
+
                 displayFacetPane         : false,
                 displayResultsPane       : false,
                 displayPreviewPane       : false,
                 displaySearchDCI         : false,
                 displaySpinner           : false,
+
                 epubDropdownOptions      : [],
 
                 facetPane : {
@@ -41,6 +44,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
                 numBooks                 : null,
                 numPages                 : null,
+
                 previewPane              : {
                     firstEpubInResults: null,
                     isbn: null,
@@ -51,18 +55,23 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     title: null,
                     topicsOnPage: []
                 },
+
                 resultsPane              : {
                     classes : {
                         previewPaneLoaded: "column enm-pane enm-pane-results is-4",
                         previewPaneNotLoaded: "column enm-pane enm-pane-results is-half"
                     }
                 },
+
                 query                    : '',
                 queryEcho                : '',
                 queryFields              : queryFields,
+
                 results                  : null,
                 rows                     : 1999,
+
                 searchDCI                : null,
+
                 selectAllQueryFields     : true,
                 selectedQueryFields      : queryFields.map( function( queryField ) { return queryField.value } ),
                 selectedTopicFacetItems  : []
