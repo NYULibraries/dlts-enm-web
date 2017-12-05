@@ -34,8 +34,6 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 displaySearchDCI         : false,
                 displaySpinner           : false,
 
-                epubDropdownOptions      : [],
-
                 facetPane : {
                     showAllTopics        : false,
                     topicsFacetList      : [],
