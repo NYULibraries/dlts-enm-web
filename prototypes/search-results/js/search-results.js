@@ -91,26 +91,33 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 previewEpubSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
                             .sort()
-                            .join( '%20' );
+                            .join( '%20' ),
+                        url = 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                              'q=' + encodeURIComponent( this.query ) +
+                              '&' +
+                              'defType=edismax' +
+                              '&' +
+                              'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,epubNumberOfPages,score' +
+                              '&' +
+                              'sort=pageSequenceNumber+asc' +
+                              '&' +
+                              'rows=999' +
+                              '&' +
+                              'wt=json' +
+                              '&' +
+                              'indent=on' +
+                              '&' +
+                              'qf=' + qf +
+                              '&' +
+                              'fq=' + encodeURIComponent( 'isbn_facet:"' + this.previewPane.isbn + '"' );
 
-                    return  'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
-                            'q=' + encodeURIComponent( this.query ) +
-                            '&' +
-                            'defType=edismax' +
-                            '&' +
-                            'fl=pageLocalId,pageNumberForDisplay,pageSequenceNumber,epubNumberOfPages,score' +
-                            '&' +
-                            'sort=pageSequenceNumber+asc' +
-                            '&' +
-                            'rows=999' +
-                            '&' +
-                            'wt=json' +
-                            '&' +
-                            'indent=on' +
-                            '&' +
-                            'qf=' + qf +
-                            '&' +
-                            'fq=' + encodeURIComponent( 'isbn_facet:"' + this.previewPane.isbn + '"' );
+                    if ( this.selectedTopicFacetItems ) {
+                        url += this.selectedTopicFacetItems.map( function( selectedTopicFacetItem ) {
+                            return '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:\"' + selectedTopicFacetItem + '\"');
+                        } ).join( '' );
+                    }
+
+                    return url;
                 },
                 previewEpubPageSolrQueryUrl : function() {
                     var qf = this.selectedQueryFields
