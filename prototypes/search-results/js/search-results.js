@@ -242,7 +242,11 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     }
                 },
                 clickDeleteSearchDCI: function( event ) {
-                    this.query = '';
+                    if ( this.selectedTopicFacetItems.length > 0 ) {
+                        this.query = '*';
+                    } else {
+                        this.query = '';
+                    }
 
                     this.sendSearchQuery();
                 },
