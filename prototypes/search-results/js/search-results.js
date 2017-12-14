@@ -2,6 +2,16 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
     HIGHLIGHT_PRE = '<mark>',
     HIGHLIGHT_POST = '</mark>',
 
+    SOLR_SERVER = {
+        'devweb1.dlib.nyu.edu' : 'dev-discovery.dlib.nyu.edu',
+        'stageweb1.dlib.nyu.edu' : 'stagediscovery.dlib.nyu.edu',
+        'web1.dlib.nyu.edu' : 'discovery.dlib.nyu.edu'
+    },
+
+    // Use appropriate Solr server.  If web host is unknown (ex. localhost), then
+    // use whichever Solr server the dev web host is using.
+    solrServer = SOLR_SERVER[ window.location.hostname ] || SOLR_SERVER[ 'devweb1.dlib.nyu.edu' ],
+
     queryFields = [
         {
             dciLabel : 'full texts',
@@ -92,7 +102,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     var qf = this.selectedQueryFields
                             .sort()
                             .join( '%20' ),
-                        url = 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                        url = 'http://' + solrServer + ':8983/solr/enm-pages/select?' +
                               'q=' + encodeURIComponent( this.query ) +
                               '&' +
                               'defType=edismax' +
@@ -125,7 +135,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             .join( '%20' ),
                         highlightFields = qf.replace( 'topicNames', 'topicNamesForDisplay' );
 
-                    return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                    return 'http://' + solrServer + ':8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
@@ -159,7 +169,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             .sort()
                             .join( '%20' ),
 
-                        url = 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                        url = 'http://' + solrServer + ':8983/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
