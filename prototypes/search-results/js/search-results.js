@@ -403,7 +403,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                     Object.keys(response.data.highlighting)[0]
                                 ],
                                 topicHighlights, topicHighlightsSortedKeys,
-                                topicNames;
+                                topicNamesLists;
 
                             if ( highlights.pageText ) {
                                 that.previewPane.pageText = highlights.pageText[ 0 ];
@@ -437,12 +437,13 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                     }
                                 );
                             } else if ( doc.topicNamesForDisplay ) {
-                                topicNames = JSON.parse( doc.topicNamesForDisplay );
-                                that.previewPane.topicsOnPage = Object.keys( topicNames ).sort(
-                                    function( a, b ) {
-                                        return a.localeCompare( b, 'en', { sensitivity: 'base' } );
+                                topicNamesLists = JSON.parse( doc.topicNamesForDisplay );
+                                that.previewPane.topicsOnPage = topicNamesLists.map(
+                                    function( topicNamesList ) {
+                                        // The display/preferred name is the first element
+                                        return topicNamesList.shift();
                                     }
-                                );
+                                )
                             } else {
                                 that.previewPane.topicsOnPage = [];
                             }
