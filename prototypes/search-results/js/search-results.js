@@ -402,8 +402,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 highlights = response.data.highlighting[
                                     Object.keys(response.data.highlighting)[0]
                                 ],
-                                topicHighlights, topicHighlightsSortedKeys,
-                                topicNames;
+                                topicHighlights, topicsOnPage = [],
+                                topicNamesLists;
 
                             if ( highlights.pageText ) {
                                 that.previewPane.pageText = highlights.pageText[ 0 ];
@@ -412,37 +412,55 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             }
 
                             if ( highlights.topicNamesForDisplay ) {
+                                // Sample of prettified JSON string (without wrapping quotes):
+                                // [
+                                //     [
+                                //         "Conference on Critical Legal Studies"
+                                //     ],
+                                //     [
+                                //         "<mark>identity</mark> -- politics of",
+                                //         "<mark>Identity</mark> politics",
+                                //         "\"<mark>Identity</mark> politics\"",
+                                //         "Politics of <mark>identity</mark>"
+                                //     ],
+                                //     [
+                                //         "Ideology of the subject"
+                                //     ]
+                                // ]
+
                                 topicHighlights = JSON.parse( highlights.topicNamesForDisplay );
-                                topicHighlightsSortedKeys = Object.keys( topicHighlights )
-                                    .sort( function( a, b ) {
-                                        var strippedA = stripHighlightMarkup( a ),
-                                            strippedB = stripHighlightMarkup( b );
+                                topicHighlights.forEach( function( topicHighlightArray ) {
+                                    var preferredName = topicHighlightArray.shift(),
+                                        alternateNames = topicHighlightArray;
 
-                                        return strippedA.localeCompare( strippedB, 'en', { sensitivity: 'base' } );
-                                    } );
-                                that.previewPane.topicsOnPage = topicHighlightsSortedKeys.map(
-                                    function( preferredName ) {
-                                        var topicHtml,
-                                            alternateNames = topicHighlights[ preferredName ];
-
+                                    if ( alternateNames.length === 0 ) {
+                                        // No alternate names
+                                        topicsOnPage.push( preferredName );
+                                    } else {
                                         if ( namesListContainsHighlights( alternateNames ) ) {
-                                            topicHtml = preferredName +
+                                            // Display alternate names - they contain highlights
+                                            topicsOnPage.push(
+                                                preferredName +
                                                 ' <span class="enm-alt-names">(also: ' +
                                                 alternateNames.join( ALTERNATE_NAMES_LIST_SEPARATOR ) +
-                                                ')</span>';
+                                                ')</span>'
+                                            );
                                         } else {
-                                            topicHtml = preferredName;
+                                            // Do not display alternate names - they do not contain highlights
+                                            topicsOnPage.push( preferredName );
                                         }
-                                        return topicHtml;
                                     }
-                                );
+                                } );
+
+                                that.previewPane.topicsOnPage = topicsOnPage;
                             } else if ( doc.topicNamesForDisplay ) {
-                                topicNames = JSON.parse( doc.topicNamesForDisplay );
-                                that.previewPane.topicsOnPage = Object.keys( topicNames ).sort(
-                                    function( a, b ) {
-                                        return a.localeCompare( b, 'en', { sensitivity: 'base' } );
+                                topicNamesLists = JSON.parse( doc.topicNamesForDisplay );
+                                that.previewPane.topicsOnPage = topicNamesLists.map(
+                                    function( topicNamesList ) {
+                                        // The display/preferred name is the first element
+                                        return topicNamesList.shift();
                                     }
-                                );
+                                )
                             } else {
                                 that.previewPane.topicsOnPage = [];
                             }
