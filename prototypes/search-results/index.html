@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -29,7 +29,7 @@
   <!-- BANNER -->
 
   <div class="enm-topnav">
-    <div class="container ">
+    <div class="container is-fluid">
       <nav class="navbar is-transparent">
         <div class="navbar-brand">
           <h1 class="navbar-item enm-logo">
@@ -103,23 +103,24 @@
   </div>
 
   <!-- BANNER -->
-
-  <hr class="is-marginless">
-
-  <main class="enm-searchpage">
-    <div class="container">
+  <main class="enm-searchpage"  id="maincontent">
+ 
 
       <!--SEARCH FORM-->
-      <form class="enm-searchform" v-on:submit.prevent="submitSearchForm">
-        <div class="columns is-centered">
-          <div class="column is-three-quarters enm-searchbox">
-            <div class="columns level">
+    <section class="hero is-primary enm-searchbox-hero">
+      <div class="hero-body">
+      <div class="container is-fluid">
+        <form class="enm-searchform" v-on:submit.prevent="submitSearchForm">
+          <div class="enm-searchbox">
+            <div class="field columns level">
               <div class="column level-item">
                 <p class="control has-icons-left">
-                  <input class="input is-large"
-                         type="text"
-                         placeholder="Search all books"
-                         v-model="query">
+                   <label class="enm-visually-hidden" for="enm-searchinput">Search inside all books</label>
+                  <input id="enm-searchinput" 
+                        class="input is-large"
+                        type="text"
+                        placeholder="Search inside all books"
+                        v-model="query">
                   <span class="icon is-small is-left"><i class="fa fa-search"></i></span>
                 </p>
               </div>
@@ -142,16 +143,19 @@
               </div>
             </div>
           </div>
-        </div>
-      </form>
+        </form>
+      </div>
+    </div>
+    </section>
       <!--SEARCH FORM-->
 
       <div v-cloak>
 
       <!--SEARCH ECHO-->
+    <section class="hero searchecho">
+      <div class="container is-fluid">
       <div class="columns enm-searchecho">
-        <div class="column is-2">&nbsp;
-        </div>
+        
         <div class="column">
         <span class="tag"
               v-show="searchDCI && displaySearchDCI">
@@ -170,9 +174,10 @@
         </span>
         </div>
       </div>
-      <hr class="enm-hr">
-      <!--SEARCH ECHO-->
-
+      </div>
+    </section>
+      <!-- END SEARCH ECHO-->
+      <div class="container is-fluid">
       <div class="columns enm-panes">
         <div class="column enm-pane enm-pane-facets is-2">
 
@@ -365,13 +370,14 @@
 
       <!--v-cloak-->
       </div>
-
-    </div>
+    </div> 
+       <!-- end container wrapper-->
   </main>
 
   <!--FOOTER-->
   <footer role="contentinfo">
-    <p class="is-centered"><a href="https://nyupress.org/">NYU Press</a> &#8226; <a href="http://dlib.nyu.edu/dlts/">NYU DLTS</a></p>
+    <hr class="is-marginless">
+    <p class="is-centered">Footer text here <p>
   </footer>
   <!--FOOTER-->
 
