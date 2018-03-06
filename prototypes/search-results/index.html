@@ -28,14 +28,17 @@
 
   <!-- BANNER -->
 
+  <div class="skipnav"><a href="#maincontent">Skip to main content</a></div>
   <div class="enm-topnav">
     <div class="container is-fluid">
       <nav class="navbar is-transparent">
         <div class="navbar-brand">
           <h1 class="navbar-item enm-logo">
-            Enhanced Networked Monographs
-            <!--https://jira.nyu.edu/jira/browse/NYUP-320-->
-            <span id="navPrototypeLabel" class="tag is-danger">PROTOTYPE</span>
+            <a href="{{.Paths.WebRoot}}">
+              Enhanced Networked Monographs
+              <!--https://jira.nyu.edu/jira/browse/NYUP-360-->
+              <span id="navPrototypeLabel" class="tag is-danger">PROTOTYPE</span>
+            </a>
           </h1>
           <div class="navbar-burger burger" data-target="navMenuIndex">
             <span></span>
@@ -45,54 +48,23 @@
         </div>
         <div id="navMenuIndex" class="navbar-menu">
           <div class="navbar-start">
+            <div class="navbar-item">
+              <a class="navbar-item" href="./">Search</a>
+            </div>
+            <div class="navbar-item">
+              <a class="navbar-item" href="../about.html">About</a>
+            </div>
             <div class="navbar-item has-dropdown is-hoverable">
-              <a class="navbar-link  " href="#">
+              <a class="navbar-link" href="../browse-topics-lists/enm-picks.html">
                 Browse
               </a>
               <div class="navbar-dropdown is-boxed">
-                <div class="navbar-item">
-                  <div>
-                    <p class="is-size-6-desktop">
-                      <strong>Featured Topics</strong>
-                    </p>
-                    <a class="navbar-item" href="#">Women</a>
-                    <a class="navbar-item" href="#">Art</a>
-                    <a class="navbar-item" href="#">Food</a>
-                  </div>
-                </div>
+                <a class="navbar-item " href="../browse-topics-lists/enm-picks.html">
+                  Featured topics
+                </a>
                 <hr class="navbar-divider">
                 <a class="navbar-item " href="../browse-topics-lists/a.html">
                   All topics
-                </a>
-              </div>
-            </div>
-            <div class="navbar-item has-dropdown is-hoverable">
-              <div class="navbar-link">
-                Visualize
-              </div>
-              <div id="moreDropdown" class="navbar-dropdown is-boxed">
-                <a class="navbar-item " href="#">
-                  <p>
-                    <strong>Persons</strong>
-                    <br>
-                    <small>A nicely laid out description of this item </small>
-                  </p>
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item " href="#">
-                  <p>
-                    <strong>Places</strong>
-                    <br>
-                    <small>A nicely laid out description of this item </small>
-                  </p>
-                </a>
-                <hr class="navbar-divider">
-                <a class="navbar-item " href="#">
-                  <p>
-                    <strong>Things</strong>
-                    <br>
-                    <small>A nicely laid out description of this item </small>
-                  </p>
                 </a>
               </div>
             </div>
@@ -104,7 +76,6 @@
 
   <!-- BANNER -->
   <main class="enm-searchpage"  id="maincontent">
- 
 
       <!--SEARCH FORM-->
     <section class="hero is-primary enm-searchbox-hero">
@@ -155,7 +126,7 @@
     <section class="hero searchecho">
       <div class="container is-fluid">
       <div class="columns enm-searchecho">
-        
+
         <div class="column">
         <span class="tag"
               v-show="searchDCI && displaySearchDCI">
@@ -370,14 +341,13 @@
 
       <!--v-cloak-->
       </div>
-    </div> 
+    </div>
        <!-- end container wrapper-->
   </main>
 
   <!--FOOTER-->
   <footer role="contentinfo">
-    <hr class="is-marginless">
-    <p class="is-centered">Footer text here <p>
+    <p class="is-centered"><a href="https://nyupress.org/">NYU Press</a> &#8226; <a href="http://dlib.nyu.edu/dlts/">NYU DLTS</a></p>
   </footer>
   <!--FOOTER-->
 
