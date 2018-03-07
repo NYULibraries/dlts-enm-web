@@ -11,7 +11,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
     // Use appropriate Solr server.  If web host is unknown (ex. localhost), then
     // use whichever Solr server the dev web host is using.
-    solrServer = SOLR_SERVER[ window.location.hostname ] || SOLR_SERVER[ 'devweb1.dlib.nyu.edu' ],
+    solrServer = SOLR_SERVER[ window.location.hostname ] || SOLR_SERVER[ 'dlib.nyu.edu' ],
 
     queryFields = [
         {
