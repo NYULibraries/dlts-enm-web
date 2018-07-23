@@ -6,7 +6,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
         'devweb1.dlib.nyu.edu' : 'dev-discovery.dlib.nyu.edu',
         'dlib.nyu.edu' : 'discovery1.dlib.nyu.edu',
         'stageweb1.dlib.nyu.edu' : 'stagediscovery.dlib.nyu.edu',
-        'web1.dlib.nyu.edu' : 'discovery1.dlib.nyu.edu'
+        'web1.dlib.nyu.edu' : 'discovery1.dlib.nyu.edu',
+        'dlib.nyu.edu' : 'discovery1.dlib.nyu.edu'
     },
 
     // Use appropriate Solr server.  If web host is unknown (ex. localhost), then
