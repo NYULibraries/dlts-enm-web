@@ -290,6 +290,8 @@
 
           <!--PREVIEW-->
           <div>
+            <span id="preview-isbn" :name="previewPane.isbn" style="display: none" v-if="previewPane.isbn"></span>
+
             <header v-on:click="barChartShowAllPages = ! barChartShowAllPages">
               <div class="enm-pageno" v-show="previewPane.pageNumberForDisplay">page {{ previewPane.pageNumberForDisplay }}</div>
               <h2 class="title is-spaced" v-show="previewPane.title">{{ previewPane.title }}</h2>

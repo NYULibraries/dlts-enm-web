@@ -124,7 +124,13 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
                     if ( this.selectedTopicFacetItems ) {
                         url += this.selectedTopicFacetItems.map( function( selectedTopicFacetItem ) {
-                            return '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:\"' + selectedTopicFacetItem + '\"');
+                            return '&'   +
+                                   'fq=' +
+                                   encodeURIComponent(
+                                       'topicNames_facet:\"'   +
+                                        selectedTopicFacetItem.replace( /"/g, '\\"' ) +
+                                        '\"'
+                                   );
                         } ).join( '' );
                     }
 
@@ -203,7 +209,13 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
                     if ( this.selectedTopicFacetItems ) {
                         url += this.selectedTopicFacetItems.map( function( selectedTopicFacetItem ) {
-                            return '&' + 'fq=' + encodeURIComponent( 'topicNames_facet:\"' + selectedTopicFacetItem + '\"');
+                            return '&'   +
+                                   'fq=' +
+                                   encodeURIComponent(
+                                       'topicNames_facet:\"'  +
+                                        selectedTopicFacetItem.replace( /"/g, '\\"' ) +
+                                       '\"'
+                                   );
                         } ).join( '' );
                     }
 
