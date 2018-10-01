@@ -542,6 +542,22 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 }
                             }
 
+                            // Remove topics already selected by user
+                            that.selectedTopicFacetItems.forEach(
+                                function( selectedTopic ) {
+                                    var found = this.facetPane.topicsFacetList.findIndex(
+                                        function( element ) {
+                                            return element.name === selectedTopic;
+                                        }
+                                    );
+
+                                    if ( found !== -1 ) {
+                                        this.facetPane.topicsFacetList.splice( found, 1 );
+                                    }
+                                },
+                                that
+                            );
+
                             that.results = response.data.grouped.isbn.groups;
 
                             that.displaySpinner = false;
