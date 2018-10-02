@@ -266,12 +266,16 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                 },
                 clickDeleteSearchDCI: function( event ) {
                     if ( this.selectedTopicFacetItems.length > 0 ) {
-                        this.query = '*';
+                        if ( this.query !== '*' ) {
+                            this.query = '*';
+                            this.sendSearchQuery();
+                        } else {
+                            // Do nothing.  User is already doing a "*" search.
+                        }
                     } else {
                         this.query = '';
+                        this.sendSearchQuery();
                     }
-
-                    this.sendSearchQuery();
                 },
                 clickDeleteTopicDCI: function( event ) {
                     // Delete element from array code based on:
