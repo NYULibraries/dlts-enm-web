@@ -8716,7 +8716,9 @@ section.searchecho {
     padding: 2px 2px 2px 15px;
     text-indent: -15px;
     font-family: "Crimson Text", Georgia, serif;
-    font-size: 1rem; }
+    font-size: 1rem;
+    word-break: break-word;
+  }
     /* line 10, ../sass/_enm.scss */
     .enm-pane-facets .enm-topics a:link, .enm-pane-facets .enm-topics a:visited {
       color: teal !important; }
