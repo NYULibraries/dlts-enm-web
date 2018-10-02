@@ -587,8 +587,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                                 function( selectedQueryField ) {
                                     return queryFieldsByValue[ selectedQueryField ].dciLabel;
                                 }
-                            ).join( ' and ' ) +
-                            ' for: ' + this.query;
+                            ).sort().join( ' and ' ) + ' for: ' + this.query;
                     } else {
                         this.searchDCI = null;
                     }
