@@ -205,6 +205,8 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                            '&' +
                            'rows=' + this.rows +
                            '&' +
+                           'sort=score%20desc,title_facet%20asc' +
+                           '&' +
                            'wt=json';
 
                     if ( this.selectedTopicFacetItems ) {
