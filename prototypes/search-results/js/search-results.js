@@ -4,8 +4,10 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
     SOLR_SERVER = {
         'devweb1.dlib.nyu.edu' : {
-            host: 'dev-discovery.dlib.nyu.edu',
-            port: 8983,
+            host: 'devdiscovery.dlib.nyu.edu',
+            // Port 80 is not a typo: see https://jira.nyu.edu/jira/browse/NYUP-477
+            // for explanation.
+            port: 80,
         },
         'dlib.nyu.edu' : {
             host: 'discovery1.dlib.nyu.edu',
