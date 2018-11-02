@@ -25,8 +25,12 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
 
     // Use appropriate Solr server.  If web host is unknown (ex. localhost), then
     // use whichever Solr server the dev web host is using.
-    solrServer = SOLR_SERVER[ window.location.hostname ].host || SOLR_SERVER[ 'dlib.nyu.edu' ].host,
-    solrPort   = SOLR_SERVER[ window.location.hostname ].port || SOLR_SERVER[ 'dlib.nyu.edu' ].port,
+    solrServer = SOLR_SERVER[ window.location.hostname ] ?
+                 SOLR_SERVER[ window.location.hostname ].host :
+                 SOLR_SERVER[ 'dlib.nyu.edu' ].host,
+    solrPort   = SOLR_SERVER[ window.location.hostname ] ?
+                 SOLR_SERVER[ window.location.hostname ].port :
+                 SOLR_SERVER[ 'dlib.nyu.edu' ].port;
 
     queryFields = [
         {
