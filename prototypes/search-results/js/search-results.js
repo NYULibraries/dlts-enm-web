@@ -27,10 +27,10 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
     // use whichever Solr server the dev web host is using.
     solrServer = SOLR_SERVER[ window.location.hostname ] ?
                  SOLR_SERVER[ window.location.hostname ].host :
-                 SOLR_SERVER[ 'dlib.nyu.edu' ].host,
+                 SOLR_SERVER[ 'devweb1.dlib.nyu.edu' ].host,
     solrPort   = SOLR_SERVER[ window.location.hostname ] ?
                  SOLR_SERVER[ window.location.hostname ].port :
-                 SOLR_SERVER[ 'dlib.nyu.edu' ].port;
+                 SOLR_SERVER[ 'devweb1.dlib.nyu.edu' ].port;
 
     queryFields = [
         {
