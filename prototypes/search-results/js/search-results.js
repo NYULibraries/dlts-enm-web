@@ -3,15 +3,28 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
     HIGHLIGHT_POST = '</mark>',
 
     SOLR_SERVER = {
-        'devweb1.dlib.nyu.edu' : 'dev-discovery.dlib.nyu.edu',
-        'dlib.nyu.edu' : 'discovery1.dlib.nyu.edu',
-        'stageweb1.dlib.nyu.edu' : 'stagediscovery.dlib.nyu.edu',
-        'web1.dlib.nyu.edu' : 'discovery1.dlib.nyu.edu'
+        'devweb1.dlib.nyu.edu' : {
+            host: 'dev-discovery.dlib.nyu.edu',
+            port: 8983,
+        },
+        'dlib.nyu.edu' : {
+            host: 'discovery1.dlib.nyu.edu',
+            port: 8983,
+        },
+        'stageweb1.dlib.nyu.edu' : {
+            host: 'stagediscovery.dlib.nyu.edu',
+            port: 8983,
+        },
+        'web1.dlib.nyu.edu' : {
+            host: 'discovery1.dlib.nyu.edu',
+            port: 8983
+        }
     },
 
     // Use appropriate Solr server.  If web host is unknown (ex. localhost), then
     // use whichever Solr server the dev web host is using.
-    solrServer = SOLR_SERVER[ window.location.hostname ] || SOLR_SERVER[ 'dlib.nyu.edu' ],
+    solrServer = SOLR_SERVER[ window.location.hostname ].host || SOLR_SERVER[ 'dlib.nyu.edu' ].host,
+    solrPort   = SOLR_SERVER[ window.location.hostname ].port || SOLR_SERVER[ 'dlib.nyu.edu' ].port,
 
     queryFields = [
         {
@@ -103,7 +116,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     var qf = this.selectedQueryFields
                             .sort()
                             .join( '%20' ),
-                        url = 'http://' + solrServer + ':8983/solr/enm-pages/select?' +
+                        url = 'http://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
                               'q=' + encodeURIComponent( this.query ) +
                               '&' +
                               'defType=edismax' +
@@ -142,7 +155,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             .join( '%20' ),
                         highlightFields = qf.replace( 'topicNames', 'topicNamesForDisplay' );
 
-                    return 'http://' + solrServer + ':8983/solr/enm-pages/select?' +
+                    return 'http://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
@@ -176,7 +189,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             .sort()
                             .join( '%20' ),
 
-                        url = 'http://' + solrServer + ':8983/solr/enm-pages/select?' +
+                        url = 'http://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
