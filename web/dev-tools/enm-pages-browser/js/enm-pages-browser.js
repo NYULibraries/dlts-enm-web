@@ -4,7 +4,7 @@ var Manager;
 
   $(function () {
     Manager = new AjaxSolr.Manager({
-      solrUrl: 'http://devdiscovery.dlib.nyu.edu/solr/enm-pages/'
+      solrUrl: 'https://devdiscovery.dlib.nyu.edu/solr/enm-pages/'
       // If you are using a local Solr instance with a "reuters" core, use:
       // solrUrl: 'http://localhost:8983/solr/reuters/'
       // If you are using a local Solr instance with a single core, use:

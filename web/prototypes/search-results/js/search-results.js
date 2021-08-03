@@ -5,9 +5,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
     SOLR_SERVER = {
         'devweb1.dlib.nyu.edu' : {
             host: 'devdiscovery.dlib.nyu.edu',
-            // Port 80 is not a typo: see https://jira.nyu.edu/jira/browse/NYUP-477
-            // for explanation.
-            port: 80,
+            port: 443,
         },
         'dlib.nyu.edu' : {
             host: 'discovery1.dlib.nyu.edu',
@@ -122,7 +120,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                     var qf = this.selectedQueryFields
                             .sort()
                             .join( '%20' ),
-                        url = 'http://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
+                        url = 'https://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
                               'q=' + encodeURIComponent( this.query ) +
                               '&' +
                               'defType=edismax' +
@@ -161,7 +159,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             .join( '%20' ),
                         highlightFields = qf.replace( 'topicNames', 'topicNamesForDisplay' );
 
-                    return 'http://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
+                    return 'https://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
@@ -195,7 +193,7 @@ var ALTERNATE_NAMES_LIST_SEPARATOR = '&nbsp;&bull;&nbsp;',
                             .sort()
                             .join( '%20' ),
 
-                        url = 'http://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
+                        url = 'https://' + solrServer + ':' + solrPort + '/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
