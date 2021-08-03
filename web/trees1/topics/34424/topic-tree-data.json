@@ -1,0 +1,30 @@
+{
+	"id": 34424,
+	"children": [
+		{
+			"id": 43714,
+			"name": "Watts, CA -- Freedom City"
+		},
+		{
+			"id": 43715,
+			"name": "Watts, CA -- hospital district"
+		},
+		{
+			"id": 43716,
+			"name": "Watts, CA -- hospitals, lack of"
+		},
+		{
+			"id": 43717,
+			"name": "Watts, CA -- infant mortality in"
+		},
+		{
+			"id": 43718,
+			"name": "Watts, CA -- middle class of"
+		},
+		{
+			"id": 43719,
+			"name": "Watts, CA -- poverty in"
+		}
+	],
+	"name": "Watts, section of Los Angeles"
+}

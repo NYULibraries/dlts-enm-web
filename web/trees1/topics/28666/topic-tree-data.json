@@ -1,0 +1,46 @@
+{
+	"id": 28666,
+	"children": [
+		{
+			"id": 28667,
+			"name": "Choice -- and harm"
+		},
+		{
+			"id": 28670,
+			"name": "Choice -- and pornography"
+		},
+		{
+			"id": 28671,
+			"name": "Choice -- and promotion of sexual exploitation"
+		},
+		{
+			"id": 28672,
+			"name": "Choice -- and prostitution"
+		},
+		{
+			"id": 28673,
+			"name": "Choice -- and sexual response"
+		},
+		{
+			"id": 28668,
+			"name": "Choice -- individualism and choice"
+		},
+		{
+			"id": 28669,
+			"name": "Choice -- personal choice"
+		},
+		{
+			"id": 34502,
+			"name": "choices -- self-confidence and"
+		},
+		{
+			"id": 34503,
+			"name": "choices -- self-esteem and"
+		},
+		{
+			"id": 34504,
+			"name": "choices -- values and"
+		}
+	],
+	"name": "choices"
+}

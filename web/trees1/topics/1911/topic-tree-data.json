@@ -1,0 +1,72 @@
+{
+	"id": 1911,
+	"children": [
+		{
+			"id": 28692,
+			"name": "Consent -- and human rights"
+		},
+		{
+			"id": 1912,
+			"name": "Human rights -- and China's 2000 bid"
+		},
+		{
+			"id": 28916,
+			"name": "Human rights -- and global feminist action"
+		},
+		{
+			"id": 1913,
+			"name": "Human rights -- and IOC"
+		},
+		{
+			"id": 1914,
+			"name": "Human rights -- and lawyer Zheng Enchong"
+		},
+		{
+			"id": 28919,
+			"name": "Human rights -- and radical reform"
+		},
+		{
+			"id": 1915,
+			"name": "Human rights -- and South Africa"
+		},
+		{
+			"id": 28920,
+			"name": "Human rights -- and United Nations"
+		},
+		{
+			"id": 1916,
+			"name": "Human rights -- and Wei Jingsheng"
+		},
+		{
+			"id": 28602,
+			"name": "Human rights -- Asian Women's Human Rights Council (Philippines)"
+		},
+		{
+			"id": 28915,
+			"name": "Human rights -- determination of harm"
+		},
+		{
+			"id": 28917,
+			"name": "Human rights -- Lawyers for Human Rights (Pakistan)"
+		},
+		{
+			"id": 28918,
+			"name": "Human rights -- manipulation of global human rights"
+		},
+		{
+			"id": 26295,
+			"name": "Human rights -- Universal Declaration of Human Rights"
+		},
+		{
+			"id": 20824,
+			"children": [
+				{
+					"id": 20825,
+					"name": "Human rights violations -- U.S. and"
+				}
+			],
+			"name": "Human rights -- violation of"
+		}
+	],
+	"name": "human rights"
+}

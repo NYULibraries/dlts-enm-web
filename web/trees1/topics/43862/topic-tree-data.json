@@ -1,0 +1,98 @@
+{
+	"id": 43862,
+	"children": [
+		{
+			"id": 43828,
+			"name": "Adams, Henry -- \"dynamic theory of history\""
+		},
+		{
+			"id": 43834,
+			"name": "Adams, Henry -- \"scientific histories\" of"
+		},
+		{
+			"id": 43832,
+			"name": "Adams, Henry -- a reader of Poe"
+		},
+		{
+			"id": 43822,
+			"name": "Adams, Henry -- apocalyptic view of the future"
+		},
+		{
+			"id": 43835,
+			"children": [
+				{
+					"id": 43837,
+					"name": "Adams, Henry -- authorial voice -- as mechanistic and deterministic"
+				},
+				{
+					"id": 43836,
+					"name": "Adams, Henry -- authorial voice -- lacking personal narrative"
+				}
+			],
+			"name": "Adams, Henry -- authorial voice"
+		},
+		{
+			"id": 43992,
+			"name": "Adams, Henry -- boundary of life and death blurred in"
+		},
+		{
+			"id": 43826,
+			"name": "Adams, Henry -- critical reception of his theories"
+		},
+		{
+			"id": 43827,
+			"name": "Adams, Henry -- determinism in"
+		},
+		{
+			"id": 43829,
+			"name": "Adams, Henry -- evacuation of human subjectivity in"
+		},
+		{
+			"id": 43831,
+			"name": "Adams, Henry -- metaphysical determinism in"
+		},
+		{
+			"id": 43911,
+			"name": "Adams, Henry -- on chaos"
+		},
+		{
+			"id": 43825,
+			"name": "Adams, Henry -- on consciousness as dominated by natural forces"
+		},
+		{
+			"id": 43833,
+			"name": "Adams, Henry -- rejecting optimistic doctrines"
+		},
+		{
+			"id": 43830,
+			"name": "Adams, Henry -- the \"forces of nature capture man\""
+		},
+		{
+			"id": 43838,
+			"children": [
+				{
+					"id": 43842,
+					"name": "Adams, Henry -- works -- \"The Rule of Phase Applied to History\""
+				},
+				{
+					"id": 43839,
+					"name": "Adams, Henry -- works -- A Letter to American Teachers of History"
+				},
+				{
+					"id": 43841,
+					"name": "Adams, Henry -- works -- Mont Saint Michel and Chartres"
+				},
+				{
+					"id": 43843,
+					"name": "Adams, Henry -- works -- The Degradation of the Democratic Dogma"
+				},
+				{
+					"id": 43844,
+					"name": "Adams, Henry -- works -- The Tendency of History"
+				}
+			],
+			"name": "Adams, Henry -- works"
+		}
+	],
+	"name": "Adams, Henry"
+}

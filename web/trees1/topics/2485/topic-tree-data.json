@@ -1,0 +1,182 @@
+{
+	"id": 2485,
+	"children": [
+		{
+			"id": 12033,
+			"name": "Author -- as historical person"
+		},
+		{
+			"id": 12034,
+			"name": "Author -- implied"
+		},
+		{
+			"id": 12035,
+			"name": "Author -- inner conflicts of"
+		},
+		{
+			"id": 12036,
+			"name": "Author -- meanings of the term"
+		},
+		{
+			"id": 21292,
+			"name": "Authors -- allowing characters to reach fulfillment they have never known"
+		},
+		{
+			"id": 2507,
+			"name": "authors -- and pharmaceutical companies"
+		},
+		{
+			"id": 2511,
+			"name": "authors -- and public art"
+		},
+		{
+			"id": 2512,
+			"name": "authors -- and public domain"
+		},
+		{
+			"id": 2515,
+			"name": "authors -- and review process"
+		},
+		{
+			"id": 2519,
+			"name": "authors -- and timing of publication"
+		},
+		{
+			"id": 2520,
+			"name": "authors -- as translator"
+		},
+		{
+			"id": 2487,
+			"name": "authors -- authority"
+		},
+		{
+			"id": 2488,
+			"name": "authors -- choices of"
+		},
+		{
+			"id": 2489,
+			"name": "authors -- claims of misappropriation"
+		},
+		{
+			"id": 2490,
+			"name": "authors -- classical"
+		},
+		{
+			"id": 2491,
+			"name": "authors -- coauthors"
+		},
+		{
+			"id": 2492,
+			"name": "authors -- contracts"
+		},
+		{
+			"id": 2493,
+			"name": "authors -- control"
+		},
+		{
+			"id": 2494,
+			"name": "authors -- death"
+		},
+		{
+			"id": 2495,
+			"name": "authors -- disclosure"
+		},
+		{
+			"id": 2496,
+			"name": "authors -- economics"
+		},
+		{
+			"id": 2497,
+			"name": "authors -- education subsidy"
+		},
+		{
+			"id": 2498,
+			"name": "authors -- first-time authors"
+		},
+		{
+			"id": 2484,
+			"name": "authors -- function"
+		},
+		{
+			"id": 2499,
+			"name": "authors -- group authors"
+		},
+		{
+			"id": 21293,
+			"name": "Authors -- identifying with characters"
+		},
+		{
+			"id": 2500,
+			"name": "authors -- listed"
+		},
+		{
+			"id": 2501,
+			"name": "authors -- markers of common knowledge"
+		},
+		{
+			"id": 2502,
+			"name": "authors -- multiauthor"
+		},
+		{
+			"id": 2503,
+			"name": "authors -- order of"
+		},
+		{
+			"id": 2504,
+			"name": "authors -- original"
+		},
+		{
+			"id": 2505,
+			"name": "authors -- original thinker"
+		},
+		{
+			"id": 2506,
+			"name": "authors -- personality"
+		},
+		{
+			"id": 2508,
+			"name": "authors -- pressures"
+		},
+		{
+			"id": 2509,
+			"name": "authors -- property rights of"
+		},
+		{
+			"id": 2510,
+			"name": "authors -- prospective"
+		},
+		{
+			"id": 2513,
+			"name": "authors -- qualities"
+		},
+		{
+			"id": 2514,
+			"name": "authors -- research"
+		},
+		{
+			"id": 2516,
+			"name": "authors -- rights of"
+		},
+		{
+			"id": 2517,
+			"name": "authors -- single"
+		},
+		{
+			"id": 2518,
+			"name": "authors -- theoretical physics"
+		},
+		{
+			"id": 2521,
+			"name": "authors -- voice"
+		},
+		{
+			"id": 2522,
+			"name": "authors -- Wikipedia"
+		},
+		{
+			"id": 2523,
+			"name": "authors -- worth of"
+		}
+	],
+	"name": "authors"
+}

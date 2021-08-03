@@ -1,0 +1,30 @@
+{
+	"id": 33631,
+	"children": [
+		{
+			"id": 33634,
+			"name": "Managed care -- and integrated care"
+		},
+		{
+			"id": 33637,
+			"name": "Managed care -- and organizational competition"
+		},
+		{
+			"id": 33632,
+			"name": "Managed care -- carve-outs"
+		},
+		{
+			"id": 33633,
+			"name": "Managed care -- effect on HIV care"
+		},
+		{
+			"id": 33635,
+			"name": "Managed care -- home care"
+		},
+		{
+			"id": 33636,
+			"name": "Managed care -- Medicaid"
+		}
+	],
+	"name": "Managed care"
+}

@@ -1,0 +1,26 @@
+{
+	"id": 2349,
+	"children": [
+		{
+			"id": 2352,
+			"name": "Normative theory (standard, vision, stance) -- Dominant paradigm"
+		},
+		{
+			"id": 2350,
+			"name": "Normative theory (standard, vision, stance) -- Orientalism"
+		},
+		{
+			"id": 2351,
+			"name": "Normative theory (standard, vision, stance) -- Paradigm"
+		},
+		{
+			"id": 2353,
+			"name": "Normative theory (standard, vision, stance) -- Paradigm shift"
+		},
+		{
+			"id": 2354,
+			"name": "Normative theory (standard, vision, stance) -- Paradigm testing"
+		}
+	],
+	"name": "Normative theory (standard, vision, stance)"
+}

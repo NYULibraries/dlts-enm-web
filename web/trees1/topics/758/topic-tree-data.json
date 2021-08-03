@@ -1,0 +1,66 @@
+{
+	"id": 758,
+	"children": [
+		{
+			"id": 27016,
+			"name": "Mexican -- and African Americans"
+		},
+		{
+			"id": 27017,
+			"name": "Mexican -- and agriculture industry"
+		},
+		{
+			"id": 27021,
+			"name": "Mexican -- and employment in poultry processing industry"
+		},
+		{
+			"id": 27023,
+			"name": "Mexican -- as focus of INS enforcement"
+		},
+		{
+			"id": 27018,
+			"name": "Mexican -- attitude toward the United States"
+		},
+		{
+			"id": 759,
+			"name": "Mexican -- consulate"
+		},
+		{
+			"id": 27020,
+			"name": "Mexican -- effect on Latino employment"
+		},
+		{
+			"id": 27022,
+			"name": "Mexican -- farmworkers"
+		},
+		{
+			"id": 760,
+			"name": "Mexican -- immigrant"
+		},
+		{
+			"id": 27019,
+			"name": "Mexican -- in Chicago"
+		},
+		{
+			"id": 27025,
+			"name": "Mexican -- in Texas"
+		},
+		{
+			"id": 761,
+			"name": "Mexican -- migrants"
+		},
+		{
+			"id": 762,
+			"name": "Mexican -- nationals"
+		},
+		{
+			"id": 27024,
+			"name": "Mexican -- representation in deportation hearings"
+		},
+		{
+			"id": 763,
+			"name": "Mexican -- workers"
+		}
+	],
+	"name": "Mexican"
+}

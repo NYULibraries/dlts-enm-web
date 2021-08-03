@@ -1,0 +1,22 @@
+{
+	"id": 9304,
+	"children": [
+		{
+			"id": 9305,
+			"name": "Stanford University -- Library"
+		},
+		{
+			"id": 9306,
+			"name": "Stanford University -- Mapping Texts"
+		},
+		{
+			"id": 9307,
+			"name": "Stanford University -- Mapping the Republic of Letters"
+		},
+		{
+			"id": 9308,
+			"name": "Stanford University -- Spatial History Project"
+		}
+	],
+	"name": "Stanford University"
+}

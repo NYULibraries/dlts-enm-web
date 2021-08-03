@@ -1,0 +1,18 @@
+{
+	"id": 33580,
+	"children": [
+		{
+			"id": 33581,
+			"name": "Healthcare systems -- linkages between sectors"
+		},
+		{
+			"id": 33582,
+			"name": "Healthcare systems -- linked community providers"
+		},
+		{
+			"id": 33583,
+			"name": "Healthcare systems -- shortages of providers"
+		}
+	],
+	"name": "Healthcare systems"
+}

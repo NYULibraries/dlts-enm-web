@@ -1,0 +1,18 @@
+{
+	"id": 13267,
+	"children": [
+		{
+			"id": 12502,
+			"name": "Activity -- manic"
+		},
+		{
+			"id": 13268,
+			"name": "Manic -- depressive syndromes"
+		},
+		{
+			"id": 13269,
+			"name": "Manic -- energy"
+		}
+	],
+	"name": "Manic"
+}

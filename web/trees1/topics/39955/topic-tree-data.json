@@ -1,0 +1,22 @@
+{
+	"id": 39955,
+	"children": [
+		{
+			"id": 39956,
+			"name": "Insanity -- lawyer-client relationship"
+		},
+		{
+			"id": 39957,
+			"name": "Insanity -- liberal versus restrictive legal rule"
+		},
+		{
+			"id": 39958,
+			"name": "Insanity -- post-traumatic stress disorder"
+		},
+		{
+			"id": 39959,
+			"name": "Insanity -- psychiatric witnesses"
+		}
+	],
+	"name": "insanity"
+}

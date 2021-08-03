@@ -1,0 +1,26 @@
+{
+	"id": 15716,
+	"children": [
+		{
+			"id": 15717,
+			"name": "Competition -- in juku"
+		},
+		{
+			"id": 15718,
+			"name": "Competition -- physical education"
+		},
+		{
+			"id": 15719,
+			"name": "Competition -- pressure from home"
+		},
+		{
+			"id": 15720,
+			"name": "Competition -- selfishness"
+		},
+		{
+			"id": 15721,
+			"name": "Competition -- Sports Day"
+		}
+	],
+	"name": "competition"
+}

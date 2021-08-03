@@ -1,0 +1,26 @@
+{
+	"id": 3079,
+	"children": [
+		{
+			"id": 24048,
+			"name": "Association for Union Democracy (AUD) -- letter to members of Congress"
+		},
+		{
+			"id": 24605,
+			"name": "U.S. Congress -- and organized crime"
+		},
+		{
+			"id": 24606,
+			"name": "U.S. Congress -- petition to Justice Department in Teamsters International case"
+		},
+		{
+			"id": 24607,
+			"name": "U.S. Congress -- Senate Permanent Subcommittee on Investigations"
+		},
+		{
+			"id": 24608,
+			"name": "U.S. Congress -- Senate Select Committee on Improper Activities in the Labor Management Field (\"McClellan Committee\")"
+		}
+	],
+	"name": "Congress (U.S.)"
+}

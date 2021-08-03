@@ -1,0 +1,70 @@
+{
+	"id": 38397,
+	"children": [
+		{
+			"id": 38548,
+			"name": "Race/ethnicity -- Arab-American"
+		},
+		{
+			"id": 38545,
+			"name": "Race/ethnicity -- Asian-American"
+		},
+		{
+			"id": 38540,
+			"name": "Race/ethnicity -- attitudes of bisexuals of varying"
+		},
+		{
+			"id": 38539,
+			"name": "Race/ethnicity -- attitudes of lesbians of varying"
+		},
+		{
+			"id": 38542,
+			"name": "Race/ethnicity -- biracialism"
+		},
+		{
+			"id": 38543,
+			"name": "Race/ethnicity -- Black or African-American"
+		},
+		{
+			"id": 38537,
+			"name": "Race/ethnicity -- diversity of in lesbian communities"
+		},
+		{
+			"id": 38547,
+			"name": "Race/ethnicity -- Indian or Indian-American"
+		},
+		{
+			"id": 38546,
+			"name": "Race/ethnicity -- Latina"
+		},
+		{
+			"id": 38550,
+			"name": "Race/ethnicity -- Lesbians of Color"
+		},
+		{
+			"id": 38538,
+			"name": "Race/ethnicity -- multiculturalism in bisexual communities"
+		},
+		{
+			"id": 38536,
+			"name": "Race/ethnicity -- of sample"
+		},
+		{
+			"id": 38551,
+			"name": "Race/ethnicity -- People of Color"
+		},
+		{
+			"id": 38541,
+			"name": "Race/ethnicity -- racial/ethnic political movements"
+		},
+		{
+			"id": 38544,
+			"name": "Race/ethnicity -- White or European-American"
+		},
+		{
+			"id": 38549,
+			"name": "Race/ethnicity -- Women of Color"
+		}
+	],
+	"name": "Race and ethnicity"
+}

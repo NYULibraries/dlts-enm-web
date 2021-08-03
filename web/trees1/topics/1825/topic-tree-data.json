@@ -1,0 +1,42 @@
+{
+	"id": 1825,
+	"children": [
+		{
+			"id": 1827,
+			"name": "Boycott -- and Berlin 1936"
+		},
+		{
+			"id": 1828,
+			"name": "Boycott -- and Cold War"
+		},
+		{
+			"id": 1829,
+			"name": "Boycott -- and Los Angeles 1984"
+		},
+		{
+			"id": 1830,
+			"name": "Boycott -- and Melbourne"
+		},
+		{
+			"id": 1831,
+			"name": "Boycott -- and Mexico City, attempt of by African-American athletes"
+		},
+		{
+			"id": 1832,
+			"name": "Boycott -- and Moscow 1980"
+		},
+		{
+			"id": 1834,
+			"name": "Boycott -- and South Africa"
+		},
+		{
+			"id": 1833,
+			"name": "Boycott -- by North Korea, of Seoul"
+		},
+		{
+			"id": 1826,
+			"name": "Boycott -- of Beijing, threat of"
+		}
+	],
+	"name": "Boycotts"
+}

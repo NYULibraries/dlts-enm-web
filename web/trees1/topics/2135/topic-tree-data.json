@@ -1,0 +1,34 @@
+{
+	"id": 2135,
+	"children": [
+		{
+			"id": 45000,
+			"name": "Hollywood films -- block-booking system"
+		},
+		{
+			"id": 45001,
+			"name": "Hollywood films -- family melodramas"
+		},
+		{
+			"id": 2249,
+			"name": "Hollywood films -- Genres and stereotypes"
+		},
+		{
+			"id": 45002,
+			"name": "Hollywood films -- leading ladies"
+		},
+		{
+			"id": 2250,
+			"name": "Hollywood films -- Portrayal of Native Americans and Africans"
+		},
+		{
+			"id": 45003,
+			"name": "Hollywood films -- Shin's work"
+		},
+		{
+			"id": 45004,
+			"name": "Hollywood films -- studio system"
+		}
+	],
+	"name": "Hollywood films"
+}

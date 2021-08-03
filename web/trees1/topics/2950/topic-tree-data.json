@@ -1,0 +1,22 @@
+{
+	"id": 2950,
+	"children": [
+		{
+			"id": 27565,
+			"name": "Physics -- and art"
+		},
+		{
+			"id": 27566,
+			"name": "Physics -- bootstrap theory in"
+		},
+		{
+			"id": 27567,
+			"name": "Physics -- identities required in"
+		},
+		{
+			"id": 2951,
+			"name": "physics -- publication of research"
+		}
+	],
+	"name": "physics"
+}

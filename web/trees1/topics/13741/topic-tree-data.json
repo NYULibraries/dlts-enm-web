@@ -1,0 +1,34 @@
+{
+	"id": 13741,
+	"children": [
+		{
+			"id": 34974,
+			"name": "Public psychology -- anxiety regarding social, political, and economic change"
+		},
+		{
+			"id": 34977,
+			"name": "Public psychology -- decline of confidence"
+		},
+		{
+			"id": 34975,
+			"name": "Public psychology -- decline of identification with major parties"
+		},
+		{
+			"id": 34976,
+			"name": "Public psychology -- decline of optimism"
+		},
+		{
+			"id": 34978,
+			"name": "Public psychology -- hope"
+		},
+		{
+			"id": 34979,
+			"name": "Public psychology -- suspiciousness"
+		},
+		{
+			"id": 34980,
+			"name": "Public psychology -- third party candidates and"
+		}
+	],
+	"name": "Public -- psychology"
+}

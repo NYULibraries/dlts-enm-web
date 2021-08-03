@@ -1,0 +1,46 @@
+{
+	"id": 8003,
+	"children": [
+		{
+			"id": 8005,
+			"name": "Wilde, Oscar -- \"The Harlot House\""
+		},
+		{
+			"id": 8009,
+			"name": "Wilde, Oscar -- \"The Soul of Man under Socialism\""
+		},
+		{
+			"id": 27755,
+			"name": "Wilde, Oscar -- Ballad of Reading Gaol, The"
+		},
+		{
+			"id": 8011,
+			"name": "Wilde, Oscar -- Or, the Nihilist (stage production)"
+		},
+		{
+			"id": 8012,
+			"name": "Wilde, Oscar -- Or, the Nihilists (drama)"
+		},
+		{
+			"id": 8008,
+			"name": "Wilde, Oscar -- Salomé"
+		},
+		{
+			"id": 8004,
+			"name": "Wilde, Oscar -- The Duchess of Padua"
+		},
+		{
+			"id": 8006,
+			"name": "Wilde, Oscar -- The Importance of Being Earnest"
+		},
+		{
+			"id": 8007,
+			"name": "Wilde, Oscar -- The Picture of Dorian Gray"
+		},
+		{
+			"id": 8010,
+			"name": "Wilde, Oscar -- Vera"
+		}
+	],
+	"name": "Wilde, Oscar"
+}

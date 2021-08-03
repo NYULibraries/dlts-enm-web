@@ -1,0 +1,30 @@
+{
+	"id": 37246,
+	"children": [
+		{
+			"id": 37247,
+			"name": "Alcohol -- and drugs"
+		},
+		{
+			"id": 37248,
+			"name": "Alcohol -- and family"
+		},
+		{
+			"id": 37250,
+			"name": "Alcohol -- and incest"
+		},
+		{
+			"id": 37252,
+			"name": "Alcohol -- and Twelve Steps"
+		},
+		{
+			"id": 37249,
+			"name": "Alcohol -- histories"
+		},
+		{
+			"id": 37251,
+			"name": "Alcohol -- respondents susceptibility to addiction"
+		}
+	],
+	"name": "Alcohol"
+}

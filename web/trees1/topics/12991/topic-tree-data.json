@@ -1,0 +1,78 @@
+{
+	"id": 12991,
+	"children": [
+		{
+			"id": 12996,
+			"name": "Emotional -- and experiential roots"
+		},
+		{
+			"id": 13000,
+			"name": "Emotional -- and material support of others"
+		},
+		{
+			"id": 12992,
+			"name": "Emotional -- attunement"
+		},
+		{
+			"id": 12993,
+			"name": "Emotional -- balance"
+		},
+		{
+			"id": 12994,
+			"name": "Emotional -- connectedness"
+		},
+		{
+			"id": 12995,
+			"name": "Emotional -- distance from others"
+		},
+		{
+			"id": 12997,
+			"name": "Emotional -- factors"
+		},
+		{
+			"id": 12998,
+			"name": "Emotional -- fatigue"
+		},
+		{
+			"id": 12999,
+			"name": "Emotional -- history"
+		},
+		{
+			"id": 13001,
+			"name": "Emotional -- outbursts"
+		},
+		{
+			"id": 13002,
+			"name": "Emotional -- responsiveness"
+		},
+		{
+			"id": 13003,
+			"name": "Emotional -- stability"
+		},
+		{
+			"id": 13004,
+			"name": "Emotional -- stamina"
+		},
+		{
+			"id": 13005,
+			"name": "Emotional -- stimulation"
+		},
+		{
+			"id": 13006,
+			"name": "Emotional -- structures"
+		},
+		{
+			"id": 13007,
+			"name": "Emotional -- variability"
+		},
+		{
+			"id": 13008,
+			"name": "Emotional -- vicissitudes"
+		},
+		{
+			"id": 13009,
+			"name": "Emotional -- well-being"
+		}
+	],
+	"name": "Emotional"
+}

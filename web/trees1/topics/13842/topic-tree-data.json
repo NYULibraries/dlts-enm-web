@@ -1,0 +1,54 @@
+{
+	"id": 13842,
+	"children": [
+		{
+			"id": 13843,
+			"name": "Social -- acceptability"
+		},
+		{
+			"id": 13844,
+			"name": "Social -- factors"
+		},
+		{
+			"id": 13845,
+			"name": "Social -- forces theorists"
+		},
+		{
+			"id": 13846,
+			"name": "Social -- functioning"
+		},
+		{
+			"id": 13847,
+			"name": "Social -- policies"
+		},
+		{
+			"id": 13848,
+			"name": "Social -- process(es)"
+		},
+		{
+			"id": 13849,
+			"name": "Social -- programs"
+		},
+		{
+			"id": 13850,
+			"name": "Social -- psychological data"
+		},
+		{
+			"id": 13851,
+			"name": "Social -- responsibility"
+		},
+		{
+			"id": 13852,
+			"name": "Social -- situations"
+		},
+		{
+			"id": 13853,
+			"name": "Social -- skills"
+		},
+		{
+			"id": 13854,
+			"name": "Social -- welfare"
+		}
+	],
+	"name": "Social"
+}

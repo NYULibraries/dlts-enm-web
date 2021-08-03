@@ -1,0 +1,194 @@
+{
+	"id": 1165,
+	"children": [
+		{
+			"id": 4638,
+			"name": "Hip hop -- East vs. West Coast"
+		},
+		{
+			"id": 5742,
+			"name": "Hip-hop -- (use of) Metaphor"
+		},
+		{
+			"id": 1232,
+			"name": "hip-hop -- academic discourse about"
+		},
+		{
+			"id": 5730,
+			"name": "Hip-hop -- Activism"
+		},
+		{
+			"id": 5731,
+			"name": "Hip-hop -- Aesthetics defined"
+		},
+		{
+			"id": 42234,
+			"name": "hip-hop -- African American origins"
+		},
+		{
+			"id": 42238,
+			"name": "hip-hop -- as \"rap\""
+		},
+		{
+			"id": 1233,
+			"children": [
+				{
+					"id": 42069,
+					"name": "authenticity and hip-hop -- blackness and"
+				},
+				{
+					"id": 42070,
+					"name": "authenticity and hip-hop -- cultural and performative claims"
+				},
+				{
+					"id": 42071,
+					"name": "authenticity and hip-hop -- gender claims"
+				}
+			],
+			"name": "hip-hop -- authenticity and"
+		},
+		{
+			"id": 42235,
+			"name": "hip-hop -- blackness and"
+		},
+		{
+			"id": 1234,
+			"name": "hip-hop -- British"
+		},
+		{
+			"id": 5735,
+			"name": "Hip-hop -- Conflict with Civil Rights generation"
+		},
+		{
+			"id": 1235,
+			"name": "hip-hop -- Cuban"
+		},
+		{
+			"id": 42116,
+			"children": [
+				{
+					"id": 42123,
+					"name": "culture of hip-hop -- as a uniting force"
+				},
+				{
+					"id": 42117,
+					"name": "culture of hip-hop -- entry into"
+				},
+				{
+					"id": 42118,
+					"name": "culture of hip-hop -- masculinist aspects"
+				},
+				{
+					"id": 42119,
+					"name": "culture of hip-hop -- mobile DJ scene"
+				},
+				{
+					"id": 42120,
+					"name": "culture of hip-hop -- non-African contributions"
+				},
+				{
+					"id": 42121,
+					"name": "culture of hip-hop -- racialization of"
+				},
+				{
+					"id": 42122,
+					"name": "culture of hip-hop -- significance to larger culture"
+				},
+				{
+					"id": 42124,
+					"name": "culture of hip-hop -- viewed as an Afro-diaspora form"
+				}
+			],
+			"name": "hip-hop -- culture of"
+		},
+		{
+			"id": 42236,
+			"name": "hip-hop -- Filipino identity and"
+		},
+		{
+			"id": 1236,
+			"name": "hip-hop -- French (and Quebecois)"
+		},
+		{
+			"id": 5736,
+			"name": "Hip-hop -- Gender"
+		},
+		{
+			"id": 5737,
+			"name": "Hip-hop -- Generation"
+		},
+		{
+			"id": 5738,
+			"name": "Hip-hop -- Growth"
+		},
+		{
+			"id": 5739,
+			"name": "Hip-hop -- Influence of legal decisions"
+		},
+		{
+			"id": 1237,
+			"name": "hip-hop -- Japanese"
+		},
+		{
+			"id": 42237,
+			"name": "hip-hop -- language of"
+		},
+		{
+			"id": 5740,
+			"name": "Hip-hop -- Lyrics"
+		},
+		{
+			"id": 5741,
+			"name": "Hip-hop -- Materialism"
+		},
+		{
+			"id": 5743,
+			"name": "Hip-hop -- Middle-class life"
+		},
+		{
+			"id": 5744,
+			"name": "Hip-hop -- Misogyny"
+		},
+		{
+			"id": 1238,
+			"name": "hip-hop -- misogyny and sexism in"
+		},
+		{
+			"id": 5745,
+			"name": "Hip-hop -- Origins"
+		},
+		{
+			"id": 5746,
+			"name": "Hip-hop -- Paranoid Style"
+		},
+		{
+			"id": 5747,
+			"name": "Hip-hop -- Relation to high culture"
+		},
+		{
+			"id": 1239,
+			"name": "hip-hop -- Senegalese"
+		},
+		{
+			"id": 42240,
+			"name": "hip-hop -- study of Filipino performers"
+		},
+		{
+			"id": 42241,
+			"name": "hip-hop -- techniques of"
+		},
+		{
+			"id": 5748,
+			"name": "Hip-hop -- Transformative borrowing"
+		},
+		{
+			"id": 1240,
+			"name": "hip-hop -- Turkish"
+		},
+		{
+			"id": 1241,
+			"name": "hip-hop -- Zimbabwean"
+		}
+	],
+	"name": "hip-hop"
+}

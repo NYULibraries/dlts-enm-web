@@ -1,0 +1,18 @@
+{
+	"id": 42721,
+	"children": [
+		{
+			"id": 42722,
+			"name": "community health -- centers"
+		},
+		{
+			"id": 42723,
+			"name": "community health -- councils"
+		},
+		{
+			"id": 42724,
+			"name": "community health -- projects"
+		}
+	],
+	"name": "community health"
+}

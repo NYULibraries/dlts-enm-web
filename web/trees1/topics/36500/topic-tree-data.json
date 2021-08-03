@@ -1,0 +1,34 @@
+{
+	"id": 36500,
+	"children": [
+		{
+			"id": 36651,
+			"name": "Queer -- as term"
+		},
+		{
+			"id": 38532,
+			"name": "Queer -- liberation"
+		},
+		{
+			"id": 23918,
+			"name": "Queer -- movement"
+		},
+		{
+			"id": 38534,
+			"name": "Queer -- people"
+		},
+		{
+			"id": 38531,
+			"name": "Queer -- politics"
+		},
+		{
+			"id": 38533,
+			"name": "Queer -- straights"
+		},
+		{
+			"id": 38535,
+			"name": "Queer -- to be"
+		}
+	],
+	"name": "queer"
+}

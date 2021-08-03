@@ -1,0 +1,86 @@
+{
+	"id": 16155,
+	"children": [
+		{
+			"id": 32778,
+			"name": "Gender -- contrasted with sexual orientation"
+		},
+		{
+			"id": 32942,
+			"name": "Military -- views on sexual orientation"
+		},
+		{
+			"id": 33000,
+			"name": "Race -- analogy with sexual orientation"
+		},
+		{
+			"id": 33002,
+			"name": "Race -- contrasted with sexual orientation"
+		},
+		{
+			"id": 16156,
+			"name": "Sexual orientation -- and affirmative action"
+		},
+		{
+			"id": 33044,
+			"name": "Sexual orientation -- and political representation"
+		},
+		{
+			"id": 33034,
+			"name": "Sexual orientation -- as binary opposition"
+		},
+		{
+			"id": 33035,
+			"name": "Sexual orientation -- as biological"
+		},
+		{
+			"id": 33036,
+			"name": "Sexual orientation -- as continuum"
+		},
+		{
+			"id": 16036,
+			"name": "Sexual orientation -- as distinguished from gender"
+		},
+		{
+			"id": 33038,
+			"name": "Sexual orientation -- as exclusive to lesbians and gay men"
+		},
+		{
+			"id": 33039,
+			"name": "Sexual orientation -- as identity"
+		},
+		{
+			"id": 33040,
+			"name": "Sexual orientation -- as immutable"
+		},
+		{
+			"id": 33041,
+			"name": "Sexual orientation -- as inadequate classification system"
+		},
+		{
+			"id": 33043,
+			"name": "Sexual orientation -- as irrelevant"
+		},
+		{
+			"id": 33045,
+			"name": "Sexual orientation -- as private"
+		},
+		{
+			"id": 33037,
+			"name": "Sexual orientation -- distinguished from sexual conduct"
+		},
+		{
+			"id": 33042,
+			"name": "Sexual orientation -- instability of categories"
+		},
+		{
+			"id": 16157,
+			"name": "Sexual orientation -- invisibility of African-American women"
+		},
+		{
+			"id": 33046,
+			"name": "Sexual orientation -- social construction of"
+		}
+	],
+	"name": "Sexual orientation"
+}

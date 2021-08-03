@@ -1,0 +1,54 @@
+{
+	"id": 43587,
+	"children": [
+		{
+			"id": 43411,
+			"name": "population control -- sterilization, forced"
+		},
+		{
+			"id": 43591,
+			"name": "sterilization, forced -- and Native women"
+		},
+		{
+			"id": 43592,
+			"name": "sterilization, forced -- and poverty"
+		},
+		{
+			"id": 42540,
+			"name": "sterilization, forced -- as birth control"
+		},
+		{
+			"id": 43068,
+			"name": "sterilization, forced -- at L. A. County-USC Hospital"
+		},
+		{
+			"id": 43589,
+			"name": "sterilization, forced -- HEW program"
+		},
+		{
+			"id": 43588,
+			"name": "sterilization, forced -- in California"
+		},
+		{
+			"id": 43590,
+			"name": "sterilization, forced -- of Japanese Americans"
+		},
+		{
+			"id": 43196,
+			"name": "sterilization, forced -- of Mexican Americans"
+		},
+		{
+			"id": 43595,
+			"name": "sterilization, forced -- of women of color"
+		},
+		{
+			"id": 43593,
+			"name": "sterilization, forced -- SNCC on"
+		},
+		{
+			"id": 43594,
+			"name": "sterilization, forced -- welfare policies"
+		}
+	],
+	"name": "sterilization, forced"
+}

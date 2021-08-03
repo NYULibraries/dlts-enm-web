@@ -1,0 +1,34 @@
+{
+	"id": 40171,
+	"children": [
+		{
+			"id": 40158,
+			"name": "Girls -- experiences of, during adolescence"
+		},
+		{
+			"id": 40401,
+			"name": "Girls -- fear of older men in"
+		},
+		{
+			"id": 40402,
+			"name": "Girls -- lack of trust in boys"
+		},
+		{
+			"id": 40404,
+			"name": "Girls -- unwillingness to speak out to boys"
+		},
+		{
+			"id": 40405,
+			"name": "Girls -- urban, outspokenness of"
+		},
+		{
+			"id": 40406,
+			"name": "Girls -- values of"
+		},
+		{
+			"id": 40403,
+			"name": "Mother(s) -- girls' relationship with"
+		}
+	],
+	"name": "Girls"
+}

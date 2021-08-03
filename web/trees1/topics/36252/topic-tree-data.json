@@ -1,0 +1,22 @@
+{
+	"id": 36252,
+	"children": [
+		{
+			"id": 36253,
+			"name": "Canon -- expansion"
+		},
+		{
+			"id": 36254,
+			"name": "Canon -- literary"
+		},
+		{
+			"id": 36255,
+			"name": "Canon -- political theory"
+		},
+		{
+			"id": 14629,
+			"name": "Canon -- revision of"
+		}
+	],
+	"name": "Canon"
+}

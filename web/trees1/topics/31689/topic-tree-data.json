@@ -1,0 +1,60 @@
+{
+	"id": 31689,
+	"children": [
+		{
+			"id": 36313,
+			"name": "Difference -- bridging"
+		},
+		{
+			"id": 36314,
+			"name": "Difference -- celebrating"
+		},
+		{
+			"id": 2631,
+			"children": [
+				{
+					"id": 2632,
+					"name": "cultural differences -- Chinese"
+				},
+				{
+					"id": 2633,
+					"name": "cultural differences -- Western"
+				}
+			],
+			"name": "Difference -- cultural"
+		},
+		{
+			"id": 31690,
+			"name": "difference -- defined"
+		},
+		{
+			"id": 35709,
+			"name": "Difference -- gender"
+		},
+		{
+			"id": 36315,
+			"name": "Difference -- negotiating"
+		},
+		{
+			"id": 31691,
+			"name": "difference -- physical"
+		},
+		{
+			"id": 31692,
+			"name": "difference -- politics of"
+		},
+		{
+			"id": 36316,
+			"name": "Difference -- racial"
+		},
+		{
+			"id": 36317,
+			"name": "Difference -- recognition of"
+		},
+		{
+			"id": 36318,
+			"name": "Difference -- visible"
+		}
+	],
+	"name": "difference"
+}

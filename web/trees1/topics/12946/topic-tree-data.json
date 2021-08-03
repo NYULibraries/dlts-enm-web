@@ -1,0 +1,22 @@
+{
+	"id": 12946,
+	"children": [
+		{
+			"id": 12947,
+			"name": "Domestic -- economic dislocation"
+		},
+		{
+			"id": 12948,
+			"name": "Domestic -- issues"
+		},
+		{
+			"id": 12949,
+			"name": "Domestic -- policy"
+		},
+		{
+			"id": 12950,
+			"name": "Domestic -- politics"
+		}
+	],
+	"name": "Domestic"
+}

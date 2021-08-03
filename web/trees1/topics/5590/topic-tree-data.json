@@ -1,0 +1,24 @@
+{
+	"id": 5590,
+	"children": [
+		{
+			"id": 20247,
+			"name": "Civil Rights Act of 1964 -- Title VI of"
+		},
+		{
+			"id": 31504,
+			"children": [
+				{
+					"id": 16177,
+					"name": "Title VII of the Civil Rights Act of 1964 -- and definition of discrimination"
+				},
+				{
+					"id": 16178,
+					"name": "Title VII of the Civil Rights Act of 1964 -- prima facie case of discrimination"
+				}
+			],
+			"name": "Title VII of the Civil Rights Act of 1964"
+		}
+	],
+	"name": "Civil Rights Act (of 1964)"
+}

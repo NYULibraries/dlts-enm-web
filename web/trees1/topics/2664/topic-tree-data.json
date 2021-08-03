@@ -1,0 +1,86 @@
+{
+	"id": 2664,
+	"children": [
+		{
+			"id": 44008,
+			"name": "Douglass, Frederick -- Afrocentrism attributed to"
+		},
+		{
+			"id": 5668,
+			"name": "Douglass, Frederick -- Analysis of music"
+		},
+		{
+			"id": 44016,
+			"children": [
+				{
+					"id": 44019,
+					"name": "Douglass, Frederick -- authorial voice -- as a slave autobiographer achieving personhood"
+				},
+				{
+					"id": 44018,
+					"name": "Douglass, Frederick -- authorial voice -- nothing–man binary in"
+				},
+				{
+					"id": 44017,
+					"name": "Douglass, Frederick -- authorial voice -- of Euro-American rhetoric of freedom"
+				}
+			],
+			"name": "Douglass, Frederick -- authorial voice"
+		},
+		{
+			"id": 44009,
+			"name": "Douglass, Frederick -- black spirituality and"
+		},
+		{
+			"id": 44010,
+			"name": "Douglass, Frederick -- conversion from ox to man"
+		},
+		{
+			"id": 44011,
+			"name": "Douglass, Frederick -- his fight with Covey"
+		},
+		{
+			"id": 44013,
+			"name": "Douglass, Frederick -- lacking fear of death"
+		},
+		{
+			"id": 44014,
+			"name": "Douglass, Frederick -- mechanism and determinism in"
+		},
+		{
+			"id": 5669,
+			"name": "Douglass, Frederick -- Narrative of the Life of Frederick Douglass"
+		},
+		{
+			"id": 44012,
+			"name": "Douglass, Frederick -- on human domination and force as power"
+		},
+		{
+			"id": 44015,
+			"name": "Douglass, Frederick -- preferring death to bondage"
+		},
+		{
+			"id": 5670,
+			"name": "Douglass, Frederick -- Signifyin'"
+		},
+		{
+			"id": 5671,
+			"name": "Douglass, Frederick -- Wind Done Gone"
+		},
+		{
+			"id": 44020,
+			"children": [
+				{
+					"id": 44022,
+					"name": "Douglass, Frederick -- works -- \"The Claims of the Negro Ethnologically Considered\""
+				},
+				{
+					"id": 44021,
+					"name": "Douglass, Frederick -- works -- My Bondage and my Freedom"
+				}
+			],
+			"name": "Douglass, Frederick -- works"
+		}
+	],
+	"name": "Douglass, Frederick"
+}

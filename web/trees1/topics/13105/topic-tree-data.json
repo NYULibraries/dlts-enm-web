@@ -1,0 +1,46 @@
+{
+	"id": 13105,
+	"children": [
+		{
+			"id": 12534,
+			"name": "Ambition -- good enough president and"
+		},
+		{
+			"id": 13109,
+			"name": "Character integrity -- good enough president and"
+		},
+		{
+			"id": 13106,
+			"name": "Good enough president -- basic public dilemma and"
+		},
+		{
+			"id": 13107,
+			"name": "Good enough president -- compared to ideal type"
+		},
+		{
+			"id": 13108,
+			"name": "Good enough president -- emotional resilience and"
+		},
+		{
+			"id": 13110,
+			"name": "Good enough president -- judgment of"
+		},
+		{
+			"id": 13111,
+			"name": "Good enough president -- physical energy of"
+		},
+		{
+			"id": 13112,
+			"name": "Good enough president -- political leadership of"
+		},
+		{
+			"id": 13113,
+			"name": "Good enough president -- relationships to others and"
+		},
+		{
+			"id": 13114,
+			"name": "Good enough president -- trustworthiness of"
+		}
+	],
+	"name": "Good enough president"
+}

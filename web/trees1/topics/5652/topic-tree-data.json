@@ -1,0 +1,56 @@
+{
+	"id": 5652,
+	"children": [
+		{
+			"id": 5870,
+			"name": "Ownership -- Cultural"
+		},
+		{
+			"id": 5871,
+			"name": "Ownership -- Economic"
+		},
+		{
+			"id": 5872,
+			"name": "Ownership -- Ethics"
+		},
+		{
+			"id": 5873,
+			"name": "Ownership -- Graffiti"
+		},
+		{
+			"id": 5874,
+			"children": [
+				{
+					"id": 42981,
+					"name": "home ownership -- as \"invisible welfare state\""
+				},
+				{
+					"id": 42982,
+					"name": "home ownership -- tax benefits of"
+				}
+			],
+			"name": "Ownership -- Home ownership"
+		},
+		{
+			"id": 5875,
+			"name": "Ownership -- Owning the self"
+		},
+		{
+			"id": 5876,
+			"name": "Ownership -- Psychological"
+		},
+		{
+			"id": 5877,
+			"name": "Ownership -- Public memory"
+		},
+		{
+			"id": 5878,
+			"name": "Ownership -- Social change"
+		},
+		{
+			"id": 5879,
+			"name": "Ownership -- Visual culture"
+		}
+	],
+	"name": "ownership"
+}

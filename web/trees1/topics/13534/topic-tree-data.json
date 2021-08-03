@@ -1,0 +1,330 @@
+{
+	"id": 13534,
+	"children": [
+		{
+			"id": 12666,
+			"name": "Campaign(s) and campaigning -- presidential"
+		},
+		{
+			"id": 13535,
+			"name": "President(ial) -- ability to arouse the public"
+		},
+		{
+			"id": 13536,
+			"name": "President(ial) -- aides"
+		},
+		{
+			"id": 13537,
+			"name": "President(ial) -- appointments"
+		},
+		{
+			"id": 13538,
+			"name": "President(ial) -- authority"
+		},
+		{
+			"id": 13539,
+			"name": "President(ial) -- behavior"
+		},
+		{
+			"id": 13540,
+			"name": "President(ial) -- beliefs"
+		},
+		{
+			"id": 13541,
+			"name": "President(ial) -- candidate(s)"
+		},
+		{
+			"id": 12730,
+			"name": "President(ial) -- character"
+		},
+		{
+			"id": 13542,
+			"name": "President(ial) -- debates"
+		},
+		{
+			"id": 13543,
+			"name": "President(ial) -- decision making"
+		},
+		{
+			"id": 13544,
+			"name": "President(ial) -- election(s)"
+		},
+		{
+			"id": 13545,
+			"name": "President(ial) -- empathy"
+		},
+		{
+			"id": 13546,
+			"name": "President(ial) -- expectations"
+		},
+		{
+			"id": 13547,
+			"name": "President(ial) -- good enough"
+		},
+		{
+			"id": 13548,
+			"name": "President(ial) -- impact"
+		},
+		{
+			"id": 13549,
+			"name": "President(ial) -- inference"
+		},
+		{
+			"id": 13550,
+			"name": "President(ial) -- judgments"
+		},
+		{
+			"id": 13240,
+			"children": [
+				{
+					"id": 13241,
+					"name": "Leadership, presidential -- assessment of during presidential campaigns"
+				},
+				{
+					"id": 13242,
+					"name": "Leadership, presidential -- character and"
+				},
+				{
+					"id": 13243,
+					"name": "Leadership, presidential -- decisions"
+				},
+				{
+					"id": 13244,
+					"name": "Leadership, presidential -- enactment"
+				},
+				{
+					"id": 13245,
+					"name": "Leadership, presidential -- nature of"
+				},
+				{
+					"id": 13246,
+					"name": "Leadership, presidential -- performance"
+				},
+				{
+					"id": 13247,
+					"name": "Leadership, presidential -- public education and"
+				},
+				{
+					"id": 13248,
+					"name": "Leadership, presidential -- resources"
+				},
+				{
+					"id": 13249,
+					"name": "Leadership, presidential -- skills"
+				},
+				{
+					"id": 13250,
+					"name": "Leadership, presidential -- style"
+				}
+			],
+			"name": "President(ial) -- leadership"
+		},
+		{
+			"id": 13551,
+			"name": "President(ial) -- nominations"
+		},
+		{
+			"id": 13552,
+			"name": "President(ial) -- perception"
+		},
+		{
+			"id": 13381,
+			"children": [
+				{
+					"id": 13382,
+					"name": "Performance, presidential -- circumstances and"
+				},
+				{
+					"id": 13383,
+					"name": "Performance, presidential -- criteria for"
+				},
+				{
+					"id": 13384,
+					"name": "Performance, presidential -- theories of"
+				},
+				{
+					"id": 34941,
+					"name": "Presidential performance -- achievement motivation and"
+				},
+				{
+					"id": 34942,
+					"name": "Presidential performance -- ambition and"
+				},
+				{
+					"id": 34943,
+					"name": "Presidential performance -- ambition versus ideals and"
+				},
+				{
+					"id": 34957,
+					"name": "Presidential performance -- as measured by legislative victories"
+				},
+				{
+					"id": 34944,
+					"name": "Presidential performance -- character and"
+				},
+				{
+					"id": 34945,
+					"name": "Presidential performance -- character style and"
+				},
+				{
+					"id": 34946,
+					"name": "Presidential performance -- consequential behaviors and"
+				},
+				{
+					"id": 34947,
+					"name": "Presidential performance -- context and"
+				},
+				{
+					"id": 34948,
+					"name": "Presidential performance -- dangers of using crisis as a pretext"
+				},
+				{
+					"id": 34950,
+					"name": "Presidential performance -- functions of impatience and"
+				},
+				{
+					"id": 34951,
+					"name": "Presidential performance -- functions of knowledge and"
+				},
+				{
+					"id": 34952,
+					"name": "Presidential performance -- functions of persistence and"
+				},
+				{
+					"id": 34953,
+					"name": "Presidential performance -- high self-esteem and"
+				},
+				{
+					"id": 34949,
+					"name": "Presidential performance -- influence of the assessment of childhood on"
+				},
+				{
+					"id": 34954,
+					"name": "Presidential performance -- judgment as key pillar of"
+				},
+				{
+					"id": 34955,
+					"name": "Presidential performance -- key means versus outcomes in evaluation of"
+				},
+				{
+					"id": 34956,
+					"name": "Presidential performance -- leadership as second key pillar of"
+				},
+				{
+					"id": 34958,
+					"name": "Presidential performance -- relatedness to others and"
+				},
+				{
+					"id": 34959,
+					"name": "Presidential performance -- role of competitiveness in"
+				},
+				{
+					"id": 34960,
+					"name": "Presidential performance -- search for greatness and"
+				}
+			],
+			"name": "President(ial) -- performance"
+		},
+		{
+			"id": 13553,
+			"name": "President(ial) -- policy"
+		},
+		{
+			"id": 13529,
+			"children": [
+				{
+					"id": 13570,
+					"name": "Presidential power -- American political culture and"
+				},
+				{
+					"id": 13571,
+					"name": "Presidential power -- constitutional authority and"
+				},
+				{
+					"id": 13572,
+					"name": "Presidential power -- dilemma of"
+				},
+				{
+					"id": 13573,
+					"name": "Presidential power -- judgment and"
+				}
+			],
+			"name": "President(ial) -- power"
+		},
+		{
+			"id": 13554,
+			"name": "President(ial) -- preference"
+		},
+		{
+			"id": 13555,
+			"name": "President(ial) -- primaries"
+		},
+		{
+			"id": 13556,
+			"children": [
+				{
+					"id": 34961,
+					"name": "Presidential psychology -- character-based personality traits and"
+				},
+				{
+					"id": 34962,
+					"name": "Presidential psychology -- distinguished from character"
+				},
+				{
+					"id": 34963,
+					"name": "Presidential psychology -- effects of not living in the real world"
+				},
+				{
+					"id": 34964,
+					"name": "Presidential psychology -- importance of, in the presidency"
+				},
+				{
+					"id": 34965,
+					"name": "Presidential psychology -- presidential traits and"
+				},
+				{
+					"id": 34966,
+					"name": "Presidential psychology -- reactions to circumstances and"
+				},
+				{
+					"id": 34967,
+					"name": "Presidential psychology -- relationship of context to"
+				}
+			],
+			"name": "President(ial) -- psychology"
+		},
+		{
+			"id": 13557,
+			"name": "President(ial) -- recruitment"
+		},
+		{
+			"id": 13558,
+			"name": "President(ial) -- relationship with Congress"
+		},
+		{
+			"id": 13559,
+			"name": "President(ial) -- relationship with the press"
+		},
+		{
+			"id": 13560,
+			"name": "President(ial) -- relationship with the public"
+		},
+		{
+			"id": 13561,
+			"name": "President(ial) -- responsibilities"
+		},
+		{
+			"id": 13562,
+			"name": "President(ial) -- roles"
+		},
+		{
+			"id": 13563,
+			"name": "President(ial) -- selection"
+		},
+		{
+			"id": 13564,
+			"name": "President(ial) -- suitability"
+		}
+	],
+	"name": "President(ial)"
+}

@@ -1,0 +1,30 @@
+{
+	"id": 13417,
+	"children": [
+		{
+			"id": 13418,
+			"name": "Physical -- exhaustion"
+		},
+		{
+			"id": 13419,
+			"name": "Physical -- factors"
+		},
+		{
+			"id": 13420,
+			"name": "Physical -- health"
+		},
+		{
+			"id": 13421,
+			"name": "Physical -- illness"
+		},
+		{
+			"id": 13422,
+			"name": "Physical -- impairment"
+		},
+		{
+			"id": 13423,
+			"name": "Physical -- physiology"
+		}
+	],
+	"name": "Physical"
+}

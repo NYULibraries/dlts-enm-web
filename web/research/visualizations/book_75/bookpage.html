@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="enm.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="masthead">Enhanced Networked Monographs
+        <input class="searchbox" type="search" value="Full text search">
+    </div>
+    <div class="all">
+        <header class="metaInfo">
+            <div class="coverimg"><img src="cover.jpg"></div>
+            <h2 id="book-title" itemprop="name" class="book-title">The Prophetic Tradition and Radical Rhetoric in America<span id="book-subtitle" itemprop="name" class="book-subtitle">James Darsey</span></h2>
+            <div class="press">New York University Press, 1997</div>
+            <div>RELIGION / History <span class="pipe">|</span> ISBN: 9780814718766 <span class="pipe">|</span> 292 pages <span class="pipe">|</span> <a href="#">Buy this book</a></div>
+            <p class="description">This expansive volume traces the rhetoric of reform across American history, examining such pivotal periods as the American Revolution, slavery, McCarthyism, and today's gay liberation movement. At a time when social movements led by religious leaders, from Louis Farrakhan to Pat Buchanan, are playing a central role in American politics, James Darsey connects this radical tradition with its prophetic roots...</p>
+        </header>
+        <main>
+            <h4>Topic Map: All the topics indexed in this book</h4>
+            <aside class="occurrencesList">
+                <h4>Topic: logos -- related to pathos</h4>
+                <h5>4 Occurrences in this Book</h5>
+                <div class="o"><a href="#">Chapter 1, page 25</a></div>
+                <div class="o"><a href="#"> Chapter 3, page 71</a></div>
+                <div class="o"> <a href="#">Chapter 3, page 79</a></div>
+                <div class="o"> <a href="#">Chapter 5, page 86</a></div>
+            </aside>
+            <svg width="800" height="500"></svg>
+            <div id="slideHold">
+                <p>To explore the map, you can click or drag individual topics, pan the whole map, or use the controls below.</p>
+                <table>
+                    <tr>
+                        <td> <span>Zoom:</span></td>
+                        <td>
+                            <div class="slider" id="slider1"></div>
+                        </td>
+                        <td> <span>Strength:</span></td>
+                        <td>
+                            <div class="slider" id="slider2"></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <span>Distance Min:</span></td>
+                        <td>
+                            <div class="slider" id="slider3"></div>
+                        </td>
+                        <td> <span>Distance Max:</span></td>
+                        <td>
+                            <div class="slider" id="slider4"></div>
+                        </td>
+                        <td>
+                            <button type="button" class="stopall">Freeze</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="basic.js"></script>
+    </div>
+    <footer>Footer Information here</footer>
+</body>
+
+</html>

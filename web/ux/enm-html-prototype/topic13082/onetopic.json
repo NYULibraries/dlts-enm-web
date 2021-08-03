@@ -1,0 +1,334 @@
+{
+    "nodes": [
+    {
+        "name": "Bosnia",
+        "id": 12632,
+        "ocount": 21
+    },
+    {
+        "name": "Carter, Stephen -- U.S. foreign policy",
+        "id": 39436,
+        "ocount": 2
+    },
+    {
+        "name": "Clinton, William J. -- foreign policy of",
+        "id": 12813,
+        "ocount": 1
+    },
+    {
+        "name": "Clinton, William J., presidency of -- foreign policy advisors",
+        "id": 34740,
+        "ocount": 1
+    },
+    {
+        "name": "Clinton, William J., psychology of -- foreign policy and",
+        "id": 34640,
+        "ocount": 2
+    },
+    {
+        "name": "Foreign",
+        "id": 13080,
+        "ocount": 0
+    },
+    {
+        "name": "Foreign -- policy",
+        "id": 13082,
+        "ocount": 14
+    },
+    {
+        "name": "Foreign aid policy, Japan and",
+        "id": 20784,
+        "ocount": 2
+    },
+    {
+        "name": "Foreign policy -- \"New World Order\"",
+        "id": 34806,
+        "ocount": 1
+    },
+    {
+        "name": "Foreign policy -- America as remaining a super power",
+        "id": 34802,
+        "ocount": 2
+    },
+    {
+        "name": "Foreign policy -- cold war",
+        "id": 34803,
+        "ocount": 2
+    },
+    {
+        "name": "Foreign policy -- decisions to use force",
+        "id": 34804,
+        "ocount": 1
+    },
+    {
+        "name": "Foreign policy -- limits of American power",
+        "id": 34805,
+        "ocount": 1
+    },
+    {
+        "name": "Haiti",
+        "id": 3556,
+        "ocount": 13
+    },
+    {
+        "name": "Hamilton, Alexander -- and foreign policy",
+        "id": 22523,
+        "ocount": 1
+    },
+    {
+        "name": "International",
+        "id": 13083,
+        "ocount": 0
+    },
+    {
+        "name": "Iraq",
+        "id": 2286,
+        "ocount": 7
+    },
+    {
+        "name": "Jefferson, Thomas -- and foreign policy",
+        "id": 22567,
+        "ocount": 2
+    },
+    {
+        "name": "Korea",
+        "id": 1304,
+        "ocount": 16
+    },
+    {
+        "name": "Leadership -- and foreign policy",
+        "id": 22602,
+        "ocount": 1
+    },
+    {
+        "name": "Madison, James -- and foreign policy",
+        "id": 22633,
+        "ocount": 1
+    },
+    {
+        "name": "Middle East",
+        "id": 2328,
+        "ocount": 19
+    },
+    {
+        "name": "policy",
+        "id": 13424,
+        "ocount": 35
+    },
+    {
+        "name": "Prerogative -- in foreign policy",
+        "id": 22767,
+        "ocount": 1
+    },
+    {
+        "name": "Reagan, President Ronald -- and foreign policy",
+        "id": 39657,
+        "ocount": 1
+    },
+    {
+        "name": "Rwanda",
+        "id": 4096,
+        "ocount": 9
+    },
+    {
+        "name": "Somalia",
+        "id": 13857,
+        "ocount": 6
+    },
+    {
+        "name": "Soviet Union",
+        "id": 23262,
+        "ocount": 36
+    },
+    {
+        "name": "U.N. peacekeeping operations",
+        "id": 35026,
+        "ocount": 1
+    },
+    {
+        "name": "U.S. foreign policy",
+        "id": 2437,
+        "ocount": 2
+    },
+    {
+        "name": "U.S. foreign policy -- Viacom",
+        "id": 2438,
+        "ocount": 2
+    },
+    {
+        "name": "U.S. foreign policy -- Wang, Guowei",
+        "id": 2439,
+        "ocount": 2
+    },
+    {
+        "name": "U.S. presidency -- and foreign policy",
+        "id": 22862,
+        "ocount": 1
+    },
+    {
+        "name": "United States -- foreign policy",
+        "id": 39772,
+        "ocount": 1
+    },
+    {
+        "name": "Vietnam Veterans Foreign Policy Watch",
+        "id": 32127,
+        "ocount": 1
+    },
+    {
+        "name": "Washington, George -- and foreign policy",
+        "id": 22880,
+        "ocount": 3
+    },
+    {
+        "name": "West Indies -- and U.S. foreign policy",
+        "id": 39798,
+        "ocount": 1
+    }],
+
+    "links": [
+    {
+        "source": 13080,
+        "target": 13082
+    },
+    {
+        "source": 13082,
+        "target": 13083
+    },
+    {
+        "source": 12632,
+        "target": 13082
+    },
+    {
+        "source": 13082,
+        "target": 34802
+    },
+    {
+        "source": 13082,
+        "target": 34803
+    },
+    {
+        "source": 13082,
+        "target": 34804
+    },
+    {
+        "source": 13082,
+        "target": 34805
+    },
+    {
+        "source": 13082,
+        "target": 34806
+    },
+    {
+        "source": 3556,
+        "target": 13082
+    },
+    {
+        "source": 2286,
+        "target": 13082
+    },
+    {
+        "source": 1304,
+        "target": 13082
+    },
+    {
+        "source": 2328,
+        "target": 13082
+    },
+    {
+        "source": 4096,
+        "target": 13082
+    },
+    {
+        "source": 35026,
+        "target": 13082
+    },
+    {
+        "source": 13082,
+        "target": 22767
+    },
+    {
+        "source": 13082,
+        "target": 22862
+    },
+    {
+        "source": 13082,
+        "target": 39657
+    },
+    {
+        "source": 13082,
+        "target": 39772
+    },
+    {
+        "source": 13082,
+        "target": 2437
+    },
+    {
+        "source": 13082,
+        "target": 2438
+    },
+    {
+        "source": 13082,
+        "target": 32127
+    },
+    {
+        "source": 13424,
+        "target": 13082
+    },
+    {
+        "source": 13082,
+        "target": 39436
+    },
+    {
+        "source": 13082,
+        "target": 22602
+    },
+    {
+        "source": 13082,
+        "target": 20784
+    },
+    {
+        "source": 13082,
+        "target": 22523
+    },
+    {
+        "source": 13082,
+        "target": 22880
+    },
+    {
+        "source": 13082,
+        "target": 22633
+    },
+    {
+        "source": 13082,
+        "target": 22567
+    },
+    {
+        "source": 13082,
+        "target": 12813
+    },
+    {
+        "source": 13082,
+        "target": 2439
+    },
+    {
+        "source": 13082,
+        "target": 39798
+    },
+    {
+        "source": 13082,
+        "target": 34640
+    },
+    {
+        "source": 13082,
+        "target": 34740
+    },
+    {
+        "source": 13857,
+        "target": 13082
+    },
+    {
+        "source": 23262,
+        "target": 13082
+    }]
+}

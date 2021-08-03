@@ -1,0 +1,26 @@
+{
+	"id": 43003,
+	"children": [
+		{
+			"id": 43007,
+			"name": "infant mortality -- and race"
+		},
+		{
+			"id": 43005,
+			"name": "infant mortality -- Great Society, decline under"
+		},
+		{
+			"id": 43004,
+			"name": "infant mortality -- in East L. A."
+		},
+		{
+			"id": 43008,
+			"name": "infant mortality -- in Watts"
+		},
+		{
+			"id": 43006,
+			"name": "infant mortality -- of Mexican Americans"
+		}
+	],
+	"name": "infant mortality"
+}

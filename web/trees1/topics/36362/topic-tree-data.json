@@ -1,0 +1,88 @@
+{
+	"id": 36362,
+	"children": [
+		{
+			"id": 36363,
+			"name": "Feminist -- black theory"
+		},
+		{
+			"id": 36364,
+			"name": "Feminist -- classroom"
+		},
+		{
+			"id": 36365,
+			"name": "Feminist -- pedagogy"
+		},
+		{
+			"id": 36366,
+			"name": "Feminist -- political theory"
+		},
+		{
+			"id": 36367,
+			"name": "Feminist -- standpoint epistemology"
+		},
+		{
+			"id": 15265,
+			"children": [
+				{
+					"id": 31271,
+					"name": "Feminist theory -- critical race feminism"
+				},
+				{
+					"id": 38401,
+					"name": "Feminist theory -- cultural feminism"
+				},
+				{
+					"id": 31273,
+					"name": "Feminist theory -- difference theory"
+				},
+				{
+					"id": 31274,
+					"name": "Feminist theory -- dominance theory"
+				},
+				{
+					"id": 31275,
+					"name": "Feminist theory -- ecofeminism"
+				},
+				{
+					"id": 31276,
+					"name": "Feminist theory -- equal treatment theory"
+				},
+				{
+					"id": 31277,
+					"name": "Feminist theory -- gender stereotypes in"
+				},
+				{
+					"id": 31278,
+					"name": "Feminist theory -- inclusive feminism"
+				},
+				{
+					"id": 31279,
+					"name": "Feminist theory -- lesbian feminism"
+				},
+				{
+					"id": 31280,
+					"name": "Feminist theory -- postmodern feminism"
+				},
+				{
+					"id": 31281,
+					"name": "Feminist theory -- pragmatic feminism"
+				},
+				{
+					"id": 31282,
+					"name": "Feminist theory -- radical feminism"
+				},
+				{
+					"id": 31283,
+					"name": "Feminist theory -- reaching out to men"
+				},
+				{
+					"id": 31262,
+					"name": "Feminist theory -- treatment of men"
+				}
+			],
+			"name": "Feminist -- theory"
+		}
+	],
+	"name": "Feminist"
+}

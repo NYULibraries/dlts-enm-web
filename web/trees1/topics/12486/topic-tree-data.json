@@ -1,0 +1,22 @@
+{
+	"id": 12486,
+	"children": [
+		{
+			"id": 12487,
+			"name": "Ability -- to accomplish purposes"
+		},
+		{
+			"id": 12488,
+			"name": "Ability -- to inspire loyalty among followers"
+		},
+		{
+			"id": 12489,
+			"name": "Ability -- to persist"
+		},
+		{
+			"id": 12490,
+			"name": "Ability -- to reflect"
+		}
+	],
+	"name": "Ability"
+}

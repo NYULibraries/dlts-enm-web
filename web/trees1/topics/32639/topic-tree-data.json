@@ -1,0 +1,60 @@
+{
+	"id": 32639,
+	"children": [
+		{
+			"id": 42451,
+			"name": "activism -- and radicalization"
+		},
+		{
+			"id": 42447,
+			"name": "activism -- antiracist"
+		},
+		{
+			"id": 32641,
+			"name": "Activism -- as means of empowerment"
+		},
+		{
+			"id": 42448,
+			"name": "activism -- Asian American"
+		},
+		{
+			"id": 32640,
+			"name": "Activism -- attacks on"
+		},
+		{
+			"id": 42449,
+			"children": [
+				{
+					"id": 43148,
+					"name": "Chicana/o activism -- and Marxism"
+				},
+				{
+					"id": 42669,
+					"name": "Chicana/o activism -- and police brutality"
+				},
+				{
+					"id": 42666,
+					"name": "Chicana/o activism -- blow-outs"
+				},
+				{
+					"id": 42667,
+					"name": "Chicana/o activism -- on deportation"
+				}
+			],
+			"name": "activism -- Chicana/o activism"
+		},
+		{
+			"id": 42450,
+			"name": "activism -- coalition work"
+		},
+		{
+			"id": 42452,
+			"name": "activism -- on welfare rights"
+		},
+		{
+			"id": 32642,
+			"name": "Activism -- spurred by defeat"
+		}
+	],
+	"name": "activism"
+}

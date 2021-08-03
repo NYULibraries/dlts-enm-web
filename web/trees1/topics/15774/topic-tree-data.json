@@ -1,0 +1,26 @@
+{
+	"id": 15774,
+	"children": [
+		{
+			"id": 15776,
+			"name": "Kyoiku mama -- as drill instructor"
+		},
+		{
+			"id": 15777,
+			"name": "Kyoiku mama -- as modern role"
+		},
+		{
+			"id": 15778,
+			"name": "Kyoiku mama -- as reinforcers of school values"
+		},
+		{
+			"id": 15775,
+			"name": "Kyoiku mama -- competition"
+		},
+		{
+			"id": 15779,
+			"name": "Kyoiku mama -- summer vacation homework"
+		}
+	],
+	"name": "Kyoiku mama"
+}

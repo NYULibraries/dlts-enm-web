@@ -1,0 +1,34 @@
+{
+	"id": 6501,
+	"children": [
+		{
+			"id": 6503,
+			"name": "Silent Hill -- beginning of"
+		},
+		{
+			"id": 6504,
+			"name": "Silent Hill -- endings of"
+		},
+		{
+			"id": 6502,
+			"name": "Silent Hill -- Homecoming"
+		},
+		{
+			"id": 6506,
+			"name": "Silent Hill -- nonplayer character (NPC)"
+		},
+		{
+			"id": 6505,
+			"name": "Silent Hill -- Origins"
+		},
+		{
+			"id": 6507,
+			"name": "Silent Hill -- player character"
+		},
+		{
+			"id": 6508,
+			"name": "Silent Hill -- Shattered Memories"
+		}
+	],
+	"name": "Silent Hill"
+}

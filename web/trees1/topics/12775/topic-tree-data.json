@@ -1,0 +1,34 @@
+{
+	"id": 12775,
+	"children": [
+		{
+			"id": 12776,
+			"name": "Characterological -- domain"
+		},
+		{
+			"id": 12777,
+			"name": "Characterological -- elements"
+		},
+		{
+			"id": 12778,
+			"name": "Characterological -- foundation"
+		},
+		{
+			"id": 12779,
+			"name": "Characterological -- psychology"
+		},
+		{
+			"id": 12780,
+			"name": "Characterological -- roles"
+		},
+		{
+			"id": 12781,
+			"name": "Characterological -- skills"
+		},
+		{
+			"id": 12782,
+			"name": "Characterological -- strengths"
+		}
+	],
+	"name": "Characterological"
+}

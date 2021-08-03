@@ -1,0 +1,34 @@
+{
+	"id": 17805,
+	"children": [
+		{
+			"id": 40790,
+			"name": "Enlightenment -- idea of progress"
+		},
+		{
+			"id": 38901,
+			"name": "Enlightenment -- law"
+		},
+		{
+			"id": 38902,
+			"name": "Enlightenment -- modernism"
+		},
+		{
+			"id": 38903,
+			"name": "Enlightenment -- spirit of"
+		},
+		{
+			"id": 38904,
+			"name": "Enlightenment -- twentieth-century"
+		},
+		{
+			"id": 40791,
+			"name": "Enlightenment -- view of religion"
+		},
+		{
+			"id": 40792,
+			"name": "Enlightenment -- view of science"
+		}
+	],
+	"name": "Enlightenment"
+}

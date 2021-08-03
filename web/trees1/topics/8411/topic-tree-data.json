@@ -1,0 +1,66 @@
+{
+	"id": 8411,
+	"children": [
+		{
+			"id": 10544,
+			"name": "Participation -- boundaries"
+		},
+		{
+			"id": 10545,
+			"name": "Participation -- degrees of"
+		},
+		{
+			"id": 8412,
+			"name": "participation -- economics"
+		},
+		{
+			"id": 8413,
+			"name": "participation -- ethical concerns"
+		},
+		{
+			"id": 10548,
+			"name": "Participation -- gap"
+		},
+		{
+			"id": 10546,
+			"name": "Participation -- genres"
+		},
+		{
+			"id": 10547,
+			"name": "Participation -- minimalist vs. maximalist"
+		},
+		{
+			"id": 8414,
+			"name": "participation -- new practices in the newsroom"
+		},
+		{
+			"id": 8415,
+			"name": "participation -- no time"
+		},
+		{
+			"id": 8416,
+			"name": "participation -- part of everyday workflow"
+		},
+		{
+			"id": 10549,
+			"name": "Participation -- peripheral"
+		},
+		{
+			"id": 10551,
+			"name": "Participation -- resistance vs. in/through"
+		},
+		{
+			"id": 10550,
+			"name": "Participation -- rhetoric of"
+		},
+		{
+			"id": 8417,
+			"name": "participation -- rounding up"
+		},
+		{
+			"id": 10552,
+			"name": "Participation -- scaffolding"
+		}
+	],
+	"name": "participation"
+}

@@ -1,0 +1,22 @@
+{
+	"id": 29540,
+	"children": [
+		{
+			"id": 29543,
+			"name": "Banishment -- as removal from law's protection"
+		},
+		{
+			"id": 29542,
+			"name": "Banishment -- of the diseased criminal"
+		},
+		{
+			"id": 29544,
+			"name": "Banishment -- of the self"
+		},
+		{
+			"id": 29541,
+			"name": "Banishment -- to Australia"
+		}
+	],
+	"name": "Banishment"
+}

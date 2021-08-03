@@ -1,0 +1,34 @@
+{
+	"id": 23895,
+	"children": [
+		{
+			"id": 23901,
+			"name": "Exit polls -- Glick poll (1990)"
+		},
+		{
+			"id": 23896,
+			"name": "Exit polls -- in 1988 elections"
+		},
+		{
+			"id": 23897,
+			"name": "Exit polls -- in 1990 national general elections"
+		},
+		{
+			"id": 23898,
+			"name": "Exit polls -- in 1990 state-level general elections"
+		},
+		{
+			"id": 23899,
+			"name": "Exit polls -- in 1992 general elections"
+		},
+		{
+			"id": 23900,
+			"name": "Exit polls -- in 1993 mayoral elections"
+		},
+		{
+			"id": 23902,
+			"name": "Exit polls -- methodology of"
+		}
+	],
+	"name": "Exit polls"
+}

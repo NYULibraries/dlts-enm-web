@@ -1,0 +1,22 @@
+{
+	"id": 2012,
+	"children": [
+		{
+			"id": 2013,
+			"name": "NBC -- and coverage of closing ceremony in Athens, handover to Beijing"
+		},
+		{
+			"id": 2015,
+			"name": "NBC -- and Seoul 1988"
+		},
+		{
+			"id": 2016,
+			"name": "NBC -- and Torino 2006"
+		},
+		{
+			"id": 2014,
+			"name": "NBC -- as official media partner"
+		}
+	],
+	"name": "NBC"
+}

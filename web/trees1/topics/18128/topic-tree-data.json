@@ -1,0 +1,30 @@
+{
+	"id": 18128,
+	"children": [
+		{
+			"id": 18134,
+			"name": "Spinoza -- A Theologico–Political Treatise"
+		},
+		{
+			"id": 18129,
+			"name": "Spinoza -- Baruch"
+		},
+		{
+			"id": 18133,
+			"name": "Spinoza -- Ethics"
+		},
+		{
+			"id": 18130,
+			"name": "Spinoza -- on interpretation"
+		},
+		{
+			"id": 18131,
+			"name": "Spinoza -- on teleology and intention"
+		},
+		{
+			"id": 18132,
+			"name": "Spinoza -- on the commandments"
+		}
+	],
+	"name": "Spinoza"
+}

@@ -1,0 +1,26 @@
+{
+	"id": 10671,
+	"children": [
+		{
+			"id": 33769,
+			"name": "Stigma -- and oppression"
+		},
+		{
+			"id": 33772,
+			"name": "Stigma -- and social isolation"
+		},
+		{
+			"id": 33770,
+			"name": "Stigma -- for providers in rural areas"
+		},
+		{
+			"id": 33771,
+			"name": "Stigma -- in rural areas"
+		},
+		{
+			"id": 33768,
+			"name": "Stigma -- regarding mental health care"
+		}
+	],
+	"name": "Stigma"
+}

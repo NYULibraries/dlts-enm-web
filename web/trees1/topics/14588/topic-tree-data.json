@@ -1,0 +1,30 @@
+{
+	"id": 14588,
+	"children": [
+		{
+			"id": 42472,
+			"name": "AMA (American Medical Association) -- and hospital desegregation"
+		},
+		{
+			"id": 42475,
+			"name": "AMA (American Medical Association) -- and population control"
+		},
+		{
+			"id": 42476,
+			"name": "AMA (American Medical Association) -- and segregation"
+		},
+		{
+			"id": 42471,
+			"name": "AMA (American Medical Association) -- Black membership, denial of"
+		},
+		{
+			"id": 42473,
+			"name": "AMA (American Medical Association) -- Medicare, opposition to"
+		},
+		{
+			"id": 42474,
+			"name": "AMA (American Medical Association) -- national health insurance, opposition to"
+		}
+	],
+	"name": "AMA (American Medical Association)"
+}

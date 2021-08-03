@@ -1,0 +1,46 @@
+{
+	"id": 33420,
+	"children": [
+		{
+			"id": 33567,
+			"name": "Grief and loss -- after positive HIV test"
+		},
+		{
+			"id": 33563,
+			"name": "Grief and loss -- and bereavement overload"
+		},
+		{
+			"id": 33564,
+			"name": "Grief and loss -- and children"
+		},
+		{
+			"id": 33565,
+			"name": "Grief and loss -- client issues"
+		},
+		{
+			"id": 33566,
+			"name": "Grief and loss -- disenfranchised"
+		},
+		{
+			"id": 33568,
+			"name": "Grief and loss -- provider issues"
+		},
+		{
+			"id": 33569,
+			"name": "Grief and loss -- readings"
+		},
+		{
+			"id": 33570,
+			"name": "Grief and loss -- societal attitude"
+		},
+		{
+			"id": 33571,
+			"name": "Grief and loss -- tie to substance abuse"
+		},
+		{
+			"id": 33572,
+			"name": "Grief and loss -- unmourned loss"
+		}
+	],
+	"name": "Grief and loss"
+}

@@ -1,0 +1,18 @@
+{
+	"id": 4326,
+	"children": [
+		{
+			"id": 4327,
+			"name": "Western Wayne Correctional Facility -- art workshop"
+		},
+		{
+			"id": 4328,
+			"name": "Western Wayne Correctional Facility -- Residential Treatment Program Unit"
+		},
+		{
+			"id": 4329,
+			"name": "Western Wayne Correctional Facility -- theater workshops"
+		}
+	],
+	"name": "Western Wayne Correctional Facility"
+}

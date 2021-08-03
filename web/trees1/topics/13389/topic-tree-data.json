@@ -1,0 +1,78 @@
+{
+	"id": 13389,
+	"children": [
+		{
+			"id": 12644,
+			"name": "Bush, George -- personal relationships with world leaders"
+		},
+		{
+			"id": 13390,
+			"name": "Personal -- ambitions, skills, understandings and style"
+		},
+		{
+			"id": 13393,
+			"name": "Personal -- and family privacy"
+		},
+		{
+			"id": 13391,
+			"name": "Personal -- autonomy"
+		},
+		{
+			"id": 12774,
+			"name": "Personal -- characteristics"
+		},
+		{
+			"id": 13392,
+			"name": "Personal -- effectiveness"
+		},
+		{
+			"id": 13394,
+			"name": "Personal -- identity"
+		},
+		{
+			"id": 13395,
+			"name": "Personal -- interests"
+		},
+		{
+			"id": 13396,
+			"name": "Personal -- judgment"
+		},
+		{
+			"id": 13397,
+			"name": "Personal -- matters in presidential campaigns"
+		},
+		{
+			"id": 13398,
+			"name": "Personal -- needs and skills"
+		},
+		{
+			"id": 13399,
+			"name": "Personal -- psychology"
+		},
+		{
+			"id": 13400,
+			"name": "Personal -- relationships"
+		},
+		{
+			"id": 13402,
+			"name": "Personal -- responsibility (for actions)"
+		},
+		{
+			"id": 13403,
+			"name": "Personal -- skills"
+		},
+		{
+			"id": 13404,
+			"name": "Personal -- strengths"
+		},
+		{
+			"id": 13405,
+			"name": "Personal -- traits"
+		},
+		{
+			"id": 13406,
+			"name": "Personal -- values"
+		}
+	],
+	"name": "Personal"
+}

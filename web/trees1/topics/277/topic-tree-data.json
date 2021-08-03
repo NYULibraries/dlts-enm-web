@@ -1,0 +1,50 @@
+{
+	"id": 277,
+	"children": [
+		{
+			"id": 2234,
+			"name": "Globalization -- Alter-globalization"
+		},
+		{
+			"id": 2236,
+			"name": "Globalization -- And cosmopolitan media studies"
+		},
+		{
+			"id": 2235,
+			"name": "Globalization -- Anti-globalization"
+		},
+		{
+			"id": 1205,
+			"name": "globalization -- awareness of"
+		},
+		{
+			"id": 1207,
+			"name": "globalization -- cultural"
+		},
+		{
+			"id": 1208,
+			"name": "globalization -- definitions and usage"
+		},
+		{
+			"id": 1209,
+			"name": "globalization -- economic"
+		},
+		{
+			"id": 1210,
+			"name": "globalization -- gender and"
+		},
+		{
+			"id": 2237,
+			"name": "Globalization -- Internet"
+		},
+		{
+			"id": 1206,
+			"name": "Globalization -- Media globalization"
+		},
+		{
+			"id": 1211,
+			"name": "globalization -- processes of"
+		}
+	],
+	"name": "globalization"
+}

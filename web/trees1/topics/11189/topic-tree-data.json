@@ -1,0 +1,100 @@
+{
+	"id": 11189,
+	"children": [
+		{
+			"id": 29793,
+			"name": "Friendship -- prison as matrix of"
+		},
+		{
+			"id": 40365,
+			"name": "Friendship(s) -- among boys"
+		},
+		{
+			"id": 40366,
+			"name": "Friendship(s) -- among girls"
+		},
+		{
+			"id": 40215,
+			"name": "Friendship(s) -- betrayal in"
+		},
+		{
+			"id": 40367,
+			"name": "Friendship(s) -- conceptually clustered matrix for"
+		},
+		{
+			"id": 40368,
+			"name": "Friendship(s) -- importance of maintaining"
+		},
+		{
+			"id": 40369,
+			"name": "Friendship(s) -- interview protocol on"
+		},
+		{
+			"id": 40370,
+			"name": "Friendship(s) -- need for further research in"
+		},
+		{
+			"id": 40371,
+			"name": "Friendship(s) -- patterns in"
+		},
+		{
+			"id": 40372,
+			"name": "Friendship(s) -- racial differences in intimacy of"
+		},
+		{
+			"id": 40373,
+			"name": "Friendship(s) -- reasons for sexual difference in"
+		},
+		{
+			"id": 11190,
+			"name": "friendships -- caution and sensibility in building"
+		},
+		{
+			"id": 11191,
+			"name": "friendships -- colocations for construction of"
+		},
+		{
+			"id": 11192,
+			"name": "friendships -- defined"
+		},
+		{
+			"id": 11193,
+			"name": "friendships -- diversity of"
+		},
+		{
+			"id": 11135,
+			"children": [
+				{
+					"id": 11136,
+					"name": "face-to-face friendships -- difficulties in meeting for"
+				},
+				{
+					"id": 11137,
+					"name": "face-to-face friendships -- preference for"
+				}
+			],
+			"name": "friendships -- face-to-face"
+		},
+		{
+			"id": 11194,
+			"name": "friendships -- groupings by grades"
+		},
+		{
+			"id": 11195,
+			"name": "friendships -- online"
+		},
+		{
+			"id": 11196,
+			"name": "friendships -- predating and extending beyond the class"
+		},
+		{
+			"id": 11197,
+			"name": "friendships -- school"
+		},
+		{
+			"id": 29794,
+			"name": "Prison -- friendships better in"
+		}
+	],
+	"name": "Friendship(s)"
+}

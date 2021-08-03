@@ -1,0 +1,30 @@
+{
+	"id": 10101,
+	"children": [
+		{
+			"id": 10102,
+			"name": "Civic culture -- affinity"
+		},
+		{
+			"id": 10103,
+			"name": "Civic culture -- discussion"
+		},
+		{
+			"id": 10104,
+			"name": "Civic culture -- identity"
+		},
+		{
+			"id": 10105,
+			"name": "Civic culture -- knowledge"
+		},
+		{
+			"id": 10106,
+			"name": "Civic culture -- practices"
+		},
+		{
+			"id": 10107,
+			"name": "Civic culture -- values"
+		}
+	],
+	"name": "Civic culture"
+}

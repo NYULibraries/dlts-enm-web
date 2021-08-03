@@ -1,0 +1,40 @@
+{
+	"id": 2890,
+	"children": [
+		{
+			"id": 39156,
+			"name": "Modernism -- artistic"
+		},
+		{
+			"id": 45114,
+			"name": "modernism -- in filmmaking"
+		},
+		{
+			"id": 39115,
+			"children": [
+				{
+					"id": 39117,
+					"name": "Legal modernism -- formal style"
+				},
+				{
+					"id": 39116,
+					"name": "Legal modernism -- formalism and instrumentalism"
+				},
+				{
+					"id": 39118,
+					"name": "Legal modernism -- two sides"
+				}
+			],
+			"name": "Modernism -- legal"
+		},
+		{
+			"id": 45115,
+			"name": "modernism -- mass culture and"
+		},
+		{
+			"id": 39157,
+			"name": "Modernism -- Twentieth-Century Enlightenment"
+		}
+	],
+	"name": "modernism"
+}

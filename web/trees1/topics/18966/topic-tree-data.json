@@ -1,0 +1,52 @@
+{
+	"id": 18966,
+	"children": [
+		{
+			"id": 22941,
+			"name": "Altruism -- and personal benefit"
+		},
+		{
+			"id": 22942,
+			"name": "Altruism -- and rescue"
+		},
+		{
+			"id": 22935,
+			"children": [
+				{
+					"id": 23184,
+					"name": "Poland; altruism conference in -- Nazi occupation of"
+				},
+				{
+					"id": 23185,
+					"name": "Poland; altruism conference in -- rescue in"
+				}
+			],
+			"name": "Altruism -- conference in Poland"
+		},
+		{
+			"id": 22936,
+			"name": "Altruism -- definition of"
+		},
+		{
+			"id": 22937,
+			"name": "Altruism -- forms of"
+		},
+		{
+			"id": 22938,
+			"name": "Altruism -- heroic"
+		},
+		{
+			"id": 22934,
+			"name": "Altruism -- in Bahá'í texts"
+		},
+		{
+			"id": 22939,
+			"name": "Altruism -- inadequacies of theories of"
+		},
+		{
+			"id": 22940,
+			"name": "Altruism -- measure of"
+		}
+	],
+	"name": "altruism"
+}

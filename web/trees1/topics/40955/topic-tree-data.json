@@ -1,0 +1,22 @@
+{
+	"id": 40955,
+	"children": [
+		{
+			"id": 40878,
+			"name": "Nuclear fusion -- contrast with solar energy"
+		},
+		{
+			"id": 40956,
+			"name": "Solar energy -- access to sunlight"
+		},
+		{
+			"id": 40958,
+			"name": "Solar energy -- environmental concerns"
+		},
+		{
+			"id": 40957,
+			"name": "Solar energy -- historical development"
+		}
+	],
+	"name": "Solar energy"
+}

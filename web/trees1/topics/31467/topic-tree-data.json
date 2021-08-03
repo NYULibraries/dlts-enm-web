@@ -1,0 +1,34 @@
+{
+	"id": 31467,
+	"children": [
+		{
+			"id": 31420,
+			"name": "Occupational segregation by sex"
+		},
+		{
+			"id": 31472,
+			"name": "Sex segregation -- at school"
+		},
+		{
+			"id": 31468,
+			"name": "Sex segregation -- by choice"
+		},
+		{
+			"id": 31471,
+			"name": "Sex segregation -- by the media"
+		},
+		{
+			"id": 31469,
+			"name": "Sex segregation -- in dress"
+		},
+		{
+			"id": 31473,
+			"name": "Sex segregation -- in sports"
+		},
+		{
+			"id": 31470,
+			"name": "Sex segregation -- in the home"
+		}
+	],
+	"name": "Sex segregation"
+}

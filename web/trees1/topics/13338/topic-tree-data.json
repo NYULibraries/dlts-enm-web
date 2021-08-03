@@ -1,0 +1,110 @@
+{
+	"id": 13338,
+	"children": [
+		{
+			"id": 24897,
+			"name": "Hysterical neurosis -- genesis of"
+		},
+		{
+			"id": 24985,
+			"name": "Neurosis -- as escape from suffering"
+		},
+		{
+			"id": 24980,
+			"name": "Neurosis -- castration fear as"
+		},
+		{
+			"id": 24981,
+			"name": "Neurosis -- compared to psychosis"
+		},
+		{
+			"id": 24982,
+			"name": "Neurosis -- conditions for etiology of"
+		},
+		{
+			"id": 24983,
+			"name": "Neurosis -- disclosure of secrets of"
+		},
+		{
+			"id": 24984,
+			"name": "Neurosis -- dream interpretation during treatment of"
+		},
+		{
+			"id": 24986,
+			"name": "Neurosis -- existential inclinations and"
+		},
+		{
+			"id": 24987,
+			"name": "Neurosis -- formation of"
+		},
+		{
+			"id": 24988,
+			"name": "Neurosis -- interpretation of reality and"
+		},
+		{
+			"id": 24710,
+			"children": [
+				{
+					"id": 25006,
+					"name": "Obsessional neurosis -- character of"
+				},
+				{
+					"id": 25007,
+					"name": "Obsessional neurosis -- compulsive behavior and"
+				},
+				{
+					"id": 25008,
+					"name": "Obsessional neurosis -- deception as feature of"
+				},
+				{
+					"id": 25009,
+					"name": "Obsessional neurosis -- difficulty of"
+				},
+				{
+					"id": 25010,
+					"name": "Obsessional neurosis -- fear of intimacy symptom of"
+				}
+			],
+			"name": "Neurosis -- obsessional"
+		},
+		{
+			"id": 24989,
+			"name": "Neurosis -- phantasy preference within"
+		},
+		{
+			"id": 24990,
+			"name": "Neurosis -- phobias as first childhood"
+		},
+		{
+			"id": 24991,
+			"name": "Neurosis -- post-treatment trauma and"
+		},
+		{
+			"id": 24992,
+			"name": "Neurosis -- repression during"
+		},
+		{
+			"id": 24993,
+			"children": [
+				{
+					"id": 25243,
+					"name": "Transference neurosis -- described"
+				},
+				{
+					"id": 25244,
+					"name": "Transference neurosis -- within Rat Man case"
+				}
+			],
+			"name": "Neurosis -- transference"
+		},
+		{
+			"id": 24994,
+			"name": "Neurosis -- transference-love and"
+		},
+		{
+			"id": 24995,
+			"name": "Neurosis -- within structural model"
+		}
+	],
+	"name": "Neurosis"
+}

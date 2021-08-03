@@ -1,0 +1,18 @@
+{
+	"id": 26441,
+	"children": [
+		{
+			"id": 26443,
+			"name": "studies -- 1990 University of Chicago"
+		},
+		{
+			"id": 26444,
+			"name": "studies -- 1996 New York State Study on Sentencing"
+		},
+		{
+			"id": 26442,
+			"name": "studies -- FBI Uniform Crime Reports"
+		}
+	],
+	"name": "studies"
+}

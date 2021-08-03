@@ -1,0 +1,26 @@
+{
+	"id": 1166,
+	"children": [
+		{
+			"id": 1385,
+			"name": "news reporting -- commercialization of"
+		},
+		{
+			"id": 1386,
+			"name": "news reporting -- French riots coverage"
+		},
+		{
+			"id": 1387,
+			"name": "news reporting -- globalization of"
+		},
+		{
+			"id": 1388,
+			"name": "news reporting -- Hurricane Katrina coverage"
+		},
+		{
+			"id": 1389,
+			"name": "news reporting -- Japanese tsunami coverage"
+		}
+	],
+	"name": "news reporting"
+}

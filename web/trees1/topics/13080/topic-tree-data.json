@@ -1,0 +1,36 @@
+{
+	"id": 13080,
+	"children": [
+		{
+			"id": 13081,
+			"name": "Foreign -- affairs"
+		},
+		{
+			"id": 13082,
+			"children": [
+				{
+					"id": 34806,
+					"name": "Foreign policy -- \"New World Order\""
+				},
+				{
+					"id": 34802,
+					"name": "Foreign policy -- America as remaining a super power"
+				},
+				{
+					"id": 34803,
+					"name": "Foreign policy -- cold war"
+				},
+				{
+					"id": 34804,
+					"name": "Foreign policy -- decisions to use force"
+				},
+				{
+					"id": 34805,
+					"name": "Foreign policy -- limits of American power"
+				}
+			],
+			"name": "Foreign -- policy"
+		}
+	],
+	"name": "Foreign"
+}

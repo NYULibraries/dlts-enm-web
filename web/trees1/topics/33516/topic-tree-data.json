@@ -1,0 +1,30 @@
+{
+	"id": 33516,
+	"children": [
+		{
+			"id": 33520,
+			"name": "Disclosure of HIV status -- and isolation"
+		},
+		{
+			"id": 33521,
+			"name": "Disclosure of HIV status -- and risk reduction"
+		},
+		{
+			"id": 33522,
+			"name": "Disclosure of HIV status -- and women"
+		},
+		{
+			"id": 33518,
+			"name": "Disclosure of HIV status -- cultural factors"
+		},
+		{
+			"id": 33519,
+			"name": "Disclosure of HIV status -- facilitation"
+		},
+		{
+			"id": 33517,
+			"name": "Disclosure of HIV status -- to children"
+		}
+	],
+	"name": "Disclosure of HIV status"
+}

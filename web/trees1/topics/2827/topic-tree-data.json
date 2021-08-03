@@ -1,0 +1,22 @@
+{
+	"id": 2827,
+	"children": [
+		{
+			"id": 39541,
+			"name": "Knowledge -- and law"
+		},
+		{
+			"id": 39542,
+			"name": "Knowledge -- and power"
+		},
+		{
+			"id": 482,
+			"name": "knowledge -- common"
+		},
+		{
+			"id": 2828,
+			"name": "knowledge -- ownership of"
+		}
+	],
+	"name": "knowledge"
+}

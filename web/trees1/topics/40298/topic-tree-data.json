@@ -1,0 +1,22 @@
+{
+	"id": 40298,
+	"children": [
+		{
+			"id": 40299,
+			"name": "Dropping out of school -- poor opinion of school as cause of"
+		},
+		{
+			"id": 40300,
+			"name": "Dropping out of school -- rate of, among poor youth"
+		},
+		{
+			"id": 40301,
+			"name": "Dropping out of school -- rate of, at studied school"
+		},
+		{
+			"id": 40302,
+			"name": "Dropping out of school -- risk for"
+		}
+	],
+	"name": "Dropping out of school"
+}

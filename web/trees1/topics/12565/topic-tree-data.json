@@ -1,0 +1,30 @@
+{
+	"id": 12565,
+	"children": [
+		{
+			"id": 12568,
+			"name": "Analytic -- and reflective abilities"
+		},
+		{
+			"id": 12566,
+			"name": "Analytic -- capacities"
+		},
+		{
+			"id": 12567,
+			"name": "Analytic -- processes"
+		},
+		{
+			"id": 12569,
+			"name": "Analytic -- skills"
+		},
+		{
+			"id": 12570,
+			"name": "Analytic -- structure"
+		},
+		{
+			"id": 12571,
+			"name": "Analytic -- theory"
+		}
+	],
+	"name": "Analytic"
+}

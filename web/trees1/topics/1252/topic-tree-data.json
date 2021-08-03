@@ -1,0 +1,42 @@
+{
+	"id": 1252,
+	"children": [
+		{
+			"id": 44970,
+			"name": "filmmaking -- ideology of"
+		},
+		{
+			"id": 13165,
+			"name": "Ideology -- basic beliefs and"
+		},
+		{
+			"id": 12862,
+			"name": "Ideology -- conservative"
+		},
+		{
+			"id": 45014,
+			"name": "ideology -- developmentalist"
+		},
+		{
+			"id": 45015,
+			"name": "ideology -- discourses of"
+		},
+		{
+			"id": 35736,
+			"name": "Ideology -- in RDI"
+		},
+		{
+			"id": 13166,
+			"name": "Ideology -- liberal"
+		},
+		{
+			"id": 45017,
+			"name": "ideology -- North Korean"
+		},
+		{
+			"id": 45016,
+			"name": "ideology -- of mass culture"
+		}
+	],
+	"name": "ideology"
+}

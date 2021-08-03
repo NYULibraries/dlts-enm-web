@@ -1,0 +1,22 @@
+{
+	"id": 20630,
+	"children": [
+		{
+			"id": 32216,
+			"name": "Automobile industry -- employment in"
+		},
+		{
+			"id": 32217,
+			"name": "Automobile industry -- production"
+		},
+		{
+			"id": 20631,
+			"name": "Automotive industry -- development of"
+		},
+		{
+			"id": 20632,
+			"name": "Automotive industry -- saving"
+		}
+	],
+	"name": "Automobile industry"
+}

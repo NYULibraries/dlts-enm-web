@@ -1,0 +1,90 @@
+{
+	"id": 12983,
+	"children": [
+		{
+			"id": 42006,
+			"name": "leader(ship) -- decentralization"
+		},
+		{
+			"id": 42007,
+			"name": "leader(ship) -- equity"
+		},
+		{
+			"id": 42008,
+			"name": "leader(ship) -- responsibility"
+		},
+		{
+			"id": 22599,
+			"name": "Leadership -- active"
+		},
+		{
+			"id": 22601,
+			"name": "Leadership -- and fame"
+		},
+		{
+			"id": 22602,
+			"name": "Leadership -- and foreign policy"
+		},
+		{
+			"id": 22603,
+			"name": "Leadership -- and law"
+		},
+		{
+			"id": 22606,
+			"name": "Leadership -- and political fatherhood"
+		},
+		{
+			"id": 22608,
+			"name": "Leadership -- and public opinion"
+		},
+		{
+			"id": 22609,
+			"name": "Leadership -- and symbolic politics"
+		},
+		{
+			"id": 22600,
+			"name": "Leadership -- characteristics of"
+		},
+		{
+			"id": 20931,
+			"name": "Leadership -- conditions for"
+		},
+		{
+			"id": 22610,
+			"name": "Leadership -- Heroes"
+		},
+		{
+			"id": 20932,
+			"name": "Leadership -- Japan and"
+		},
+		{
+			"id": 22604,
+			"name": "Leadership -- legitimacy"
+		},
+		{
+			"id": 22612,
+			"name": "Leadership -- Natural aristocracy"
+		},
+		{
+			"id": 22605,
+			"name": "Leadership -- need for"
+		},
+		{
+			"id": 22607,
+			"name": "Leadership -- prerogative"
+		},
+		{
+			"id": 20933,
+			"name": "Leadership -- special privileges of"
+		},
+		{
+			"id": 20934,
+			"name": "Leadership -- superpower"
+		},
+		{
+			"id": 22611,
+			"name": "Manhood -- and leadership"
+		}
+	],
+	"name": "leader(ship)"
+}

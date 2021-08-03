@@ -1,0 +1,34 @@
+{
+	"id": 39123,
+	"children": [
+		{
+			"id": 39124,
+			"name": "Legal process -- Hart \u0026 Sacks"
+		},
+		{
+			"id": 39125,
+			"name": "Legal process -- Harvard Law School"
+		},
+		{
+			"id": 39126,
+			"name": "Legal process -- neutral principles"
+		},
+		{
+			"id": 39127,
+			"name": "Legal process -- pluralism"
+		},
+		{
+			"id": 39128,
+			"name": "Legal process -- principle of institutional settlement"
+		},
+		{
+			"id": 39129,
+			"name": "Legal process -- process-substance distinction"
+		},
+		{
+			"id": 39130,
+			"name": "Legal process -- Yale Law School"
+		}
+	],
+	"name": "Legal process"
+}

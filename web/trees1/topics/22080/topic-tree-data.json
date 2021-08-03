@@ -1,0 +1,124 @@
+{
+	"id": 22080,
+	"children": [
+		{
+			"id": 28944,
+			"children": [
+				{
+					"id": 28948,
+					"name": "Industrialization of sex -- and regulation"
+				},
+				{
+					"id": 28949,
+					"name": "Industrialization of sex -- and sexual power"
+				},
+				{
+					"id": 28947,
+					"name": "Industrialization of sex -- distinguished from trafficking in women"
+				}
+			],
+			"name": "Industrialization of sex"
+		},
+		{
+			"id": 22810,
+			"name": "Sex -- and crime"
+		},
+		{
+			"id": 22813,
+			"name": "Sex -- and marriage"
+		},
+		{
+			"id": 22814,
+			"name": "Sex -- and natality"
+		},
+		{
+			"id": 22817,
+			"name": "Sex -- and self-discipline"
+		},
+		{
+			"id": 22818,
+			"name": "Sex -- and soldiers"
+		},
+		{
+			"id": 22820,
+			"name": "Sex -- and women"
+		},
+		{
+			"id": 22809,
+			"name": "Sex -- as conquest"
+		},
+		{
+			"id": 22081,
+			"name": "Sex -- as death"
+		},
+		{
+			"id": 22084,
+			"name": "Sex -- as kind of eating"
+		},
+		{
+			"id": 40626,
+			"name": "Sex -- attitude toward"
+		},
+		{
+			"id": 22808,
+			"name": "Sex -- black hypersexuality"
+		},
+		{
+			"id": 22811,
+			"name": "Sex -- dangers of"
+		},
+		{
+			"id": 29301,
+			"name": "Sex -- drives"
+		},
+		{
+			"id": 22082,
+			"name": "Sex -- fears associated with"
+		},
+		{
+			"id": 45926,
+			"name": "sex -- hermaphrodite"
+		},
+		{
+			"id": 28886,
+			"name": "Sex -- high-risk"
+		},
+		{
+			"id": 22083,
+			"name": "Sex -- ignorance of"
+		},
+		{
+			"id": 22812,
+			"name": "Sex -- incest"
+		},
+		{
+			"id": 45927,
+			"name": "sex -- intersex"
+		},
+		{
+			"id": 40627,
+			"name": "Sex -- interview protocol on"
+		},
+		{
+			"id": 45928,
+			"name": "sex -- polymorphous"
+		},
+		{
+			"id": 22815,
+			"name": "Sex -- premarital"
+		},
+		{
+			"id": 22085,
+			"name": "Sex -- questions of, in pursuit of truth"
+		},
+		{
+			"id": 22816,
+			"name": "Sex -- same-sex relationships"
+		},
+		{
+			"id": 22819,
+			"name": "Sex -- subversiveness of"
+		}
+	],
+	"name": "sex"
+}

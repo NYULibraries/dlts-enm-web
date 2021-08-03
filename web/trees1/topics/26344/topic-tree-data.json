@@ -1,0 +1,26 @@
+{
+	"id": 26344,
+	"children": [
+		{
+			"id": 33979,
+			"name": "Desegregation -- in the North"
+		},
+		{
+			"id": 33980,
+			"name": "Desegregation -- in the South"
+		},
+		{
+			"id": 42765,
+			"name": "desegregation -- of health"
+		},
+		{
+			"id": 42766,
+			"name": "desegregation -- of hospitals"
+		},
+		{
+			"id": 42767,
+			"name": "desegregation -- of housing"
+		}
+	],
+	"name": "desegregation"
+}

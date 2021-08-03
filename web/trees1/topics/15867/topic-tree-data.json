@@ -1,0 +1,18 @@
+{
+	"id": 15867,
+	"children": [
+		{
+			"id": 15868,
+			"name": "School schedule -- constancy"
+		},
+		{
+			"id": 15869,
+			"name": "School schedule -- daily"
+		},
+		{
+			"id": 15870,
+			"name": "School schedule -- yearly"
+		}
+	],
+	"name": "School schedule"
+}

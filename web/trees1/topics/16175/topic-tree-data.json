@@ -1,0 +1,66 @@
+{
+	"id": 16175,
+	"children": [
+		{
+			"id": 42728,
+			"name": "community organizing -- and health"
+		},
+		{
+			"id": 42927,
+			"name": "health -- and freedom"
+		},
+		{
+			"id": 42931,
+			"name": "health -- and militarization"
+		},
+		{
+			"id": 42932,
+			"name": "health -- and self-determination"
+		},
+		{
+			"id": 42936,
+			"name": "health -- and state violence"
+		},
+		{
+			"id": 42937,
+			"name": "health -- and urban justice"
+		},
+		{
+			"id": 42939,
+			"name": "health -- and white supremacy"
+		},
+		{
+			"id": 42928,
+			"name": "health -- as human right"
+		},
+		{
+			"id": 42929,
+			"name": "health -- as individual responsibility"
+		},
+		{
+			"id": 42933,
+			"name": "health -- as social relation"
+		},
+		{
+			"id": 42934,
+			"name": "health -- as spatial relation"
+		},
+		{
+			"id": 42935,
+			"name": "health -- as state of being"
+		},
+		{
+			"id": 42926,
+			"name": "health -- discourse"
+		},
+		{
+			"id": 42930,
+			"name": "health -- inequalities, literature on"
+		},
+		{
+			"id": 42938,
+			"name": "health -- violence, as opposite of"
+		}
+	],
+	"name": "health"
+}

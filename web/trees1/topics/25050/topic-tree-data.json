@@ -1,0 +1,34 @@
+{
+	"id": 25050,
+	"children": [
+		{
+			"id": 27560,
+			"name": "Philosophy -- and contextual dilemmas"
+		},
+		{
+			"id": 27561,
+			"name": "Philosophy -- and distinction between nominalism and realism"
+		},
+		{
+			"id": 27562,
+			"name": "Philosophy -- and macrocontext"
+		},
+		{
+			"id": 27563,
+			"name": "Philosophy -- and the social sciences"
+		},
+		{
+			"id": 25051,
+			"name": "Philosophy -- concern with beliefs by"
+		},
+		{
+			"id": 25052,
+			"name": "Philosophy -- Freud's condemnation of"
+		},
+		{
+			"id": 25053,
+			"name": "Philosophy -- quest for truth through"
+		}
+	],
+	"name": "philosophy"
+}

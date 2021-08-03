@@ -1,0 +1,3739 @@
+{
+	"sql": [{"description":"Certain Book: Topics and Occurrence Count", "query": "select t.display_name_do_not_use name, t.tct_id id, count(o.topic_id) ocount from occurrences o  INNER JOIN locations l  ON o.location_id = l.tct_id INNER JOIN topics t  ON t.tct_id      = o.topic_id WHERE l.epub_id = 71 GROUP BY t.display_name_do_not_use ORDER BY ocount DESC"}],
+	"nodes":
+	[
+		{
+			"name": "Valery, Paul",
+			"id": 4985,
+			"ocount": 28
+		},
+		{
+			"name": "Barney, Natalie Clifford -- liaisons of",
+			"id": 27781,
+			"ocount": 25
+		},
+		{
+			"name": "Delarue-Mardrus -- Lucie",
+			"id": 27731,
+			"ocount": 20
+		},
+		{
+			"name": "Temple to Friendship",
+			"id": 27785,
+			"ocount": 19
+		},
+		{
+			"name": "Salons, Parisian literary -- of Natalie Barney",
+			"id": 28154,
+			"ocount": 17
+		},
+		{
+			"name": "Proust, Marcel",
+			"id": 28105,
+			"ocount": 16
+		},
+		{
+			"name": "Gide, André",
+			"id": 27930,
+			"ocount": 16
+		},
+		{
+			"name": "Gramont -- Elisabeth de",
+			"id": 27849,
+			"ocount": 16
+		},
+		{
+			"name": "Louÿs, Pierre",
+			"id": 28008,
+			"ocount": 15
+		},
+		{
+			"name": "Gourmont, Remy de",
+			"id": 27934,
+			"ocount": 15
+		},
+		{
+			"name": "Brooks, Romaine -- liaisons of",
+			"id": 27831,
+			"ocount": 15
+		},
+		{
+			"name": "Joseph Charles Mardrus",
+			"id": 28030,
+			"ocount": 15
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Thoughts of an Amazon",
+			"id": 28199,
+			"ocount": 14
+		},
+		{
+			"name": "Wilde, Oscar",
+			"id": 8003,
+			"ocount": 13
+		},
+		{
+			"name": "France, Anatole",
+			"id": 27914,
+			"ocount": 13
+		},
+		{
+			"name": "Vivien, Renée -- and Natalie Barney",
+			"id": 28233,
+			"ocount": 13
+		},
+		{
+			"name": "D'Annunzio, Gabriele",
+			"id": 27871,
+			"ocount": 12
+		},
+		{
+			"name": "Barnes, Djuna",
+			"id": 14844,
+			"ocount": 12
+		},
+		{
+			"name": "Mallarmé, Stéphane",
+			"id": 28028,
+			"ocount": 11
+		},
+		{
+			"name": "Barney, Natalie Clifford -- fictionalized accounts of",
+			"id": 27780,
+			"ocount": 11
+		},
+		{
+			"name": "Symbolist movement",
+			"id": 28191,
+			"ocount": 11
+		},
+		{
+			"name": "Stein, Gertrude",
+			"id": 14786,
+			"ocount": 10
+		},
+		{
+			"name": "Barres, Maurice",
+			"id": 27808,
+			"ocount": 9
+		},
+		{
+			"name": "Vivien -- Renée",
+			"id": 28194,
+			"ocount": 9
+		},
+		{
+			"name": "Mme Antoinette Gabrielle Mortier de Faucamberge",
+			"id": 27750,
+			"ocount": 9
+		},
+		{
+			"name": "Cocteau, Jean",
+			"id": 4488,
+			"ocount": 9
+		},
+		{
+			"name": "Apollinaire, Guillaume",
+			"id": 27743,
+			"ocount": 9
+		},
+		{
+			"name": "Barney, Natalie Clifford -- residence at 20 rue Jacob",
+			"id": 27783,
+			"ocount": 8
+		},
+		{
+			"name": "Louÿs, Pierre -- Songs of Bilitis",
+			"id": 28174,
+			"ocount": 8
+		},
+		{
+			"name": "Académie-française -- Paul Valéry's election",
+			"id": 27722,
+			"ocount": 8
+		},
+		{
+			"name": "Valéry, Paul -- and Académie-française",
+			"id": 28213,
+			"ocount": 8
+		},
+		{
+			"name": "Jacob, Max",
+			"id": 27964,
+			"ocount": 8
+		},
+		{
+			"name": "Sidonie-Gabrielle Colette",
+			"id": 27851,
+			"ocount": 8
+		},
+		{
+			"name": "Berenson, Bernard",
+			"id": 27818,
+			"ocount": 7
+		},
+		{
+			"name": "Rouveyre, André",
+			"id": 28135,
+			"ocount": 7
+		},
+		{
+			"name": "Gourmont, Remy de -- Letters to the Amazon",
+			"id": 28002,
+			"ocount": 7
+		},
+		{
+			"name": "Morand, Paul",
+			"id": 28053,
+			"ocount": 7
+		},
+		{
+			"name": "Cities of the Plain (Proust)",
+			"id": 27842,
+			"ocount": 7
+		},
+		{
+			"name": "Proust, Marcel -- Works: Cities of the Plain",
+			"id": 28106,
+			"ocount": 7
+		},
+		{
+			"name": "Beach, Sylvia",
+			"id": 27814,
+			"ocount": 7
+		},
+		{
+			"name": "Larbaud, Valéry",
+			"id": 27988,
+			"ocount": 7
+		},
+		{
+			"name": "Montesquiou, Comte Robert de",
+			"id": 28052,
+			"ocount": 7
+		},
+		{
+			"name": "Brooks, Romaine",
+			"id": 27830,
+			"ocount": 7
+		},
+		{
+			"name": "Rilke, Rainier Maria",
+			"id": 28123,
+			"ocount": 6
+		},
+		{
+			"name": "Berthelot, Philippe",
+			"id": 27821,
+			"ocount": 6
+		},
+		{
+			"name": "Poe, Edgar Allan",
+			"id": 44331,
+			"ocount": 6
+		},
+		{
+			"name": "O'Sullivan, Vincent",
+			"id": 28080,
+			"ocount": 6
+		},
+		{
+			"name": "Brooks, Romaine -- portraits by",
+			"id": 27833,
+			"ocount": 6
+		},
+		{
+			"name": "Reinach, Salomon",
+			"id": 28118,
+			"ocount": 6
+		},
+		{
+			"name": "Sappho",
+			"id": 28161,
+			"ocount": 6
+		},
+		{
+			"name": "Pound, Ezra",
+			"id": 2987,
+			"ocount": 6
+		},
+		{
+			"name": "Eliot, T. S.",
+			"id": 4547,
+			"ocount": 6
+		},
+		{
+			"name": "Keats, John",
+			"id": 2819,
+			"ocount": 6
+		},
+		{
+			"name": "Milosz, Oscar Venceslas de",
+			"id": 28044,
+			"ocount": 6
+		},
+		{
+			"name": "Academy of Women",
+			"id": 27723,
+			"ocount": 6
+		},
+		{
+			"name": "Académie-française -- members",
+			"id": 27721,
+			"ocount": 6
+		},
+		{
+			"name": "Nietzche, Friedrich",
+			"id": 12333,
+			"ocount": 5
+		},
+		{
+			"name": "Claudel, Paul",
+			"id": 27845,
+			"ocount": 5
+		},
+		{
+			"name": "Gourmont, Remy de -- Intimate Letters to the Amazon",
+			"id": 27962,
+			"ocount": 5
+		},
+		{
+			"name": "Jaloux, Edmond",
+			"id": 27966,
+			"ocount": 5
+		},
+		{
+			"name": "Rilke's writings -- Notebooks of Malte Laurids Brigge, The (Die Aufzeichnungnen des Malte Laurids Brigge)",
+			"id": 28124,
+			"ocount": 5
+		},
+		{
+			"name": "Valéry, Paul -- Evening with M Teste, The",
+			"id": 28217,
+			"ocount": 5
+		},
+		{
+			"name": "Narcissus (Valéry)",
+			"id": 28063,
+			"ocount": 5
+		},
+		{
+			"name": "Valéry, Paul -- Narcissus",
+			"id": 28219,
+			"ocount": 5
+		},
+		{
+			"name": "Valéry, Paul -- and selling stock in artists",
+			"id": 28214,
+			"ocount": 5
+		},
+		{
+			"name": "Bassiano, Princesse di -- and selling stock in artists",
+			"id": 27811,
+			"ocount": 5
+		},
+		{
+			"name": "Monnier, Adrienne",
+			"id": 28051,
+			"ocount": 5
+		},
+		{
+			"name": "Ford, Ford Madox",
+			"id": 7701,
+			"ocount": 5
+		},
+		{
+			"name": "Wickham, Anna",
+			"id": 28249,
+			"ocount": 5
+		},
+		{
+			"name": "Rachilde",
+			"id": 28113,
+			"ocount": 5
+		},
+		{
+			"name": "Loy, Mina",
+			"id": 28015,
+			"ocount": 5
+		},
+		{
+			"name": "Barnes, Djuna -- Ladies Almanack",
+			"id": 27765,
+			"ocount": 5
+		},
+		{
+			"name": "Picasso, Pablo",
+			"id": 5890,
+			"ocount": 5
+		},
+		{
+			"name": "Joyce, James -- Ulysses",
+			"id": 27979,
+			"ocount": 5
+		},
+		{
+			"name": "Racine, Jean",
+			"id": 28114,
+			"ocount": 5
+		},
+		{
+			"name": "Shilleto, Violet",
+			"id": 28169,
+			"ocount": 5
+		},
+		{
+			"name": "Vivien, Renée -- and Violet Shilleto",
+			"id": 28235,
+			"ocount": 5
+		},
+		{
+			"name": "Lenéru, Marie",
+			"id": 27995,
+			"ocount": 5
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Works: Adventures of the Mind",
+			"id": 27726,
+			"ocount": 5
+		},
+		{
+			"name": "Proust, Marcel -- Remembrance of Things Past",
+			"id": 28108,
+			"ocount": 5
+		},
+		{
+			"name": "Remembrance of Things Past (Proust)",
+			"id": 28120,
+			"ocount": 5
+		},
+		{
+			"name": "Barney, Laura",
+			"id": 27775,
+			"ocount": 5
+		},
+		{
+			"name": "Thomson, Virgil",
+			"id": 28198,
+			"ocount": 5
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Letters to a Woman I Have Known",
+			"id": 27791,
+			"ocount": 4
+		},
+		{
+			"name": "Baudelaire, Charles",
+			"id": 6078,
+			"ocount": 4
+		},
+		{
+			"name": "Baudelaire, Charles -- Works: Flowers of Evil, The",
+			"id": 27812,
+			"ocount": 4
+		},
+		{
+			"name": "Cambon, Jules",
+			"id": 27838,
+			"ocount": 4
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Some Portraits and Sonnets of Women",
+			"id": 27801,
+			"ocount": 4
+		},
+		{
+			"name": "Valéry, Paul -- Young Fate, The",
+			"id": 28273,
+			"ocount": 4
+		},
+		{
+			"name": "Proust, Marcel -- Guermantes Way, The",
+			"id": 27948,
+			"ocount": 4
+		},
+		{
+			"name": "Goethe, Johann Wolfgang von",
+			"id": 16395,
+			"ocount": 4
+		},
+		{
+			"name": "Fleg, Edmond",
+			"id": 27906,
+			"ocount": 4
+		},
+		{
+			"name": "Israel Zangwill englischer Schriftsteller, Journalist und zionistischer Aktivist",
+			"id": 28275,
+			"ocount": 4
+		},
+		{
+			"name": "Pougy -- Liane de",
+			"id": 27929,
+			"ocount": 4
+		},
+		{
+			"name": "Teresa of Ávilla, Saint",
+			"id": 28196,
+			"ocount": 4
+		},
+		{
+			"name": "Carlyle, Thomas",
+			"id": 14000,
+			"ocount": 4
+		},
+		{
+			"name": "Valéry, Paul -- Aurore",
+			"id": 27752,
+			"ocount": 4
+		},
+		{
+			"name": "Miomandre, Francis de",
+			"id": 28049,
+			"ocount": 4
+		},
+		{
+			"name": "Seignobos, Charles",
+			"id": 28163,
+			"ocount": 4
+		},
+		{
+			"name": "Barney, Natalie Clifford -- and selling stock in artists",
+			"id": 27786,
+			"ocount": 4
+		},
+		{
+			"name": "Blake, William",
+			"id": 4440,
+			"ocount": 4
+		},
+		{
+			"name": "Douglas, Lord Alfred",
+			"id": 27886,
+			"ocount": 4
+		},
+		{
+			"name": "Blake, William -- \"The Marriage of Heaven and Hell\"",
+			"id": 30307,
+			"ocount": 4
+		},
+		{
+			"name": "Jaloux, Edmond -- Works: Foreign Figures",
+			"id": 27912,
+			"ocount": 4
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Scatterings",
+			"id": 27800,
+			"ocount": 4
+		},
+		{
+			"name": "Colette -- Vagabond, The",
+			"id": 27855,
+			"ocount": 4
+		},
+		{
+			"name": "Colette -- Journey for Myself",
+			"id": 27853,
+			"ocount": 4
+		},
+		{
+			"name": "Colette -- Morning Glory",
+			"id": 27854,
+			"ocount": 4
+		},
+		{
+			"name": "Huysmans, Joris-Karl",
+			"id": 27959,
+			"ocount": 4
+		},
+		{
+			"name": "Laurencin, Marie",
+			"id": 27991,
+			"ocount": 4
+		},
+		{
+			"name": "Making of Americans, The (Stein)",
+			"id": 28025,
+			"ocount": 4
+		},
+		{
+			"name": "Stein, Gertrude -- Making of Americans, The",
+			"id": 28181,
+			"ocount": 4
+		},
+		{
+			"name": "Reinach, Salomon -- and Renée Vivien",
+			"id": 28119,
+			"ocount": 4
+		},
+		{
+			"name": "Lenéru, Marie -- Works: Journal",
+			"id": 27975,
+			"ocount": 4
+		},
+		{
+			"name": "Heredia, José-Maria de",
+			"id": 27952,
+			"ocount": 4
+		},
+		{
+			"name": "Maurras, Charles",
+			"id": 28040,
+			"ocount": 4
+		},
+		{
+			"name": "My Blue Notebooks (Pougy)",
+			"id": 28060,
+			"ocount": 4
+		},
+		{
+			"name": "Pougy, Liane de -- Works: My Blue Notebooks",
+			"id": 28098,
+			"ocount": 4
+		},
+		{
+			"name": "Lamartine, Alphonse de",
+			"id": 27984,
+			"ocount": 3
+		},
+		{
+			"name": "Tagore, Rabindranath",
+			"id": 28192,
+			"ocount": 3
+		},
+		{
+			"name": "Barney, Joshua",
+			"id": 27774,
+			"ocount": 3
+		},
+		{
+			"name": "Louÿs, Pierre -- Works: Aphrodite",
+			"id": 27742,
+			"ocount": 3
+		},
+		{
+			"name": "Vigny, Alfred de",
+			"id": 28228,
+			"ocount": 3
+		},
+		{
+			"name": "Brun, Charles",
+			"id": 27835,
+			"ocount": 3
+		},
+		{
+			"name": "Heredia -- Louise de",
+			"id": 27953,
+			"ocount": 3
+		},
+		{
+			"name": "Keats, John -- \"On a Grecian Urn\"",
+			"id": 27981,
+			"ocount": 3
+		},
+		{
+			"name": "\"On a Grecian Urn\" (Keats)",
+			"id": 28077,
+			"ocount": 3
+		},
+		{
+			"name": "Berthelot, Hélène",
+			"id": 27820,
+			"ocount": 3
+		},
+		{
+			"name": "Brimont, Baroness Antoine (Renée) de",
+			"id": 27829,
+			"ocount": 3
+		},
+		{
+			"name": "Caillavet, Mme Arman de",
+			"id": 27837,
+			"ocount": 3
+		},
+		{
+			"name": "Vigny, Alfred de -- Works: \"Anger of Samson, The\"",
+			"id": 27737,
+			"ocount": 3
+		},
+		{
+			"name": "Duse, Eleanora",
+			"id": 27889,
+			"ocount": 3
+		},
+		{
+			"name": "Jacob, Max -- \"Conversations\"",
+			"id": 27965,
+			"ocount": 3
+		},
+		{
+			"name": "Wilde, Dorothy (Dolly)",
+			"id": 28263,
+			"ocount": 3
+		},
+		{
+			"name": "Mardrus, J.-C. -- Works: Book of a Thousand and One Nights, The",
+			"id": 27825,
+			"ocount": 3
+		},
+		{
+			"name": "Germain, André",
+			"id": 27924,
+			"ocount": 3
+		},
+		{
+			"name": "Villon, François",
+			"id": 28232,
+			"ocount": 3
+		},
+		{
+			"name": "Jouvenel, Henri de",
+			"id": 27976,
+			"ocount": 3
+		},
+		{
+			"name": "\"Canticle of Knowledge\" (Milosz)",
+			"id": 27839,
+			"ocount": 3
+		},
+		{
+			"name": "Milosz, Oscar Venceslas de -- Works: \"Canticle of Knowledge\"",
+			"id": 28045,
+			"ocount": 3
+		},
+		{
+			"name": "Gide, André -- and André Rouveyre",
+			"id": 27931,
+			"ocount": 3
+		},
+		{
+			"name": "Rouveyre, André -- Recluse and the Sly One: Gourmont and Gide, The",
+			"id": 28138,
+			"ocount": 3
+		},
+		{
+			"name": "Murry, John Middleton",
+			"id": 28059,
+			"ocount": 3
+		},
+		{
+			"name": "Anglesey, Marchioness of",
+			"id": 27738,
+			"ocount": 3
+		},
+		{
+			"name": "Delarue-Mardrus, Lucie -- as Poe's translator",
+			"id": 27879,
+			"ocount": 3
+		},
+		{
+			"name": "Fargue, Léon-Paul",
+			"id": 27899,
+			"ocount": 3
+		},
+		{
+			"name": "Anthiel, George",
+			"id": 27740,
+			"ocount": 3
+		},
+		{
+			"name": "Salons, Parisian literary -- of Stéphane Mallarmé",
+			"id": 28156,
+			"ocount": 3
+		},
+		{
+			"name": "Stendhal",
+			"id": 12442,
+			"ocount": 3
+		},
+		{
+			"name": "Verlaine, Paul",
+			"id": 28226,
+			"ocount": 3
+		},
+		{
+			"name": "Barney, Natalie Clifford -- and feminism",
+			"id": 27779,
+			"ocount": 3
+		},
+		{
+			"name": "Poiret, Paul",
+			"id": 28095,
+			"ocount": 3
+		},
+		{
+			"name": "Rodin, Auguste",
+			"id": 16270,
+			"ocount": 3
+		},
+		{
+			"name": "Loy, Mina -- Lunar Baedecker (Lunar Baedeker)",
+			"id": 28018,
+			"ocount": 3
+		},
+		{
+			"name": "Lunar Baedecker (Lunar Baedeker) (Loy)",
+			"id": 28021,
+			"ocount": 3
+		},
+		{
+			"name": "Gramont, Elisabeth de -- Works: Almanac of Good Things of France",
+			"id": 27729,
+			"ocount": 3
+		},
+		{
+			"name": "Jammes, Francis",
+			"id": 27974,
+			"ocount": 3
+		},
+		{
+			"name": "Barnes, Djuna -- Ryder",
+			"id": 27769,
+			"ocount": 3
+		},
+		{
+			"name": "Degas, Edgar",
+			"id": 27877,
+			"ocount": 3
+		},
+		{
+			"name": "Joyce, James",
+			"id": 12263,
+			"ocount": 3
+		},
+		{
+			"name": "Lenéru, Marie -- plays by",
+			"id": 27997,
+			"ocount": 3
+		},
+		{
+			"name": "Lenéru, Marie -- Saint-Just",
+			"id": 28143,
+			"ocount": 3
+		},
+		{
+			"name": "Séverine",
+			"id": 28168,
+			"ocount": 3
+		},
+		{
+			"name": "Anderson, Sherwood",
+			"id": 4394,
+			"ocount": 3
+		},
+		{
+			"name": "Académie-française -- exclusion of women",
+			"id": 27720,
+			"ocount": 3
+		},
+		{
+			"name": "Salons, Parisian literary -- of Aurel",
+			"id": 28147,
+			"ocount": 3
+		},
+		{
+			"name": "Acton, Harold",
+			"id": 27724,
+			"ocount": 3
+		},
+		{
+			"name": "Rousseau, Jean Jacques",
+			"id": 25529,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Natalie Clifford -- untitled poems",
+			"id": 27806,
+			"ocount": 2
+		},
+		{
+			"name": "Académie-française",
+			"id": 27719,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Our Secret Loves",
+			"id": 27797,
+			"ocount": 2
+		},
+		{
+			"name": "Balzac, Honoré de -- Séraphita",
+			"id": 27757,
+			"ocount": 2
+		},
+		{
+			"name": "Baudelaire, Charles -- Wreckage, The",
+			"id": 27813,
+			"ocount": 2
+		},
+		{
+			"name": "Gautier, Théophile",
+			"id": 27921,
+			"ocount": 2
+		},
+		{
+			"name": "Lamartine, Alphonse de -- Jocelyn",
+			"id": 27973,
+			"ocount": 2
+		},
+		{
+			"name": "Vigny, Alfred de -- Eloa",
+			"id": 28230,
+			"ocount": 2
+		},
+		{
+			"name": "Vivien, Renée -- Works: Etudes and Preludes",
+			"id": 27895,
+			"ocount": 2
+		},
+		{
+			"name": "Louÿs, Pierre -- \"Poëtoque\"",
+			"id": 28013,
+			"ocount": 2
+		},
+		{
+			"name": "\"Poétique\" (Louÿs)",
+			"id": 28094,
+			"ocount": 2
+		},
+		{
+			"name": "Farrère, Claude",
+			"id": 27900,
+			"ocount": 2
+		},
+		{
+			"name": "Roggers, Henriette",
+			"id": 28128,
+			"ocount": 2
+		},
+		{
+			"name": "Louÿs, Pierre -- \"Noctv Renata\"",
+			"id": 28012,
+			"ocount": 2
+		},
+		{
+			"name": "\"Nootv Renata\" (Louÿs)",
+			"id": 28071,
+			"ocount": 2
+		},
+		{
+			"name": "Sabini, Countess Yvonne",
+			"id": 28142,
+			"ocount": 2
+		},
+		{
+			"name": "Louÿs, Pierre -- Astarté",
+			"id": 27749,
+			"ocount": 2
+		},
+		{
+			"name": "Keats, John -- Endymion",
+			"id": 27891,
+			"ocount": 2
+		},
+		{
+			"name": "\"Last Confession, A\" (Rosetti)",
+			"id": 27990,
+			"ocount": 2
+		},
+		{
+			"name": "Rosetti, Dante Gabriel",
+			"id": 28131,
+			"ocount": 2
+		},
+		{
+			"name": "Rosetti, Dante Gabriel -- last Confession, A\"",
+			"id": 28132,
+			"ocount": 2
+		},
+		{
+			"name": "Barbey d'Aurevilly, Jules-Amédée",
+			"id": 27758,
+			"ocount": 2
+		},
+		{
+			"name": "Old Mistress, An (Barbey d'Aurevilly)",
+			"id": 28076,
+			"ocount": 2
+		},
+		{
+			"name": "Ohanian, Armen",
+			"id": 28074,
+			"ocount": 2
+		},
+		{
+			"name": "Serruys-Mille, Yvonne",
+			"id": 28166,
+			"ocount": 2
+		},
+		{
+			"name": "Bourdelle, Emile Antoine",
+			"id": 27826,
+			"ocount": 2
+		},
+		{
+			"name": "Dancer of Shamahka (Ohanian)",
+			"id": 27869,
+			"ocount": 2
+		},
+		{
+			"name": "France, Emma",
+			"id": 27915,
+			"ocount": 2
+		},
+		{
+			"name": "Ohanian, Armen -- Dancer of Shamahka",
+			"id": 28075,
+			"ocount": 2
+		},
+		{
+			"name": "Rappoport, Charles",
+			"id": 28115,
+			"ocount": 2
+		},
+		{
+			"name": "Van Dongen, Kees",
+			"id": 28224,
+			"ocount": 2
+		},
+		{
+			"name": "Porto-Riche, Georges de",
+			"id": 28097,
+			"ocount": 2
+		},
+		{
+			"name": "Gramont, Elisabeth de -- \"Belated Gift of Flowers, The\"",
+			"id": 27816,
+			"ocount": 2
+		},
+		{
+			"name": "Deffand de la Lande, Marquise du",
+			"id": 27875,
+			"ocount": 2
+		},
+		{
+			"name": "Gourmont, Jean de",
+			"id": 27933,
+			"ocount": 2
+		},
+		{
+			"name": "Vichy-Chamrond, Marie Anne de",
+			"id": 28227,
+			"ocount": 2
+		},
+		{
+			"name": "Walpole, Horace",
+			"id": 28246,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Natalie Clifford -- \"Amazon's Reply, The\"",
+			"id": 27788,
+			"ocount": 2
+		},
+		{
+			"name": "Spinoza, Baruch (Benedict)",
+			"id": 28178,
+			"ocount": 2
+		},
+		{
+			"name": "Voltaire",
+			"id": 1558,
+			"ocount": 2
+		},
+		{
+			"name": "Dahon, Renée",
+			"id": 27867,
+			"ocount": 2
+		},
+		{
+			"name": "Gourmont, Remy de -- \"Daily Epilogues\"",
+			"id": 27936,
+			"ocount": 2
+		},
+		{
+			"name": "Leblanc, Georgette",
+			"id": 27993,
+			"ocount": 2
+		},
+		{
+			"name": "Maeterlinck, Maurice",
+			"id": 28024,
+			"ocount": 2
+		},
+		{
+			"name": "Morand, Paul -- Works: Green Shoots",
+			"id": 27947,
+			"ocount": 2
+		},
+		{
+			"name": "Morand, Paul -- \"Ode to Marcel Proust\"",
+			"id": 28055,
+			"ocount": 2
+		},
+		{
+			"name": "\"Ode to Marcel Proust\" (Morand)",
+			"id": 28073,
+			"ocount": 2
+		},
+		{
+			"name": "Sorel, Cécile",
+			"id": 28176,
+			"ocount": 2
+		},
+		{
+			"name": "\"House of Berger, The\" (Vigny)",
+			"id": 27957,
+			"ocount": 2
+		},
+		{
+			"name": "Vigny, Alfred de -- \"House of Berger, The\"",
+			"id": 28231,
+			"ocount": 2
+		},
+		{
+			"name": "De Grey, Lady",
+			"id": 27878,
+			"ocount": 2
+		},
+		{
+			"name": "Ripon, Constance Gladys, Marchioness of",
+			"id": 28127,
+			"ocount": 2
+		},
+		{
+			"name": "Rothschild, Baroness Adolphe de",
+			"id": 28134,
+			"ocount": 2
+		},
+		{
+			"name": "Hahn, Reynaldo",
+			"id": 27949,
+			"ocount": 2
+		},
+		{
+			"name": "Balzac, Honoré de",
+			"id": 12046,
+			"ocount": 2
+		},
+		{
+			"name": "Douglas, Lord Alfred -- \"Two Loves\"",
+			"id": 27887,
+			"ocount": 2
+		},
+		{
+			"name": "\"Two Loves\" (Douglas)",
+			"id": 28211,
+			"ocount": 2
+		},
+		{
+			"name": "Gourmont, Remy de -- Night in the Luxembourg, A",
+			"id": 27939,
+			"ocount": 2
+		},
+		{
+			"name": "Arnim, Elisabeth (Bettina) von",
+			"id": 16245,
+			"ocount": 2
+		},
+		{
+			"name": "Labbé, Louise",
+			"id": 27982,
+			"ocount": 2
+		},
+		{
+			"name": "Swedenborg, Emanuel",
+			"id": 28189,
+			"ocount": 2
+		},
+		{
+			"name": "D'Annunzio, Gabriele -- Martyrdom of Saint Sebastian, The",
+			"id": 27873,
+			"ocount": 2
+		},
+		{
+			"name": "Martyrdom of Saint Sebastian, The (d'Annunzio)",
+			"id": 28035,
+			"ocount": 2
+		},
+		{
+			"name": "Bàccara, Luisa",
+			"id": 27753,
+			"ocount": 2
+		},
+		{
+			"name": "Contemplation of Death, The (D'Annunzio)",
+			"id": 27860,
+			"ocount": 2
+		},
+		{
+			"name": "D'Annunzio, Gabriele -- Work: Contemplation of Death, The",
+			"id": 27872,
+			"ocount": 2
+		},
+		{
+			"name": "Paulhan, Paul",
+			"id": 28086,
+			"ocount": 2
+		},
+		{
+			"name": "Jacob, Mademoiselle",
+			"id": 27963,
+			"ocount": 2
+		},
+		{
+			"name": "Franchetti, Baroness",
+			"id": 27916,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Albert Clifford",
+			"id": 27771,
+			"ocount": 2
+		},
+		{
+			"name": "Mühlfeld, Jeanne (Mme Lucien)",
+			"id": 28057,
+			"ocount": 2
+		},
+		{
+			"name": "Mardrus, J.-C. -- Queen of Sheba, The",
+			"id": 28111,
+			"ocount": 2
+		},
+		{
+			"name": "Gradan, Baltasar",
+			"id": 27940,
+			"ocount": 2
+		},
+		{
+			"name": "Benda, Julien",
+			"id": 14846,
+			"ocount": 2
+		},
+		{
+			"name": "Boileau-Despreaux, Nicholas",
+			"id": 27823,
+			"ocount": 2
+		},
+		{
+			"name": "Aman-Jean, Edmond",
+			"id": 27732,
+			"ocount": 2
+		},
+		{
+			"name": "Valéry, Paul -- Works: Anne",
+			"id": 27739,
+			"ocount": 2
+		},
+		{
+			"name": "Aragon, Louis",
+			"id": 27745,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Alice Pike",
+			"id": 27772,
+			"ocount": 2
+		},
+		{
+			"name": "Corneille, Pierre",
+			"id": 27863,
+			"ocount": 2
+		},
+		{
+			"name": "Fels, Florent",
+			"id": 27902,
+			"ocount": 2
+		},
+		{
+			"name": "Malherbe, François de",
+			"id": 28026,
+			"ocount": 2
+		},
+		{
+			"name": "Palme (Valéry)",
+			"id": 28082,
+			"ocount": 2
+		},
+		{
+			"name": "Ronsard, Pierre de",
+			"id": 28129,
+			"ocount": 2
+		},
+		{
+			"name": "Valéry, Paul -- Palme",
+			"id": 28220,
+			"ocount": 2
+		},
+		{
+			"name": "Poe, Edgar Allan -- Eureka",
+			"id": 44303,
+			"ocount": 2
+		},
+		{
+			"name": "Poe, Edgar Allan -- To Helen\"",
+			"id": 28092,
+			"ocount": 2
+		},
+		{
+			"name": "\"To Helen\" (Poe)",
+			"id": 28201,
+			"ocount": 2
+		},
+		{
+			"name": "Bourdet-Pozzi, Catherine",
+			"id": 27827,
+			"ocount": 2
+		},
+		{
+			"name": "Régnier, Marie de",
+			"id": 28117,
+			"ocount": 2
+		},
+		{
+			"name": "Valéry, Paul -- \"Silhouette of a Serpent\"",
+			"id": 28221,
+			"ocount": 2
+		},
+		{
+			"name": "Aldington, Richard",
+			"id": 27727,
+			"ocount": 2
+		},
+		{
+			"name": "Sinclair, May",
+			"id": 28171,
+			"ocount": 2
+		},
+		{
+			"name": "Fabre, Lucien",
+			"id": 27898,
+			"ocount": 2
+		},
+		{
+			"name": "Gallimard, Gaston",
+			"id": 27920,
+			"ocount": 2
+		},
+		{
+			"name": "Rothermere, Lilian, Viscountess",
+			"id": 28133,
+			"ocount": 2
+		},
+		{
+			"name": "Pierre-Quint, Léon",
+			"id": 28089,
+			"ocount": 2
+		},
+		{
+			"name": "Butler, Samuel",
+			"id": 27836,
+			"ocount": 2
+		},
+		{
+			"name": "Landor, Walter Savage",
+			"id": 27986,
+			"ocount": 2
+		},
+		{
+			"name": "Murphy, Esther",
+			"id": 28058,
+			"ocount": 2
+		},
+		{
+			"name": "Brontë, Emily -- Wuthering Heights",
+			"id": 12484,
+			"ocount": 2
+		},
+		{
+			"name": "Rops, Félicien",
+			"id": 28130,
+			"ocount": 2
+		},
+		{
+			"name": "Cassou, Jean",
+			"id": 27840,
+			"ocount": 2
+		},
+		{
+			"name": "Clarissa Harlowe (Richardson)",
+			"id": 27843,
+			"ocount": 2
+		},
+		{
+			"name": "La Rochefoucauld, Duc François de",
+			"id": 27989,
+			"ocount": 2
+		},
+		{
+			"name": "Hérédo, L' (Daudet)",
+			"id": 27954,
+			"ocount": 2
+		},
+		{
+			"name": "Crouzet, Philippe",
+			"id": 27864,
+			"ocount": 2
+		},
+		{
+			"name": "Dars, Jean",
+			"id": 27874,
+			"ocount": 2
+		},
+		{
+			"name": "Dangerous Liaisons (Laclos)",
+			"id": 27870,
+			"ocount": 2
+		},
+		{
+			"name": "Psychology of Peoples, The (Le Bon)",
+			"id": 28109,
+			"ocount": 2
+		},
+		{
+			"name": "Conder, Charles",
+			"id": 27859,
+			"ocount": 2
+		},
+		{
+			"name": "Swinburne, Charles",
+			"id": 28190,
+			"ocount": 2
+		},
+		{
+			"name": "Wickham, Anna -- Works: \"Artificiality\"",
+			"id": 27748,
+			"ocount": 2
+		},
+		{
+			"name": "\"Definition\" (Wickham)",
+			"id": 27876,
+			"ocount": 2
+		},
+		{
+			"name": "Wickham, Anna -- \"Definition\"",
+			"id": 28253,
+			"ocount": 2
+		},
+		{
+			"name": "\"Contrast, The\" (Wickham)",
+			"id": 27862,
+			"ocount": 2
+		},
+		{
+			"name": "Wickham, Anna -- \"Contrast, The\"",
+			"id": 28252,
+			"ocount": 2
+		},
+		{
+			"name": "Colette, Jules-Joseph",
+			"id": 27856,
+			"ocount": 2
+		},
+		{
+			"name": "Moreno, Marguerite",
+			"id": 28056,
+			"ocount": 2
+		},
+		{
+			"name": "Bel-Gazou",
+			"id": 27817,
+			"ocount": 2
+		},
+		{
+			"name": "Claudine in Paris (Colette)",
+			"id": 27846,
+			"ocount": 2
+		},
+		{
+			"name": "Colette -- Works: Claudine in Paris",
+			"id": 27852,
+			"ocount": 2
+		},
+		{
+			"name": "Dolent, Jean",
+			"id": 27885,
+			"ocount": 2
+		},
+		{
+			"name": "Goethe, Johann Wolfgang von -- Faust",
+			"id": 27901,
+			"ocount": 2
+		},
+		{
+			"name": "Loy, Mina -- Works: \"Apology of Genius\"",
+			"id": 27744,
+			"ocount": 2
+		},
+		{
+			"name": "Loy, Mina -- \"Widow's Jazz, The\"",
+			"id": 28019,
+			"ocount": 2
+		},
+		{
+			"name": "Gramont, Elisabeth de -- Proust and Montesquiou",
+			"id": 27945,
+			"ocount": 2
+		},
+		{
+			"name": "Medlar (Gramont)",
+			"id": 28041,
+			"ocount": 2
+		},
+		{
+			"name": "Quail (Gramont)",
+			"id": 28110,
+			"ocount": 2
+		},
+		{
+			"name": "Gramont, Elisabeth de -- History of Samuel Bernard and His Children",
+			"id": 27944,
+			"ocount": 2
+		},
+		{
+			"name": "Cunard, Nancy",
+			"id": 27866,
+			"ocount": 2
+		},
+		{
+			"name": "Barnes, Djuna -- Works: Book, A",
+			"id": 27760,
+			"ocount": 2
+		},
+		{
+			"name": "Barnes, Djuna -- \"Passion, The\"",
+			"id": 27768,
+			"ocount": 2
+		},
+		{
+			"name": "Barnes, Djuna -- \"Paradise\"",
+			"id": 27767,
+			"ocount": 2
+		},
+		{
+			"name": "Loy, Mina -- \"Gertrude Stein\"",
+			"id": 27927,
+			"ocount": 2
+		},
+		{
+			"name": "Langlois, Louise (Mme Jean-Paul)",
+			"id": 27987,
+			"ocount": 2
+		},
+		{
+			"name": "Sitwell, Dame Edith",
+			"id": 28172,
+			"ocount": 2
+		},
+		{
+			"name": "Stein, Gertrude -- \"Water Pipe\"",
+			"id": 28186,
+			"ocount": 2
+		},
+		{
+			"name": "\"Water Pipe\" (Stein)",
+			"id": 28247,
+			"ocount": 2
+		},
+		{
+			"name": "Hugnet, Georges",
+			"id": 27958,
+			"ocount": 2
+		},
+		{
+			"name": "Joyce, James -- Works: Exiles",
+			"id": 27897,
+			"ocount": 2
+		},
+		{
+			"name": "Joyce, James -- Finnegans Wake",
+			"id": 27361,
+			"ocount": 2
+		},
+		{
+			"name": "Gourmont, Remy de -- Works: Cultivation of Ideas, The",
+			"id": 27935,
+			"ocount": 2
+		},
+		{
+			"name": "Joyce, James -- Portrait of the Artist as a Young Man, A",
+			"id": 16460,
+			"ocount": 2
+		},
+		{
+			"name": "Lugné-Poë, Aurélien-François",
+			"id": 28020,
+			"ocount": 2
+		},
+		{
+			"name": "Marinetti, Filippo Tommaso",
+			"id": 28034,
+			"ocount": 2
+		},
+		{
+			"name": "Rimbaud, Arthur",
+			"id": 28125,
+			"ocount": 2
+		},
+		{
+			"name": "Rimbaud, Arthur -- \"Vowels\"",
+			"id": 28126,
+			"ocount": 2
+		},
+		{
+			"name": "Stein, Gertrude -- Tender Buttons",
+			"id": 28185,
+			"ocount": 2
+		},
+		{
+			"name": "Tender Buttons (Stein)",
+			"id": 28195,
+			"ocount": 2
+		},
+		{
+			"name": "\"Vowels\" (Rimbaud)",
+			"id": 28244,
+			"ocount": 2
+		},
+		{
+			"name": "Brooks, Romaine -- Works: No Pleasant Memories",
+			"id": 27832,
+			"ocount": 2
+		},
+		{
+			"name": "Brooks, Romaine -- 70 Dessins",
+			"id": 27834,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Natalie Clifford -- \"Tomb of Renée Vivien, The\"",
+			"id": 27804,
+			"ocount": 2
+		},
+		{
+			"name": "Germain, André -- Renée Vivien",
+			"id": 27926,
+			"ocount": 2
+		},
+		{
+			"name": "Vivien, Renée -- and religion",
+			"id": 28234,
+			"ocount": 2
+		},
+		{
+			"name": "\"Locasta\" (Vivien)",
+			"id": 28005,
+			"ocount": 2
+		},
+		{
+			"name": "Vivien, Renée -- \"Locasta\"",
+			"id": 28237,
+			"ocount": 2
+		},
+		{
+			"name": "Milosz, Oscar Venceslas de -- Great Art",
+			"id": 27946,
+			"ocount": 2
+		},
+		{
+			"name": "\"Letter to Storage\" (Milosz)",
+			"id": 28000,
+			"ocount": 2
+		},
+		{
+			"name": "Milosz, Oscar Venceslas de -- \"Letter to Storge\"",
+			"id": 28047,
+			"ocount": 2
+		},
+		{
+			"name": "Milosz, Oscar Venceslas de -- \"Nihumim\"",
+			"id": 28048,
+			"ocount": 2
+		},
+		{
+			"name": "\"Nihumim\" (Milosz)",
+			"id": 28069,
+			"ocount": 2
+		},
+		{
+			"name": "Amiel, Henri-Frédéric",
+			"id": 27735,
+			"ocount": 2
+		},
+		{
+			"name": "Bashkirtseff, Marie",
+			"id": 27809,
+			"ocount": 2
+		},
+		{
+			"name": "\"Clarté\"",
+			"id": 27844,
+			"ocount": 2
+		},
+		{
+			"name": "Paz -- Magdeleine Marx",
+			"id": 28037,
+			"ocount": 2
+		},
+		{
+			"name": "Lenéru, Marie -- \"Witness, The\"",
+			"id": 28266,
+			"ocount": 2
+		},
+		{
+			"name": "Angell, Sir Norman",
+			"id": 27736,
+			"ocount": 2
+		},
+		{
+			"name": "Misme, Jeanne (Jane)",
+			"id": 28050,
+			"ocount": 2
+		},
+		{
+			"name": "Thomson, Valentine",
+			"id": 28197,
+			"ocount": 2
+		},
+		{
+			"name": "Jay, Karla",
+			"id": 27970,
+			"ocount": 2
+		},
+		{
+			"name": "Cleyrergue, Berthe",
+			"id": 27850,
+			"ocount": 2
+		},
+		{
+			"name": "Barnes, Djuna -- liaisons of",
+			"id": 27759,
+			"ocount": 2
+		},
+		{
+			"name": "Dreyfus Affair",
+			"id": 27888,
+			"ocount": 2
+		},
+		{
+			"name": "Salons, Parisian literary -- of French nobility",
+			"id": 28148,
+			"ocount": 2
+		},
+		{
+			"name": "Émile Zola französischer Schriftsteller und Journalist des 19. Jahrhunderts",
+			"id": 27718,
+			"ocount": 2
+		},
+		{
+			"name": "Hemingway, Ernest",
+			"id": 4626,
+			"ocount": 2
+		},
+		{
+			"name": "Salons, Parisian literary -- of Gertrude Stein",
+			"id": 28150,
+			"ocount": 2
+		},
+		{
+			"name": "Ballet mécanique (Anthiel)",
+			"id": 27756,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Natalie Clifford -- One Who Is Legion, The",
+			"id": 27796,
+			"ocount": 2
+		},
+		{
+			"name": "Hall, Radclyfle",
+			"id": 27950,
+			"ocount": 2
+		},
+		{
+			"name": "Rubinstein, Ida",
+			"id": 28140,
+			"ocount": 2
+		},
+		{
+			"name": "Breton, André",
+			"id": 27828,
+			"ocount": 2
+		},
+		{
+			"name": "Millay, Edna St. Vincent",
+			"id": 4781,
+			"ocount": 2
+		},
+		{
+			"name": "Gautheir-Villars, Henry",
+			"id": 27922,
+			"ocount": 2
+		},
+		{
+			"name": "Willy",
+			"id": 28265,
+			"ocount": 2
+		},
+		{
+			"name": "McAlmon, Robert",
+			"id": 28022,
+			"ocount": 2
+		},
+		{
+			"name": "Toklas, Alice B.",
+			"id": 28203,
+			"ocount": 2
+		},
+		{
+			"name": "Maugham, W. Somerset",
+			"id": 12294,
+			"ocount": 2
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Further Thoughts of an Amazon",
+			"id": 27919,
+			"ocount": 1
+		},
+		{
+			"name": "\"Sonnet 116\" (Shakespeare)",
+			"id": 28175,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, J. P.",
+			"id": 27773,
+			"ocount": 1
+		},
+		{
+			"name": "Mademoiselle de Maupin (Gautier)",
+			"id": 28023,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Mallarmé",
+			"id": 27792,
+			"ocount": 1
+		},
+		{
+			"name": "Woman and the Feeling of Love in Works of Remy de Gourmont (Escoube)",
+			"id": 28267,
+			"ocount": 1
+		},
+		{
+			"name": "Poe, Edgar Allan -- Works: Arthur Gordon Pym",
+			"id": 27747,
+			"ocount": 1
+		},
+		{
+			"name": "Jaloux, Edmond -- Rainer Maria Rilke",
+			"id": 27969,
+			"ocount": 1
+		},
+		{
+			"name": "Fleg, Edmond -- Work: Beast, The",
+			"id": 27815,
+			"ocount": 1
+		},
+		{
+			"name": "Fleg, Edmond -- Child Prophet, The",
+			"id": 27908,
+			"ocount": 1
+		},
+		{
+			"name": "Fleg, Edmond -- Demon, The",
+			"id": 27909,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- \"To the Mothers of Future Christs\"",
+			"id": 27803,
+			"ocount": 1
+		},
+		{
+			"name": "Fleg, Edmond -- Jewish Anthology",
+			"id": 27910,
+			"ocount": 1
+		},
+		{
+			"name": "Rouveyre, André -- Works: \"Bad Literary News\"",
+			"id": 27754,
+			"ocount": 1
+		},
+		{
+			"name": "\"Memoirs of My Business\" (Rouveyre)",
+			"id": 28043,
+			"ocount": 1
+		},
+		{
+			"name": "Rouveyre, André -- Memoirs of My Bustness",
+			"id": 28137,
+			"ocount": 1
+		},
+		{
+			"name": "Insinuation (Valéry)",
+			"id": 27961,
+			"ocount": 1
+		},
+		{
+			"name": "Valéry, Paul -- Insinuation",
+			"id": 28218,
+			"ocount": 1
+		},
+		{
+			"name": "Spiritual Crisis (Valéry)",
+			"id": 28179,
+			"ocount": 1
+		},
+		{
+			"name": "Valéry, Paul -- Spiritual Crisis",
+			"id": 28222,
+			"ocount": 1
+		},
+		{
+			"name": "Germain, André -- \"Homage to Valéry, An\"",
+			"id": 27925,
+			"ocount": 1
+		},
+		{
+			"name": "\"Commercial Genius of Paul Valéry, The\" (Gaultier-Boissiere)",
+			"id": 27857,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- and selling stock in artists",
+			"id": 28158,
+			"ocount": 1
+		},
+		{
+			"name": "Tom Jones (Fielding)",
+			"id": 28204,
+			"ocount": 1
+		},
+		{
+			"name": "Jaloux, Edmond -- Proserpina's Boudoir",
+			"id": 27968,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- as described by Aurel",
+			"id": 27777,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- as described by Lucie Delarue-Mardrus",
+			"id": 27778,
+			"ocount": 1
+		},
+		{
+			"name": "Delarue-Mardrus, Lucie -- Works: \"Prefatory Poem\"",
+			"id": 27881,
+			"ocount": 1
+		},
+		{
+			"name": "\"Prefatory Poem\" (Delarue-Mardrus)",
+			"id": 28101,
+			"ocount": 1
+		},
+		{
+			"name": "Delarue-Mardrus, Lucie -- Selected Poems, Last Unpublished Verse, Translations",
+			"id": 27882,
+			"ocount": 1
+		},
+		{
+			"name": "Selected Poems, Last Unpublished Verse, Translations (Delarue-Mardrus)",
+			"id": 28164,
+			"ocount": 1
+		},
+		{
+			"name": "Contemplative Quarry, The (Wickham)",
+			"id": 27861,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- \"Envoi\"",
+			"id": 27894,
+			"ocount": 1
+		},
+		{
+			"name": "Little Old House, The (Wickham)",
+			"id": 28004,
+			"ocount": 1
+		},
+		{
+			"name": "Man with a Hammer, The (Wickham)",
+			"id": 28029,
+			"ocount": 1
+		},
+		{
+			"name": "\"Walk, The\" (Wickman)",
+			"id": 28245,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- Contemplative Quarry, The",
+			"id": 28251,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- Little Old House, The",
+			"id": 28256,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- Man with a Hammer, The",
+			"id": 28257,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- \"Walk, The\"",
+			"id": 28261,
+			"ocount": 1
+		},
+		{
+			"name": "\"Nervous Prostration\" (Wickham)",
+			"id": 28064,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- \"Nervous Prostration\"",
+			"id": 28258,
+			"ocount": 1
+		},
+		{
+			"name": "\"Fresh Start, The\" (Wickman)",
+			"id": 27917,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- \"Fresh Start, The\"",
+			"id": 28255,
+			"ocount": 1
+		},
+		{
+			"name": "\"Traducers\" (Wickham)",
+			"id": 28206,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- \"Traducers\"",
+			"id": 28259,
+			"ocount": 1
+		},
+		{
+			"name": "Wickham, Anna -- untitled poem",
+			"id": 28260,
+			"ocount": 1
+		},
+		{
+			"name": "Samuel Bernard and His Age (Gramont)",
+			"id": 28159,
+			"ocount": 1
+		},
+		{
+			"name": "Gramont, Elisabeth de -- \"Finistère\"",
+			"id": 27904,
+			"ocount": 1
+		},
+		{
+			"name": "Barnes, Djuna -- \"Aller et Retour\"",
+			"id": 27728,
+			"ocount": 1
+		},
+		{
+			"name": "Barnes, Djuna -- \"Finis\"",
+			"id": 27763,
+			"ocount": 1
+		},
+		{
+			"name": "Barnes, Djuna -- \"Fragment of a Portrait\"",
+			"id": 27764,
+			"ocount": 1
+		},
+		{
+			"name": "Lawrence, D. H. -- \"Evening Land, The\"",
+			"id": 27892,
+			"ocount": 1
+		},
+		{
+			"name": "\"Bibliographic Essay\" (Hugnet)",
+			"id": 27822,
+			"ocount": 1
+		},
+		{
+			"name": "\"Emperor's New Clothes, The\" (Andersen)",
+			"id": 27890,
+			"ocount": 1
+		},
+		{
+			"name": "\"My Victories\" (Vivient)",
+			"id": 28062,
+			"ocount": 1
+		},
+		{
+			"name": "Vivien, Renée -- \"My Victories\"",
+			"id": 28238,
+			"ocount": 1
+		},
+		{
+			"name": "Vivien, Renée -- \"Vanquished Woman\"",
+			"id": 28241,
+			"ocount": 1
+		},
+		{
+			"name": "Vivien, Renée -- \"Thus Will I Speak\"",
+			"id": 28240,
+			"ocount": 1
+		},
+		{
+			"name": "\"Prophecy\" (Vivien)",
+			"id": 28102,
+			"ocount": 1
+		},
+		{
+			"name": "Vivien, Renée -- \"prophecy\"",
+			"id": 28239,
+			"ocount": 1
+		},
+		{
+			"name": "Paz, Magdeleine Marx -- \"Retrospective of Marie Lenéru\"",
+			"id": 28087,
+			"ocount": 1
+		},
+		{
+			"name": "\"Retrospective of Marie Lenéru\" (Paz)",
+			"id": 28122,
+			"ocount": 1
+		},
+		{
+			"name": "General History of Feminism, The (Abensour)",
+			"id": 27923,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Perilous Advantage, A",
+			"id": 27798,
+			"ocount": 1
+		},
+		{
+			"name": "Hall, Radclyfle -- Well of Loneliness, The",
+			"id": 27951,
+			"ocount": 1
+		},
+		{
+			"name": "Well of Loneliness, The (Hall)",
+			"id": 28248,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- as affected by Dreyfus Affair",
+			"id": 28145,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- of Geneviève Straus",
+			"id": 28149,
+			"ocount": 1
+		},
+		{
+			"name": "Straus, Geneviève",
+			"id": 28187,
+			"ocount": 1
+		},
+		{
+			"name": "Lipchitz, Jacques",
+			"id": 28003,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- \"Memoirs of a European-American\"",
+			"id": 27793,
+			"ocount": 1
+		},
+		{
+			"name": "Jay, Karla -- Amazon and the Page, The",
+			"id": 27971,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- elitism in",
+			"id": 28146,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- \"My Country 'tis of Thee\"",
+			"id": 27794,
+			"ocount": 1
+		},
+		{
+			"name": "\"Preciosilla\" (Stein)",
+			"id": 28100,
+			"ocount": 1
+		},
+		{
+			"name": "Stein, Gertrude -- \"Preciosilla\"",
+			"id": 28183,
+			"ocount": 1
+		},
+		{
+			"name": "Stein, Gertrude -- \"Susie Asado\"",
+			"id": 28184,
+			"ocount": 1
+		},
+		{
+			"name": "\"Susie Asado\" (Stein)",
+			"id": 28188,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- \"Woman Who Lives with Me, The\"",
+			"id": 27807,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- New Thoughts of an Amazon",
+			"id": 28066,
+			"ocount": 1
+		},
+		{
+			"name": "Saint-Just, Louis Antoine Léon Florelle de",
+			"id": 28144,
+			"ocount": 1
+		},
+		{
+			"name": "Delarue-Mardrus, Lucie -- untitled poem",
+			"id": 27883,
+			"ocount": 1
+		},
+		{
+			"name": "Bernhardt, Sarah",
+			"id": 7498,
+			"ocount": 1
+		},
+		{
+			"name": "Pougy, Liane de -- Sapphic Idyll",
+			"id": 28099,
+			"ocount": 1
+		},
+		{
+			"name": "Sapphic Idyll (Pougy)",
+			"id": 28160,
+			"ocount": 1
+		},
+		{
+			"name": "Louis, Georges",
+			"id": 28006,
+			"ocount": 1
+		},
+		{
+			"name": "Louÿs, Pierre -- \"New Delight, A\"",
+			"id": 28011,
+			"ocount": 1
+		},
+		{
+			"name": "\"New Delight, A\" (Louÿs)",
+			"id": 28065,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- of Mme Arman de Caillavet",
+			"id": 28152,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Poems and Poems: Other Alliances",
+			"id": 27799,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- of Yvonne Serruys-Mille",
+			"id": 28157,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Indiscreet Recollections",
+			"id": 27790,
+			"ocount": 1
+		},
+		{
+			"name": "Orloff, Chana",
+			"id": 28079,
+			"ocount": 1
+		},
+		{
+			"name": "Bergery, Bettina",
+			"id": 27819,
+			"ocount": 1
+		},
+		{
+			"name": "Anderson, Margaret",
+			"id": 4393,
+			"ocount": 1
+		},
+		{
+			"name": "Clélie (Scudéry)",
+			"id": 27847,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- of Jeanne Mühfeld",
+			"id": 28151,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford -- Traits and Portraits",
+			"id": 27805,
+			"ocount": 1
+		},
+		{
+			"name": "Adam, Juliette",
+			"id": 27725,
+			"ocount": 1
+		},
+		{
+			"name": "Lawrence, D. H.",
+			"id": 4719,
+			"ocount": 1
+		},
+		{
+			"name": "Bassiano, Princesse di",
+			"id": 27810,
+			"ocount": 1
+		},
+		{
+			"name": "Pascal, Blaise",
+			"id": 28084,
+			"ocount": 1
+		},
+		{
+			"name": "Yourcenar, Margaret",
+			"id": 28274,
+			"ocount": 1
+		},
+		{
+			"name": "Le Bon, Gustave",
+			"id": 27994,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- of Rachilde",
+			"id": 28155,
+			"ocount": 1
+		},
+		{
+			"name": "Barnes, Djuna -- Antiphon",
+			"id": 27741,
+			"ocount": 1
+		},
+		{
+			"name": "Wilde, Oscar -- Ballad of Reading Gaol, The",
+			"id": 27755,
+			"ocount": 1
+		},
+		{
+			"name": "Barnes, Djuna -- Nightwood",
+			"id": 27766,
+			"ocount": 1
+		},
+		{
+			"name": "\"Friendship of Women, The\" (Vivien)",
+			"id": 27918,
+			"ocount": 1
+		},
+		{
+			"name": "Vivien, Renée -- Woman of the Wolf The",
+			"id": 28243,
+			"ocount": 1
+		},
+		{
+			"name": "Wood, Thelma",
+			"id": 28271,
+			"ocount": 1
+		},
+		{
+			"name": "Barnes, Djuna -- Spillway",
+			"id": 27770,
+			"ocount": 1
+		},
+		{
+			"name": "Matisse, Henri",
+			"id": 28039,
+			"ocount": 1
+		},
+		{
+			"name": "Salons, Parisian literary -- of Madeleine de Scudéry",
+			"id": 28153,
+			"ocount": 1
+		},
+		{
+			"name": "Fitzgerald, F. Scott",
+			"id": 4579,
+			"ocount": 1
+		},
+		{
+			"name": "\"Composition as Explanation\" (Stein)",
+			"id": 27858,
+			"ocount": 1
+		},
+		{
+			"name": "Stein, Gertrude -- Works: \"Composition as Explanation\"",
+			"id": 28180,
+			"ocount": 1
+		},
+		{
+			"name": "\"Mary Nettie\" (Stein)",
+			"id": 28038,
+			"ocount": 1
+		},
+		{
+			"name": "Stein, Gertrude -- \"Mary Nettie\"",
+			"id": 28182,
+			"ocount": 1
+		},
+		{
+			"name": "Troubridge, Una, Lady",
+			"id": 28208,
+			"ocount": 1
+		},
+		{
+			"name": "Nievelt, Baroness Hélène van Zuylen de",
+			"id": 28067,
+			"ocount": 1
+		},
+		{
+			"name": "Vivien, Renée -- Woman Appeared to Me, A",
+			"id": 28242,
+			"ocount": 1
+		},
+		{
+			"name": "Barney, Natalie Clifford",
+			"id": 27776,
+			"ocount": 0
+		},
+		{
+			"name": "Rilke's writings",
+			"id": 16269,
+			"ocount": 0
+		},
+		{
+			"name": "Salons -- Parisian literary",
+			"id": 27784,
+			"ocount": 0
+		},
+		{
+			"name": "Bronte, Emily",
+			"id": 7523,
+			"ocount": 0
+		}
+	]
+,	
+	"links":
+	[
+		{
+			"source": 7523,
+			"target": 12484
+		},
+		{
+			"source": 12263,
+			"target": 16460
+		},
+		{
+			"source": 16269,
+			"target": 28124
+		},
+		{
+			"source": 27719,
+			"target": 27720
+		},
+		{
+			"source": 27719,
+			"target": 27721
+		},
+		{
+			"source": 27719,
+			"target": 27722
+		},
+		{
+			"source": 27750,
+			"target": 27777
+		},
+		{
+			"source": 12046,
+			"target": 27757
+		},
+		{
+			"source": 14844,
+			"target": 27759
+		},
+		{
+			"source": 14844,
+			"target": 27760
+		},
+		{
+			"source": 14844,
+			"target": 27728
+		},
+		{
+			"source": 14844,
+			"target": 27741
+		},
+		{
+			"source": 14844,
+			"target": 27763
+		},
+		{
+			"source": 14844,
+			"target": 27764
+		},
+		{
+			"source": 14844,
+			"target": 27765
+		},
+		{
+			"source": 14844,
+			"target": 27766
+		},
+		{
+			"source": 14844,
+			"target": 27767
+		},
+		{
+			"source": 14844,
+			"target": 27768
+		},
+		{
+			"source": 14844,
+			"target": 27769
+		},
+		{
+			"source": 14844,
+			"target": 27770
+		},
+		{
+			"source": 27776,
+			"target": 27777
+		},
+		{
+			"source": 27776,
+			"target": 27778
+		},
+		{
+			"source": 27776,
+			"target": 27779
+		},
+		{
+			"source": 27776,
+			"target": 27780
+		},
+		{
+			"source": 27776,
+			"target": 27781
+		},
+		{
+			"source": 27776,
+			"target": 27783
+		},
+		{
+			"source": 27783,
+			"target": 27784
+		},
+		{
+			"source": 27783,
+			"target": 27785
+		},
+		{
+			"source": 27776,
+			"target": 27786
+		},
+		{
+			"source": 27776,
+			"target": 27726
+		},
+		{
+			"source": 27776,
+			"target": 27788
+		},
+		{
+			"source": 27776,
+			"target": 27919
+		},
+		{
+			"source": 27776,
+			"target": 27790
+		},
+		{
+			"source": 27776,
+			"target": 27791
+		},
+		{
+			"source": 27776,
+			"target": 27792
+		},
+		{
+			"source": 27776,
+			"target": 27793
+		},
+		{
+			"source": 27776,
+			"target": 27794
+		},
+		{
+			"source": 27776,
+			"target": 28066
+		},
+		{
+			"source": 27776,
+			"target": 27796
+		},
+		{
+			"source": 27776,
+			"target": 27797
+		},
+		{
+			"source": 27776,
+			"target": 27798
+		},
+		{
+			"source": 27776,
+			"target": 27799
+		},
+		{
+			"source": 27776,
+			"target": 27800
+		},
+		{
+			"source": 27776,
+			"target": 27801
+		},
+		{
+			"source": 27776,
+			"target": 28199
+		},
+		{
+			"source": 27776,
+			"target": 27803
+		},
+		{
+			"source": 27776,
+			"target": 27804
+		},
+		{
+			"source": 27776,
+			"target": 27805
+		},
+		{
+			"source": 27776,
+			"target": 27806
+		},
+		{
+			"source": 27776,
+			"target": 27807
+		},
+		{
+			"source": 27810,
+			"target": 27811
+		},
+		{
+			"source": 6078,
+			"target": 27812
+		},
+		{
+			"source": 6078,
+			"target": 27813
+		},
+		{
+			"source": 27830,
+			"target": 27831
+		},
+		{
+			"source": 27830,
+			"target": 27832
+		},
+		{
+			"source": 27830,
+			"target": 27833
+		},
+		{
+			"source": 27830,
+			"target": 27834
+		},
+		{
+			"source": 27851,
+			"target": 27852
+		},
+		{
+			"source": 27851,
+			"target": 27853
+		},
+		{
+			"source": 27851,
+			"target": 27854
+		},
+		{
+			"source": 27851,
+			"target": 27855
+		},
+		{
+			"source": 27871,
+			"target": 27872
+		},
+		{
+			"source": 27871,
+			"target": 27873
+		},
+		{
+			"source": 27731,
+			"target": 27879
+		},
+		{
+			"source": 27731,
+			"target": 27778
+		},
+		{
+			"source": 27731,
+			"target": 27881
+		},
+		{
+			"source": 27731,
+			"target": 27882
+		},
+		{
+			"source": 27731,
+			"target": 27883
+		},
+		{
+			"source": 27886,
+			"target": 27887
+		},
+		{
+			"source": 27906,
+			"target": 27815
+		},
+		{
+			"source": 27906,
+			"target": 27908
+		},
+		{
+			"source": 27906,
+			"target": 27909
+		},
+		{
+			"source": 27906,
+			"target": 27910
+		},
+		{
+			"source": 27924,
+			"target": 27925
+		},
+		{
+			"source": 27924,
+			"target": 27926
+		},
+		{
+			"source": 27930,
+			"target": 27931
+		},
+		{
+			"source": 16395,
+			"target": 27901
+		},
+		{
+			"source": 27934,
+			"target": 27935
+		},
+		{
+			"source": 27934,
+			"target": 27936
+		},
+		{
+			"source": 27934,
+			"target": 27962
+		},
+		{
+			"source": 27934,
+			"target": 28002
+		},
+		{
+			"source": 27934,
+			"target": 27939
+		},
+		{
+			"source": 27849,
+			"target": 27729
+		},
+		{
+			"source": 27849,
+			"target": 27816
+		},
+		{
+			"source": 27849,
+			"target": 27904
+		},
+		{
+			"source": 27849,
+			"target": 27944
+		},
+		{
+			"source": 27849,
+			"target": 27945
+		},
+		{
+			"source": 27950,
+			"target": 27951
+		},
+		{
+			"source": 27964,
+			"target": 27965
+		},
+		{
+			"source": 27966,
+			"target": 27912
+		},
+		{
+			"source": 27966,
+			"target": 27968
+		},
+		{
+			"source": 27966,
+			"target": 27969
+		},
+		{
+			"source": 27970,
+			"target": 27971
+		},
+		{
+			"source": 12263,
+			"target": 27897
+		},
+		{
+			"source": 12263,
+			"target": 27361
+		},
+		{
+			"source": 12263,
+			"target": 27979
+		},
+		{
+			"source": 2819,
+			"target": 27891
+		},
+		{
+			"source": 2819,
+			"target": 27981
+		},
+		{
+			"source": 27984,
+			"target": 27973
+		},
+		{
+			"source": 4719,
+			"target": 27892
+		},
+		{
+			"source": 27995,
+			"target": 27975
+		},
+		{
+			"source": 27995,
+			"target": 27997
+		},
+		{
+			"source": 27995,
+			"target": 28143
+		},
+		{
+			"source": 27995,
+			"target": 28266
+		},
+		{
+			"source": 28008,
+			"target": 27742
+		},
+		{
+			"source": 28008,
+			"target": 27749
+		},
+		{
+			"source": 28008,
+			"target": 28011
+		},
+		{
+			"source": 28008,
+			"target": 28012
+		},
+		{
+			"source": 28008,
+			"target": 28013
+		},
+		{
+			"source": 28008,
+			"target": 28174
+		},
+		{
+			"source": 28015,
+			"target": 27744
+		},
+		{
+			"source": 28015,
+			"target": 27927
+		},
+		{
+			"source": 28015,
+			"target": 28018
+		},
+		{
+			"source": 28015,
+			"target": 28019
+		},
+		{
+			"source": 28030,
+			"target": 27825
+		},
+		{
+			"source": 28030,
+			"target": 28111
+		},
+		{
+			"source": 28044,
+			"target": 28045
+		},
+		{
+			"source": 28044,
+			"target": 27946
+		},
+		{
+			"source": 28044,
+			"target": 28047
+		},
+		{
+			"source": 28044,
+			"target": 28048
+		},
+		{
+			"source": 28053,
+			"target": 27947
+		},
+		{
+			"source": 28053,
+			"target": 28055
+		},
+		{
+			"source": 28074,
+			"target": 28075
+		},
+		{
+			"source": 27784,
+			"target": 27784
+		},
+		{
+			"source": 28037,
+			"target": 28087
+		},
+		{
+			"source": 44331,
+			"target": 27747
+		},
+		{
+			"source": 44331,
+			"target": 44303
+		},
+		{
+			"source": 44331,
+			"target": 28092
+		},
+		{
+			"source": 27929,
+			"target": 28098
+		},
+		{
+			"source": 27929,
+			"target": 28099
+		},
+		{
+			"source": 28105,
+			"target": 28106
+		},
+		{
+			"source": 28105,
+			"target": 27948
+		},
+		{
+			"source": 28105,
+			"target": 28108
+		},
+		{
+			"source": 28113,
+			"target": 27780
+		},
+		{
+			"source": 28118,
+			"target": 28119
+		},
+		{
+			"source": 28123,
+			"target": 28124
+		},
+		{
+			"source": 28125,
+			"target": 28126
+		},
+		{
+			"source": 28131,
+			"target": 28132
+		},
+		{
+			"source": 28135,
+			"target": 27754
+		},
+		{
+			"source": 28135,
+			"target": 28137
+		},
+		{
+			"source": 28135,
+			"target": 28138
+		},
+		{
+			"source": 27784,
+			"target": 28145
+		},
+		{
+			"source": 27784,
+			"target": 28146
+		},
+		{
+			"source": 27784,
+			"target": 28147
+		},
+		{
+			"source": 27784,
+			"target": 28148
+		},
+		{
+			"source": 27784,
+			"target": 28149
+		},
+		{
+			"source": 27784,
+			"target": 28150
+		},
+		{
+			"source": 27784,
+			"target": 28151
+		},
+		{
+			"source": 27784,
+			"target": 28152
+		},
+		{
+			"source": 27784,
+			"target": 28153
+		},
+		{
+			"source": 27784,
+			"target": 28154
+		},
+		{
+			"source": 27784,
+			"target": 28155
+		},
+		{
+			"source": 27784,
+			"target": 28156
+		},
+		{
+			"source": 27784,
+			"target": 28157
+		},
+		{
+			"source": 27784,
+			"target": 28158
+		},
+		{
+			"source": 14786,
+			"target": 28180
+		},
+		{
+			"source": 14786,
+			"target": 28181
+		},
+		{
+			"source": 14786,
+			"target": 28182
+		},
+		{
+			"source": 14786,
+			"target": 28183
+		},
+		{
+			"source": 14786,
+			"target": 28184
+		},
+		{
+			"source": 14786,
+			"target": 28185
+		},
+		{
+			"source": 14786,
+			"target": 28186
+		},
+		{
+			"source": 4985,
+			"target": 28213
+		},
+		{
+			"source": 4985,
+			"target": 28214
+		},
+		{
+			"source": 4985,
+			"target": 27739
+		},
+		{
+			"source": 4985,
+			"target": 27752
+		},
+		{
+			"source": 4985,
+			"target": 28217
+		},
+		{
+			"source": 4985,
+			"target": 28218
+		},
+		{
+			"source": 4985,
+			"target": 28219
+		},
+		{
+			"source": 4985,
+			"target": 28220
+		},
+		{
+			"source": 4985,
+			"target": 28221
+		},
+		{
+			"source": 4985,
+			"target": 28222
+		},
+		{
+			"source": 4985,
+			"target": 28273
+		},
+		{
+			"source": 28228,
+			"target": 27737
+		},
+		{
+			"source": 28228,
+			"target": 28230
+		},
+		{
+			"source": 28228,
+			"target": 28231
+		},
+		{
+			"source": 28194,
+			"target": 28233
+		},
+		{
+			"source": 28194,
+			"target": 28234
+		},
+		{
+			"source": 28194,
+			"target": 28119
+		},
+		{
+			"source": 28194,
+			"target": 28235
+		},
+		{
+			"source": 28194,
+			"target": 27895
+		},
+		{
+			"source": 28194,
+			"target": 28237
+		},
+		{
+			"source": 28194,
+			"target": 28238
+		},
+		{
+			"source": 28194,
+			"target": 28239
+		},
+		{
+			"source": 28194,
+			"target": 28240
+		},
+		{
+			"source": 28194,
+			"target": 28241
+		},
+		{
+			"source": 28194,
+			"target": 28242
+		},
+		{
+			"source": 28194,
+			"target": 28243
+		},
+		{
+			"source": 28249,
+			"target": 27748
+		},
+		{
+			"source": 28249,
+			"target": 28251
+		},
+		{
+			"source": 28249,
+			"target": 28252
+		},
+		{
+			"source": 28249,
+			"target": 28253
+		},
+		{
+			"source": 28249,
+			"target": 27894
+		},
+		{
+			"source": 28249,
+			"target": 28255
+		},
+		{
+			"source": 28249,
+			"target": 28256
+		},
+		{
+			"source": 28249,
+			"target": 28257
+		},
+		{
+			"source": 28249,
+			"target": 28258
+		},
+		{
+			"source": 28249,
+			"target": 28259
+		},
+		{
+			"source": 28249,
+			"target": 28260
+		},
+		{
+			"source": 28249,
+			"target": 28261
+		},
+		{
+			"source": 8003,
+			"target": 27755
+		},
+		{
+			"source": 4440,
+			"target": 30307
+		},
+		{
+			"source": 27719,
+			"target": 28213
+		},
+		{
+			"source": 27750,
+			"target": 28147
+		},
+		{
+			"source": 28021,
+			"target": 28018
+		},
+		{
+			"source": 27846,
+			"target": 27852
+		},
+		{
+			"source": 27851,
+			"target": 27856
+		},
+		{
+			"source": 27860,
+			"target": 27872
+		},
+		{
+			"source": 28065,
+			"target": 28011
+		},
+		{
+			"source": 27995,
+			"target": 28122
+		},
+		{
+			"source": 28213,
+			"target": 27722
+		},
+		{
+			"source": 28158,
+			"target": 27786
+		},
+		{
+			"source": 28158,
+			"target": 27811
+		},
+		{
+			"source": 27811,
+			"target": 27786
+		},
+		{
+			"source": 28233,
+			"target": 27804
+		},
+		{
+			"source": 28159,
+			"target": 27944
+		},
+		{
+			"source": 28035,
+			"target": 27873
+		},
+		{
+			"source": 28164,
+			"target": 27882
+		},
+		{
+			"source": 28101,
+			"target": 27883
+		},
+		{
+			"source": 28267,
+			"target": 27935
+		},
+		{
+			"source": 28256,
+			"target": 28004
+		},
+		{
+			"source": 28073,
+			"target": 28055
+		},
+		{
+			"source": 27881,
+			"target": 27778
+		},
+		{
+			"source": 27882,
+			"target": 27778
+		},
+		{
+			"source": 28164,
+			"target": 27881
+		},
+		{
+			"source": 28120,
+			"target": 28108
+		},
+		{
+			"source": 28124,
+			"target": 27969
+		},
+		{
+			"source": 44331,
+			"target": 28201
+		},
+		{
+			"source": 44331,
+			"target": 28092
+		},
+		{
+			"source": 44331,
+			"target": 27747
+		},
+		{
+			"source": 44331,
+			"target": 28020
+		},
+		{
+			"source": 27851,
+			"target": 27846
+		},
+		{
+			"source": 28113,
+			"target": 28155
+		},
+		{
+			"source": 28201,
+			"target": 28092
+		},
+		{
+			"source": 4985,
+			"target": 27722
+		},
+		{
+			"source": 4985,
+			"target": 27857
+		},
+		{
+			"source": 28194,
+			"target": 27926
+		},
+		{
+			"source": 28244,
+			"target": 28126
+		},
+		{
+			"source": 28069,
+			"target": 28048
+		},
+		{
+			"source": 28169,
+			"target": 28235
+		},
+		{
+			"source": 27862,
+			"target": 28252
+		},
+		{
+			"source": 28247,
+			"target": 28186
+		},
+		{
+			"source": 28206,
+			"target": 28259
+		},
+		{
+			"source": 28038,
+			"target": 28182
+		},
+		{
+			"source": 28100,
+			"target": 28183
+		},
+		{
+			"source": 27876,
+			"target": 28253
+		},
+		{
+			"source": 28029,
+			"target": 28257
+		},
+		{
+			"source": 28123,
+			"target": 27969
+		},
+		{
+			"source": 27869,
+			"target": 28075
+		},
+		{
+			"source": 28004,
+			"target": 28256
+		},
+		{
+			"source": 28064,
+			"target": 28258
+		},
+		{
+			"source": 27861,
+			"target": 28251
+		},
+		{
+			"source": 28123,
+			"target": 28124
+		},
+		{
+			"source": 27888,
+			"target": 28145
+		},
+		{
+			"source": 28135,
+			"target": 27931
+		},
+		{
+			"source": 28187,
+			"target": 28149
+		},
+		{
+			"source": 14786,
+			"target": 27927
+		},
+		{
+			"source": 14786,
+			"target": 28150
+		},
+		{
+			"source": 27995,
+			"target": 28087
+		},
+		{
+			"source": 28005,
+			"target": 28237
+		},
+		{
+			"source": 28028,
+			"target": 28156
+		},
+		{
+			"source": 28105,
+			"target": 28073
+		},
+		{
+			"source": 28105,
+			"target": 28055
+		},
+		{
+			"source": 28063,
+			"target": 28219
+		},
+		{
+			"source": 28082,
+			"target": 28220
+		},
+		{
+			"source": 28102,
+			"target": 28239
+		},
+		{
+			"source": 28194,
+			"target": 27804
+		},
+		{
+			"source": 28199,
+			"target": 28066
+		},
+		{
+			"source": 28025,
+			"target": 28181
+		},
+		{
+			"source": 28188,
+			"target": 28184
+		},
+		{
+			"source": 27957,
+			"target": 28231
+		},
+		{
+			"source": 28060,
+			"target": 28098
+		},
+		{
+			"source": 28195,
+			"target": 28185
+		},
+		{
+			"source": 27839,
+			"target": 28045
+		},
+		{
+			"source": 27842,
+			"target": 28106
+		},
+		{
+			"source": 27858,
+			"target": 28180
+		},
+		{
+			"source": 27990,
+			"target": 28132
+		},
+		{
+			"source": 28179,
+			"target": 28222
+		},
+		{
+			"source": 27934,
+			"target": 28267
+		},
+		{
+			"source": 28211,
+			"target": 27887
+		},
+		{
+			"source": 28077,
+			"target": 27981
+		},
+		{
+			"source": 28248,
+			"target": 27951
+		},
+		{
+			"source": 28160,
+			"target": 28099
+		},
+		{
+			"source": 28166,
+			"target": 28157
+		},
+		{
+			"source": 27837,
+			"target": 28152
+		},
+		{
+			"source": 28101,
+			"target": 27881
+		},
+		{
+			"source": 28122,
+			"target": 28087
+		},
+		{
+			"source": 28123,
+			"target": 16269
+		},
+		{
+			"source": 27740,
+			"target": 27756
+		},
+		{
+			"source": 27776,
+			"target": 28154
+		},
+		{
+			"source": 27776,
+			"target": 28233
+		},
+		{
+			"source": 44331,
+			"target": 27879
+		},
+		{
+			"source": 27961,
+			"target": 28218
+		},
+		{
+			"source": 28199,
+			"target": 27919
+		},
+		{
+			"source": 28002,
+			"target": 27962
+		},
+		{
+			"source": 27758,
+			"target": 28076
+		},
+		{
+			"source": 27786,
+			"target": 28214
+		},
+		{
+			"source": 27778,
+			"target": 27879
+		},
+		{
+			"source": 27778,
+			"target": 27883
+		},
+		{
+			"source": 27811,
+			"target": 28214
+		},
+		{
+			"source": 27882,
+			"target": 28101
+		},
+		{
+			"source": 27883,
+			"target": 28164
+		},
+		{
+			"source": 27936,
+			"target": 28267
+		},
+		{
+			"source": 27962,
+			"target": 28267
+		},
+		{
+			"source": 28002,
+			"target": 28267
+		},
+		{
+			"source": 27939,
+			"target": 28267
+		},
+		{
+			"source": 28101,
+			"target": 28164
+		},
+		{
+			"source": 28158,
+			"target": 28214
+		},
+		{
+			"source": 27958,
+			"target": 27822
+		},
+		{
+			"source": 27788,
+			"target": 27919
+		},
+		{
+			"source": 27788,
+			"target": 28066
+		},
+		{
+			"source": 27788,
+			"target": 28199
+		},
+		{
+			"source": 27777,
+			"target": 27778
+		},
+		{
+			"source": 27919,
+			"target": 28066
+		},
+		{
+			"source": 27791,
+			"target": 27807
+		},
+		{
+			"source": 27799,
+			"target": 27806
+		},
+		{
+			"source": 27801,
+			"target": 27805
+		},
+		{
+			"source": 27882,
+			"target": 27883
+		},
+		{
+			"source": 27882,
+			"target": 27881
+		},
+		{
+			"source": 27883,
+			"target": 27881
+		},
+		{
+			"source": 28153,
+			"target": 28152
+		},
+		{
+			"source": 28241,
+			"target": 28242
+		},
+		{
+			"source": 28241,
+			"target": 28243
+		},
+		{
+			"source": 28242,
+			"target": 28243
+		},
+		{
+			"source": 28194,
+			"target": 27918
+		},
+		{
+			"source": 4985,
+			"target": 27925
+		}
+	]
+}

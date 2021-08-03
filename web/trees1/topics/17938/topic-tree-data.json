@@ -1,0 +1,56 @@
+{
+	"id": 17938,
+	"children": [
+		{
+			"id": 28295,
+			"name": "Ashkenazi Hasidism -- kabbalah and"
+		},
+		{
+			"id": 28318,
+			"name": "Kabbalah -- commandments in"
+		},
+		{
+			"id": 28422,
+			"name": "Kabbalah -- early"
+		},
+		{
+			"id": 28326,
+			"name": "Kabbalah -- interpretation of creation in"
+		},
+		{
+			"id": 28402,
+			"name": "Kabbalah -- Jewish rationalism and"
+		},
+		{
+			"id": 17939,
+			"name": "Kabbalah -- Kabbalists"
+		},
+		{
+			"id": 17940,
+			"children": [
+				{
+					"id": 28435,
+					"name": "Lurianic kabbalah -- as conservative force"
+				},
+				{
+					"id": 28338,
+					"name": "Lurianic kabbalah -- image of exile in"
+				},
+				{
+					"id": 28436,
+					"name": "Lurianic kabbalah -- messianic message of"
+				},
+				{
+					"id": 28437,
+					"name": "Lurianic kabbalah -- mythology"
+				}
+			],
+			"name": "Kabbalah -- Lurianic"
+		},
+		{
+			"id": 28423,
+			"name": "Kabbalah -- prayer in"
+		}
+	],
+	"name": "Kabbalah"
+}

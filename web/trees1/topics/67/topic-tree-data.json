@@ -1,0 +1,22 @@
+{
+	"id": 67,
+	"children": [
+		{
+			"id": 68,
+			"name": "curriculum -- data -- algorithmic parsing"
+		},
+		{
+			"id": 69,
+			"name": "curriculum -- data -- attribute"
+		},
+		{
+			"id": 70,
+			"name": "curriculum -- data -- encoding"
+		},
+		{
+			"id": 71,
+			"name": "curriculum -- data -- modeling"
+		}
+	],
+	"name": "curriculum -- data"
+}

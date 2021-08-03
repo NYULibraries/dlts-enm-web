@@ -1,0 +1,22 @@
+{
+	"id": 27070,
+	"children": [
+		{
+			"id": 27071,
+			"name": "Public assistance -- and Huddle study"
+		},
+		{
+			"id": 27072,
+			"name": "Public assistance -- and Jensen study"
+		},
+		{
+			"id": 27073,
+			"name": "Public assistance -- and Urban Institute study"
+		},
+		{
+			"id": 27074,
+			"name": "Public assistance -- use by undocumented workers"
+		}
+	],
+	"name": "Public assistance"
+}

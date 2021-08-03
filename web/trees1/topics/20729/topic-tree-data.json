@@ -1,0 +1,28 @@
+{
+	"id": 20729,
+	"children": [
+		{
+			"id": 20730,
+			"name": "Dollar -- decline of"
+		},
+		{
+			"id": 20731,
+			"name": "Dollar -- gold standard and"
+		},
+		{
+			"id": 20732,
+			"children": [
+				{
+					"id": 20948,
+					"name": "Low dollar -- advantages of"
+				}
+			],
+			"name": "Dollar -- low"
+		},
+		{
+			"id": 20733,
+			"name": "Dollar -- supremacy of"
+		}
+	],
+	"name": "Dollar"
+}

@@ -1,0 +1,69 @@
+.enm-topicpage {
+  margin-bottom: 150px;
+  .section {
+    padding-bottom: 0;
+  }
+  .enm-topictitle {
+    font-family: $topicFont;
+    font-size: 2.5rem;
+  }
+
+  .supertitle {
+    text-transform: uppercase;
+    color: #ecdede;
+    position: absolute;
+    margin-top: -1.3rem;
+  }
+  .subtitle {
+    padding-left: 1rem;
+    display: inline-block;
+    font-family: $body-family;
+  }
+  .enm-linked-data {
+    .message {
+      a:link,
+      a:visited {
+        color: white;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.enm-books-with-topic {
+  .enm-title {
+    font-size: .9rem;
+    text-transform: uppercase;
+    color: #525252;
+    margin-bottom: 5px;
+  }
+  .enm-thumbnail {
+    max-width: 65px;
+  }
+  nav {
+    margin-top: 10px;
+  }
+}
+
+.enm-topic-items {
+  margin-top: 1rem;
+  position: relative;
+  .enm-topicmap {
+    line-height: 1;
+    padding: 0;
+  }
+}
+
+.enm-featured-topics {
+  display: flex;
+  flex-wrap:wrap;
+  >li {
+    width: 33%;
+
+    float: left;
+    a {
+      padding: 5px 20px 5px 0 !important;
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+	"id": 33375,
+	"children": [
+		{
+			"id": 33601,
+			"name": "Infection rates -- Centers for Disease Control estimate"
+		},
+		{
+			"id": 33603,
+			"name": "Infection rates -- gay men"
+		},
+		{
+			"id": 33604,
+			"name": "Infection rates -- in hemophiliacs"
+		},
+		{
+			"id": 33605,
+			"name": "Infection rates -- in minority communities"
+		},
+		{
+			"id": 33607,
+			"name": "Infection rates -- in rural United States"
+		},
+		{
+			"id": 33602,
+			"name": "Infection rates -- other estimates"
+		},
+		{
+			"id": 33606,
+			"name": "Infection rates -- partners of men with hemophilia"
+		}
+	],
+	"name": "Infection rates"
+}

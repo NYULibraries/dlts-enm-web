@@ -1,0 +1,50 @@
+{
+	"id": 33143,
+	"children": [
+		{
+			"id": 33144,
+			"name": "Conscience -- as authority"
+		},
+		{
+			"id": 33145,
+			"name": "Conscience -- as deflationary"
+		},
+		{
+			"id": 33147,
+			"name": "Conscience -- as inner judge"
+		},
+		{
+			"id": 33148,
+			"name": "Conscience -- as justification"
+		},
+		{
+			"id": 33152,
+			"name": "Conscience -- as reflected moral judgment"
+		},
+		{
+			"id": 33146,
+			"name": "Conscience -- democratic view"
+		},
+		{
+			"id": 33149,
+			"name": "Conscience -- liberal view"
+		},
+		{
+			"id": 33150,
+			"name": "Conscience -- narrow v. wide"
+		},
+		{
+			"id": 46120,
+			"name": "Conscience -- of others"
+		},
+		{
+			"id": 33151,
+			"name": "Conscience -- public v. private"
+		},
+		{
+			"id": 33153,
+			"name": "Conscience -- religious view"
+		}
+	],
+	"name": "Conscience"
+}

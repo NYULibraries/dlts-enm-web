@@ -1,0 +1,14 @@
+{
+	"id": 13870,
+	"children": [
+		{
+			"id": 13013,
+			"name": "Empathy -- strategic"
+		},
+		{
+			"id": 13871,
+			"name": "Strategic -- calculation"
+		}
+	],
+	"name": "Strategic"
+}

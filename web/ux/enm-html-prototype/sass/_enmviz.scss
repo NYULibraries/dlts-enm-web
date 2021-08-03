@@ -1,0 +1,25 @@
+svg {
+  .node:not(.active) {
+    circle {
+      fill: #bbb;
+      transition: all .4s ease-out;
+      &:hover {
+        fill: orange;
+        cursor: pointer;
+      }
+    }
+  }
+  .active {
+    circle {
+      fill: #008080;
+    }
+    text {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}

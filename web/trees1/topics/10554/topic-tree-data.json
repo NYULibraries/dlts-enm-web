@@ -1,0 +1,22 @@
+{
+	"id": 10554,
+	"children": [
+		{
+			"id": 10555,
+			"name": "Participatory politics -- dialogue and feedback"
+		},
+		{
+			"id": 10556,
+			"name": "Participatory politics -- investigation"
+		},
+		{
+			"id": 10557,
+			"name": "Participatory politics -- mobilization"
+		},
+		{
+			"id": 10558,
+			"name": "Participatory politics -- production"
+		}
+	],
+	"name": "Participatory politics"
+}

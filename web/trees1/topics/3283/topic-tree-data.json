@@ -1,0 +1,88 @@
+{
+	"id": 3283,
+	"children": [
+		{
+			"id": 23875,
+			"name": "California -- 1990 elections in"
+		},
+		{
+			"id": 26784,
+			"name": "California -- and lawsuit against federal government for costs of undocumented felons"
+		},
+		{
+			"id": 26779,
+			"name": "California -- anti-Chinese sentiment"
+		},
+		{
+			"id": 3288,
+			"name": "California -- Appellate Project"
+		},
+		{
+			"id": 26780,
+			"name": "California -- Business Roundtable"
+		},
+		{
+			"id": 26781,
+			"name": "California -- Commission on Immigration and Housing"
+		},
+		{
+			"id": 6911,
+			"name": "California -- continuation high school in"
+		},
+		{
+			"id": 42633,
+			"name": "California -- defense spending in"
+		},
+		{
+			"id": 3289,
+			"name": "California -- Department of Corrections and Rehabilitation"
+		},
+		{
+			"id": 3290,
+			"name": "California -- Disability Rights"
+		},
+		{
+			"id": 26782,
+			"name": "California -- economy and role of immigrants"
+		},
+		{
+			"id": 3291,
+			"name": "California -- fires"
+		},
+		{
+			"id": 26783,
+			"name": "California -- foreign miners tax"
+		},
+		{
+			"id": 6913,
+			"name": "California -- high school dropout rate in"
+		},
+		{
+			"id": 23876,
+			"name": "California -- political culture of"
+		},
+		{
+			"id": 42634,
+			"name": "California -- poverty rates"
+		},
+		{
+			"id": 3292,
+			"name": "California -- prison system"
+		},
+		{
+			"id": 3293,
+			"name": "California -- Southern"
+		},
+		{
+			"id": 6914,
+			"children": [
+				{
+					"id": 9389,
+					"name": "California, University of -- Santa Barbara"
+				}
+			],
+			"name": "California -- University of"
+		}
+	],
+	"name": "California"
+}

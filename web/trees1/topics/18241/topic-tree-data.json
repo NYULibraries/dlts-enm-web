@@ -1,0 +1,34 @@
+{
+	"id": 18241,
+	"children": [
+		{
+			"id": 26919,
+			"name": "Immigrants -- and unions"
+		},
+		{
+			"id": 27162,
+			"name": "Unions -- and decline in agriculture industry"
+		},
+		{
+			"id": 27163,
+			"name": "Unions -- and furniture manufacturing"
+		},
+		{
+			"id": 27164,
+			"name": "Unions -- and janitorial work"
+		},
+		{
+			"id": 27166,
+			"name": "Unions -- and undocumented workers"
+		},
+		{
+			"id": 27167,
+			"name": "Unions -- and United Farm Workers"
+		},
+		{
+			"id": 27165,
+			"name": "Unions -- Needletrades Industrial and Textile Employees"
+		}
+	],
+	"name": "unions"
+}

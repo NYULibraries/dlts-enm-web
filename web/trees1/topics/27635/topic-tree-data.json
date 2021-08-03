@@ -1,0 +1,38 @@
+{
+	"id": 27635,
+	"children": [
+		{
+			"id": 40295,
+			"name": "Discovery research, neglect of, in social science research"
+		},
+		{
+			"id": 27563,
+			"name": "Philosophy -- and the social sciences"
+		},
+		{
+			"id": 40634,
+			"name": "Sexism -- in social science"
+		},
+		{
+			"id": 40646,
+			"name": "Social science -- bias in methodology of"
+		},
+		{
+			"id": 40647,
+			"name": "Social science -- exclusion of poor and minorities from"
+		},
+		{
+			"id": 40648,
+			"name": "Social science -- importance of theoretical framework in"
+		},
+		{
+			"id": 40649,
+			"name": "Social science -- racism of"
+		},
+		{
+			"id": 40650,
+			"name": "Social science -- validity of"
+		}
+	],
+	"name": "Social sciences"
+}

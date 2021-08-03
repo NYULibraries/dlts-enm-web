@@ -1,0 +1,26 @@
+{
+	"id": 33574,
+	"children": [
+		{
+			"id": 33389,
+			"name": "AIDS Dementia Complex -- group therapy for"
+		},
+		{
+			"id": 33575,
+			"name": "Group therapy -- for children"
+		},
+		{
+			"id": 33576,
+			"name": "Group therapy -- grief"
+		},
+		{
+			"id": 33577,
+			"name": "Group therapy -- secondary prevention"
+		},
+		{
+			"id": 33578,
+			"name": "Group therapy -- support groups"
+		}
+	],
+	"name": "Group therapy"
+}

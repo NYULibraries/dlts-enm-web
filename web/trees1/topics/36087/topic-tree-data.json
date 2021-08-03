@@ -1,0 +1,50 @@
+{
+	"id": 36087,
+	"children": [
+		{
+			"id": 38195,
+			"name": "Symptoms -- atoning"
+		},
+		{
+			"id": 38196,
+			"name": "Symptoms -- dissociative"
+		},
+		{
+			"id": 38198,
+			"name": "Symptoms -- gendered nature of trauma"
+		},
+		{
+			"id": 38199,
+			"name": "Symptoms -- habit"
+		},
+		{
+			"id": 38200,
+			"name": "Symptoms -- hysterical"
+		},
+		{
+			"id": 38201,
+			"name": "Symptoms -- incest"
+		},
+		{
+			"id": 38202,
+			"name": "Symptoms -- intrusive"
+		},
+		{
+			"id": 38197,
+			"name": "Symptoms -- of eating disorders"
+		},
+		{
+			"id": 38203,
+			"name": "Symptoms -- PTSD"
+		},
+		{
+			"id": 38204,
+			"name": "Symptoms -- secondary"
+		},
+		{
+			"id": 38205,
+			"name": "Symptoms -- somatizing"
+		}
+	],
+	"name": "Symptoms"
+}

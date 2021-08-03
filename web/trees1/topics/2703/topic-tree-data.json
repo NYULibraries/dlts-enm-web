@@ -1,0 +1,62 @@
+{
+	"id": 2703,
+	"children": [
+		{
+			"id": 22472,
+			"name": "Franklin, Benjamin -- and bachelors"
+		},
+		{
+			"id": 22473,
+			"name": "Franklin, Benjamin -- and citizenship"
+		},
+		{
+			"id": 22475,
+			"name": "Franklin, Benjamin -- and economic opportunity"
+		},
+		{
+			"id": 22476,
+			"name": "Franklin, Benjamin -- and fraternity"
+		},
+		{
+			"id": 22478,
+			"name": "Franklin, Benjamin -- and Indians"
+		},
+		{
+			"id": 22479,
+			"name": "Franklin, Benjamin -- and lust"
+		},
+		{
+			"id": 22484,
+			"name": "Franklin, Benjamin -- and soldiers"
+		},
+		{
+			"id": 22481,
+			"name": "Franklin, Benjamin -- and the press"
+		},
+		{
+			"id": 22485,
+			"name": "Franklin, Benjamin -- and vagrants"
+		},
+		{
+			"id": 22474,
+			"name": "Franklin, Benjamin -- on civility"
+		},
+		{
+			"id": 22477,
+			"name": "Franklin, Benjamin -- on gender similarities"
+		},
+		{
+			"id": 22480,
+			"name": "Franklin, Benjamin -- on marriage"
+		},
+		{
+			"id": 22482,
+			"name": "Franklin, Benjamin -- on property"
+		},
+		{
+			"id": 22483,
+			"name": "Franklin, Benjamin -- reputation of"
+		}
+	],
+	"name": "Franklin, Benjamin"
+}

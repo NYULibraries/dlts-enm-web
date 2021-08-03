@@ -1,0 +1,22 @@
+{
+	"id": 31486,
+	"children": [
+		{
+			"id": 31353,
+			"name": "Masculinity -- and sports"
+		},
+		{
+			"id": 31487,
+			"name": "Sports -- and sexsegregation"
+		},
+		{
+			"id": 31488,
+			"name": "Sports -- and sexual violence"
+		},
+		{
+			"id": 31489,
+			"name": "Sports -- Title IX"
+		}
+	],
+	"name": "sports"
+}

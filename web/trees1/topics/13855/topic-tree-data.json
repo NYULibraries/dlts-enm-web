@@ -1,0 +1,30 @@
+{
+	"id": 13855,
+	"children": [
+		{
+			"id": 37607,
+			"name": "Gender -- socialization"
+		},
+		{
+			"id": 38571,
+			"name": "Socialization -- heterosexual"
+		},
+		{
+			"id": 15877,
+			"name": "Socialization -- Japanese views"
+		},
+		{
+			"id": 23240,
+			"name": "Socialization -- natural"
+		},
+		{
+			"id": 38570,
+			"name": "Socialization -- sexual"
+		},
+		{
+			"id": 15878,
+			"name": "Socialization -- study of"
+		}
+	],
+	"name": "Socialization"
+}
