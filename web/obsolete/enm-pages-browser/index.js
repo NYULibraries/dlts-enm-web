@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // The client class
     new SolrClient({
             // The solr index url to be queried by the client
-            url: "http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select",
+            url: "http://devdiscovery.dlib.nyu.edu/solr/enm-pages/select",
             searchFields: fields,
             sortFields: sortFields,
             rows: 20,
