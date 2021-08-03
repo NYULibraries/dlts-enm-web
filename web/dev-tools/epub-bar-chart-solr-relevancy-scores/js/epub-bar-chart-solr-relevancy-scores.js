@@ -42,7 +42,7 @@ var queryFields = [
                         .join( '%20' ),
                     highlightFields = qf,
                     solrQueryUrl =
-                        'http://devdiscovery.dlib.nyu.edu/solr/enm-pages/select?' +
+                        'https://devdiscovery.dlib.nyu.edu/solr/enm-pages/select?' +
                            'q=' + encodeURIComponent( this.query ) +
                            '&' +
                            'defType=edismax' +
