@@ -1,0 +1,24 @@
+{
+	"id": 9120,
+	"children": [
+		{
+			"id": 9094,
+			"children": [
+				{
+					"id": 9095,
+					"name": "MATRIX, Center for Digital Humanities and Social Sciences -- H-Net"
+				}
+			],
+			"name": "MATRIX, Center for Digital Humanities and Social Sciences"
+		},
+		{
+			"id": 9121,
+			"name": "Michigan State University -- Center for Digital Humanities and Social Sciences"
+		},
+		{
+			"id": 9122,
+			"name": "Michigan State University -- H-Net"
+		}
+	],
+	"name": "Michigan State University"
+}

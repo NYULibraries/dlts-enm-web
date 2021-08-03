@@ -1,0 +1,120 @@
+{
+	"id": 33932,
+	"children": [
+		{
+			"id": 37380,
+			"name": "Catholic -- \"good\""
+		},
+		{
+			"id": 37379,
+			"name": "Catholic -- families of respondents"
+		},
+		{
+			"id": 37381,
+			"name": "Catholic -- Pope"
+		},
+		{
+			"id": 37382,
+			"name": "Catholic -- tradition"
+		},
+		{
+			"id": 17294,
+			"children": [
+				{
+					"id": 18189,
+					"name": "Anti-Jewish legislation -- Catholic church and"
+				},
+				{
+					"id": 18211,
+					"name": "Antisemitism -- Catholic church and"
+				},
+				{
+					"id": 18288,
+					"name": "Catholic church -- and agrarian reform"
+				},
+				{
+					"id": 18289,
+					"name": "Catholic church -- and Arrow-Cross party"
+				},
+				{
+					"id": 18290,
+					"name": "Catholic church -- and Christian Socialist party"
+				},
+				{
+					"id": 18291,
+					"name": "Catholic church -- and expropriation of Jewish estates"
+				},
+				{
+					"id": 18293,
+					"name": "Catholic church -- and German invasion of Hungary"
+				},
+				{
+					"id": 18299,
+					"name": "Catholic church -- and status of Judaism"
+				},
+				{
+					"id": 18292,
+					"name": "Catholic church -- failure to protect Jews"
+				},
+				{
+					"id": 18294,
+					"name": "Catholic church -- Jewish students/employees"
+				},
+				{
+					"id": 18295,
+					"name": "Catholic church -- land ownership"
+				},
+				{
+					"id": 18296,
+					"name": "Catholic church -- Latin and Greek branches of"
+				},
+				{
+					"id": 18297,
+					"name": "Catholic church -- political involvement of"
+				},
+				{
+					"id": 18298,
+					"name": "Catholic church -- spiritual leadership of"
+				},
+				{
+					"id": 18300,
+					"name": "Catholic church -- summer university"
+				},
+				{
+					"id": 26003,
+					"name": "Roman Catholic Church -- and English Reformation"
+				},
+				{
+					"id": 26004,
+					"name": "Roman Catholic Church -- and law"
+				},
+				{
+					"id": 26005,
+					"name": "Roman Catholic Church -- and Luther"
+				},
+				{
+					"id": 26006,
+					"name": "Roman Catholic Church -- and Machiavelli"
+				},
+				{
+					"id": 30976,
+					"name": "Roman Catholic Church -- mass, pre–Vatican II"
+				},
+				{
+					"id": 26007,
+					"name": "Roman Catholic Church -- sacraments"
+				},
+				{
+					"id": 26008,
+					"name": "Roman Catholic Church -- Second Vatican Council"
+				},
+				{
+					"id": 30975,
+					"name": "Roman Catholic Church -- versus Calvinism"
+				}
+			],
+			"name": "Roman Catholic Church"
+		}
+	],
+	"name": "Catholics"
+}

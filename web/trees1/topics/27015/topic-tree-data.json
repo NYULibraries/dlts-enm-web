@@ -1,0 +1,38 @@
+{
+	"id": 27015,
+	"children": [
+		{
+			"id": 33636,
+			"name": "Managed care -- Medicaid"
+		},
+		{
+			"id": 43170,
+			"name": "Medicaid -- \"patient skimming\""
+		},
+		{
+			"id": 43167,
+			"name": "Medicaid -- and birth control"
+		},
+		{
+			"id": 33639,
+			"name": "Medicaid -- and home care"
+		},
+		{
+			"id": 33638,
+			"name": "Medicaid -- cost shifting"
+		},
+		{
+			"id": 43168,
+			"name": "Medicaid -- health care inflation"
+		},
+		{
+			"id": 43169,
+			"name": "Medicaid -- passage of"
+		},
+		{
+			"id": 43171,
+			"name": "Medicaid -- public hospitals, closures of"
+		}
+	],
+	"name": "Medicaid"
+}

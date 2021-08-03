@@ -1,0 +1,22 @@
+{
+	"id": 6492,
+	"children": [
+		{
+			"id": 6493,
+			"name": "Silent Hill 3 -- beginning of"
+		},
+		{
+			"id": 6494,
+			"name": "Silent Hill 3 -- ending of"
+		},
+		{
+			"id": 6495,
+			"name": "Silent Hill 3 -- nonplayer character (NPC)"
+		},
+		{
+			"id": 6496,
+			"name": "Silent Hill 3 -- player character"
+		}
+	],
+	"name": "Silent Hill 3"
+}

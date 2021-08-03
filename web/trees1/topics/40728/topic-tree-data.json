@@ -1,0 +1,22 @@
+{
+	"id": 40728,
+	"children": [
+		{
+			"id": 40731,
+			"name": "Administrative agencies -- judicial review"
+		},
+		{
+			"id": 40732,
+			"name": "Administrative agencies -- policy decisions"
+		},
+		{
+			"id": 40806,
+			"name": "Funding of scientific research -- central role of administrative agencies"
+		},
+		{
+			"id": 40730,
+			"name": "Regulation of technology -- central role of administrative agencies"
+		}
+	],
+	"name": "Administrative agencies"
+}

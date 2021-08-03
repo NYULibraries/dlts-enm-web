@@ -1,0 +1,18 @@
+{
+	"id": 25496,
+	"children": [
+		{
+			"id": 25497,
+			"name": "Person -- conception of"
+		},
+		{
+			"id": 25498,
+			"name": "Person -- role-directed"
+		},
+		{
+			"id": 25499,
+			"name": "Person -- value of"
+		}
+	],
+	"name": "Person"
+}

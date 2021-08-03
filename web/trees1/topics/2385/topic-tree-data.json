@@ -1,0 +1,26 @@
+{
+	"id": 2385,
+	"children": [
+		{
+			"id": 2386,
+			"name": "Professional journalism, professionalization of journalism (news, media) -- Education"
+		},
+		{
+			"id": 2387,
+			"name": "Professional journalism, professionalization of journalism (news, media) -- Ideals, culture, identity"
+		},
+		{
+			"id": 2388,
+			"name": "Professional journalism, professionalization of journalism (news, media) -- Models"
+		},
+		{
+			"id": 2389,
+			"name": "Professional journalism, professionalization of journalism (news, media) -- Standards, rules, and conduct"
+		},
+		{
+			"id": 2390,
+			"name": "Professional journalism, professionalization of journalism (news, media) -- Values, ideology"
+		}
+	],
+	"name": "Professional journalism, professionalization of journalism (news, media)"
+}

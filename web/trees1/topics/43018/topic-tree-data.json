@@ -1,0 +1,28 @@
+{
+	"id": 43018,
+	"children": [
+		{
+			"id": 43019,
+			"name": "Japanese Americans -- activism of"
+		},
+		{
+			"id": 43020,
+			"name": "Japanese Americans -- in defense industry"
+		},
+		{
+			"id": 20884,
+			"name": "Japanese Americans -- internment of"
+		},
+		{
+			"id": 20883,
+			"children": [
+				{
+					"id": 20885,
+					"name": "Japanese-Americans -- political activism and"
+				}
+			],
+			"name": "Japanese-Americans -- image of"
+		}
+	],
+	"name": "Japanese Americans"
+}

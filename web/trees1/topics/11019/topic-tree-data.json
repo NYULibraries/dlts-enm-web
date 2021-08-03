@@ -1,0 +1,76 @@
+{
+	"id": 11019,
+	"children": [
+		{
+			"id": 10965,
+			"name": "connection -- networks and social worlds varieties"
+		},
+		{
+			"id": 10904,
+			"children": [
+				{
+					"id": 10975,
+					"name": "core group in networks and social worlds -- focused social effort for position in"
+				},
+				{
+					"id": 10976,
+					"name": "core group in networks and social worlds -- football and computer games connections"
+				},
+				{
+					"id": 10977,
+					"name": "core group in networks and social worlds -- liveliest digital connections of"
+				},
+				{
+					"id": 10978,
+					"name": "core group in networks and social worlds -- pair or small-group bonds via proximity in neighborhood"
+				},
+				{
+					"id": 10979,
+					"name": "core group in networks and social worlds -- school, out-of-school, and online connections"
+				}
+			],
+			"name": "core group in networks and social worlds"
+		},
+		{
+			"id": 11610,
+			"name": "networks and social worlds -- boys' football and computer games"
+		},
+		{
+			"id": 11612,
+			"name": "networks and social worlds -- clique"
+		},
+		{
+			"id": 11613,
+			"name": "networks and social worlds -- explanation of"
+		},
+		{
+			"id": 11614,
+			"name": "networks and social worlds -- home, family, and locale"
+		},
+		{
+			"id": 11615,
+			"name": "networks and social worlds -- homework help and"
+		},
+		{
+			"id": 11616,
+			"name": "networks and social worlds -- local networks"
+		},
+		{
+			"id": 11617,
+			"name": "networks and social worlds -- migration networks"
+		},
+		{
+			"id": 11618,
+			"name": "networks and social worlds -- out-of-school activities"
+		},
+		{
+			"id": 11619,
+			"name": "networks and social worlds -- transgressive networking"
+		},
+		{
+			"id": 11611,
+			"name": "networks and social worlds -- within and beyond the class"
+		}
+	],
+	"name": "networks and social worlds"
+}

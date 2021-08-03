@@ -1,0 +1,26 @@
+{
+	"id": 20916,
+	"children": [
+		{
+			"id": 20919,
+			"name": "Land -- as collateral"
+		},
+		{
+			"id": 20917,
+			"name": "Land -- bubble economy and"
+		},
+		{
+			"id": 20918,
+			"name": "Land -- buying and selling"
+		},
+		{
+			"id": 20920,
+			"name": "Land -- shortage of"
+		},
+		{
+			"id": 20921,
+			"name": "Land -- value of"
+		}
+	],
+	"name": "Land"
+}

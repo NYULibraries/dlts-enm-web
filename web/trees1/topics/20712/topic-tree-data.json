@@ -1,0 +1,26 @@
+{
+	"id": 20712,
+	"children": [
+		{
+			"id": 20713,
+			"name": "Defense -- joint projects in"
+		},
+		{
+			"id": 20714,
+			"name": "Defense -- perception gap over"
+		},
+		{
+			"id": 20715,
+			"name": "Defense -- responsibility for"
+		},
+		{
+			"id": 20716,
+			"name": "Defense -- spending for"
+		},
+		{
+			"id": 20717,
+			"name": "Defense -- trade and"
+		}
+	],
+	"name": "Defense"
+}

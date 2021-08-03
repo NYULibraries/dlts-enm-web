@@ -1,0 +1,74 @@
+{
+	"id": 10095,
+	"children": [
+		{
+			"id": 10100,
+			"name": "Citizenship -- actualizing"
+		},
+		{
+			"id": 22379,
+			"name": "Citizenship -- and family status"
+		},
+		{
+			"id": 22380,
+			"name": "Citizenship -- and gender"
+		},
+		{
+			"id": 22383,
+			"name": "Citizenship -- and passivity"
+		},
+		{
+			"id": 22384,
+			"name": "Citizenship -- and property"
+		},
+		{
+			"id": 10097,
+			"name": "Citizenship -- dutiful"
+		},
+		{
+			"id": 22378,
+			"name": "Citizenship -- earned"
+		},
+		{
+			"id": 10096,
+			"name": "Citizenship -- good"
+		},
+		{
+			"id": 10098,
+			"name": "Citizenship -- informed"
+		},
+		{
+			"id": 19796,
+			"name": "Citizenship -- internationalization of"
+		},
+		{
+			"id": 19797,
+			"name": "Citizenship -- John Jay on rights and obligations of"
+		},
+		{
+			"id": 19798,
+			"name": "Citizenship -- John Jay's use of grand jury charges to teach rudiments of"
+		},
+		{
+			"id": 19799,
+			"name": "Citizenship -- John Jay's views of"
+		},
+		{
+			"id": 22381,
+			"name": "Citizenship -- limits of"
+		},
+		{
+			"id": 22382,
+			"name": "Citizenship -- male exclusions from"
+		},
+		{
+			"id": 10099,
+			"name": "Citizenship -- monitorial"
+		},
+		{
+			"id": 22385,
+			"name": "Citizenship -- truncated"
+		}
+	],
+	"name": "Citizenship"
+}

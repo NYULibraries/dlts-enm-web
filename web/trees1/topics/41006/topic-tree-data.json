@@ -1,0 +1,50 @@
+{
+	"id": 41006,
+	"children": [
+		{
+			"id": 45387,
+			"name": "animals -- bestiary descriptions"
+		},
+		{
+			"id": 45389,
+			"name": "animals -- carving and eating"
+		},
+		{
+			"id": 45390,
+			"name": "animals -- cross-species relations"
+		},
+		{
+			"id": 45391,
+			"name": "animals -- embryology and"
+		},
+		{
+			"id": 45392,
+			"name": "animals -- gradations in concept of"
+		},
+		{
+			"id": 45393,
+			"name": "animals -- imagery of"
+		},
+		{
+			"id": 45394,
+			"name": "animals -- intelligence and"
+		},
+		{
+			"id": 45395,
+			"name": "animals -- irrationality and"
+		},
+		{
+			"id": 45396,
+			"name": "animals -- participative nature and"
+		},
+		{
+			"id": 45397,
+			"name": "animals -- universe as zoion (animal)"
+		},
+		{
+			"id": 45398,
+			"name": "animals -- zoomorphism"
+		}
+	],
+	"name": "animals"
+}

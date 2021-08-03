@@ -1,0 +1,52 @@
+{
+	"id": 29573,
+	"children": [
+		{
+			"id": 29574,
+			"children": [
+				{
+					"id": 29576,
+					"name": "Joint, The (Blake) -- and impulse neurosis"
+				},
+				{
+					"id": 29575,
+					"name": "Joint, The (Blake) -- failed robbery"
+				},
+				{
+					"id": 29577,
+					"name": "Joint, The (Blake) -- negative images of life outside"
+				},
+				{
+					"id": 29578,
+					"name": "Joint, The (Blake) -- on prison friendship"
+				},
+				{
+					"id": 29579,
+					"name": "Joint, The (Blake) -- yearning for prison"
+				}
+			],
+			"name": "Blake, James -- The Joint"
+		},
+		{
+			"id": 29576,
+			"name": "Joint, The (Blake) -- and impulse neurosis"
+		},
+		{
+			"id": 29575,
+			"name": "Joint, The (Blake) -- failed robbery"
+		},
+		{
+			"id": 29577,
+			"name": "Joint, The (Blake) -- negative images of life outside"
+		},
+		{
+			"id": 29578,
+			"name": "Joint, The (Blake) -- on prison friendship"
+		},
+		{
+			"id": 29579,
+			"name": "Joint, The (Blake) -- yearning for prison"
+		}
+	],
+	"name": "Blake, James"
+}

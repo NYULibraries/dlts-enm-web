@@ -1,0 +1,30 @@
+{
+	"id": 42453,
+	"children": [
+		{
+			"id": 42578,
+			"name": "Black politics -- and Black freedom movement"
+		},
+		{
+			"id": 42581,
+			"name": "Black politics -- and political theory"
+		},
+		{
+			"id": 42579,
+			"name": "Black politics -- and the city"
+		},
+		{
+			"id": 42580,
+			"name": "Black politics -- conflict, internal"
+		},
+		{
+			"id": 42582,
+			"name": "Black politics -- post-Watts"
+		},
+		{
+			"id": 42583,
+			"name": "Black politics -- urban political power"
+		}
+	],
+	"name": "Black politics"
+}

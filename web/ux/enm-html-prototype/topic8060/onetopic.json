@@ -1,0 +1,45 @@
+{
+    "nodes": [
+    {
+        "name": "Aaron ben Samuel of Baghdad, Rabbi",
+        "id": 28276,
+        "ocount": 1
+    },
+    {
+        "name": "Baghdad bureau",
+        "id": 8061,
+        "ocount": 1
+    },
+    {
+        "name": "Baghdad, Iraq",
+        "id": 8060,
+        "ocount": 3
+    },
+    {
+        "name": "Iraq",
+        "id": 2286,
+        "ocount": 7
+    },
+    {
+        "name": "Iraq: War",
+        "id": 8286,
+        "ocount": 4
+    }],
+    "links": [
+    {
+        "source": 8286,
+        "target": 8060
+    },
+    {
+        "source": 8060,
+        "target": 8061
+    },
+    {
+        "source": 2286,
+        "target": 8060
+    },
+    {
+        "source": 8060,
+        "target": 28276
+    }]
+}

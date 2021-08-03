@@ -1,0 +1,26 @@
+{
+	"id": 13599,
+	"children": [
+		{
+			"id": 33695,
+			"name": "Psychiatry -- and HIV care"
+		},
+		{
+			"id": 33696,
+			"name": "Psychiatry -- future practice"
+		},
+		{
+			"id": 33697,
+			"name": "Psychiatry -- in integrated care"
+		},
+		{
+			"id": 33698,
+			"name": "Psychiatry -- referrals to"
+		},
+		{
+			"id": 33699,
+			"name": "Psychiatry -- roles of"
+		}
+	],
+	"name": "Psychiatry"
+}

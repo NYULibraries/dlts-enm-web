@@ -1,0 +1,66 @@
+{
+	"id": 2760,
+	"children": [
+		{
+			"id": 2761,
+			"name": "ideas -- assimilation of"
+		},
+		{
+			"id": 2762,
+			"name": "ideas -- citation of"
+		},
+		{
+			"id": 2763,
+			"name": "ideas -- copying of"
+		},
+		{
+			"id": 2764,
+			"name": "ideas -- exchange of"
+		},
+		{
+			"id": 2765,
+			"name": "ideas -- expert"
+		},
+		{
+			"id": 2766,
+			"name": "ideas -- expression of"
+		},
+		{
+			"id": 2767,
+			"name": "ideas -- imitation of"
+		},
+		{
+			"id": 2311,
+			"name": "ideas -- marketplace of"
+		},
+		{
+			"id": 2768,
+			"name": "ideas -- master"
+		},
+		{
+			"id": 2769,
+			"name": "ideas -- misappropriation of"
+		},
+		{
+			"id": 2770,
+			"name": "ideas -- ownership of"
+		},
+		{
+			"id": 2771,
+			"name": "ideas -- plagiarism of"
+		},
+		{
+			"id": 2772,
+			"name": "ideas -- poetic"
+		},
+		{
+			"id": 2773,
+			"name": "ideas -- rigor of"
+		},
+		{
+			"id": 2774,
+			"name": "ideas -- theft of"
+		}
+	],
+	"name": "ideas"
+}

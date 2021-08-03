@@ -1,0 +1,22 @@
+{
+	"id": 36388,
+	"children": [
+		{
+			"id": 36495,
+			"name": "Lesbigay -- literature"
+		},
+		{
+			"id": 36496,
+			"name": "Lesbigay -- scholarship"
+		},
+		{
+			"id": 36497,
+			"name": "Lesbigay -- studies"
+		},
+		{
+			"id": 36498,
+			"name": "Lesbigay -- transsexuality"
+		}
+	],
+	"name": "Lesbigay"
+}

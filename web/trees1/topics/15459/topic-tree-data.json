@@ -1,0 +1,34 @@
+{
+	"id": 15459,
+	"children": [
+		{
+			"id": 37636,
+			"name": "Grief -- and despair"
+		},
+		{
+			"id": 37634,
+			"name": "Grief -- chronic"
+		},
+		{
+			"id": 37635,
+			"name": "Grief -- core"
+		},
+		{
+			"id": 37637,
+			"name": "Grief -- give content to"
+		},
+		{
+			"id": 37638,
+			"name": "Grief -- life of"
+		},
+		{
+			"id": 37639,
+			"name": "Grief -- task of grieving"
+		},
+		{
+			"id": 37640,
+			"name": "Grief -- working through"
+		}
+	],
+	"name": "grief"
+}

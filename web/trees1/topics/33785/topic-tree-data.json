@@ -1,0 +1,18 @@
+{
+	"id": 33785,
+	"children": [
+		{
+			"id": 33788,
+			"name": "Support groups -- for women"
+		},
+		{
+			"id": 33786,
+			"name": "Support groups -- in case management"
+		},
+		{
+			"id": 33787,
+			"name": "Support groups -- rural telephone groups"
+		}
+	],
+	"name": "Support -- groups"
+}

@@ -1,0 +1,34 @@
+{
+	"id": 15351,
+	"children": [
+		{
+			"id": 37309,
+			"name": "Autonomy -- and identity"
+		},
+		{
+			"id": 37311,
+			"name": "Autonomy -- and personal agency"
+		},
+		{
+			"id": 33119,
+			"name": "Autonomy -- cognitive"
+		},
+		{
+			"id": 33120,
+			"name": "Autonomy -- in Kant"
+		},
+		{
+			"id": 37310,
+			"name": "Autonomy -- lost in sexual trauma"
+		},
+		{
+			"id": 25305,
+			"name": "Autonomy -- neutrality and"
+		},
+		{
+			"id": 25306,
+			"name": "Autonomy -- welfare and"
+		}
+	],
+	"name": "autonomy"
+}

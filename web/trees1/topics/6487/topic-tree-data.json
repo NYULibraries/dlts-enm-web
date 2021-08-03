@@ -1,0 +1,22 @@
+{
+	"id": 6487,
+	"children": [
+		{
+			"id": 6488,
+			"name": "Silent Hill 2 -- beginning of"
+		},
+		{
+			"id": 6489,
+			"name": "Silent Hill 2 -- endings of"
+		},
+		{
+			"id": 6490,
+			"name": "Silent Hill 2 -- nonplayer character (NPC)"
+		},
+		{
+			"id": 6491,
+			"name": "Silent Hill 2 -- player character"
+		}
+	],
+	"name": "Silent Hill 2"
+}

@@ -1,0 +1,24 @@
+{
+	"id": 19896,
+	"children": [
+		{
+			"id": 19898,
+			"name": "Grand jury charges -- and Oliver Ellsworth"
+		},
+		{
+			"id": 19897,
+			"name": "Grand jury charges -- and William Cushing"
+		},
+		{
+			"id": 19899,
+			"children": [
+				{
+					"id": 19993,
+					"name": "Lerner, Ralph, on grand jury charges -- on modern republicans"
+				}
+			],
+			"name": "Grand jury charges -- Ralph Lerner on"
+		}
+	],
+	"name": "Grand jury charges"
+}

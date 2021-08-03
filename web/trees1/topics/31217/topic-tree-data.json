@@ -1,0 +1,18 @@
+{
+	"id": 31217,
+	"children": [
+		{
+			"id": 40771,
+			"name": "Courts -- limited role in science funding decisions"
+		},
+		{
+			"id": 40772,
+			"name": "Courts -- major role in disability funding decisions"
+		},
+		{
+			"id": 40773,
+			"name": "Courts -- major role in regulatory decisions"
+		}
+	],
+	"name": "Courts"
+}

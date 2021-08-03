@@ -1,0 +1,26 @@
+{
+	"id": 46102,
+	"children": [
+		{
+			"id": 33425,
+			"name": "Biopsychosocial/spiritual model -- as metamodel"
+		},
+		{
+			"id": 33422,
+			"name": "Biopsychosocial/spiritual model -- assessment outline"
+		},
+		{
+			"id": 33423,
+			"name": "Biopsychosocial/spiritual model -- definition of terms"
+		},
+		{
+			"id": 33424,
+			"name": "Biopsychosocial/spiritual model -- history of"
+		},
+		{
+			"id": 33421,
+			"name": "Biopsychosocial/spiritual model, for understanding HIV/AIDS"
+		}
+	],
+	"name": "Biopsychosocial/spiritual model"
+}

@@ -1,0 +1,18 @@
+{
+	"id": 3,
+	"children": [
+		{
+			"id": 4,
+			"name": "algorithms -- critique of"
+		},
+		{
+			"id": 5,
+			"name": "algorithms -- in games"
+		},
+		{
+			"id": 6,
+			"name": "algorithms -- ludic"
+		}
+	],
+	"name": "algorithms"
+}

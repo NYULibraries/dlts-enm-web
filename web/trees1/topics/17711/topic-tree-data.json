@@ -1,0 +1,74 @@
+{
+	"id": 17711,
+	"children": [
+		{
+			"id": 32591,
+			"name": "Wages -- above normal levels"
+		},
+		{
+			"id": 32592,
+			"name": "Wages -- adjusted real wages and economic growth"
+		},
+		{
+			"id": 27184,
+			"name": "Wages -- and Japan"
+		},
+		{
+			"id": 27185,
+			"name": "Wages -- and NAFTA"
+		},
+		{
+			"id": 27187,
+			"name": "Wages -- and undocumented workers"
+		},
+		{
+			"id": 32593,
+			"name": "Wages -- controls on"
+		},
+		{
+			"id": 27182,
+			"name": "Wages -- depression"
+		},
+		{
+			"id": 32594,
+			"name": "Wages -- economics profession"
+		},
+		{
+			"id": 32595,
+			"name": "Wages -- government employees"
+		},
+		{
+			"id": 32596,
+			"name": "Wages -- high wage policy and banks"
+		},
+		{
+			"id": 27183,
+			"name": "Wages -- impact of immigrants"
+		},
+		{
+			"id": 32597,
+			"name": "Wages -- postal employees"
+		},
+		{
+			"id": 32598,
+			"name": "Wages -- prevailing"
+		},
+		{
+			"id": 27186,
+			"name": "Wages -- relationship to unemployment rate"
+		},
+		{
+			"id": 32474,
+			"name": "Wages -- reservation"
+		},
+		{
+			"id": 32599,
+			"name": "Wages -- teachers"
+		},
+		{
+			"id": 32600,
+			"name": "Wages -- unemployment and"
+		}
+	],
+	"name": "Wages"
+}

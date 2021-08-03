@@ -1,0 +1,22 @@
+{
+	"id": 17120,
+	"children": [
+		{
+			"id": 26684,
+			"name": "Oedipus complex -- oedipal conflict/guilt"
+		},
+		{
+			"id": 26685,
+			"name": "Oedipus complex -- oedipal drama/elements/enactments/ scene"
+		},
+		{
+			"id": 26686,
+			"name": "Oedipus complex -- oedipal fantasy/wish"
+		},
+		{
+			"id": 26687,
+			"name": "Oedipus complex -- oedipal triangle"
+		}
+	],
+	"name": "Oedipus complex"
+}

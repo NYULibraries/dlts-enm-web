@@ -1,0 +1,38 @@
+{
+	"id": 30946,
+	"children": [
+		{
+			"id": 30947,
+			"name": "radicalism -- American"
+		},
+		{
+			"id": 30949,
+			"name": "radicalism -- and conservatism"
+		},
+		{
+			"id": 30952,
+			"name": "radicalism -- and prophecy"
+		},
+		{
+			"id": 30954,
+			"name": "radicalism -- as witness bearing"
+		},
+		{
+			"id": 30948,
+			"name": "radicalism -- versus compromise"
+		},
+		{
+			"id": 30950,
+			"name": "radicalism -- versus economics"
+		},
+		{
+			"id": 30953,
+			"name": "radicalism -- versus reasonableness"
+		},
+		{
+			"id": 30951,
+			"name": "radicalism -- versus the personal"
+		}
+	],
+	"name": "radicalism"
+}

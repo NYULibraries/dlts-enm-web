@@ -1,0 +1,22 @@
+{
+	"id": 316,
+	"children": [
+		{
+			"id": 8365,
+			"name": "newspapers -- bankruptcy"
+		},
+		{
+			"id": 8368,
+			"name": "newspapers -- circulation decline"
+		},
+		{
+			"id": 8369,
+			"name": "newspapers -- placement of articles"
+		},
+		{
+			"id": 8370,
+			"name": "newspapers -- print"
+		}
+	],
+	"name": "newspapers."
+}

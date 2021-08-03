@@ -1,0 +1,50 @@
+{
+	"id": 7455,
+	"children": [
+		{
+			"id": 42431,
+			"name": "abortion -- \"therapeutic\" abortions"
+		},
+		{
+			"id": 42421,
+			"name": "abortion -- abortion mills"
+		},
+		{
+			"id": 42425,
+			"name": "abortion -- and geopolitics of the body"
+		},
+		{
+			"id": 42430,
+			"name": "abortion -- and racism"
+		},
+		{
+			"id": 42422,
+			"name": "abortion -- crackdowns"
+		},
+		{
+			"id": 42423,
+			"name": "abortion -- debate, limits of"
+		},
+		{
+			"id": 42424,
+			"name": "abortion -- do-it-yourself methods"
+		},
+		{
+			"id": 42426,
+			"name": "abortion -- Hyde Amendment"
+		},
+		{
+			"id": 42428,
+			"name": "abortion -- in Mexico"
+		},
+		{
+			"id": 42427,
+			"name": "abortion -- incomplete abortions"
+		},
+		{
+			"id": 42429,
+			"name": "abortion -- People v. Barksdale"
+		}
+	],
+	"name": "abortion"
+}

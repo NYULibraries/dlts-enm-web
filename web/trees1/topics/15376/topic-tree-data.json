@@ -1,0 +1,66 @@
+{
+	"id": 15376,
+	"children": [
+		{
+			"id": 15378,
+			"name": "Case histories discussed -- Anna"
+		},
+		{
+			"id": 15379,
+			"name": "Case histories discussed -- Anna O."
+		},
+		{
+			"id": 15380,
+			"name": "Case histories discussed -- Dora"
+		},
+		{
+			"id": 15390,
+			"name": "Case histories discussed -- Dr. Schreber"
+		},
+		{
+			"id": 15381,
+			"name": "Case histories discussed -- Elisabeth von R."
+		},
+		{
+			"id": 15382,
+			"name": "Case histories discussed -- Emmy von N."
+		},
+		{
+			"id": 15383,
+			"name": "Case histories discussed -- Gabrielle"
+		},
+		{
+			"id": 15384,
+			"name": "Case histories discussed -- Hans"
+		},
+		{
+			"id": 15385,
+			"name": "Case histories discussed -- Joey"
+		},
+		{
+			"id": 15386,
+			"name": "Case histories discussed -- Katharina"
+		},
+		{
+			"id": 15387,
+			"name": "Case histories discussed -- Lucy R."
+		},
+		{
+			"id": 15377,
+			"name": "Case histories discussed -- Mrs. A."
+		},
+		{
+			"id": 15388,
+			"name": "Case histories discussed -- Rat Man"
+		},
+		{
+			"id": 15389,
+			"name": "Case histories discussed -- Renee"
+		},
+		{
+			"id": 15391,
+			"name": "Case histories discussed -- Wolf Man"
+		}
+	],
+	"name": "Case histories discussed"
+}

@@ -1,0 +1,38 @@
+{
+	"id": 45442,
+	"children": [
+		{
+			"id": 45450,
+			"name": "Bible, Vulgate -- 1 Peter"
+		},
+		{
+			"id": 45443,
+			"name": "Bible, Vulgate -- Book of Exodus"
+		},
+		{
+			"id": 45449,
+			"name": "Bible, Vulgate -- Book of Job"
+		},
+		{
+			"id": 45444,
+			"name": "Bible, Vulgate -- Daniel"
+		},
+		{
+			"id": 45445,
+			"name": "Bible, Vulgate -- First Corinthians"
+		},
+		{
+			"id": 45446,
+			"name": "Bible, Vulgate -- John"
+		},
+		{
+			"id": 45447,
+			"name": "Bible, Vulgate -- Luke"
+		},
+		{
+			"id": 45448,
+			"name": "Bible, Vulgate -- Matthew"
+		}
+	],
+	"name": "Bible, Vulgate"
+}

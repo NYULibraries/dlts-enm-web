@@ -1,0 +1,30 @@
+{
+	"id": 16195,
+	"children": [
+		{
+			"id": 16198,
+			"name": "U.S. Military -- \"don't ask, don't tell\""
+		},
+		{
+			"id": 16203,
+			"name": "U.S. Military -- and gender"
+		},
+		{
+			"id": 16196,
+			"name": "U.S. Military -- categorization of homosexuals"
+		},
+		{
+			"id": 16197,
+			"name": "U.S. Military -- discharge based on \"homosexual acts\""
+		},
+		{
+			"id": 16201,
+			"name": "U.S. Military -- exceptions to discharge rule based on homosexual acts"
+		},
+		{
+			"id": 16202,
+			"name": "U.S. Military -- first amendment violations"
+		}
+	],
+	"name": "U.S. Military"
+}

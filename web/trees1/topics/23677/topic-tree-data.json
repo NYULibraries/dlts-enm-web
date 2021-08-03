@@ -1,0 +1,14 @@
+{
+	"id": 23677,
+	"children": [
+		{
+			"id": 23678,
+			"name": "Quotas -- in education"
+		},
+		{
+			"id": 23679,
+			"name": "Quotas -- in immigration"
+		}
+	],
+	"name": "Quotas"
+}

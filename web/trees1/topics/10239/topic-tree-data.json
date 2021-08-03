@@ -1,0 +1,22 @@
+{
+	"id": 10239,
+	"children": [
+		{
+			"id": 32322,
+			"name": "Federal Reserve -- Act (1913)"
+		},
+		{
+			"id": 8540,
+			"name": "Federal Reserve -- Board of Governors"
+		},
+		{
+			"id": 32324,
+			"name": "Federal Reserve -- member banks"
+		},
+		{
+			"id": 32325,
+			"name": "Federal Reserve -- system"
+		}
+	],
+	"name": "US Federal Reserve"
+}

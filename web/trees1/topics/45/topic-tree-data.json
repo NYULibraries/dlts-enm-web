@@ -1,0 +1,26 @@
+{
+	"id": 45,
+	"children": [
+		{
+			"id": 6932,
+			"name": "collaboration -- in professional development sessions"
+		},
+		{
+			"id": 6936,
+			"name": "collaboration -- in World Media class"
+		},
+		{
+			"id": 6934,
+			"name": "collaboration -- TEACH Project and"
+		},
+		{
+			"id": 6933,
+			"name": "collaboration -- teacher, digital technology and"
+		},
+		{
+			"id": 6935,
+			"name": "collaboration -- with universities"
+		}
+	],
+	"name": "collaboration"
+}

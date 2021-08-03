@@ -1,0 +1,22 @@
+{
+	"id": 21107,
+	"children": [
+		{
+			"id": 21108,
+			"name": "Research and development -- fostering"
+		},
+		{
+			"id": 21109,
+			"name": "Research and development -- Japanese"
+		},
+		{
+			"id": 21110,
+			"name": "Research and development -- sharing"
+		},
+		{
+			"id": 21111,
+			"name": "Research and development -- U.S."
+		}
+	],
+	"name": "Research and development"
+}

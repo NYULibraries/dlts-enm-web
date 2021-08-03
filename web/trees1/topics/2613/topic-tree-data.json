@@ -1,0 +1,30 @@
+{
+	"id": 2613,
+	"children": [
+		{
+			"id": 2614,
+			"name": "copyright law -- Canada"
+		},
+		{
+			"id": 2615,
+			"name": "copyright law -- United States"
+		},
+		{
+			"id": 5621,
+			"name": "Copyright law. -- Assumption of equal bargaining power"
+		},
+		{
+			"id": 5622,
+			"name": "Copyright law. -- Assumption of race neutrality"
+		},
+		{
+			"id": 5623,
+			"name": "Copyright law. -- Concept of the user"
+		},
+		{
+			"id": 5624,
+			"name": "Copyright law. -- Constitution"
+		}
+	],
+	"name": "Copyright law."
+}

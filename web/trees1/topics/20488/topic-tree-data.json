@@ -1,0 +1,72 @@
+{
+	"id": 20488,
+	"children": [
+		{
+			"id": 20489,
+			"name": "Punishment -- as part of compensatory justice"
+		},
+		{
+			"id": 30064,
+			"name": "Punishment -- darkness and filth essential in"
+		},
+		{
+			"id": 30065,
+			"name": "Punishment -- inducement to criminality"
+		},
+		{
+			"id": 29929,
+			"children": [
+				{
+					"id": 29930,
+					"name": "Measure-for-measure punishment -- defined"
+				}
+			],
+			"name": "Punishment -- measure-for-measure"
+		},
+		{
+			"id": 30066,
+			"name": "Punishment -- reasons for choosing locations for"
+		},
+		{
+			"id": 30067,
+			"name": "Punishment -- theories of"
+		},
+		{
+			"id": 30068,
+			"name": "Punishment -- vicarious"
+		},
+		{
+			"id": 22776,
+			"name": "Punishments -- banishment"
+		},
+		{
+			"id": 22777,
+			"name": "Punishments -- capital"
+		},
+		{
+			"id": 19086,
+			"name": "Punishments -- corporal"
+		},
+		{
+			"id": 22778,
+			"name": "Punishments -- emasculation"
+		},
+		{
+			"id": 22779,
+			"name": "Punishments -- humiliation"
+		},
+		{
+			"id": 22780,
+			"name": "Punishments -- imprisonment"
+		},
+		{
+			"id": 22781,
+			"name": "Punishments -- isolation"
+		},
+		{
+			"id": 22782,
+			"name": "Punishments -- rehabilitation"
+		}
+	],
+	"name": "Punishments"
+}

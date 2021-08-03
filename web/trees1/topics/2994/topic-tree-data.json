@@ -1,0 +1,94 @@
+{
+	"id": 2994,
+	"children": [
+		{
+			"id": 1951,
+			"name": "Intellectual Property Rights (IPR)"
+		},
+		{
+			"id": 25478,
+			"name": "Natural resources -- property rights over"
+		},
+		{
+			"id": 5921,
+			"name": "Property rights -- (as) Constraint on democratic dialogue"
+		},
+		{
+			"id": 5928,
+			"name": "Property rights -- (in) Raced images"
+		},
+		{
+			"id": 5930,
+			"name": "Property rights -- (in) Whiteness"
+		},
+		{
+			"id": 43432,
+			"name": "property rights -- and health rights, erosion of"
+		},
+		{
+			"id": 43433,
+			"name": "property rights -- and white privilege"
+		},
+		{
+			"id": 5919,
+			"name": "Property rights -- Colorblindness"
+		},
+		{
+			"id": 5920,
+			"name": "Property rights -- Constitution"
+		},
+		{
+			"id": 25511,
+			"name": "Property rights -- desert-based account of"
+		},
+		{
+			"id": 5922,
+			"name": "Property rights -- Du Bois and Washington debate"
+		},
+		{
+			"id": 5923,
+			"name": "Property rights -- Eminent domain"
+		},
+		{
+			"id": 5924,
+			"name": "Property rights -- Imaginary domain"
+		},
+		{
+			"id": 25432,
+			"name": "Property rights -- in land"
+		},
+		{
+			"id": 25438,
+			"name": "Property rights -- limited"
+		},
+		{
+			"id": 5925,
+			"name": "Property rights -- Locke, John"
+		},
+		{
+			"id": 5926,
+			"name": "Property rights -- Martin Luther King and Malcolm X debate"
+		},
+		{
+			"id": 5927,
+			"name": "Property rights -- Personhood"
+		},
+		{
+			"id": 20485,
+			"name": "Property rights -- respect and"
+		},
+		{
+			"id": 25512,
+			"name": "Property rights -- security and"
+		},
+		{
+			"id": 5929,
+			"name": "Property rights -- Spatial-temporal constraints"
+		},
+		{
+			"id": 5931,
+			"name": "Property rights -- Within African American life"
+		}
+	],
+	"name": "property rights"
+}

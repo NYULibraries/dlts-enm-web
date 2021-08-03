@@ -1,0 +1,70 @@
+{
+	"id": 12684,
+	"children": [
+		{
+			"id": 12686,
+			"name": "capacity (capacities) -- characterological"
+		},
+		{
+			"id": 12687,
+			"name": "capacity (capacities) -- cognitive"
+		},
+		{
+			"id": 12688,
+			"name": "capacity (capacities) -- consolidated sense of"
+		},
+		{
+			"id": 12690,
+			"name": "capacity (capacities) -- effective"
+		},
+		{
+			"id": 12691,
+			"name": "capacity (capacities) -- for emotional attunement"
+		},
+		{
+			"id": 12692,
+			"name": "capacity (capacities) -- for emotional closeness"
+		},
+		{
+			"id": 12693,
+			"name": "capacity (capacities) -- for empathy"
+		},
+		{
+			"id": 12694,
+			"name": "capacity (capacities) -- for greatness"
+		},
+		{
+			"id": 12696,
+			"name": "capacity (capacities) -- for interpersonal connectedness"
+		},
+		{
+			"id": 12695,
+			"name": "capacity (capacities) -- interpersonal"
+		},
+		{
+			"id": 12699,
+			"name": "capacity (capacities) -- psychological"
+		},
+		{
+			"id": 12685,
+			"name": "capacity (capacities) -- to build support"
+		},
+		{
+			"id": 12689,
+			"name": "capacity (capacities) -- to educate the public"
+		},
+		{
+			"id": 12697,
+			"name": "capacity (capacities) -- to invest oneself"
+		},
+		{
+			"id": 12698,
+			"name": "capacity (capacities) -- to make an emotional commitment"
+		},
+		{
+			"id": 12700,
+			"name": "capacity (capacities) -- to realize ideals"
+		}
+	],
+	"name": "capacity (capacities)"
+}

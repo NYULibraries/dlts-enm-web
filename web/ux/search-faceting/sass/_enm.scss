@@ -1,0 +1,265 @@
+$bordergray: #dddddd;
+
+@mixin topicTreatment() {
+  text-transform: uppercase;
+  font-family: Georgia;
+  font-size: .8rem;
+  &:link,
+  &:visited {
+    color: teal !important;
+  }
+  .enm-hitcount {
+    color: #222;
+  }
+  &:hover {
+    text-decoration: underline;
+    background-color: #eee;
+    text-decoration: none; // border-bottom: 2px solid red;
+    // box-shadow: 2px 2px red;
+  }
+}
+
+
+hr {
+  background-color: $bordergray;
+  &.enm-hr {
+    margin: 0;
+  }
+}
+
+.enm-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 50px;
+  a:link,
+  a:hover,
+  a:visited {
+    color: #4a4a4a;
+  }
+  @include until(500px) {
+    font-size: .9rem;
+    flex-shrink: 1;
+  }
+}
+
+
+
+.enm-topnav {
+  box-shadow: 0 4px 2px -2px $bordergray;
+}
+
+
+main.enm-searchpage {
+  padding: 3rem 1.5rem 0;
+  form {
+    border-bottom: 1px solid $bordergray;
+  }
+}
+
+
+
+
+.columns.enm-searchecho {
+  padding-top: .75rem;
+  margin-bottom: 0;
+  .delete {
+    margin-left: .4em;
+    margin-right: -3px;
+  }
+  .tag:not(:first-child) {
+    margin-left: 8px;
+  }
+
+  .tag:not(body) {
+
+    font-size: .85rem;
+
+    .enm-topic {
+      margin-left: .3rem;
+      @include topicTreatment;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************************************************************************************************************************************/
+
+.enm-panes {
+  margin-top: 0;
+  margin-bottom: 0!important;
+}
+
+.enm-pane {
+  height: calc(98vh - 260px);
+  overflow-y: scroll;
+}
+
+.enm-pane-facets {
+  padding-top: 30px;
+  padding-bottom: 60px;
+
+  .listui {
+    color: black;
+    display: block;
+    font-size: .85rem;
+    padding: 5px 0;
+    i {
+      padding-right: 3px;
+      display: inline-block;
+    }
+  }
+  .enm-pane-heading {
+    padding-top: .54rem;
+  }
+  .content {
+    padding-right: 20px;
+  }
+  .enm-facets-list {}
+  .enm-topics a {
+    display: block;
+    padding-left: 15px;
+
+    line-height: 1.3;
+    padding: 2px 2px 2px 15px;
+    text-indent: -15px;
+    @include topicTreatment;
+  }
+}
+
+
+
+.enm-pane-results {
+  padding-top: 30px;
+  header {
+    @include clearfix;
+    margin-bottom: 20px;
+  }
+  .enm-thumbnail {
+    max-width: 90px;
+    height: auto;
+  }
+  .enm-book {
+    font-size: .9rem;
+    .title {
+      font-size: 1.1rem;
+      margin-bottom: .3rem;
+      a:link,
+      a:hover,
+      a:visited {
+        color: inherit;
+      }
+    }
+    .subtitle {
+      font-size: .95rem;
+      margin-top: -.2rem;
+      margin-bottom: .3rem;
+      font-weight: bold;
+    }
+    .meta {
+      font-size: .9rem;
+      margin-bottom: .4rem;
+    }
+    .matches {
+      font-size: .8rem;
+    }
+  }
+  .box {
+    position: relative;
+    a.enm-divlink {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    &:hover {
+      background-color: whitesmoke;
+
+      box-shadow: 0 2px 3px rgba(10, 10, 10, 0.3), 0 0 0 1px rgba(10, 10, 10, 0.3);
+    }
+  }
+}
+
+
+.enm-pane-preview {
+
+  padding: 35px 50px 50px;
+  margin-right: .75rem;
+  .title {
+    font-size: 1.3rem;
+    margin-bottom: .4rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: .4rem;
+  }
+  h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .enm-pageno {
+    float: right;
+  }
+  .enm-buttons {
+    width: 100%;
+    >a {
+      width: 49%;
+    }
+  }
+  .enm-topicsonthispage {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid $bordergray; // font-family: serif;
+    a {
+      @include topicTreatment;
+    }
+
+    li {
+      display: inline;
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+    .enm-alt-names {
+      @include topicTreatment;
+      color: #555;
+      font-size: .75rem;
+    }
+  }
+}
+
+
+.enm-searchbox {
+  margin-bottom: 35px;
+}
+
+footer {
+  box-shadow: 0 -4px 2px -2px #dddddd;
+  position: relative;
+  text-align: center;
+  font-size: .9rem;
+  p {
+    padding-top: 5px;
+  }
+}

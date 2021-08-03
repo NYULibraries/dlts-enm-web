@@ -1,0 +1,34 @@
+{
+	"id": 41983,
+	"children": [
+		{
+			"id": 42939,
+			"name": "health -- and white supremacy"
+		},
+		{
+			"id": 43218,
+			"name": "militarization -- and white supremacy"
+		},
+		{
+			"id": 43758,
+			"name": "white supremacy -- and civil rights"
+		},
+		{
+			"id": 43759,
+			"name": "white supremacy -- and color blind politics"
+		},
+		{
+			"id": 43760,
+			"name": "white supremacy -- and reproduction"
+		},
+		{
+			"id": 43761,
+			"name": "white supremacy -- and violence"
+		},
+		{
+			"id": 43762,
+			"name": "white supremacy -- and welfare"
+		}
+	],
+	"name": "white supremacy"
+}

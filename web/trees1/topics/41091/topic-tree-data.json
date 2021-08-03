@@ -1,0 +1,34 @@
+{
+	"id": 41091,
+	"children": [
+		{
+			"id": 3408,
+			"name": "Detroit, MI -- Democratic Union"
+		},
+		{
+			"id": 3409,
+			"name": "Detroit, MI -- drop-out rate"
+		},
+		{
+			"id": 3410,
+			"name": "Detroit, MI -- high schools"
+		},
+		{
+			"id": 3412,
+			"name": "Detroit, MI -- Local Opposed to Concessions"
+		},
+		{
+			"id": 3413,
+			"name": "Detroit, MI -- riots"
+		},
+		{
+			"id": 3414,
+			"name": "Detroit, MI -- workshop"
+		},
+		{
+			"id": 3649,
+			"name": "Jeffries Homes (Detroit housing projects)"
+		}
+	],
+	"name": "Detroit, MI"
+}

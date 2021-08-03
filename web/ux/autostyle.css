@@ -1,0 +1,55 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+input {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+}
+
+.autocomplete-input {
+  position: relative;
+}
+.highlighted {
+  background-color: yellow;
+}
+.enm-autosuggest-pane {
+  margin-top: -1px;
+  border: 1px solid #dbdbdb;
+  border-radius: 0 0 3px 3px;
+  position: absolute;
+  z-index: -2;
+  color: #bbbbbb;
+}
+
+.enm-autosuggest-group {
+  border-bottom: 1px solid #eee;
+}
+
+.enm-autosuggest-group h5 {
+  text-transform: uppercase;
+  font-size: .8rem;
+  color: #444;
+  padding: .75rem 25px 0;
+  font-weight: bold;
+}
+
+.enm-autosuggest-items a {
+  white-space: nowrap;
+  padding: .75rem 25px;
+  display: inline-block;
+  color: #444;
+}
+
+.enm-autosuggest-items a:hover,
+.enm-autosuggest-items a:focus {
+  background: #eee;
+}
+
+.enm-autosuggest-items .hcount {
+  color: #888;
+  font-size: .9rem;
+  padding-left: .3rem;
+}

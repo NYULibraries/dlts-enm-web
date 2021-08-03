@@ -1,0 +1,96 @@
+{
+	"id": 1380,
+	"children": [
+		{
+			"id": 2006,
+			"name": "Nationalism -- and Beijing's failed bid for 2000 Olympics"
+		},
+		{
+			"id": 2007,
+			"name": "Nationalism -- and China"
+		},
+		{
+			"id": 2008,
+			"name": "Nationalism -- and Sochi 2014 bid"
+		},
+		{
+			"id": 6729,
+			"name": "nationalism -- becoming American"
+		},
+		{
+			"id": 33891,
+			"children": [
+				{
+					"id": 33892,
+					"name": "Black nationalism -- compared with Zionism"
+				}
+			],
+			"name": "nationalism -- Black"
+		},
+		{
+			"id": 41684,
+			"name": "Nationalism -- civic and ethnic, differentiation between"
+		},
+		{
+			"id": 2185,
+			"name": "nationalism -- cultural"
+		},
+		{
+			"id": 21010,
+			"name": "Nationalism -- distorted"
+		},
+		{
+			"id": 41523,
+			"name": "Nationalism -- ethnic"
+		},
+		{
+			"id": 41685,
+			"name": "Nationalism -- federalist (unitarism)"
+		},
+		{
+			"id": 45133,
+			"name": "nationalism -- in filmmaking"
+		},
+		{
+			"id": 15814,
+			"name": "Nationalism -- in social studies"
+		},
+		{
+			"id": 21011,
+			"name": "Nationalism -- Japan-bashing and"
+		},
+		{
+			"id": 15815,
+			"name": "Nationalism -- lunch"
+		},
+		{
+			"id": 15816,
+			"name": "Nationalism -- morals"
+		},
+		{
+			"id": 1381,
+			"name": "nationalism -- nationalization"
+		},
+		{
+			"id": 41686,
+			"name": "Nationalism -- pro-Serbian"
+		},
+		{
+			"id": 41687,
+			"name": "Nationalism -- separatist"
+		},
+		{
+			"id": 21012,
+			"name": "Nationalism -- technological"
+		},
+		{
+			"id": 1382,
+			"name": "nationalism -- television and"
+		},
+		{
+			"id": 6730,
+			"name": "nationalism -- U.S. nationalism"
+		}
+	],
+	"name": "nationalism"
+}

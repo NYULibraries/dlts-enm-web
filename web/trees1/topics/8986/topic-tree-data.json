@@ -1,0 +1,30 @@
+{
+	"id": 8986,
+	"children": [
+		{
+			"id": 8989,
+			"name": "interdisciplinarity (ID) -- Balsamo"
+		},
+		{
+			"id": 8660,
+			"name": "interdisciplinarity (ID) -- broad"
+		},
+		{
+			"id": 8991,
+			"name": "interdisciplinarity (ID) -- critical"
+		},
+		{
+			"id": 8992,
+			"name": "interdisciplinarity (ID) -- HASTAC"
+		},
+		{
+			"id": 8993,
+			"name": "interdisciplinarity (ID) -- Instrumental"
+		},
+		{
+			"id": 8994,
+			"name": "interdisciplinarity (ID) -- narrow"
+		}
+	],
+	"name": "interdisciplinarity (ID)"
+}

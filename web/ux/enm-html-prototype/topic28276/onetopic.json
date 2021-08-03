@@ -1,0 +1,39 @@
+{
+    "nodes": [
+    {
+        "name": "Aaron ben Samuel of Baghdad, Rabbi",
+        "id": 28276,
+        "ocount": 1
+    },
+    {
+        "name": "Baghdad, Iraq",
+        "id": 8060,
+        "ocount": 3
+    },
+    {
+        "name": "Judah ben Samuel ben Kalonymus the Pious, Rabbi",
+        "id": 28418,
+        "ocount": 12
+    },
+    {
+        "name": "Samuel ben Kalonymus, Rabbi",
+        "id": 28500,
+        "ocount": 1
+    }],
+   "links":
+    [
+        {
+            "source": 8060,
+            "target": 28276
+        },
+        {
+            "source": 28276,
+            "target": 28418
+        },
+        {
+            "source": 28276,
+            "target": 28500
+        }
+    ]
+
+}

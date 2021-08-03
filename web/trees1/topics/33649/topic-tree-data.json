@@ -1,0 +1,30 @@
+{
+	"id": 33649,
+	"children": [
+		{
+			"id": 33650,
+			"name": "Models of service delivery -- case management"
+		},
+		{
+			"id": 33651,
+			"name": "Models of service delivery -- home care"
+		},
+		{
+			"id": 33652,
+			"name": "Models of service delivery -- integrated care in an inner city hospital"
+		},
+		{
+			"id": 33653,
+			"name": "Models of service delivery -- interdisciplinary horizontally integrated team"
+		},
+		{
+			"id": 33654,
+			"name": "Models of service delivery -- rural networks and systems"
+		},
+		{
+			"id": 33655,
+			"name": "Models of service delivery -- women's center"
+		}
+	],
+	"name": "Models of service delivery"
+}

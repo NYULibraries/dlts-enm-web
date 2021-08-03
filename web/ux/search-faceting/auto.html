@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Based on tuturial http://taha-sh.com/blog/building-an-awesome-reusable-autocomplete-input-component-in-vue-21-part-one">
+  <title>1 ENM Vue/Bulma Autocomplete</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/bulma/css/bulma.css">
+  <link rel="stylesheet" href="autostyle.css">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+
+<body>
+  <hr>
+  <div id="app">
+    <autocomplete-input v-bind:titlehits="titlehits" v-bind:topicarray="topicarray" v-bind:options="options"></autocomplete-input>
+  </div>
+  <script id="autocomplete-input-template" type="text/x-template">
+    <div class="columns is-centered">
+      <div class="column is-three-quarters enm-searchbox">
+        <div class="columns level">
+          <div class="column level-item">
+            <div class="autocomplete-input">
+              <p class="control has-icon has-icon-right">
+                <input class="input is-large" placeholder="Search all books" @input="onInput($event.target.value)" @keyup.esc="isOpen = false" @blur="isOpen = false" @select="onOptionSelect" @keydown.down="moveDown" @keydown.up="moveUp">
+                <span class="icon is-small is-left"><i class="fa fa-angle-down"></i></span>
+              </p>
+              <div class="enm-autosuggest-pane" v-show="isOpen">
+                <div class="enm-autosuggest-group">
+                  <h5>Title</h5>
+                  <div class="enm-autosuggest-items enm-autosuggest-items-titles">
+                    <a href="#" v-for="(x, index) in titlehits" :class="{'highlighted': index === highlightedPosition}">
+                      <span class="htitle">{{ x.title }}</span>
+                      <span class="hsubtitle">{{ x.subtitle }}</span>
+                      <span class="hcount">({{ x.hitcount }}) </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="enm-autosuggest-group enm-autosuggest-group-topics">
+                  <h5>Topics</h5>
+                  <div class="enm-autosuggest-items">
+                    <a href="#" v-for="(t, index) in topicarray" :class="[{'highlighted': (index+1) === highlightedPosition}]">
+                      {{ t.title.name }}
+                      <span class="hcount">({{ t.hitcount }}) </span>
+                    </a>
+                  </div>
+                </div>
+                <div class="enm-autosuggest-group">
+                  <h5>Keywords</h5>
+                  <div class="enm-autosuggest-items">
+                    <a href="#" v-for="(o,index) in options" :class="{'highlighted': (index+9) === highlightedPosition}">
+                      {{ o.title.name }}
+                      <span class="hcount">({{ o.hitcount }})</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-narrow">
+            <input type="checkbox" class="is-medium is-checkbox" name="topicsChx" id="topicsChx" checked="">
+            <label for="topicsChx" class="">Topics</label>
+            <input type="checkbox" class="is-medium is-checkbox" name="fulltextChx" id="fulltextChx" checked="">
+            <label for="fulltextChx">Full Text</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </script>
+  <script>
+  Vue.component('autocomplete-input', {
+    template: '#autocomplete-input-template',
+    props: {
+      titlehits: {
+        type: Array,
+        required: false
+      },
+      options: {
+        type: Array,
+        required: false
+      },
+      topicarray: {
+        type: Array,
+        required: false
+      }
+    },
+    data() {
+      return {
+        isOpen: false,
+        highlightedPosition: 0,
+        keyword: ''
+      }
+    },
+    computed: {
+      // a computed getter
+      newCount: function() {
+        // `this` points to the vm instance
+        // return this.itemCount++;
+        //return 5;
+      }
+    },
+    methods: {
+      onInput(value) {
+        this.isOpen = !!value
+      },
+      onOptionSelect(option) {
+        //  console.log('component new vie:', option)
+      },
+      moveDown(event) {
+        console.log('moveDown ' + event.currentTarget)
+        if (!this.isOpen) {
+          return
+        }
+        this.highlightedPosition =
+          (this.highlightedPosition + 1) % 12
+      },
+      moveUp() {
+        console.log('moveUp')
+        if (!this.isOpen) {
+          return
+        }
+        this.highlightedPosition = this.highlightedPosition - 1 < 0 ?
+          (13) - 1 :
+          this.highlightedPosition - 1
+      }
+    }
+  })
+
+
+  new Vue({
+    el: '#app',
+    data: {
+      titlehits: [{
+        type: 'Title',
+        title: "The Transformation of Rage",
+        subtitle: "Mourning and Creativity in George Eliot's Fiction",
+        hitcount: 1,
+      }],
+      options: [{
+          type: 'Keyword',
+          title: { name: 'Elesiac' },
+          hitcount: 15,
+        },
+        {
+          type: 'Keyword',
+          title: { name: 'Eliotic' },
+          hitcount: 43,
+        },
+        {
+          type: 'Keyword',
+          title: { name: 'George Eliot' },
+          hitcount: 23,
+        }
+      ],
+      topicarray: [{
+          type: 'Topic',
+          title: { name: 'Eliot, T. S. -- "The Waste Land"' },
+          hitcount: 145,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, George' },
+          hitcount: 45,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, T. S. -- "The Waste Land" Lorem Ipsum' },
+          hitcount: 145,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, George' },
+          hitcount: 45,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, George' },
+          hitcount: 15,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, George' },
+          hitcount: 1,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, George, writings -- The Mill on the Floss' },
+          hitcount: 45,
+        },
+        {
+          type: 'Topic',
+          title: { name: 'Eliot, George' },
+          hitcount: 45,
+        }
+      ]
+    }
+  })
+  </script>
+</body>
+
+</html>

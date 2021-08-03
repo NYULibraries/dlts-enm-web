@@ -1,0 +1,18 @@
+{
+	"id": 33154,
+	"children": [
+		{
+			"id": 33156,
+			"name": "Consensus -- in Kant"
+		},
+		{
+			"id": 33157,
+			"name": "Consensus -- in liberalism"
+		},
+		{
+			"id": 33155,
+			"name": "Consensus -- injudicial interpretation"
+		}
+	],
+	"name": "Consensus"
+}

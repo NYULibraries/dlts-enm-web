@@ -1,0 +1,34 @@
+{
+	"id": 40667,
+	"children": [
+		{
+			"id": 40668,
+			"name": "Study, details of -- analysis of data"
+		},
+		{
+			"id": 40669,
+			"name": "Study, details of -- effect of researcher on study participants"
+		},
+		{
+			"id": 40670,
+			"name": "Study, details of -- interview protocol"
+		},
+		{
+			"id": 40671,
+			"name": "Study, details of -- purpose"
+		},
+		{
+			"id": 40672,
+			"name": "Study, details of -- researcher background"
+		},
+		{
+			"id": 40673,
+			"name": "Study, details of -- sample analyzed"
+		},
+		{
+			"id": 40674,
+			"name": "Study, details of -- setting, physical"
+		}
+	],
+	"name": "Study, details of"
+}

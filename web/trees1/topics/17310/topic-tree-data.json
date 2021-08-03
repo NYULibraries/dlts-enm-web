@@ -1,0 +1,34 @@
+{
+	"id": 17310,
+	"children": [
+		{
+			"id": 44859,
+			"name": "colonial period -- culture"
+		},
+		{
+			"id": 44861,
+			"name": "colonial period -- enlightenment modality"
+		},
+		{
+			"id": 44862,
+			"name": "colonial period -- filmmaking"
+		},
+		{
+			"id": 44863,
+			"name": "colonial period -- literature"
+		},
+		{
+			"id": 44864,
+			"name": "colonial period -- modernity"
+		},
+		{
+			"id": 44865,
+			"name": "colonial period -- modernization"
+		},
+		{
+			"id": 44866,
+			"name": "colonial period -- monarchy"
+		}
+	],
+	"name": "colonial period"
+}

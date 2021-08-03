@@ -1,0 +1,34 @@
+{
+	"id": 13590,
+	"children": [
+		{
+			"id": 13591,
+			"name": "Psychiatric -- assessments"
+		},
+		{
+			"id": 13592,
+			"name": "Psychiatric -- evaluation"
+		},
+		{
+			"id": 13593,
+			"name": "Psychiatric -- evaluators"
+		},
+		{
+			"id": 13594,
+			"name": "Psychiatric -- help"
+		},
+		{
+			"id": 13595,
+			"name": "Psychiatric -- impairment(s)"
+		},
+		{
+			"id": 13596,
+			"name": "Psychiatric -- theory"
+		},
+		{
+			"id": 13597,
+			"name": "Psychiatric -- treatment"
+		}
+	],
+	"name": "Psychiatric"
+}

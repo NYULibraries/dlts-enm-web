@@ -1,0 +1,26 @@
+{
+	"id": 505,
+	"children": [
+		{
+			"id": 26835,
+			"name": "Department of Labor -- on construction industry"
+		},
+		{
+			"id": 26836,
+			"name": "Department of Labor -- on electronics manufacturing"
+		},
+		{
+			"id": 26837,
+			"name": "Department of Labor -- on impact of NAFTA on jobs"
+		},
+		{
+			"id": 26838,
+			"name": "Department of Labor -- on janitorial industry"
+		},
+		{
+			"id": 26839,
+			"name": "Department of Labor -- on role of immigration in internationalization of U.S. economy"
+		}
+	],
+	"name": "Department of Labor"
+}

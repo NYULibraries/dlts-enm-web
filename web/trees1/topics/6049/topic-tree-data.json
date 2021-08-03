@@ -1,0 +1,34 @@
+{
+	"id": 6049,
+	"children": [
+		{
+			"id": 6050,
+			"name": "Wilson, Fred -- Baby Carriage"
+		},
+		{
+			"id": 6051,
+			"name": "Wilson, Fred -- Friendly Natives"
+		},
+		{
+			"id": 6052,
+			"name": "Wilson, Fred -- Hood"
+		},
+		{
+			"id": 6053,
+			"name": "Wilson, Fred -- Mining the Museum"
+		},
+		{
+			"id": 6054,
+			"name": "Wilson, Fred -- Museum permissions"
+		},
+		{
+			"id": 6055,
+			"name": "Wilson, Fred -- Other Museums"
+		},
+		{
+			"id": 6056,
+			"name": "Wilson, Fred -- Punt Gun"
+		}
+	],
+	"name": "Wilson, Fred"
+}

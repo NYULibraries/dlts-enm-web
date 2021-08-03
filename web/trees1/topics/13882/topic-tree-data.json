@@ -1,0 +1,34 @@
+{
+	"id": 13882,
+	"children": [
+		{
+			"id": 38161,
+			"name": "Suicide -- abuse and"
+		},
+		{
+			"id": 38162,
+			"name": "Suicide -- addiction and"
+		},
+		{
+			"id": 33074,
+			"name": "Suicide -- among lesbian and gay soldiers"
+		},
+		{
+			"id": 33105,
+			"name": "Suicide -- among lesbian and gay youth"
+		},
+		{
+			"id": 38163,
+			"name": "Suicide -- family and"
+		},
+		{
+			"id": 38164,
+			"name": "Suicide -- memory retrieval and"
+		},
+		{
+			"id": 38165,
+			"name": "Suicide -- rape and"
+		}
+	],
+	"name": "suicide"
+}

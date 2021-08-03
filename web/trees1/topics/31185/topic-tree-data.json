@@ -1,0 +1,42 @@
+{
+	"id": 31185,
+	"children": [
+		{
+			"id": 40236,
+			"name": "Boys -- and mothers"
+		},
+		{
+			"id": 31186,
+			"name": "Boys -- as crime victims"
+		},
+		{
+			"id": 31187,
+			"name": "Boys -- behavioral problems"
+		},
+		{
+			"id": 31188,
+			"name": "Boys -- discipline"
+		},
+		{
+			"id": 31189,
+			"name": "Boys -- dropout rate"
+		},
+		{
+			"id": 40234,
+			"name": "Boys -- inability to trust girls"
+		},
+		{
+			"id": 40237,
+			"name": "Boys -- reasons for lack of close friends among"
+		},
+		{
+			"id": 31190,
+			"name": "Boys -- risk-taking behavior"
+		},
+		{
+			"id": 40235,
+			"name": "Trust -- society's lack of, for minority boys"
+		}
+	],
+	"name": "boys"
+}

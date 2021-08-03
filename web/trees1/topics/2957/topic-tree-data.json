@@ -1,0 +1,66 @@
+{
+	"id": 2957,
+	"children": [
+		{
+			"id": 2958,
+			"name": "plagiarism -- academic"
+		},
+		{
+			"id": 2959,
+			"name": "plagiarism -- accidental"
+		},
+		{
+			"id": 2967,
+			"name": "plagiarism -- and common knowledge"
+		},
+		{
+			"id": 2968,
+			"name": "plagiarism -- and copying by hand"
+		},
+		{
+			"id": 2969,
+			"name": "plagiarism -- and copyright infringement"
+		},
+		{
+			"id": 2469,
+			"name": "plagiarism -- anthological"
+		},
+		{
+			"id": 2960,
+			"name": "plagiarism -- antiplagiarism"
+		},
+		{
+			"id": 2961,
+			"name": "plagiarism -- avoiding"
+		},
+		{
+			"id": 2962,
+			"name": "plagiarism -- by arrangement"
+		},
+		{
+			"id": 2963,
+			"name": "plagiarism -- by selection"
+		},
+		{
+			"id": 2964,
+			"name": "plagiarism -- cases of"
+		},
+		{
+			"id": 2965,
+			"name": "plagiarism -- checking programs and services"
+		},
+		{
+			"id": 2966,
+			"name": "plagiarism -- commercial detection services"
+		},
+		{
+			"id": 2970,
+			"name": "plagiarism -- criteria"
+		},
+		{
+			"id": 2971,
+			"name": "plagiarism -- cultural differences"
+		}
+	],
+	"name": "plagiarism"
+}

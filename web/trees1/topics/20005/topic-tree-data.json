@@ -1,0 +1,42 @@
+{
+	"id": 20005,
+	"children": [
+		{
+			"id": 22631,
+			"name": "Madison, James -- and Bill of Rights"
+		},
+		{
+			"id": 22632,
+			"name": "Madison, James -- and citizenship"
+		},
+		{
+			"id": 22633,
+			"name": "Madison, James -- and foreign policy"
+		},
+		{
+			"id": 22634,
+			"name": "Madison, James -- and fraternal unity"
+		},
+		{
+			"id": 20008,
+			"name": "Madison, James -- and James Wilson"
+		},
+		{
+			"id": 22635,
+			"name": "Madison, James -- and leadership"
+		},
+		{
+			"id": 22636,
+			"name": "Madison, James -- and necessity"
+		},
+		{
+			"id": 20006,
+			"name": "Madison, James -- on Oliver Ellsworth"
+		},
+		{
+			"id": 20007,
+			"name": "Madison, James -- on suability of states"
+		}
+	],
+	"name": "Madison, James"
+}

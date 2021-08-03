@@ -1,0 +1,18 @@
+{
+	"id": 40592,
+	"children": [
+		{
+			"id": 40593,
+			"name": "Researcher(s) -- background of"
+		},
+		{
+			"id": 40594,
+			"name": "Researcher(s) -- effect of subjects' race and sex on"
+		},
+		{
+			"id": 40595,
+			"name": "Researcher(s) -- power relationship with subjects"
+		}
+	],
+	"name": "Researcher(s)"
+}

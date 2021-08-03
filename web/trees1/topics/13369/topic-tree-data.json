@@ -1,0 +1,22 @@
+{
+	"id": 13369,
+	"children": [
+		{
+			"id": 13370,
+			"name": "Party -- ideologies"
+		},
+		{
+			"id": 13371,
+			"name": "Party -- labels"
+		},
+		{
+			"id": 13372,
+			"name": "Party -- platforms"
+		},
+		{
+			"id": 13373,
+			"name": "Party -- positions"
+		}
+	],
+	"name": "Party"
+}

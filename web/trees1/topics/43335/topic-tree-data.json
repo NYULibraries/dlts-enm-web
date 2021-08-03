@@ -1,0 +1,30 @@
+{
+	"id": 43335,
+	"children": [
+		{
+			"id": 43341,
+			"name": "Office of Economic Opportunity (OEO) -- and population control"
+		},
+		{
+			"id": 43336,
+			"name": "Office of Economic Opportunity (OEO) -- community involvement"
+		},
+		{
+			"id": 43337,
+			"name": "Office of Economic Opportunity (OEO) -- family planning programs"
+		},
+		{
+			"id": 43338,
+			"name": "Office of Economic Opportunity (OEO) -- health programs"
+		},
+		{
+			"id": 43339,
+			"name": "Office of Economic Opportunity (OEO) -- Los Angeles, withholding of funds for"
+		},
+		{
+			"id": 43340,
+			"name": "Office of Economic Opportunity (OEO) -- Neighborhood Health Centers (NHC)"
+		}
+	],
+	"name": "Office of Economic Opportunity (OEO)"
+}

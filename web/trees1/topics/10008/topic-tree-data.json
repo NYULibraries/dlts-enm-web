@@ -1,0 +1,30 @@
+{
+	"id": 10008,
+	"children": [
+		{
+			"id": 37253,
+			"name": "Alcoholics Anonymous -- Adult Children of Alcoholics (ACOA)"
+		},
+		{
+			"id": 37254,
+			"name": "Alcoholics Anonymous -- Alanon"
+		},
+		{
+			"id": 37255,
+			"name": "Alcoholics Anonymous -- founders of"
+		},
+		{
+			"id": 37256,
+			"name": "Alcoholics Anonymous -- groups"
+		},
+		{
+			"id": 37257,
+			"name": "Alcoholics Anonymous -- history of"
+		},
+		{
+			"id": 37258,
+			"name": "Alcoholics Anonymous -- Twelve Steps of"
+		}
+	],
+	"name": "Alcoholics Anonymous"
+}

@@ -1,0 +1,26 @@
+{
+	"id": 32397,
+	"children": [
+		{
+			"id": 32398,
+			"name": "Labor force -- age composition"
+		},
+		{
+			"id": 32399,
+			"name": "Labor force -- female increase in participation"
+		},
+		{
+			"id": 32400,
+			"name": "Labor force -- labor supply growth"
+		},
+		{
+			"id": 32401,
+			"name": "Labor force -- occupational characteristic changes"
+		},
+		{
+			"id": 32402,
+			"name": "Labor force -- racial changes in participation"
+		}
+	],
+	"name": "Labor force"
+}

@@ -1,0 +1,144 @@
+{
+	"id": 74,
+	"children": [
+		{
+			"id": 22986,
+			"name": "Caring, ethic of -- norms, learning"
+		},
+		{
+			"id": 11278,
+			"name": "home -- learning, school learning contrasted with"
+		},
+		{
+			"id": 7151,
+			"name": "learning -- \"rhizome\" metaphor for"
+		},
+		{
+			"id": 7156,
+			"name": "learning -- \"tree\" metaphor for"
+		},
+		{
+			"id": 10814,
+			"children": [
+				{
+					"id": 10815,
+					"name": "alternative visions of learning -- music"
+				}
+			],
+			"name": "learning -- alternative visions of"
+		},
+		{
+			"id": 11404,
+			"name": "learning -- approaches"
+		},
+		{
+			"id": 10820,
+			"name": "learning -- arts"
+		},
+		{
+			"id": 46080,
+			"name": "learning -- by doing"
+		},
+		{
+			"id": 10127,
+			"name": "learning -- connected"
+		},
+		{
+			"id": 7146,
+			"name": "learning -- digital mediation of"
+		},
+		{
+			"id": 11406,
+			"name": "learning -- digital networked technology for lifelong"
+		},
+		{
+			"id": 11114,
+			"name": "learning -- external markers of"
+		},
+		{
+			"id": 23135,
+			"name": "Learning -- from authority"
+		},
+		{
+			"id": 11405,
+			"name": "learning -- in digital age"
+		},
+		{
+			"id": 7157,
+			"name": "learning -- in virtual environments"
+		},
+		{
+			"id": 11407,
+			"name": "learning -- levels as metaphor for"
+		},
+		{
+			"id": 7147,
+			"name": "learning -- new forms of"
+		},
+		{
+			"id": 7148,
+			"name": "learning -- obstacles to"
+		},
+		{
+			"id": 109,
+			"name": "learning -- online"
+		},
+		{
+			"id": 11408,
+			"name": "learning -- parents' responsibilities for"
+		},
+		{
+			"id": 110,
+			"name": "learning -- playing as"
+		},
+		{
+			"id": 7149,
+			"name": "learning -- popular culture and"
+		},
+		{
+			"id": 111,
+			"name": "learning -- problem-based"
+		},
+		{
+			"id": 11409,
+			"name": "learning -- quantification and standardization for"
+		},
+		{
+			"id": 7150,
+			"name": "learning -- revitalizing"
+		},
+		{
+			"id": 11410,
+			"name": "learning -- school definition, measurement, and recording of"
+		},
+		{
+			"id": 7152,
+			"name": "learning -- social nature of"
+		},
+		{
+			"id": 112,
+			"name": "learning -- students'"
+		},
+		{
+			"id": 7155,
+			"name": "learning -- TEACH Project and changes in"
+		},
+		{
+			"id": 7153,
+			"name": "learning -- teacher engagement in"
+		},
+		{
+			"id": 7154,
+			"name": "learning -- teachers as mediators of"
+		},
+		{
+			"id": 11411,
+			"name": "learning -- technology role"
+		},
+		{
+			"id": 108,
+			"name": "learning -- with technology"
+		}
+	],
+	"name": "learning"
+}

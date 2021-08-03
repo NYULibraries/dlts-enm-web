@@ -1,0 +1,42 @@
+{
+	"id": 37989,
+	"children": [
+		{
+			"id": 37578,
+			"name": "Food -- rituals"
+		},
+		{
+			"id": 37990,
+			"name": "Rituals -- abuse"
+		},
+		{
+			"id": 37993,
+			"name": "Rituals -- and cultural conditioning"
+		},
+		{
+			"id": 37992,
+			"name": "Rituals -- community"
+		},
+		{
+			"id": 37994,
+			"name": "Rituals -- degradation"
+		},
+		{
+			"id": 37991,
+			"name": "Rituals -- of anonymous programs"
+		},
+		{
+			"id": 37997,
+			"name": "Rituals -- of survivors"
+		},
+		{
+			"id": 37995,
+			"name": "Rituals -- secret"
+		},
+		{
+			"id": 37996,
+			"name": "Rituals -- significant movement"
+		}
+	],
+	"name": "Rituals"
+}

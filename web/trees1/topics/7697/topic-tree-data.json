@@ -1,0 +1,36 @@
+{
+	"id": 7697,
+	"children": [
+		{
+			"id": 16392,
+			"name": "Flaubert, Gustave -- \"St. Julien l'Hospitalier\""
+		},
+		{
+			"id": 12175,
+			"name": "Flaubert, Gustave -- Flaubertian elements in The Awakening"
+		},
+		{
+			"id": 7698,
+			"children": [
+				{
+					"id": 12284,
+					"name": "Madame Bovary -- analysis of"
+				},
+				{
+					"id": 12285,
+					"name": "Madame Bovary -- compared to The Awakening"
+				}
+			],
+			"name": "Flaubert, Gustave -- Madame Bovary"
+		},
+		{
+			"id": 12176,
+			"name": "Flaubert, Gustave -- presence in Madame Bovary"
+		},
+		{
+			"id": 12177,
+			"name": "Flaubert, Gustave -- psychological conflicts of"
+		}
+	],
+	"name": "Flaubert, Gustave"
+}

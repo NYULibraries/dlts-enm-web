@@ -1,0 +1,38 @@
+{
+	"id": 20492,
+	"children": [
+		{
+			"id": 39275,
+			"name": "Rawls, John -- \"veil of ignorance\""
+		},
+		{
+			"id": 25516,
+			"name": "Rawls, John -- on basic liberties"
+		},
+		{
+			"id": 25517,
+			"name": "Rawls, John -- on conception of person"
+		},
+		{
+			"id": 25518,
+			"name": "Rawls, John -- on contractarian theory"
+		},
+		{
+			"id": 25519,
+			"name": "Rawls, John -- on market socialism"
+		},
+		{
+			"id": 25520,
+			"name": "Rawls, John -- on political philosophy"
+		},
+		{
+			"id": 25521,
+			"name": "Rawls, John -- on social justice"
+		},
+		{
+			"id": 39274,
+			"name": "Rawls, John -- original position"
+		}
+	],
+	"name": "Rawls, John"
+}

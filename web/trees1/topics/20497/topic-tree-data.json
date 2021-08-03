@@ -1,0 +1,30 @@
+{
+	"id": 20497,
+	"children": [
+		{
+			"id": 20260,
+			"name": "Compensation -- at odds with redistribution"
+		},
+		{
+			"id": 20252,
+			"name": "Compensation -- compatibility of redistribution and"
+		},
+		{
+			"id": 20258,
+			"name": "Compensation -- mutual entailment of redistribution and"
+		},
+		{
+			"id": 20498,
+			"name": "Redistribution -- expectations and"
+		},
+		{
+			"id": 20499,
+			"name": "Redistribution -- liability rules and"
+		},
+		{
+			"id": 20500,
+			"name": "Redistribution -- negligence and"
+		}
+	],
+	"name": "Redistribution"
+}

@@ -1,0 +1,38 @@
+{
+	"id": 18069,
+	"children": [
+		{
+			"id": 18074,
+			"name": "Rabbis -- Bendavid on"
+		},
+		{
+			"id": 18071,
+			"name": "Rabbis -- disputes of"
+		},
+		{
+			"id": 18076,
+			"name": "Rabbis -- Gans on"
+		},
+		{
+			"id": 18072,
+			"name": "Rabbis -- historical views of"
+		},
+		{
+			"id": 18075,
+			"name": "Rabbis -- Jost on"
+		},
+		{
+			"id": 18077,
+			"name": "Rabbis -- Krochmal on"
+		},
+		{
+			"id": 18073,
+			"name": "Rabbis -- origins of"
+		},
+		{
+			"id": 18070,
+			"name": "Rabbis -- Rabbinic Judaism"
+		}
+	],
+	"name": "Rabbis"
+}

@@ -1,0 +1,34 @@
+{
+	"id": 13237,
+	"children": [
+		{
+			"id": 42685,
+			"name": "civil rights movement -- and labor"
+		},
+		{
+			"id": 37006,
+			"name": "labor -- \"free labor\""
+		},
+		{
+			"id": 43062,
+			"name": "labor -- and universal health care"
+		},
+		{
+			"id": 43060,
+			"name": "labor -- defense workers, income of"
+		},
+		{
+			"id": 43061,
+			"name": "labor -- peace activists, coalition with"
+		},
+		{
+			"id": 37007,
+			"name": "labor -- reform and abolitionism"
+		},
+		{
+			"id": 43063,
+			"name": "labor -- welfare activists, coalition with"
+		}
+	],
+	"name": "labor"
+}

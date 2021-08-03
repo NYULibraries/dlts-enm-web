@@ -1,0 +1,30 @@
+{
+	"id": 13178,
+	"children": [
+		{
+			"id": 34820,
+			"name": "Intelligence -- and judgment"
+		},
+		{
+			"id": 34819,
+			"name": "Intelligence -- applications of, and judgments about"
+		},
+		{
+			"id": 36969,
+			"name": "intelligence -- criteria of"
+		},
+		{
+			"id": 36970,
+			"name": "intelligence -- definitions of"
+		},
+		{
+			"id": 36971,
+			"name": "intelligence -- importance of context"
+		},
+		{
+			"id": 36972,
+			"name": "intelligence -- mutability of"
+		}
+	],
+	"name": "intelligence"
+}

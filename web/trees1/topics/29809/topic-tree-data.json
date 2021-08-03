@@ -1,0 +1,18 @@
+{
+	"id": 29809,
+	"children": [
+		{
+			"id": 29810,
+			"name": "Gratification -- from criminal acts"
+		},
+		{
+			"id": 29811,
+			"name": "Gratification -- of id"
+		},
+		{
+			"id": 29812,
+			"name": "Gratification -- of superego"
+		}
+	],
+	"name": "Gratification"
+}

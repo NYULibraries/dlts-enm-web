@@ -1,0 +1,48 @@
+{
+	"id": 66,
+	"children": [
+		{
+			"id": 8763,
+			"name": "curriculum -- balance of humanities content and technological skills"
+		},
+		{
+			"id": 67,
+			"children": [
+				{
+					"id": 68,
+					"name": "curriculum -- data -- algorithmic parsing"
+				},
+				{
+					"id": 69,
+					"name": "curriculum -- data -- attribute"
+				},
+				{
+					"id": 70,
+					"name": "curriculum -- data -- encoding"
+				},
+				{
+					"id": 71,
+					"name": "curriculum -- data -- modeling"
+				}
+			],
+			"name": "curriculum -- data"
+		},
+		{
+			"id": 36300,
+			"name": "Curriculum -- development"
+		},
+		{
+			"id": 8764,
+			"name": "curriculum -- introductory courses"
+		},
+		{
+			"id": 36301,
+			"name": "Curriculum -- revisions of"
+		},
+		{
+			"id": 8765,
+			"name": "curriculum -- theoretical and critical analysis"
+		}
+	],
+	"name": "curriculum"
+}

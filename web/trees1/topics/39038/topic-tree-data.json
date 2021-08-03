@@ -1,0 +1,64 @@
+{
+	"id": 39038,
+	"children": [
+		{
+			"id": 39039,
+			"name": "Jurisprudence -- hedonic"
+		},
+		{
+			"id": 39040,
+			"name": "Jurisprudence -- interpretive"
+		},
+		{
+			"id": 39041,
+			"name": "Jurisprudence -- law and"
+		},
+		{
+			"id": 39042,
+			"name": "Jurisprudence -- literary"
+		},
+		{
+			"id": 39043,
+			"name": "Jurisprudence -- movements"
+		},
+		{
+			"id": 31415,
+			"name": "Jurisprudence -- narrative"
+		},
+		{
+			"id": 39045,
+			"name": "Jurisprudence -- post-realist"
+		},
+		{
+			"id": 39044,
+			"children": [
+				{
+					"id": 39239,
+					"name": "Postmodern jurisprudence -- identity of self"
+				},
+				{
+					"id": 39240,
+					"name": "Postmodern jurisprudence -- nature of knowledge"
+				},
+				{
+					"id": 39241,
+					"name": "Postmodern jurisprudence -- nature of language"
+				},
+				{
+					"id": 39242,
+					"name": "Postmodern jurisprudence -- nature of theory"
+				},
+				{
+					"id": 39243,
+					"name": "Postmodern jurisprudence -- reaction to \"rule of law\" thinking"
+				}
+			],
+			"name": "Jurisprudence -- postmodern"
+		},
+		{
+			"id": 39046,
+			"name": "Jurisprudence -- realistic"
+		}
+	],
+	"name": "Jurisprudence"
+}

@@ -1,0 +1,27 @@
+svg {
+  .node {
+    circle {
+      fill: #bbb;
+       // stroke: blue;
+      // stroke-width: .5px;
+    }
+  }
+  .active {
+    circle {
+      fill: #008080; // stroke: blue;
+      // stroke-width: .5px;
+    }
+    text {
+      font-size: 1.6rem;
+    }
+  }
+}
+
+.enm-topicmap {
+  //background-color: #efefef;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}

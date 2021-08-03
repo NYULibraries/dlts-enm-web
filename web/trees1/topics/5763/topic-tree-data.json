@@ -1,0 +1,54 @@
+{
+	"id": 5763,
+	"children": [
+		{
+			"id": 5694,
+			"name": "Fair Use -- Trademark"
+		},
+		{
+			"id": 6022,
+			"name": "Trademark -- (and) Racialization"
+		},
+		{
+			"id": 5535,
+			"name": "Trademark -- Abercrombie factors"
+		},
+		{
+			"id": 6014,
+			"name": "Trademark -- Authenticity marker"
+		},
+		{
+			"id": 6015,
+			"name": "Trademark -- Costumer confusion"
+		},
+		{
+			"id": 6016,
+			"name": "Trademark -- Dilution"
+		},
+		{
+			"id": 6017,
+			"name": "Trademark -- Disparaging marks"
+		},
+		{
+			"id": 6018,
+			"name": "Trademark -- Efficiency"
+		},
+		{
+			"id": 6019,
+			"name": "Trademark -- Free speech concerns"
+		},
+		{
+			"id": 6020,
+			"name": "Trademark -- Hip-hop aesthetics"
+		},
+		{
+			"id": 6021,
+			"name": "Trademark -- Lanham Act"
+		},
+		{
+			"id": 6023,
+			"name": "Trademark -- Unfair use"
+		}
+	],
+	"name": "trademark"
+}

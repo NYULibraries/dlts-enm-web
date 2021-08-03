@@ -1,0 +1,40 @@
+{
+	"id": 7730,
+	"children": [
+		{
+			"id": 7731,
+			"name": "Hardy, Thomas -- A Laodicean"
+		},
+		{
+			"id": 12194,
+			"name": "Hardy, Thomas -- analysis of The Mayor of Casterbridge"
+		},
+		{
+			"id": 12295,
+			"children": [
+				{
+					"id": 12296,
+					"name": "Mayor of Casterbridge, The (Hardy) -- analysis of"
+				},
+				{
+					"id": 12297,
+					"name": "Mayor of Casterbridge, The (Hardy) -- compared to Madame Bovary"
+				}
+			],
+			"name": "Hardy, Thomas -- Mayor of Casterbridge"
+		},
+		{
+			"id": 12195,
+			"name": "Hardy, Thomas -- personality of"
+		},
+		{
+			"id": 7732,
+			"name": "Hardy, Thomas -- Tess of the d'Urbervilles"
+		},
+		{
+			"id": 36408,
+			"name": "Hardy, Thomas -- Tess of the D'Urbervilles"
+		}
+	],
+	"name": "Hardy, Thomas"
+}

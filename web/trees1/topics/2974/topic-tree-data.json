@@ -1,0 +1,46 @@
+{
+	"id": 2974,
+	"children": [
+		{
+			"id": 30897,
+			"name": "Plato -- and Romanticism"
+		},
+		{
+			"id": 30898,
+			"name": "Plato -- and transcendental law"
+		},
+		{
+			"id": 23183,
+			"name": "Plato -- anti-Semitism in"
+		},
+		{
+			"id": 33285,
+			"name": "Plato -- Apology"
+		},
+		{
+			"id": 33286,
+			"name": "Plato -- Crito"
+		},
+		{
+			"id": 33287,
+			"name": "Plato -- Euthyphro"
+		},
+		{
+			"id": 33288,
+			"name": "Plato -- Gorgias"
+		},
+		{
+			"id": 30896,
+			"name": "Plato -- on poetry and madness"
+		},
+		{
+			"id": 33289,
+			"name": "Plato -- Phaedrus"
+		},
+		{
+			"id": 2975,
+			"name": "Plato -- The Republic"
+		}
+	],
+	"name": "Plato"
+}

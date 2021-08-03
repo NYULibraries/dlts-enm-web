@@ -1,0 +1,22 @@
+{
+	"id": 24595,
+	"children": [
+		{
+			"id": 24596,
+			"name": "Trusteeships -- International Brotherhood of Teamsters"
+		},
+		{
+			"id": 24597,
+			"name": "Trusteeships -- labor unions"
+		},
+		{
+			"id": 24598,
+			"name": "Trusteeships -- RICO"
+		},
+		{
+			"id": 24599,
+			"name": "Trusteeships -- Teamsters Local 560"
+		}
+	],
+	"name": "Trusteeships"
+}

@@ -1,0 +1,34 @@
+{
+	"id": 2425,
+	"children": [
+		{
+			"id": 28865,
+			"name": "Global economy -- disparity with Third World"
+		},
+		{
+			"id": 29388,
+			"name": "Third World -- domination by United States"
+		},
+		{
+			"id": 36743,
+			"name": "Third world -- identity"
+		},
+		{
+			"id": 29390,
+			"name": "Third World -- market demand on women"
+		},
+		{
+			"id": 29391,
+			"name": "Third World -- military prostitution"
+		},
+		{
+			"id": 29392,
+			"name": "Third World -- patriarchal laws"
+		},
+		{
+			"id": 29393,
+			"name": "Third World -- proprostitution regulation"
+		}
+	],
+	"name": "Third world"
+}

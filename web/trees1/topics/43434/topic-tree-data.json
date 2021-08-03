@@ -1,0 +1,30 @@
+{
+	"id": 43434,
+	"children": [
+		{
+			"id": 43437,
+			"name": "Proposition 13 (CA) -- and MCHR"
+		},
+		{
+			"id": 43439,
+			"name": "Proposition 13 (CA) -- and schools"
+		},
+		{
+			"id": 43435,
+			"name": "Proposition 13 (CA) -- effects of"
+		},
+		{
+			"id": 43436,
+			"name": "Proposition 13 (CA) -- health facilities, closure of"
+		},
+		{
+			"id": 43438,
+			"name": "Proposition 13 (CA) -- passage of"
+		},
+		{
+			"id": 43440,
+			"name": "Proposition 13 (CA) -- vote by race"
+		}
+	],
+	"name": "Proposition 13 (CA)"
+}

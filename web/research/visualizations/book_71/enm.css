@@ -1,0 +1,25 @@
+* {
+	font-family: sans-serif;
+}
+#book-subtitle {
+	display: inline-block;
+	padding-left: 20px;
+	font-size: .8em;
+	font-weight: normal;
+}
+
+svg .node {
+	background-color: gray;
+	padding: 10px;
+}
+
+.nodes circle {
+  stroke: blue;
+  stroke-width: .5px;
+}
+
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}

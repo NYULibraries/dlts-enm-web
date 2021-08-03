@@ -1,0 +1,34 @@
+{
+	"id": 43556,
+	"children": [
+		{
+			"id": 44738,
+			"name": "slum -- clearance"
+		},
+		{
+			"id": 44739,
+			"name": "slum -- contested terminology"
+		},
+		{
+			"id": 44740,
+			"name": "slum -- definition"
+		},
+		{
+			"id": 44741,
+			"name": "slum -- demolitions"
+		},
+		{
+			"id": 43558,
+			"name": "slums -- \"slum reasoning\""
+		},
+		{
+			"id": 43559,
+			"name": "slums -- and social reform"
+		},
+		{
+			"id": 43557,
+			"name": "slums -- discourse of"
+		}
+	],
+	"name": "slums"
+}

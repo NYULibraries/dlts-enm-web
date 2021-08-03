@@ -1,0 +1,90 @@
+{
+	"id": 13522,
+	"children": [
+		{
+			"id": 36642,
+			"name": "Power -- cultural"
+		},
+		{
+			"id": 44342,
+			"name": "power -- external powers"
+		},
+		{
+			"id": 13524,
+			"name": "Power -- hierarchy"
+		},
+		{
+			"id": 42334,
+			"name": "power -- histories of power"
+		},
+		{
+			"id": 44343,
+			"name": "power -- linguistic and allegorical"
+		},
+		{
+			"id": 44344,
+			"name": "power -- occult powers"
+		},
+		{
+			"id": 44345,
+			"name": "power -- occult powers—Hurston on voodoo"
+		},
+		{
+			"id": 44347,
+			"name": "power -- of self"
+		},
+		{
+			"id": 44348,
+			"name": "power -- of the slave master"
+		},
+		{
+			"id": 44349,
+			"name": "power -- of things"
+		},
+		{
+			"id": 44346,
+			"name": "power -- physical power"
+		},
+		{
+			"id": 13526,
+			"name": "Power -- positions of"
+		},
+		{
+			"id": 13527,
+			"name": "Power -- potential"
+		},
+		{
+			"id": 42335,
+			"name": "power -- power relations"
+		},
+		{
+			"id": 13528,
+			"name": "Power -- pursuit of"
+		},
+		{
+			"id": 25969,
+			"name": "power -- relation between symbolic and structural power"
+		},
+		{
+			"id": 25970,
+			"name": "power -- structural power"
+		},
+		{
+			"id": 25971,
+			"name": "power -- symbolic power"
+		},
+		{
+			"id": 36643,
+			"name": "Power -- teacher's"
+		},
+		{
+			"id": 13523,
+			"name": "Power -- to command"
+		},
+		{
+			"id": 13525,
+			"name": "Power -- to persuade"
+		}
+	],
+	"name": "power"
+}

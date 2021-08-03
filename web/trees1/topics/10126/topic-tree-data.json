@@ -1,0 +1,18 @@
+{
+	"id": 10126,
+	"children": [
+		{
+			"id": 42735,
+			"name": "CORE (Congress on Racial Equality) -- and LAPD"
+		},
+		{
+			"id": 42736,
+			"name": "CORE (Congress on Racial Equality) -- SNCC, coalition with"
+		},
+		{
+			"id": 42737,
+			"name": "CORE (Congress on Racial Equality) -- WSP, coalition with"
+		}
+	],
+	"name": "Congress of Racial Equality (CORE)"
+}

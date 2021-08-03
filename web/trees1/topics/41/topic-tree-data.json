@@ -1,0 +1,34 @@
+{
+	"id": 41,
+	"children": [
+		{
+			"id": 36734,
+			"name": "Teaching -- and critical common sense"
+		},
+		{
+			"id": 15267,
+			"name": "Teaching -- and theory"
+		},
+		{
+			"id": 36735,
+			"name": "Teaching -- definition of good"
+		},
+		{
+			"id": 36736,
+			"name": "Teaching -- evaluations"
+		},
+		{
+			"id": 36737,
+			"name": "Teaching -- feminist"
+		},
+		{
+			"id": 36738,
+			"name": "Teaching -- improving"
+		},
+		{
+			"id": 36739,
+			"name": "Teaching -- what you are not"
+		}
+	],
+	"name": "teaching"
+}

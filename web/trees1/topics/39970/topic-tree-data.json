@@ -1,0 +1,210 @@
+{
+	"id": 39970,
+	"children": [
+		{
+			"id": 39985,
+			"name": "Judges -- Aubrey Robinson"
+		},
+		{
+			"id": 20601,
+			"children": [
+				{
+					"id": 39800,
+					"name": "White, Justice Byron -- and desegregated education"
+				},
+				{
+					"id": 39801,
+					"name": "White, Justice Byron -- and hate speech"
+				}
+			],
+			"name": "Judges -- Byron White"
+		},
+		{
+			"id": 39983,
+			"name": "Judges -- Cruz Reynoso"
+		},
+		{
+			"id": 26324,
+			"name": "Judges -- David Bazelon"
+		},
+		{
+			"id": 39987,
+			"children": [
+				{
+					"id": 39704,
+					"name": "Souter, Justice David -- speedytrial clause"
+				},
+				{
+					"id": 39705,
+					"name": "Souter, Justice David -- Title VII"
+				}
+			],
+			"name": "Judges -- David Souter"
+		},
+		{
+			"id": 39989,
+			"name": "Judges -- Edward Wallin"
+		},
+		{
+			"id": 39981,
+			"name": "Judges -- Frank Murphy"
+		},
+		{
+			"id": 20232,
+			"children": [
+				{
+					"id": 39386,
+					"name": "Blackmun, Justice Harry -- and Haitian refugees"
+				},
+				{
+					"id": 39384,
+					"name": "Blackmun, Justice Harry -- death penalty"
+				},
+				{
+					"id": 39385,
+					"name": "Blackmun, Justice Harry -- habeas corpus relief"
+				},
+				{
+					"id": 39387,
+					"name": "Blackmun, Justice Harry -- hate speech"
+				},
+				{
+					"id": 39388,
+					"name": "Blackmun, Justice Harry -- prisoners' rights"
+				},
+				{
+					"id": 39389,
+					"name": "Blackmun, Justice Harry -- standing to challenge minority set-aside program"
+				}
+			],
+			"name": "Judges -- Harry Blackmun"
+		},
+		{
+			"id": 39988,
+			"name": "Judges -- John Paul Stevens"
+		},
+		{
+			"id": 39975,
+			"name": "Judges -- Joseph Grodin"
+		},
+		{
+			"id": 39977,
+			"name": "Judges -- Julius Hoffman"
+		},
+		{
+			"id": 39979,
+			"name": "Judges -- Lance Ito"
+		},
+		{
+			"id": 39976,
+			"name": "Judges -- Michael Guolee"
+		},
+		{
+			"id": 38998,
+			"children": [
+				{
+					"id": 38999,
+					"name": "Holmes, O. W. -- Common Law, The"
+				},
+				{
+					"id": 39000,
+					"name": "Holmes, O. W. -- critique of Langdellian formalism"
+				},
+				{
+					"id": 39001,
+					"name": "Holmes, O. W. -- Holmes and Brandeis dissents"
+				},
+				{
+					"id": 39002,
+					"name": "Holmes, O. W. -- Holmes and legal modernism"
+				},
+				{
+					"id": 39005,
+					"name": "Holmes, O. W. -- Holmes, the man"
+				},
+				{
+					"id": 39003,
+					"name": "Holmes, O. W. -- Holmesian jurisprudence"
+				},
+				{
+					"id": 39004,
+					"name": "Holmes, O. W. -- Holmesian pragmatism"
+				},
+				{
+					"id": 39006,
+					"name": "Holmes, O. W. -- prediction theory"
+				},
+				{
+					"id": 39007,
+					"name": "Holmes, O. W. -- the \"real\" Holmes"
+				}
+			],
+			"name": "Judges -- Oliver Wendell Holmes"
+		},
+		{
+			"id": 39974,
+			"name": "Judges -- Robert Colombo"
+		},
+		{
+			"id": 39982,
+			"name": "Judges -- Robert Peckham"
+		},
+		{
+			"id": 39971,
+			"name": "Judges -- Rose Bird"
+		},
+		{
+			"id": 39986,
+			"name": "Judges -- Schudson"
+		},
+		{
+			"id": 39990,
+			"name": "Judges -- Stanley Weigel"
+		},
+		{
+			"id": 2555,
+			"name": "Judges -- Stephen Breyer"
+		},
+		{
+			"id": 39980,
+			"children": [
+				{
+					"id": 39573,
+					"name": "Marshall, Justice Thurgood -- and Clarence Thomas"
+				},
+				{
+					"id": 39570,
+					"name": "Marshall, Justice Thurgood -- and death penalty"
+				},
+				{
+					"id": 39571,
+					"name": "Marshall, Justice Thurgood -- and liberal empathy"
+				},
+				{
+					"id": 39572,
+					"name": "Marshall, Justice Thurgood -- and persuasive legal argument"
+				},
+				{
+					"id": 39569,
+					"name": "Marshall, Justice Thurgood -- and Stephen Carter"
+				}
+			],
+			"name": "Judges -- Thurgood Marshall"
+		},
+		{
+			"id": 20238,
+			"name": "Judges -- William Brennan"
+		},
+		{
+			"id": 39984,
+			"children": [
+				{
+					"id": 39667,
+					"name": "Rehnquist, Chief Justice William -- racism not valid character evidence in criminal trial"
+				}
+			],
+			"name": "Rehnquist, Chief Justice William"
+		}
+	],
+	"name": "Judges"
+}

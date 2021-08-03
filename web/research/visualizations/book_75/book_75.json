@@ -1,0 +1,10967 @@
+{
+
+	"nodes":
+	[
+		{
+			"name": "civility",
+			"id": 10890,
+			"ocount": 0
+		},
+		{
+			"name": "community",
+			"id": 17313,
+			"ocount": 0
+		},
+		{
+			"name": "history",
+			"id": 27418,
+			"ocount": 0
+		},
+		{
+			"name": "Aristotle",
+			"id": 15335,
+			"ocount": 0
+		},
+		{
+			"name": "Nixon, Richard M.",
+			"id": 13345,
+			"ocount": 0
+		},
+		{
+			"name": "Bible",
+			"id": 17764,
+			"ocount": 0
+		},
+		{
+			"name": "Reasoning",
+			"id": 23201,
+			"ocount": 0
+		},
+		{
+			"name": "freedom",
+			"id": 19161,
+			"ocount": 0
+		},
+		{
+			"name": "ethos",
+			"id": 30510,
+			"ocount": 0
+		},
+		{
+			"name": "Locke -- John",
+			"id": 5828,
+			"ocount": 0
+		},
+		{
+			"name": "logos",
+			"id": 5829,
+			"ocount": 0
+		},
+		{
+			"name": "pathos",
+			"id": 30854,
+			"ocount": 0
+		},
+		{
+			"name": "covenant",
+			"id": 30419,
+			"ocount": 0
+		},
+		{
+			"name": "Heschel, Abraham",
+			"id": 30618,
+			"ocount": 0
+		},
+		{
+			"name": "sleep (as metaphor for moral failure)",
+			"id": 31033,
+			"ocount": 0
+		},
+		{
+			"name": "Brueggemann, Walter",
+			"id": 30324,
+			"ocount": 0
+		},
+		{
+			"name": "Vawter, Bruce",
+			"id": 14557,
+			"ocount": 0
+		},
+		{
+			"name": "compromise",
+			"id": 30393,
+			"ocount": 0
+		},
+		{
+			"name": "crisis",
+			"id": 30429,
+			"ocount": 0
+		},
+		{
+			"name": "Habermas, Jurgen",
+			"id": 9678,
+			"ocount": 0
+		},
+		{
+			"name": "Scott, R. B. Y.",
+			"id": 31002,
+			"ocount": 0
+		},
+		{
+			"name": "sacred",
+			"id": 30980,
+			"ocount": 0
+		},
+		{
+			"name": "purity",
+			"id": 30937,
+			"ocount": 0
+		},
+		{
+			"name": "James, William",
+			"id": 23109,
+			"ocount": 0
+		},
+		{
+			"name": "psychopathology",
+			"id": 13688,
+			"ocount": 0
+		},
+		{
+			"name": "rebirth",
+			"id": 30964,
+			"ocount": 0
+		},
+		{
+			"name": "authority",
+			"id": 22333,
+			"ocount": 0
+		},
+		{
+			"name": "Nietzche, Friedrich",
+			"id": 12333,
+			"ocount": 0
+		},
+		{
+			"name": "Weber, Max",
+			"id": 2098,
+			"ocount": 0
+		},
+		{
+			"name": "Lincoln, Abraham",
+			"id": 2847,
+			"ocount": 0
+		},
+		{
+			"name": "conspiracy, argument from",
+			"id": 30405,
+			"ocount": 0
+		},
+		{
+			"name": "natural law",
+			"id": 30806,
+			"ocount": 0
+		},
+		{
+			"name": "slavery, and U.S. Constitution",
+			"id": 31028,
+			"ocount": 0
+		},
+		{
+			"name": "Burke, Edmund",
+			"id": 7532,
+			"ocount": 0
+		},
+		{
+			"name": "duty",
+			"id": 21489,
+			"ocount": 0
+		},
+		{
+			"name": "virtue",
+			"id": 13929,
+			"ocount": 0
+		},
+		{
+			"name": "British Empiricism",
+			"id": 30315,
+			"ocount": 0
+		},
+		{
+			"name": "Scottish Common Sense philosophy",
+			"id": 31006,
+			"ocount": 0
+		},
+		{
+			"name": "Hume, David",
+			"id": 16410,
+			"ocount": 0
+		},
+		{
+			"name": "Brown, John",
+			"id": 8664,
+			"ocount": 0
+		},
+		{
+			"name": "Constitution, U.S.",
+			"id": 3080,
+			"ocount": 0
+		},
+		{
+			"name": "Lovejoy, Elijah",
+			"id": 30753,
+			"ocount": 0
+		},
+		{
+			"name": "Hofstadter, Richard",
+			"id": 30640,
+			"ocount": 0
+		},
+		{
+			"name": "Edelman, Murray J.",
+			"id": 23891,
+			"ocount": 0
+		},
+		{
+			"name": "vocation",
+			"id": 31111,
+			"ocount": 0
+		},
+		{
+			"name": "self-righteousness",
+			"id": 31019,
+			"ocount": 0
+		},
+		{
+			"name": "Henry, Patrick",
+			"id": 19927,
+			"ocount": 0
+		},
+		{
+			"name": "Kraditor, Aileen",
+			"id": 30715,
+			"ocount": 0
+		},
+		{
+			"name": "Marxism",
+			"id": 14715,
+			"ocount": 0
+		},
+		{
+			"name": "science",
+			"id": 3033,
+			"ocount": 0
+		},
+		{
+			"name": "Catholics",
+			"id": 33932,
+			"ocount": 0
+		},
+		{
+			"name": "Dewey, John",
+			"id": 506,
+			"ocount": 0
+		},
+		{
+			"name": "Schlesinger, Arthur, Jr.",
+			"id": 30992,
+			"ocount": 0
+		},
+		{
+			"name": "Foster, Hal",
+			"id": 30541,
+			"ocount": 0
+		},
+		{
+			"name": "pluralism",
+			"id": 27053,
+			"ocount": 0
+		},
+		{
+			"name": "apocalyptic",
+			"id": 30254,
+			"ocount": 0
+		},
+		{
+			"name": "fantastic",
+			"id": 30526,
+			"ocount": 0
+		},
+		{
+			"name": "Clinton, Bill, President",
+			"id": 12805,
+			"ocount": 0
+		},
+		{
+			"name": "style, rhetorical",
+			"id": 31059,
+			"ocount": 0
+		},
+		{
+			"name": "Tennyson, Alfred Lord",
+			"id": 31066,
+			"ocount": 0
+		},
+		{
+			"name": "Carlyle, Thomas",
+			"id": 14000,
+			"ocount": 0
+		},
+		{
+			"name": "Whitman, Walt",
+			"id": 5011,
+			"ocount": 0
+		},
+		{
+			"name": "Coleridge, Samuel Taylor",
+			"id": 2589,
+			"ocount": 0
+		},
+		{
+			"name": "Hegel, Georg W. F.",
+			"id": 17884,
+			"ocount": 0
+		},
+		{
+			"name": "Blake, William",
+			"id": 4440,
+			"ocount": 0
+		},
+		{
+			"name": "Vietnam",
+			"id": 4290,
+			"ocount": 0
+		},
+		{
+			"name": "Democratic",
+			"id": 12915,
+			"ocount": 0
+		},
+		{
+			"name": "history -- cyclical versus progressive",
+			"id": 30633,
+			"ocount": 1
+		},
+		{
+			"name": "Machiavelli",
+			"id": 30758,
+			"ocount": 1
+		},
+		{
+			"name": "Wagner, Richard",
+			"id": 14563,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Kenneth",
+			"id": 35270,
+			"ocount": 1
+		},
+		{
+			"name": "conservatism",
+			"id": 10971,
+			"ocount": 1
+		},
+		{
+			"name": "Edelman, Murray",
+			"id": 22423,
+			"ocount": 1
+		},
+		{
+			"name": "Lucas, Stephen",
+			"id": 30756,
+			"ocount": 1
+		},
+		{
+			"name": "Black, Edwin",
+			"id": 30304,
+			"ocount": 1
+		},
+		{
+			"name": "Olbrechts-Tyteca, L.",
+			"id": 30835,
+			"ocount": 1
+		},
+		{
+			"name": "social disintegration",
+			"id": 31047,
+			"ocount": 1
+		},
+		{
+			"name": "etiquette (manners)",
+			"id": 30765,
+			"ocount": 1
+		},
+		{
+			"name": "Miss Manners (Judith Martin)",
+			"id": 30797,
+			"ocount": 1
+		},
+		{
+			"name": "Bollinger, Lee",
+			"id": 3246,
+			"ocount": 1
+		},
+		{
+			"name": "Hoffman, Abbie, Revolution for the Hell of It",
+			"id": 30639,
+			"ocount": 1
+		},
+		{
+			"name": "Cole, Thomas",
+			"id": 30378,
+			"ocount": 1
+		},
+		{
+			"name": "etiquette (manners) -- in persuasion",
+			"id": 30519,
+			"ocount": 1
+		},
+		{
+			"name": "Hariman, Robert, on civility in public discourse",
+			"id": 30603,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Kenneth -- on rhetoric as adaptation",
+			"id": 30337,
+			"ocount": 1
+		},
+		{
+			"name": "Parks, Rosa",
+			"id": 3901,
+			"ocount": 1
+		},
+		{
+			"name": "civility -- Matthew Arnold's view of",
+			"id": 30368,
+			"ocount": 1
+		},
+		{
+			"name": "Fox, Michael, on ancient Hebrew rhetorical tradition",
+			"id": 30545,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Kenneth -- on economics as usurper of religion",
+			"id": 30333,
+			"ocount": 1
+		},
+		{
+			"name": "Gamson, William, rational exchange theory of social change",
+			"id": 30563,
+			"ocount": 1
+		},
+		{
+			"name": "Mill, John Stuart",
+			"id": 7839,
+			"ocount": 1
+		},
+		{
+			"name": "Aristotle -- on modes of proof",
+			"id": 30267,
+			"ocount": 1
+		},
+		{
+			"name": "Augustine, Saint",
+			"id": 30275,
+			"ocount": 1
+		},
+		{
+			"name": "Blair, Hugh",
+			"id": 2546,
+			"ocount": 1
+		},
+		{
+			"name": "Campbell, George",
+			"id": 2566,
+			"ocount": 1
+		},
+		{
+			"name": "ethos -- Aristotle on",
+			"id": 30512,
+			"ocount": 1
+		},
+		{
+			"name": "logos -- Aristotle on",
+			"id": 30745,
+			"ocount": 1
+		},
+		{
+			"name": "Norris, Frank",
+			"id": 30829,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- Aristotle on",
+			"id": 30857,
+			"ocount": 1
+		},
+		{
+			"name": "Quintillian",
+			"id": 3003,
+			"ocount": 1
+		},
+		{
+			"name": "Warren, Robert Penn",
+			"id": 4998,
+			"ocount": 1
+		},
+		{
+			"name": "Whately, Richard",
+			"id": 31141,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Kenneth -- as part of Graeco-Roman rhetorical tradition",
+			"id": 30335,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on the prophet as messenger",
+			"id": 30624,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on covenantal obligation",
+			"id": 30620,
+			"ocount": 1
+		},
+		{
+			"name": "intoxication -- as metaphor",
+			"id": 30477,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on prophecy as demonstration",
+			"id": 30621,
+			"ocount": 1
+		},
+		{
+			"name": "Hudson, W. D., on self-sufficiency of prophetic ethos",
+			"id": 30650,
+			"ocount": 1
+		},
+		{
+			"name": "Perelman, Chaim -- on self-evidence",
+			"id": 30871,
+			"ocount": 1
+		},
+		{
+			"name": "self-evidence -- in argument",
+			"id": 31014,
+			"ocount": 1
+		},
+		{
+			"name": "Brueggemann, Walter -- on prophetic community",
+			"id": 30325,
+			"ocount": 1
+		},
+		{
+			"name": "conservatism -- in rhetoric of selfevidence",
+			"id": 30404,
+			"ocount": 1
+		},
+		{
+			"name": "self-evidence -- conservatism of",
+			"id": 31015,
+			"ocount": 1
+		},
+		{
+			"name": "Durkheim, Emile, on the power of the sacred",
+			"id": 30481,
+			"ocount": 1
+		},
+		{
+			"name": "judicial rhetoric",
+			"id": 30580,
+			"ocount": 1
+		},
+		{
+			"name": "radicalism -- versus reasonableness",
+			"id": 30953,
+			"ocount": 1
+		},
+		{
+			"name": "Vawter, Bruce -- on rationality of prophecy",
+			"id": 31097,
+			"ocount": 1
+		},
+		{
+			"name": "compromise -- versus prophecy",
+			"id": 30395,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on absolutism in prophecy",
+			"id": 30619,
+			"ocount": 1
+		},
+		{
+			"name": "anomie",
+			"id": 30252,
+			"ocount": 1
+		},
+		{
+			"name": "Habermas, Jürgen -- on crisis",
+			"id": 30598,
+			"ocount": 1
+		},
+		{
+			"name": "Nahum",
+			"id": 30801,
+			"ocount": 1
+		},
+		{
+			"name": "Scott, R. B. Y. -- on prophecy and crisis",
+			"id": 31003,
+			"ocount": 1
+		},
+		{
+			"name": "Smith, John, on crisis",
+			"id": 31044,
+			"ocount": 1
+		},
+		{
+			"name": "judgment -- as prophetic speech form",
+			"id": 30699,
+			"ocount": 1
+		},
+		{
+			"name": "sacred -- nature of",
+			"id": 30982,
+			"ocount": 1
+		},
+		{
+			"name": "Vawter, Bruce -- on pathos of Yahweh",
+			"id": 31094,
+			"ocount": 1
+		},
+		{
+			"name": "fire (as radical metaphor)",
+			"id": 30533,
+			"ocount": 1
+		},
+		{
+			"name": "Ohmann, Richard",
+			"id": 36582,
+			"ocount": 1
+		},
+		{
+			"name": "purity -- and the metaphor of fire",
+			"id": 30939,
+			"ocount": 1
+		},
+		{
+			"name": "Malachi",
+			"id": 30762,
+			"ocount": 1
+		},
+		{
+			"name": "purity -- and prophecy",
+			"id": 30940,
+			"ocount": 1
+		},
+		{
+			"name": "Elijah",
+			"id": 30496,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on the prophetic calling",
+			"id": 30623,
+			"ocount": 1
+		},
+		{
+			"name": "nabi",
+			"id": 30800,
+			"ocount": 1
+		},
+		{
+			"name": "Scott, R. B. Y. -- on the prophetic calling",
+			"id": 31005,
+			"ocount": 1
+		},
+		{
+			"name": "asceticism",
+			"id": 18983,
+			"ocount": 1
+		},
+		{
+			"name": "James, William -- on rebirth",
+			"id": 30675,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- and rebirth",
+			"id": 30934,
+			"ocount": 1
+		},
+		{
+			"name": "James, William -- on Nietzsche",
+			"id": 30672,
+			"ocount": 1
+		},
+		{
+			"name": "Long, Burke",
+			"id": 30750,
+			"ocount": 1
+		},
+		{
+			"name": "Nietzsche, Friedrich -- on martyrdom",
+			"id": 30821,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- and prophecy",
+			"id": 30932,
+			"ocount": 1
+		},
+		{
+			"name": "allegory",
+			"id": 5538,
+			"ocount": 1
+		},
+		{
+			"name": "anonymity, prophetic",
+			"id": 30253,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Kenneth -- on martyrdom as exhibitionism",
+			"id": 30336,
+			"ocount": 1
+		},
+		{
+			"name": "Overholt, Thomas",
+			"id": 30844,
+			"ocount": 1
+		},
+		{
+			"name": "Vawter, Bruce -- on the prophetic calling",
+			"id": 31096,
+			"ocount": 1
+		},
+		{
+			"name": "Bailey, F. G.",
+			"id": 30278,
+			"ocount": 1
+		},
+		{
+			"name": "James, William -- on martyrdom",
+			"id": 30671,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- as suffering",
+			"id": 30866,
+			"ocount": 1
+		},
+		{
+			"name": "Joan of Arc",
+			"id": 30686,
+			"ocount": 1
+		},
+		{
+			"name": "legend",
+			"id": 30727,
+			"ocount": 1
+		},
+		{
+			"name": "Paul, the Apostle",
+			"id": 30867,
+			"ocount": 1
+		},
+		{
+			"name": "civility -- in American Revolution",
+			"id": 30367,
+			"ocount": 1
+		},
+		{
+			"name": "Hopkins, Stephen -- \"An Essay on the Trade of the Northern Colonies\"",
+			"id": 30646,
+			"ocount": 1
+		},
+		{
+			"name": "Joel",
+			"id": 30690,
+			"ocount": 1
+		},
+		{
+			"name": "Bolton, Thomas",
+			"id": 30312,
+			"ocount": 1
+		},
+		{
+			"name": "conspiracy, argument from -- in American Revolution",
+			"id": 30406,
+			"ocount": 1
+		},
+		{
+			"name": "Wood, Gordon, on radicalism of American Revolution",
+			"id": 31156,
+			"ocount": 1
+		},
+		{
+			"name": "conservatism -- reaction to radicalism",
+			"id": 30403,
+			"ocount": 1
+		},
+		{
+			"name": "Descartes, René -- Cartesian method",
+			"id": 30468,
+			"ocount": 1
+		},
+		{
+			"name": "Dickinson, John -- \"Letters from a Farmer in Pennsylvania\"",
+			"id": 30473,
+			"ocount": 1
+		},
+		{
+			"name": "fire (as radical metaphor) -- in American Revolution",
+			"id": 30534,
+			"ocount": 1
+		},
+		{
+			"name": "Johnson, Samuel, Dictionary",
+			"id": 30693,
+			"ocount": 1
+		},
+		{
+			"name": "Paine, Thomas -- on reason",
+			"id": 30849,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- in American Revolution",
+			"id": 30856,
+			"ocount": 1
+		},
+		{
+			"name": "reason -- eighteenth-century conception of",
+			"id": 30958,
+			"ocount": 1
+		},
+		{
+			"name": "ethos -- in American Revolution",
+			"id": 30511,
+			"ocount": 1
+		},
+		{
+			"name": "Thacher, Peter (Boston Massacre Oration)",
+			"id": 31069,
+			"ocount": 1
+		},
+		{
+			"name": "epideictic rhetoric",
+			"id": 30507,
+			"ocount": 1
+		},
+		{
+			"name": "First Continental Congress",
+			"id": 30536,
+			"ocount": 1
+		},
+		{
+			"name": "Jensen, Merrill, on basis of colonial rights",
+			"id": 30682,
+			"ocount": 1
+		},
+		{
+			"name": "natural law -- relation to human law in American Revolution",
+			"id": 30812,
+			"ocount": 1
+		},
+		{
+			"name": "Wrage, Ernest",
+			"id": 31162,
+			"ocount": 1
+		},
+		{
+			"name": "covenant -- in eighteenth-century political theory",
+			"id": 30425,
+			"ocount": 1
+		},
+		{
+			"name": "Mcllwain, Charles, on constitutional basis of American Revolution",
+			"id": 30786,
+			"ocount": 1
+		},
+		{
+			"name": "natural law -- relation to charter",
+			"id": 30809,
+			"ocount": 1
+		},
+		{
+			"name": "social contract, in eighteenth-century thought",
+			"id": 31046,
+			"ocount": 1
+		},
+		{
+			"name": "freedom -- as inalienable",
+			"id": 30550,
+			"ocount": 1
+		},
+		{
+			"name": "popular sovereignty",
+			"id": 30916,
+			"ocount": 1
+		},
+		{
+			"name": "Dulany, Daniel",
+			"id": 22419,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Edmund -- on Parliament and higher law",
+			"id": 30332,
+			"ocount": 1
+		},
+		{
+			"name": "Calvin, John",
+			"id": 37377,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Edmund -- on the value of freedom in the colonies",
+			"id": 30331,
+			"ocount": 1
+		},
+		{
+			"name": "Hopkins, Stephen",
+			"id": 30645,
+			"ocount": 1
+		},
+		{
+			"name": "Duché, Jacob",
+			"id": 30479,
+			"ocount": 1
+		},
+		{
+			"name": "duty -- in American Revolution",
+			"id": 30482,
+			"ocount": 1
+		},
+		{
+			"name": "\"Brutus\"",
+			"id": 22365,
+			"ocount": 1
+		},
+		{
+			"name": "Cicero -- and virtue",
+			"id": 30365,
+			"ocount": 1
+		},
+		{
+			"name": "virtue -- in American Revolution",
+			"id": 31098,
+			"ocount": 1
+		},
+		{
+			"name": "American Revolution -- epistemology of",
+			"id": 30242,
+			"ocount": 1
+		},
+		{
+			"name": "Berlin, Sir Isaiah",
+			"id": 46114,
+			"ocount": 1
+		},
+		{
+			"name": "British Empiricism -- in the American Revolution",
+			"id": 30316,
+			"ocount": 1
+		},
+		{
+			"name": "Scottish Common Sense philosophy -- in American Revolution",
+			"id": 31007,
+			"ocount": 1
+		},
+		{
+			"name": "Warren, Joseph (Boston Massacre Oration)",
+			"id": 31115,
+			"ocount": 1
+		},
+		{
+			"name": "Descartes, Rene",
+			"id": 27325,
+			"ocount": 1
+		},
+		{
+			"name": "Hume, David -- on sensory data",
+			"id": 30654,
+			"ocount": 1
+		},
+		{
+			"name": "James, William -- on self-consciousness as first premise",
+			"id": 30676,
+			"ocount": 1
+		},
+		{
+			"name": "Jefferson, Thomas -- epistemology of \"Summary View\"",
+			"id": 30679,
+			"ocount": 1
+		},
+		{
+			"name": "Inglis, Charles",
+			"id": 30662,
+			"ocount": 1
+		},
+		{
+			"name": "Locke, John -- on reason",
+			"id": 30741,
+			"ocount": 1
+		},
+		{
+			"name": "Paine, Thomas -- \"Common Sense,\" epistemology of",
+			"id": 30847,
+			"ocount": 1
+		},
+		{
+			"name": "reason -- and natural law in American Revolution",
+			"id": 30960,
+			"ocount": 1
+		},
+		{
+			"name": "Second Continental Congress -- epistemology of",
+			"id": 31011,
+			"ocount": 1
+		},
+		{
+			"name": "Hazelton, R., on vision as metaphor for knowing",
+			"id": 30611,
+			"ocount": 1
+		},
+		{
+			"name": "Hobbes, Thomas -- on the'senses",
+			"id": 30637,
+			"ocount": 1
+		},
+		{
+			"name": "Locke, John -- on the senses",
+			"id": 30742,
+			"ocount": 1
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- and eighteenth-century epistemology",
+			"id": 31105,
+			"ocount": 1
+		},
+		{
+			"name": "Constitutional Courant",
+			"id": 30417,
+			"ocount": 1
+		},
+		{
+			"name": "deafness (as metaphor for moral ignorance)",
+			"id": 30445,
+			"ocount": 1
+		},
+		{
+			"name": "Goddard, William",
+			"id": 30588,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on prophetic vision",
+			"id": 30626,
+			"ocount": 1
+		},
+		{
+			"name": "Chalmers, James",
+			"id": 30356,
+			"ocount": 1
+		},
+		{
+			"name": "Dickinson, John",
+			"id": 22413,
+			"ocount": 1
+		},
+		{
+			"name": "intoxication, as metaphor -- in American Revolution",
+			"id": 30664,
+			"ocount": 1
+		},
+		{
+			"name": "radicalism -- versus compromise",
+			"id": 30948,
+			"ocount": 1
+		},
+		{
+			"name": "radicalism -- and prophecy",
+			"id": 30952,
+			"ocount": 1
+		},
+		{
+			"name": "radicalism -- as witness bearing",
+			"id": 30954,
+			"ocount": 1
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- in American Revolution",
+			"id": 31035,
+			"ocount": 1
+		},
+		{
+			"name": "Stanton, Elizabeth Cady, on radicalism",
+			"id": 31055,
+			"ocount": 1
+		},
+		{
+			"name": "Declaration of Independence -- as judicial rhetoric",
+			"id": 30465,
+			"ocount": 1
+		},
+		{
+			"name": "judicial rhetoric -- in American Revolution",
+			"id": 30702,
+			"ocount": 1
+		},
+		{
+			"name": "Becker, Carl, on Declaration of Independence",
+			"id": 30286,
+			"ocount": 1
+		},
+		{
+			"name": "Laurens, Henry",
+			"id": 22597,
+			"ocount": 1
+		},
+		{
+			"name": "purity -- and American Revolution",
+			"id": 30938,
+			"ocount": 1
+		},
+		{
+			"name": "Beecher, Lyman -- Wendell Phillips compared to",
+			"id": 30288,
+			"ocount": 1
+		},
+		{
+			"name": "Clay, Henry -- Phillips compared to",
+			"id": 30373,
+			"ocount": 1
+		},
+		{
+			"name": "Everett, Edward -- Phillips compared to",
+			"id": 30523,
+			"ocount": 1
+		},
+		{
+			"name": "Webster, Daniel, Phillips compared to",
+			"id": 31122,
+			"ocount": 1
+		},
+		{
+			"name": "Constitution, U.S. -- Phillips on",
+			"id": 30415,
+			"ocount": 1
+		},
+		{
+			"name": "Godkin, E. L., on Wendell Phillips",
+			"id": 30589,
+			"ocount": 1
+		},
+		{
+			"name": "Nation, The, magazine, on Phillips",
+			"id": 30803,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- \"The Lost Arts\"",
+			"id": 30886,
+			"ocount": 1
+		},
+		{
+			"name": "U.S. Constitution -- Phillips's view",
+			"id": 31091,
+			"ocount": 1
+		},
+		{
+			"name": "Eisenstadt, S. N.",
+			"id": 30493,
+			"ocount": 1
+		},
+		{
+			"name": "freedom -- versus slavery in antebellum America",
+			"id": 30554,
+			"ocount": 1
+		},
+		{
+			"name": "Miller, Perry",
+			"id": 25937,
+			"ocount": 1
+		},
+		{
+			"name": "self control, in nineteenth-century thought",
+			"id": 31012,
+			"ocount": 1
+		},
+		{
+			"name": "slavery, and U.S. Constitution -- nineteenth-century conception",
+			"id": 31030,
+			"ocount": 1
+		},
+		{
+			"name": "Smith, Timothy, on nineteenth-century social reform",
+			"id": 31045,
+			"ocount": 1
+		},
+		{
+			"name": "Gusfield, Joseph, on Temperance and slavery",
+			"id": 30596,
+			"ocount": 1
+		},
+		{
+			"name": "Temperance movement",
+			"id": 31065,
+			"ocount": 1
+		},
+		{
+			"name": "virtue -- in antebellum thought",
+			"id": 31099,
+			"ocount": 1
+		},
+		{
+			"name": "American Revolution -- Wendell Phillips compared to",
+			"id": 30247,
+			"ocount": 1
+		},
+		{
+			"name": "Constitution, U.S. -- compared to Declaration of Independence",
+			"id": 30412,
+			"ocount": 1
+		},
+		{
+			"name": "Constitution, U.S. -- radical abolitionist view of",
+			"id": 30416,
+			"ocount": 1
+		},
+		{
+			"name": "deafness (as metaphor for moral ignorance) -- Wendell Phillips's use of",
+			"id": 30446,
+			"ocount": 1
+		},
+		{
+			"name": "Declaration of Independence -- as abolitionist ideal",
+			"id": 30464,
+			"ocount": 1
+		},
+		{
+			"name": "intoxication, as metaphor -- in abolitionist rhetoric",
+			"id": 30663,
+			"ocount": 1
+		},
+		{
+			"name": "sacred principle -- argument from, in Phillips",
+			"id": 30986,
+			"ocount": 1
+		},
+		{
+			"name": "slavery, and U.S. Constitution -- radical abolitionist view",
+			"id": 31031,
+			"ocount": 1
+		},
+		{
+			"name": "Spooner, Lysander",
+			"id": 31052,
+			"ocount": 1
+		},
+		{
+			"name": "U.S. Constitution -- abolitionist view",
+			"id": 31090,
+			"ocount": 1
+		},
+		{
+			"name": "Moses",
+			"id": 17114,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- on politics and politicians",
+			"id": 30893,
+			"ocount": 1
+		},
+		{
+			"name": "Bible -- in slavery debate",
+			"id": 30300,
+			"ocount": 1
+		},
+		{
+			"name": "come-outerism",
+			"id": 30386,
+			"ocount": 1
+		},
+		{
+			"name": "Foster, Stephen S., and come-outerism",
+			"id": 30544,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- on the Church",
+			"id": 30880,
+			"ocount": 1
+		},
+		{
+			"name": "Uncle Tom, Uncle Tom's Cabin",
+			"id": 6030,
+			"ocount": 1
+		},
+		{
+			"name": "compromise -- nature of",
+			"id": 30394,
+			"ocount": 1
+		},
+		{
+			"name": "crisis -- Wendell Phillips and",
+			"id": 30434,
+			"ocount": 1
+		},
+		{
+			"name": "Hofstadter, Richard -- on Phillips",
+			"id": 30642,
+			"ocount": 1
+		},
+		{
+			"name": "Beecher, Lyman",
+			"id": 30287,
+			"ocount": 1
+		},
+		{
+			"name": "Calvinism -- Phillips and",
+			"id": 30345,
+			"ocount": 1
+		},
+		{
+			"name": "crisis -- in antebellum United States",
+			"id": 30430,
+			"ocount": 1
+		},
+		{
+			"name": "crisis -- rhetorical role of",
+			"id": 30436,
+			"ocount": 1
+		},
+		{
+			"name": "Edelman, Murray J. -- on crisis",
+			"id": 30491,
+			"ocount": 1
+		},
+		{
+			"name": "Everett, Edward",
+			"id": 30522,
+			"ocount": 1
+		},
+		{
+			"name": "rebirth -- Wendell Phillips's",
+			"id": 30966,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo",
+			"id": 1622,
+			"ocount": 1
+		},
+		{
+			"name": "Roman Catholic Church -- versus Calvinism",
+			"id": 30975,
+			"ocount": 1
+		},
+		{
+			"name": "Stackhouse, Max, on Calvinism",
+			"id": 31054,
+			"ocount": 1
+		},
+		{
+			"name": "vocation -- for Phillips",
+			"id": 31113,
+			"ocount": 1
+		},
+		{
+			"name": "Walters, Ronald",
+			"id": 14803,
+			"ocount": 1
+		},
+		{
+			"name": "Branagan, Thomas",
+			"id": 30314,
+			"ocount": 1
+		},
+		{
+			"name": "logos -- in abolitionism",
+			"id": 30743,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- abolitionist",
+			"id": 30855,
+			"ocount": 1
+		},
+		{
+			"name": "self-righteousness -- and Phillips",
+			"id": 31021,
+			"ocount": 1
+		},
+		{
+			"name": "Sharp, Granville",
+			"id": 31025,
+			"ocount": 1
+		},
+		{
+			"name": "Calhoun, John C., Phillips's grudging admiration of",
+			"id": 30341,
+			"ocount": 1
+		},
+		{
+			"name": "Clay, Henry",
+			"id": 19800,
+			"ocount": 1
+		},
+		{
+			"name": "Compromise of 1850",
+			"id": 30392,
+			"ocount": 1
+		},
+		{
+			"name": "conspiracy, argument from -- slave power",
+			"id": 30410,
+			"ocount": 1
+		},
+		{
+			"name": "Fugitive Slave Act",
+			"id": 30560,
+			"ocount": 1
+		},
+		{
+			"name": "Kansas-Nebraska Act",
+			"id": 30704,
+			"ocount": 1
+		},
+		{
+			"name": "Bible -- in William Lloyd Garrison's rhetoric",
+			"id": 30298,
+			"ocount": 1
+		},
+		{
+			"name": "conspiracy, argument from -- American Revolution compared to abolitionism",
+			"id": 30407,
+			"ocount": 1
+		},
+		{
+			"name": "freedom -- freedom of speech in Phillips",
+			"id": 30556,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- free speech v. slavery in",
+			"id": 30884,
+			"ocount": 1
+		},
+		{
+			"name": "judgment -- as separation in rhetoric of Wendell Phillips",
+			"id": 30701,
+			"ocount": 1
+		},
+		{
+			"name": "purity -- and radical abolitionism",
+			"id": 30941,
+			"ocount": 1
+		},
+		{
+			"name": "judgment -- rhetorical function",
+			"id": 30700,
+			"ocount": 1
+		},
+		{
+			"name": "Locke, John -- influence on Phillips",
+			"id": 30740,
+			"ocount": 1
+		},
+		{
+			"name": "Milton, John -- in Philips's rhetoric",
+			"id": 30796,
+			"ocount": 1
+		},
+		{
+			"name": "Sidney, Algernon",
+			"id": 22829,
+			"ocount": 1
+		},
+		{
+			"name": "Hancock, John",
+			"id": 19918,
+			"ocount": 1
+		},
+		{
+			"name": "Henry, Patrick -- in Phillips's rhetoric",
+			"id": 30617,
+			"ocount": 1
+		},
+		{
+			"name": "Jefferson, Thomas -- as heroic figure for Phillips",
+			"id": 30681,
+			"ocount": 1
+		},
+		{
+			"name": "natural law -- in Phillips's rhetoric",
+			"id": 30813,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- and passion",
+			"id": 30861,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- \"In Defense of Lovejoy\"",
+			"id": 30883,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- pathos in",
+			"id": 30891,
+			"ocount": 1
+		},
+		{
+			"name": "Scottish Common Sense philosophy -- in nineteenth-century U.S.",
+			"id": 31009,
+			"ocount": 1
+		},
+		{
+			"name": "Black, Edwin -- on exhortation v. argumentation",
+			"id": 30305,
+			"ocount": 1
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- as used by Phillips",
+			"id": 31039,
+			"ocount": 1
+		},
+		{
+			"name": "Campbell, George -- and Wendell Phillips",
+			"id": 30347,
+			"ocount": 1
+		},
+		{
+			"name": "Hume, David -- on passion and reason",
+			"id": 30653,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- and reason in nineteenth century",
+			"id": 30864,
+			"ocount": 1
+		},
+		{
+			"name": "reason -- related to passion",
+			"id": 30962,
+			"ocount": 1
+		},
+		{
+			"name": "Castorp, Hans",
+			"id": 30354,
+			"ocount": 1
+		},
+		{
+			"name": "Channing, Edward T.",
+			"id": 30357,
+			"ocount": 1
+		},
+		{
+			"name": "martyrdom -- in abolitionist thought",
+			"id": 30768,
+			"ocount": 1
+		},
+		{
+			"name": "Peeperkorn, Mynheer",
+			"id": 30869,
+			"ocount": 1
+		},
+		{
+			"name": "duty -- in Phillips",
+			"id": 30485,
+			"ocount": 1
+		},
+		{
+			"name": "duty -- prophetic",
+			"id": 30486,
+			"ocount": 1
+		},
+		{
+			"name": "Dyer, Mary, celebrated by Phillips as martyr",
+			"id": 30488,
+			"ocount": 1
+		},
+		{
+			"name": "Hutchinson, Ann, celebrated by Phillips as martyr",
+			"id": 30656,
+			"ocount": 1
+		},
+		{
+			"name": "Kraditor, Aileen -- on martyrdom in abolitionism",
+			"id": 30717,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- on martyrdom",
+			"id": 30888,
+			"ocount": 1
+		},
+		{
+			"name": "freedom -- martyrdom as",
+			"id": 30552,
+			"ocount": 1
+		},
+		{
+			"name": "Nathan",
+			"id": 30802,
+			"ocount": 1
+		},
+		{
+			"name": "Brooks, Peter, on melodrama",
+			"id": 30318,
+			"ocount": 1
+		},
+		{
+			"name": "melodramas",
+			"id": 7832,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- on madness",
+			"id": 30887,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- Phillips on",
+			"id": 30929,
+			"ocount": 1
+		},
+		{
+			"name": "James, Henry, on melodrama",
+			"id": 30670,
+			"ocount": 1
+		},
+		{
+			"name": "Uncle Tom's Cabin -- as melodrama",
+			"id": 31084,
+			"ocount": 1
+		},
+		{
+			"name": "Hawthorne, Nathaniel, The Blithedale Romance",
+			"id": 30608,
+			"ocount": 1
+		},
+		{
+			"name": "Burke, Kenneth -- on ethos",
+			"id": 30334,
+			"ocount": 1
+		},
+		{
+			"name": "ethos -- and logos in prophecy",
+			"id": 30514,
+			"ocount": 1
+		},
+		{
+			"name": "logos -- related to ethos",
+			"id": 30746,
+			"ocount": 1
+		},
+		{
+			"name": "Richards, I. A., on sincerity",
+			"id": 30972,
+			"ocount": 1
+		},
+		{
+			"name": "Andrews, James, on Debs",
+			"id": 30250,
+			"ocount": 1
+		},
+		{
+			"name": "Cochran, Bert, on Debs",
+			"id": 30377,
+			"ocount": 1
+		},
+		{
+			"name": "crisis -- in fin de siecle America",
+			"id": 30431,
+			"ocount": 1
+		},
+		{
+			"name": "industrialization in U.S.",
+			"id": 30660,
+			"ocount": 1
+		},
+		{
+			"name": "Lee, Ronald, on Debs",
+			"id": 30726,
+			"ocount": 1
+		},
+		{
+			"name": "Lens, Sidney, on Debs",
+			"id": 30729,
+			"ocount": 1
+		},
+		{
+			"name": "Lomas, Charles, on Debs",
+			"id": 30749,
+			"ocount": 1
+		},
+		{
+			"name": "Madison, Charles, on Debs",
+			"id": 30760,
+			"ocount": 1
+		},
+		{
+			"name": "McCormick, Richard L., on Debs",
+			"id": 30785,
+			"ocount": 1
+		},
+		{
+			"name": "Wiebe, Robert, on fin de siècle America",
+			"id": 31151,
+			"ocount": 1
+		},
+		{
+			"name": "Bellamy, Edward, Looking Backward",
+			"id": 30290,
+			"ocount": 1
+		},
+		{
+			"name": "Dickens, Charles, Hard Times",
+			"id": 30472,
+			"ocount": 1
+		},
+		{
+			"name": "Gutman, Herbert, on industrialization in America",
+			"id": 30597,
+			"ocount": 1
+		},
+		{
+			"name": "judgment -- Debs's of workers",
+			"id": 30697,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- on virtue and manhood",
+			"id": 31100,
+			"ocount": 1
+		},
+		{
+			"name": "virtue -- and manliness",
+			"id": 31101,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- on slavery",
+			"id": 30460,
+			"ocount": 1
+		},
+		{
+			"name": "freedom -- versus slavery in Debs",
+			"id": 30555,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- epistemology of",
+			"id": 30453,
+			"ocount": 1
+		},
+		{
+			"name": "Franklin, Benjamin",
+			"id": 2703,
+			"ocount": 1
+		},
+		{
+			"name": "Jefferson, Thomas -- as heroic figure for Debs",
+			"id": 30680,
+			"ocount": 1
+		},
+		{
+			"name": "Paine, Thomas -- in Debs's rhetoric",
+			"id": 30848,
+			"ocount": 1
+		},
+		{
+			"name": "covenant -- and Debs",
+			"id": 30424,
+			"ocount": 1
+		},
+		{
+			"name": "Marxism -- as science versus religion",
+			"id": 30772,
+			"ocount": 1
+		},
+		{
+			"name": "science -- Marxism as",
+			"id": 31000,
+			"ocount": 1
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- in Debs's rhetoric",
+			"id": 31036,
+			"ocount": 1
+		},
+		{
+			"name": "compromise -- versus reasonableness in Debs",
+			"id": 30396,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- versus compromise",
+			"id": 30452,
+			"ocount": 1
+		},
+		{
+			"name": "sacred principle -- argument from, in Debs",
+			"id": 30985,
+			"ocount": 1
+		},
+		{
+			"name": "self-righteousness -- and Debs",
+			"id": 31020,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- and charisma",
+			"id": 30451,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- rebirth",
+			"id": 30459,
+			"ocount": 1
+		},
+		{
+			"name": "rebirth -- Debs's",
+			"id": 30965,
+			"ocount": 1
+		},
+		{
+			"name": "Claessens, August, on Debs",
+			"id": 30372,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Katherine Metzel, on Debs",
+			"id": 30463,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- martyrdom and",
+			"id": 30455,
+			"ocount": 1
+		},
+		{
+			"name": "Ginger, Ray, on Debs",
+			"id": 30584,
+			"ocount": 1
+		},
+		{
+			"name": "martyrdom -- in Debs's rhetoric",
+			"id": 30769,
+			"ocount": 1
+		},
+		{
+			"name": "Joan of Arc -- in Debs's rhetoric",
+			"id": 30687,
+			"ocount": 1
+		},
+		{
+			"name": "Lovejoy, Elijah -- in Debs's rhetoric",
+			"id": 30754,
+			"ocount": 1
+		},
+		{
+			"name": "Brown, John -- Debs compared to",
+			"id": 30320,
+			"ocount": 1
+		},
+		{
+			"name": "Joan of Arc -- in rhetoric about Debs",
+			"id": 30688,
+			"ocount": 1
+		},
+		{
+			"name": "LePrade, Ruth, on Debs",
+			"id": 30731,
+			"ocount": 1
+		},
+		{
+			"name": "Socrates, Debs compared to",
+			"id": 31048,
+			"ocount": 1
+		},
+		{
+			"name": "Spargo, John, on Debs",
+			"id": 31049,
+			"ocount": 1
+		},
+		{
+			"name": "Curry, Harriet, on Debs",
+			"id": 30439,
+			"ocount": 1
+		},
+		{
+			"name": "Curry, Mabel, on Debs",
+			"id": 30440,
+			"ocount": 1
+		},
+		{
+			"name": "Lewis, Sinclair, on Debs",
+			"id": 30733,
+			"ocount": 1
+		},
+		{
+			"name": "Pullman strike",
+			"id": 30936,
+			"ocount": 1
+		},
+		{
+			"name": "Wayland, J. H., on Debs",
+			"id": 31117,
+			"ocount": 1
+		},
+		{
+			"name": "World War I -- Debs's dissent",
+			"id": 31159,
+			"ocount": 1
+		},
+		{
+			"name": "Bynner, Witter, on Debs",
+			"id": 30339,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- in rhetoric about Debs",
+			"id": 30865,
+			"ocount": 1
+		},
+		{
+			"name": "duty -- in Debs",
+			"id": 30484,
+			"ocount": 1
+		},
+		{
+			"name": "Hays, Samuel, on industrialization in America",
+			"id": 30610,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- Debs and",
+			"id": 30925,
+			"ocount": 1
+		},
+		{
+			"name": "Roosevelt, Theodore",
+			"id": 13809,
+			"ocount": 1
+		},
+		{
+			"name": "vocation -- for Debs",
+			"id": 31112,
+			"ocount": 1
+		},
+		{
+			"name": "Eliade, Mircea, on religious symbolism",
+			"id": 30495,
+			"ocount": 1
+		},
+		{
+			"name": "Luther -- Martin",
+			"id": 13264,
+			"ocount": 1
+		},
+		{
+			"name": "Campbell, George -- and Eugene Debs",
+			"id": 30346,
+			"ocount": 1
+		},
+		{
+			"name": "Gregg, Richard, on ego-functions of rhetoric",
+			"id": 30595,
+			"ocount": 1
+		},
+		{
+			"name": "Ingersoll, Robert Green, as model for Debs",
+			"id": 30661,
+			"ocount": 1
+		},
+		{
+			"name": "Smith, Adam, theory of sympathy",
+			"id": 31043,
+			"ocount": 1
+		},
+		{
+			"name": "community -- Debs and",
+			"id": 30388,
+			"ocount": 1
+		},
+		{
+			"name": "Dewey, John -- The Public and Its Problems",
+			"id": 30471,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- Debs compared to",
+			"id": 30499,
+			"ocount": 1
+		},
+		{
+			"name": "melodrama -- in Debs",
+			"id": 30787,
+			"ocount": 1
+		},
+		{
+			"name": "Schlesinger, Arthur, Jr. -- on Debs",
+			"id": 30993,
+			"ocount": 1
+		},
+		{
+			"name": "This Side of Paradise",
+			"id": 31070,
+			"ocount": 1
+		},
+		{
+			"name": "Algren, Nelson, on Debs",
+			"id": 30234,
+			"ocount": 1
+		},
+		{
+			"name": "Altgeld, John Peter, Debs compared to",
+			"id": 30235,
+			"ocount": 1
+		},
+		{
+			"name": "Dreiser, Theodore, Debs compared to",
+			"id": 30475,
+			"ocount": 1
+		},
+		{
+			"name": "Eugene V. Debs Foundation",
+			"id": 30521,
+			"ocount": 1
+		},
+		{
+			"name": "Shannon, David A., on Debs",
+			"id": 31024,
+			"ocount": 1
+		},
+		{
+			"name": "Thomas, Norman, on Debs",
+			"id": 31073,
+			"ocount": 1
+		},
+		{
+			"name": "United Steelworkers, Eugene V. Debs Local",
+			"id": 31088,
+			"ocount": 1
+		},
+		{
+			"name": "Untermeyer, Louis, on Debs",
+			"id": 31089,
+			"ocount": 1
+		},
+		{
+			"name": "Christ -- as model for Debs",
+			"id": 30363,
+			"ocount": 1
+		},
+		{
+			"name": "epideictic rhetoric -- and community",
+			"id": 30508,
+			"ocount": 1
+		},
+		{
+			"name": "genre -- and prophecy",
+			"id": 30579,
+			"ocount": 1
+		},
+		{
+			"name": "judicial rhetoric -- in prophecy",
+			"id": 30703,
+			"ocount": 1
+		},
+		{
+			"name": "Psalms",
+			"id": 18063,
+			"ocount": 1
+		},
+		{
+			"name": "postmodernism -- and decay of community",
+			"id": 30919,
+			"ocount": 1
+		},
+		{
+			"name": "Smart, Barry, on postmodernism",
+			"id": 31042,
+			"ocount": 1
+		},
+		{
+			"name": "Carter, Jimmy, \"national malaise\"",
+			"id": 30353,
+			"ocount": 1
+		},
+		{
+			"name": "Foster, Hal -- on postmodern pluralism",
+			"id": 30542,
+			"ocount": 1
+		},
+		{
+			"name": "World War I -- as catalyst for social change",
+			"id": 31158,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- Old Testament origins of",
+			"id": 30260,
+			"ocount": 1
+		},
+		{
+			"name": "covenant -- versus apocalyptic",
+			"id": 30422,
+			"ocount": 1
+		},
+		{
+			"name": "O'Leary, Stephen",
+			"id": 30836,
+			"ocount": 1
+		},
+		{
+			"name": "postmodernism -- and apocalyptic",
+			"id": 30918,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- dualism and",
+			"id": 30256,
+			"ocount": 1
+		},
+		{
+			"name": "Bataille, Georges, on dualism",
+			"id": 30284,
+			"ocount": 1
+		},
+		{
+			"name": "crisis -- of prophecy itself",
+			"id": 30435,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- and judgment",
+			"id": 30258,
+			"ocount": 1
+		},
+		{
+			"name": "judgment -- failure of, in apocalyptic",
+			"id": 30698,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- and chaos",
+			"id": 30255,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- as metaphorical",
+			"id": 30259,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- pseudonyms in",
+			"id": 30262,
+			"ocount": 1
+		},
+		{
+			"name": "Collins, John J., on apocalyptic",
+			"id": 30381,
+			"ocount": 1
+		},
+		{
+			"name": "history -- in apocalyptic",
+			"id": 30631,
+			"ocount": 1
+		},
+		{
+			"name": "Ricouer, Paul",
+			"id": 30973,
+			"ocount": 1
+		},
+		{
+			"name": "apocalyptic -- and fantasy",
+			"id": 30257,
+			"ocount": 1
+		},
+		{
+			"name": "McCarthy, Joseph -- and apocalyptic",
+			"id": 30777,
+			"ocount": 1
+		},
+		{
+			"name": "Vawter, Bruce -- on poetry in Old Testament",
+			"id": 31095,
+			"ocount": 1
+		},
+		{
+			"name": "Brueggemann, Walter -- on subversive power of poetry",
+			"id": 30326,
+			"ocount": 1
+		},
+		{
+			"name": "Lasky, Melvin, on metaphor and radicalism",
+			"id": 30720,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- poetry and",
+			"id": 30931,
+			"ocount": 1
+		},
+		{
+			"name": "Spoerri, Theophil, on conservatism in poetry",
+			"id": 31051,
+			"ocount": 1
+		},
+		{
+			"name": "Chadwick, Nora Kershaw, on prophecy and poetry",
+			"id": 30355,
+			"ocount": 1
+		},
+		{
+			"name": "Freedman, David, on prophecy and poetry",
+			"id": 30546,
+			"ocount": 1
+		},
+		{
+			"name": "Plato -- on poetry and madness",
+			"id": 30896,
+			"ocount": 1
+		},
+		{
+			"name": "poetic -- and rhetoric",
+			"id": 30907,
+			"ocount": 1
+		},
+		{
+			"name": "poetic -- as sign of charisma",
+			"id": 30910,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- Plato on",
+			"id": 30930,
+			"ocount": 1
+		},
+		{
+			"name": "Scott, R. B. Y. -- on prophecy and poetry",
+			"id": 31004,
+			"ocount": 1
+		},
+		{
+			"name": "Bryant, Donald C., on rhetoric and poetic",
+			"id": 30328,
+			"ocount": 1
+		},
+		{
+			"name": "Foster, Hal -- on lack of tradition in postmodern art",
+			"id": 30543,
+			"ocount": 1
+		},
+		{
+			"name": "poetic -- routinization of charisma",
+			"id": 30909,
+			"ocount": 1
+		},
+		{
+			"name": "Roman Catholic Church -- mass, pre–Vatican II",
+			"id": 30976,
+			"ocount": 1
+		},
+		{
+			"name": "Aristotle -- on natural law",
+			"id": 30268,
+			"ocount": 1
+		},
+		{
+			"name": "Horowitz, Irving, on pluralism",
+			"id": 30647,
+			"ocount": 1
+		},
+		{
+			"name": "Jamieson, Kathleen, on argumentative function of natural law",
+			"id": 30678,
+			"ocount": 1
+		},
+		{
+			"name": "natural law -- argument from",
+			"id": 30808,
+			"ocount": 1
+		},
+		{
+			"name": "negotiation, secular argument as",
+			"id": 30815,
+			"ocount": 1
+		},
+		{
+			"name": "Wolff, Robert Paul, on tolerance and negotiation",
+			"id": 31154,
+			"ocount": 1
+		},
+		{
+			"name": "American Revolution -- contrasted with Martin Luther King, Jr.",
+			"id": 30244,
+			"ocount": 1
+		},
+		{
+			"name": "Constitution, U.S. -- legalistic view in Martin Luther King, Jr.",
+			"id": 30414,
+			"ocount": 1
+		},
+		{
+			"name": "King, Martin Luther, Jr. -- \"I Have a Dream\"",
+			"id": 30711,
+			"ocount": 1
+		},
+		{
+			"name": "Malcolm X -- and argument from principle",
+			"id": 30763,
+			"ocount": 1
+		},
+		{
+			"name": "pluralism -- versus covenant",
+			"id": 30899,
+			"ocount": 1
+		},
+		{
+			"name": "tolerance -- and economics",
+			"id": 31077,
+			"ocount": 1
+		},
+		{
+			"name": "Denton, Jeremiah, compared to McCarthy",
+			"id": 30467,
+			"ocount": 1
+		},
+		{
+			"name": "Dukakis, Michael, accuses Bush campaign of McCarthyism",
+			"id": 30480,
+			"ocount": 1
+		},
+		{
+			"name": "McCarran-Walter Act",
+			"id": 30775,
+			"ocount": 1
+		},
+		{
+			"name": "Miller, Arthur, on McCarran-Walter Act",
+			"id": 30793,
+			"ocount": 1
+		},
+		{
+			"name": "Reagan, Ronald, revival of McCarran-Walter Act",
+			"id": 30955,
+			"ocount": 1
+		},
+		{
+			"name": "Waldheim, Kurt, accuses accusers of McCarthyism",
+			"id": 31114,
+			"ocount": 1
+		},
+		{
+			"name": "Army-McCarthy Hearings -- Clarence Thomas confirmation compared to",
+			"id": 30271,
+			"ocount": 1
+		},
+		{
+			"name": "Bush, George, accused by Clinton campaign of McCarthyism",
+			"id": 30338,
+			"ocount": 1
+		},
+		{
+			"name": "Clinton, Bill -- accuses Bush campaign of McCarthyism",
+			"id": 30374,
+			"ocount": 1
+		},
+		{
+			"name": "community -- McCarthy and",
+			"id": 30390,
+			"ocount": 1
+		},
+		{
+			"name": "D'Amato, Alfonse, Whitewater committee compared to McCarthyism",
+			"id": 30442,
+			"ocount": 1
+		},
+		{
+			"name": "Thomas, Clarence, compares confirmation process to McCarthyism",
+			"id": 31071,
+			"ocount": 1
+		},
+		{
+			"name": "World War II -- contrasted with World War I",
+			"id": 31160,
+			"ocount": 1
+		},
+		{
+			"name": "Auden, W. H., The Age of Anxiety",
+			"id": 30274,
+			"ocount": 1
+		},
+		{
+			"name": "Faulkner, William, Nobel Prize acceptance speech",
+			"id": 30531,
+			"ocount": 1
+		},
+		{
+			"name": "Soviet Union",
+			"id": 23262,
+			"ocount": 1
+		},
+		{
+			"name": "Boyer, Paul, on the psychological impact of the atomic bomb",
+			"id": 30313,
+			"ocount": 1
+		},
+		{
+			"name": "Camus, Albert, The Plague",
+			"id": 30348,
+			"ocount": 1
+		},
+		{
+			"name": "Comte, August, and postmodern epistemology",
+			"id": 30397,
+			"ocount": 1
+		},
+		{
+			"name": "Einstein, Albert, and postmodern epistemology",
+			"id": 30492,
+			"ocount": 1
+		},
+		{
+			"name": "Existentialism",
+			"id": 21520,
+			"ocount": 1
+		},
+		{
+			"name": "Freud, Sigmund, and postmodern epistemology",
+			"id": 30558,
+			"ocount": 1
+		},
+		{
+			"name": "James, William -- and postmodern epistemology",
+			"id": 30674,
+			"ocount": 1
+		},
+		{
+			"name": "Kierkegaard, Soren, and postmodern epistemology",
+			"id": 30710,
+			"ocount": 1
+		},
+		{
+			"name": "Niebuhr, Richard, on the anxieties of the 1950s",
+			"id": 30819,
+			"ocount": 1
+		},
+		{
+			"name": "Nietzsche, Friedrich -- and postmodern epistemology",
+			"id": 30822,
+			"ocount": 1
+		},
+		{
+			"name": "Oakley, Ronald J., on the anxieties of the 1950s",
+			"id": 30833,
+			"ocount": 1
+		},
+		{
+			"name": "Pierce, Charles, and postmodern epistemology",
+			"id": 30895,
+			"ocount": 1
+		},
+		{
+			"name": "Schlesinger, Arthur, Jr. -- on the 1950s",
+			"id": 30994,
+			"ocount": 1
+		},
+		{
+			"name": "community -- erosion of",
+			"id": 30389,
+			"ocount": 1
+		},
+		{
+			"name": "intoxication, as metaphor -- McCarthy's use of",
+			"id": 30665,
+			"ocount": 1
+		},
+		{
+			"name": "judgment -- in American radical tradition",
+			"id": 30695,
+			"ocount": 1
+		},
+		{
+			"name": "sacred principle -- postmodern erosion of",
+			"id": 30987,
+			"ocount": 1
+		},
+		{
+			"name": "Scottish Common Sense philosophy -- erosion of",
+			"id": 31008,
+			"ocount": 1
+		},
+		{
+			"name": "Amerasia magazine",
+			"id": 30237,
+			"ocount": 1
+		},
+		{
+			"name": "Bisson, T. A.",
+			"id": 30302,
+			"ocount": 1
+		},
+		{
+			"name": "Field, Frederick Vanderbilt",
+			"id": 30532,
+			"ocount": 1
+		},
+		{
+			"name": "Tydings Committee",
+			"id": 31082,
+			"ocount": 1
+		},
+		{
+			"name": "fantastic -- nature of",
+			"id": 30528,
+			"ocount": 1
+		},
+		{
+			"name": "pathos -- McCarthy's",
+			"id": 30860,
+			"ocount": 1
+		},
+		{
+			"name": "Baskerville, Barnet, on Joe McCarthy",
+			"id": 30283,
+			"ocount": 1
+		},
+		{
+			"name": "fantastic -- versus community",
+			"id": 30527,
+			"ocount": 1
+		},
+		{
+			"name": "McCarthy, Joseph -- objectivity",
+			"id": 30782,
+			"ocount": 1
+		},
+		{
+			"name": "Army-McCarthy Hearings",
+			"id": 30270,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Joseph",
+			"id": 31123,
+			"ocount": 1
+		},
+		{
+			"name": "American Revolution -- contrasted with Joe McCarthy",
+			"id": 30245,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- contrasted to McCarthy",
+			"id": 30456,
+			"ocount": 1
+		},
+		{
+			"name": "McCarthy, Joseph -- use of darkness metaphor",
+			"id": 30779,
+			"ocount": 1
+		},
+		{
+			"name": "Osborn, Michael, on darkness metaphor",
+			"id": 30838,
+			"ocount": 1
+		},
+		{
+			"name": "Pearson, Drew",
+			"id": 30868,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- contrasted to McCarthy",
+			"id": 30889,
+			"ocount": 1
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- McCarthy's use of",
+			"id": 31107,
+			"ocount": 1
+		},
+		{
+			"name": "Niebuhr, Reinhold, Children of Light, Children of Darkness",
+			"id": 30818,
+			"ocount": 1
+		},
+		{
+			"name": "Stevenson, Adlai, accused by McCarthy",
+			"id": 31056,
+			"ocount": 1
+		},
+		{
+			"name": "pan-determinism in fantasy",
+			"id": 30851,
+			"ocount": 1
+		},
+		{
+			"name": "pan-signification in fantasy",
+			"id": 30852,
+			"ocount": 1
+		},
+		{
+			"name": "Hiss, Alger, McCarthy's indictment of",
+			"id": 30628,
+			"ocount": 1
+		},
+		{
+			"name": "Budenz, Louis",
+			"id": 30330,
+			"ocount": 1
+		},
+		{
+			"name": "Lattimore, Owen -- Budenz's testimony against",
+			"id": 30722,
+			"ocount": 1
+		},
+		{
+			"name": "self-evidence -- McCarthy versus",
+			"id": 31017,
+			"ocount": 1
+		},
+		{
+			"name": "ethos -- McCarthy's",
+			"id": 30515,
+			"ocount": 1
+		},
+		{
+			"name": "Lippman, Walter, on McCarthy's power",
+			"id": 30736,
+			"ocount": 1
+		},
+		{
+			"name": "McCarthy, Joseph -- and the ethos of the Senate",
+			"id": 30780,
+			"ocount": 1
+		},
+		{
+			"name": "McCarthy, Joseph -- and the media",
+			"id": 30781,
+			"ocount": 1
+		},
+		{
+			"name": "Tydings, Millard",
+			"id": 31081,
+			"ocount": 1
+		},
+		{
+			"name": "fantastic -- noncontradiction in",
+			"id": 30529,
+			"ocount": 1
+		},
+		{
+			"name": "history -- absence of, in McCarthy's rhetoric",
+			"id": 30629,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- McCarthy and",
+			"id": 30928,
+			"ocount": 1
+		},
+		{
+			"name": "Schrecker, Ellen, on McCarthy",
+			"id": 30997,
+			"ocount": 1
+		},
+		{
+			"name": "Barrett, George, on Robert Welch",
+			"id": 30281,
+			"ocount": 1
+		},
+		{
+			"name": "Epstein, Benjamin",
+			"id": 30509,
+			"ocount": 1
+		},
+		{
+			"name": "Forster, Arnold, on John Birch Society",
+			"id": 30539,
+			"ocount": 1
+		},
+		{
+			"name": "Lipset, Seymour Martin, on John Birch Society",
+			"id": 30737,
+			"ocount": 1
+		},
+		{
+			"name": "Raab, Earl, on Robert Welch",
+			"id": 30944,
+			"ocount": 1
+		},
+		{
+			"name": "psychopathology -- Welch and",
+			"id": 30935,
+			"ocount": 1
+		},
+		{
+			"name": "Whittier, John Greenleaf -- Proem",
+			"id": 31149,
+			"ocount": 1
+		},
+		{
+			"name": "style, rhetorical -- Welch's",
+			"id": 31061,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- rhetorical style",
+			"id": 31139,
+			"ocount": 1
+		},
+		{
+			"name": "Kemp, Harry -- \"God the Architect\"",
+			"id": 30707,
+			"ocount": 1
+		},
+		{
+			"name": "Lincoln, Abraham -- allusions to, by Welch",
+			"id": 30734,
+			"ocount": 1
+		},
+		{
+			"name": "Sputnik",
+			"id": 31053,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- \"A Letter to Krushchev\"",
+			"id": 31134,
+			"ocount": 1
+		},
+		{
+			"name": "Cowper, William",
+			"id": 30427,
+			"ocount": 1
+		},
+		{
+			"name": "Kemp, Harry",
+			"id": 30706,
+			"ocount": 1
+		},
+		{
+			"name": "Lowell, James Russell",
+			"id": 4747,
+			"ocount": 1
+		},
+		{
+			"name": "Tennyson, Alfred Lord -- influence on Welch",
+			"id": 31067,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- \"More Stately Mansions\"",
+			"id": 31136,
+			"ocount": 1
+		},
+		{
+			"name": "Whittier, John Greenleaf",
+			"id": 5014,
+			"ocount": 1
+		},
+		{
+			"name": "Baptist faith, and poetic",
+			"id": 30280,
+			"ocount": 1
+		},
+		{
+			"name": "Browning, Elizabeth Barrett, as influence on Phillips",
+			"id": 30323,
+			"ocount": 1
+		},
+		{
+			"name": "Bryant, William Cullen, influence on Welch",
+			"id": 30329,
+			"ocount": 1
+		},
+		{
+			"name": "Carlyle, Thomas -- in Welch's rhetoric",
+			"id": 30351,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- poetry in",
+			"id": 30458,
+			"ocount": 1
+		},
+		{
+			"name": "Hugo, Victor, Les Miserables",
+			"id": 29849,
+			"ocount": 1
+		},
+		{
+			"name": "hymnody",
+			"id": 30657,
+			"ocount": 1
+		},
+		{
+			"name": "Longfellow, Henry Wadsworth, influence on Welch",
+			"id": 30751,
+			"ocount": 1
+		},
+		{
+			"name": "messenger formula -- and poetry",
+			"id": 30791,
+			"ocount": 1
+		},
+		{
+			"name": "Milton, John",
+			"id": 4782,
+			"ocount": 1
+		},
+		{
+			"name": "Noyes, Alfred -- in Welch's rhetoric",
+			"id": 30832,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- poetry in",
+			"id": 30892,
+			"ocount": 1
+		},
+		{
+			"name": "poetic -- in Baptism",
+			"id": 30902,
+			"ocount": 1
+		},
+		{
+			"name": "Pope, Alexander, as influence on Phillips",
+			"id": 30915,
+			"ocount": 1
+		},
+		{
+			"name": "Riley, James Whitcomb",
+			"id": 4703,
+			"ocount": 1
+		},
+		{
+			"name": "Watts, Isaac, as influence on Phillips",
+			"id": 31116,
+			"ocount": 1
+		},
+		{
+			"name": "Whitman, Walt -- influence on Debs",
+			"id": 31146,
+			"ocount": 1
+		},
+		{
+			"name": "Whittier, John Greenleaf -- influence on Debs",
+			"id": 31148,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- \"The Poet\"",
+			"id": 30501,
+			"ocount": 1
+		},
+		{
+			"name": "McCauley, Thomas Babington",
+			"id": 30784,
+			"ocount": 1
+		},
+		{
+			"name": "style, rhetorical -- Henry Peacham's Garden of Eloquence",
+			"id": 31060,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- idealization of nineteenth century",
+			"id": 31137,
+			"ocount": 1
+		},
+		{
+			"name": "\"Battle Hymn of the Republic\"",
+			"id": 30285,
+			"ocount": 1
+		},
+		{
+			"name": "British Empiricism -- Romantic view of",
+			"id": 30317,
+			"ocount": 1
+		},
+		{
+			"name": "Carlyle, Thomas -- on poetry",
+			"id": 30350,
+			"ocount": 1
+		},
+		{
+			"name": "Coleridge, Samuel Taylor -- and Romanticism",
+			"id": 30380,
+			"ocount": 1
+		},
+		{
+			"name": "Hegel, G. W. F. -- and Romanticism",
+			"id": 30614,
+			"ocount": 1
+		},
+		{
+			"name": "history -- Carlyle's theory of",
+			"id": 30632,
+			"ocount": 1
+		},
+		{
+			"name": "Plato -- and Romanticism",
+			"id": 30897,
+			"ocount": 1
+		},
+		{
+			"name": "poetic -- and history, Romantic view",
+			"id": 30904,
+			"ocount": 1
+		},
+		{
+			"name": "romanticism",
+			"id": 3021,
+			"ocount": 1
+		},
+		{
+			"name": "Wordsworth, William, and Romanticism",
+			"id": 31157,
+			"ocount": 1
+		},
+		{
+			"name": "Blake, William -- and Romanticism",
+			"id": 30308,
+			"ocount": 1
+		},
+		{
+			"name": "Byron, Lord (George Gordon Noel), and Romanticism",
+			"id": 30340,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- and Romanticism",
+			"id": 30504,
+			"ocount": 1
+		},
+		{
+			"name": "Holloway, John, on the prophetic in nineteenth-century poetry",
+			"id": 30643,
+			"ocount": 1
+		},
+		{
+			"name": "Parrington, Vernon, on \"the mind of New England\" in American thought",
+			"id": 30853,
+			"ocount": 1
+		},
+		{
+			"name": "Unitarianism -- versus Calvinism in American thought",
+			"id": 31087,
+			"ocount": 1
+		},
+		{
+			"name": "Whitman, Walt -- and Romanticism",
+			"id": 31147,
+			"ocount": 1
+		},
+		{
+			"name": "Bloom, Harold, on Emerson",
+			"id": 30310,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- \"American Scholar\"",
+			"id": 30498,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- as prophet",
+			"id": 30502,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- on speaking the truth",
+			"id": 30505,
+			"ocount": 1
+		},
+		{
+			"name": "Kramer, Aaron, on prophecy in nineteenth-century poetry",
+			"id": 30718,
+			"ocount": 1
+		},
+		{
+			"name": "poetic -- and prophecy in nineteenth-century America",
+			"id": 30906,
+			"ocount": 1
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- Emerson's \"transparent eyeball\"",
+			"id": 31106,
+			"ocount": 1
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- in nineteenth-century poetry",
+			"id": 31108,
+			"ocount": 1
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- as used by Welch",
+			"id": 31040,
+			"ocount": 1
+		},
+		{
+			"name": "Sloan, John, on Emerson",
+			"id": 31041,
+			"ocount": 1
+		},
+		{
+			"name": "Carlyle, Thomas -- on history",
+			"id": 30349,
+			"ocount": 1
+		},
+		{
+			"name": "history -- Spengler's theory of",
+			"id": 30636,
+			"ocount": 1
+		},
+		{
+			"name": "Spengler, Oswald, cyclical theory of history",
+			"id": 31050,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- didacticism",
+			"id": 31129,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- optimism",
+			"id": 31138,
+			"ocount": 1
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- Welch's use of",
+			"id": 31110,
+			"ocount": 1
+		},
+		{
+			"name": "Thomas, John L., on perfectionism",
+			"id": 31072,
+			"ocount": 1
+		},
+		{
+			"name": "virtue -- Welch and",
+			"id": 31102,
+			"ocount": 1
+		},
+		{
+			"name": "duty -- in Welch",
+			"id": 30487,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- and the American covenant",
+			"id": 31125,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- and duty",
+			"id": 31130,
+			"ocount": 1
+		},
+		{
+			"name": "crisis -- Welch and",
+			"id": 30437,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- \"The Reformer\"",
+			"id": 30503,
+			"ocount": 1
+		},
+		{
+			"name": "Meredith, Owen, \"Last Words of a Sensitive Second-Rate Poet\"",
+			"id": 30788,
+			"ocount": 1
+		},
+		{
+			"name": "cummings, e. e.",
+			"id": 2634,
+			"ocount": 1
+		},
+		{
+			"name": "Tennyson, Alfred Lord -- quoted by Welch",
+			"id": 31068,
+			"ocount": 1
+		},
+		{
+			"name": "James, William -- pluralist philosophy",
+			"id": 30673,
+			"ocount": 1
+		},
+		{
+			"name": "Kennedy, John F., \"New Frontier,\" -- versus Nixon on Cold War",
+			"id": 30709,
+			"ocount": 1
+		},
+		{
+			"name": "King, Martin Luther, Jr.",
+			"id": 2822,
+			"ocount": 1
+		},
+		{
+			"name": "Nixon, Richard -- contrasted to Kennedy on Cold War",
+			"id": 30827,
+			"ocount": 1
+		},
+		{
+			"name": "ritual, conservatism of",
+			"id": 30974,
+			"ocount": 1
+		},
+		{
+			"name": "Vietnam -- Vietnam War",
+			"id": 9957,
+			"ocount": 1
+		},
+		{
+			"name": "Wolpe, Stefan",
+			"id": 31155,
+			"ocount": 1
+		},
+		{
+			"name": "Bernstein, Richard",
+			"id": 30294,
+			"ocount": 1
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- criticized by William James",
+			"id": 30500,
+			"ocount": 1
+		},
+		{
+			"name": "Hegel, G. W. F. -- absolute idealism criticized by William James",
+			"id": 30613,
+			"ocount": 1
+		},
+		{
+			"name": "pluralism -- and Welch",
+			"id": 30901,
+			"ocount": 1
+		},
+		{
+			"name": "Coleridge, Samuel Taylor -- on pedantry",
+			"id": 30379,
+			"ocount": 1
+		},
+		{
+			"name": "Heschel, Abraham -- on prophetic timeliness",
+			"id": 30625,
+			"ocount": 1
+		},
+		{
+			"name": "MacLeish, Archibald, on poetry's retreat from politics",
+			"id": 30759,
+			"ocount": 1
+		},
+		{
+			"name": "law v. gay liberation",
+			"id": 30723,
+			"ocount": 1
+		},
+		{
+			"name": "Crowley, Mort, \"The Boys in the Band\"",
+			"id": 30438,
+			"ocount": 1
+		},
+		{
+			"name": "Altman, Dennis",
+			"id": 30236,
+			"ocount": 1
+		},
+		{
+			"name": "Schmidt, Patricia, on moral principle and argument",
+			"id": 30996,
+			"ocount": 1
+		},
+		{
+			"name": "Stonewall Rebellion",
+			"id": 31058,
+			"ocount": 1
+		},
+		{
+			"name": "etiquette (manners) -- as pseudo-principle",
+			"id": 30520,
+			"ocount": 1
+		},
+		{
+			"name": "Kinsey, Alfred, Sexual Behavior in the Human Male",
+			"id": 30712,
+			"ocount": 1
+		},
+		{
+			"name": "Miller, William Lee",
+			"id": 30795,
+			"ocount": 1
+		},
+		{
+			"name": "Sagarin, Edward",
+			"id": 30988,
+			"ocount": 1
+		},
+		{
+			"name": "Schlesinger, Arthur, Jr. -- on tolerance",
+			"id": 30995,
+			"ocount": 1
+		},
+		{
+			"name": "Schur, Edwin, on morality and the law",
+			"id": 30998,
+			"ocount": 1
+		},
+		{
+			"name": "Sexual Behavior in the Human Male",
+			"id": 31023,
+			"ocount": 1
+		},
+		{
+			"name": "tolerance",
+			"id": 31076,
+			"ocount": 1
+		},
+		{
+			"name": "D' Emilio, John",
+			"id": 30466,
+			"ocount": 1
+		},
+		{
+			"name": "gay liberation -- as narrowly legalistic",
+			"id": 30574,
+			"ocount": 1
+		},
+		{
+			"name": "Gilmore, Grant, on the evolution of American law",
+			"id": 30583,
+			"ocount": 1
+		},
+		{
+			"name": "law -- changing nature of",
+			"id": 30724,
+			"ocount": 1
+		},
+		{
+			"name": "natural law -- decay of in American thought",
+			"id": 30810,
+			"ocount": 1
+		},
+		{
+			"name": "Plato -- and transcendental law",
+			"id": 30898,
+			"ocount": 1
+		},
+		{
+			"name": "Yale Law School Storrs Lectures",
+			"id": 31163,
+			"ocount": 1
+		},
+		{
+			"name": "American Law Institute, Model Penal Code",
+			"id": 30238,
+			"ocount": 1
+		},
+		{
+			"name": "Constitution, U.S. -- gay liberation appeal to",
+			"id": 30413,
+			"ocount": 1
+		},
+		{
+			"name": "Hobbes -- Thomas",
+			"id": 4643,
+			"ocount": 1
+		},
+		{
+			"name": "law -- v. religion",
+			"id": 30725,
+			"ocount": 1
+		},
+		{
+			"name": "reason -- versus religion",
+			"id": 30963,
+			"ocount": 1
+		},
+		{
+			"name": "Romer v. Evans",
+			"id": 26275,
+			"ocount": 1
+		},
+		{
+			"name": "Sullivan, Andrew",
+			"id": 9918,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- gay liberation compared to",
+			"id": 30454,
+			"ocount": 1
+		},
+		{
+			"name": "Dworkin, Ronald",
+			"id": 20300,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- gay liberation compared to",
+			"id": 30885,
+			"ocount": 1
+		},
+		{
+			"name": "Scheingold, Stuart, on \"the myth of rights\"",
+			"id": 30991,
+			"ocount": 1
+		},
+		{
+			"name": "Welch, Robert -- gay liberation compared to",
+			"id": 31132,
+			"ocount": 1
+		},
+		{
+			"name": "Colorado, gay rights battle in -- Colorado for Family Values",
+			"id": 30384,
+			"ocount": 1
+		},
+		{
+			"name": "Fischli, Ronald, on Anita Bryant",
+			"id": 30537,
+			"ocount": 1
+		},
+		{
+			"name": "Tebedo, Kevin",
+			"id": 31064,
+			"ocount": 1
+		},
+		{
+			"name": "Columbus, OH, gay rights initiative in",
+			"id": 30385,
+			"ocount": 1
+		},
+		{
+			"name": "gay liberation -- assimilationist tendencies in",
+			"id": 30570,
+			"ocount": 1
+		},
+		{
+			"name": "Kirk, Marshall",
+			"id": 23958,
+			"ocount": 1
+		},
+		{
+			"name": "Madsen, Hunter",
+			"id": 23977,
+			"ocount": 1
+		},
+		{
+			"name": "Time magazine",
+			"id": 46070,
+			"ocount": 1
+		},
+		{
+			"name": "abolitionism -- gay liberation compared to",
+			"id": 30229,
+			"ocount": 1
+		},
+		{
+			"name": "Blumenfeld, Warren J.",
+			"id": 30311,
+			"ocount": 1
+		},
+		{
+			"name": "Jernigan, David",
+			"id": 30685,
+			"ocount": 1
+		},
+		{
+			"name": "Vaid, Urvashi",
+			"id": 31092,
+			"ocount": 1
+		},
+		{
+			"name": "Chellew, Candace",
+			"id": 30360,
+			"ocount": 1
+		},
+		{
+			"name": "Haynes, Todd, on assimilationist gay cinema",
+			"id": 30609,
+			"ocount": 1
+		},
+		{
+			"name": "Longtime Companion",
+			"id": 30752,
+			"ocount": 1
+		},
+		{
+			"name": "Making Love",
+			"id": 30761,
+			"ocount": 1
+		},
+		{
+			"name": "poisoning",
+			"id": 7852,
+			"ocount": 1
+		},
+		{
+			"name": "Port Huron Statement",
+			"id": 30917,
+			"ocount": 1
+		},
+		{
+			"name": "Reid, John",
+			"id": 30967,
+			"ocount": 1
+		},
+		{
+			"name": "Economist magazine",
+			"id": 46096,
+			"ocount": 1
+		},
+		{
+			"name": "Goodman, Lee",
+			"id": 35360,
+			"ocount": 1
+		},
+		{
+			"name": "GPU News",
+			"id": 30591,
+			"ocount": 1
+		},
+		{
+			"name": "Miller, Stephen",
+			"id": 30794,
+			"ocount": 1
+		},
+		{
+			"name": "Angels in America",
+			"id": 30251,
+			"ocount": 1
+		},
+		{
+			"name": "gay liberation -- argument based on economics",
+			"id": 30572,
+			"ocount": 1
+		},
+		{
+			"name": "Isherwood, Christopher",
+			"id": 30668,
+			"ocount": 1
+		},
+		{
+			"name": "Kushner, Tony",
+			"id": 30719,
+			"ocount": 1
+		},
+		{
+			"name": "Paine, Thomas -- on tolerance",
+			"id": 30850,
+			"ocount": 1
+		},
+		{
+			"name": "Clinton, Bill -- lesbian and gay support for",
+			"id": 30375,
+			"ocount": 1
+		},
+		{
+			"name": "Democratic -- party",
+			"id": 10166,
+			"ocount": 1
+		},
+		{
+			"name": "\"DINK\"",
+			"id": 30474,
+			"ocount": 1
+		},
+		{
+			"name": "Gallagher, John",
+			"id": 30561,
+			"ocount": 1
+		},
+		{
+			"name": "Gay and Lesbian Victory Fund",
+			"id": 30567,
+			"ocount": 1
+		},
+		{
+			"name": "Gay Men's Health Crisis",
+			"id": 30577,
+			"ocount": 1
+		},
+		{
+			"name": "Harris, Daniel, on consumer orientation of gay magazines",
+			"id": 30605,
+			"ocount": 1
+		},
+		{
+			"name": "Human Rights Campaign Fund -- PAC",
+			"id": 30652,
+			"ocount": 1
+		},
+		{
+			"name": "Isbell, Mike",
+			"id": 30667,
+			"ocount": 1
+		},
+		{
+			"name": "Otis, James -- Out magazine",
+			"id": 30842,
+			"ocount": 1
+		},
+		{
+			"name": "Giuliani, Rudolph, and Gay and Lesbian Business Expo",
+			"id": 30586,
+			"ocount": 1
+		},
+		{
+			"name": "Harper's magazine",
+			"id": 30604,
+			"ocount": 1
+		},
+		{
+			"name": "Levenberg, Steve",
+			"id": 30732,
+			"ocount": 1
+		},
+		{
+			"name": "National Gay and Lesbian Business and Consumer Expo",
+			"id": 30804,
+			"ocount": 1
+		},
+		{
+			"name": "Subaru, ad campaign to gays and lesbians",
+			"id": 31062,
+			"ocount": 1
+		},
+		{
+			"name": "gay liberation -- use of boycott",
+			"id": 30571,
+			"ocount": 1
+		},
+		{
+			"name": "Mulryan, Dave",
+			"id": 30799,
+			"ocount": 1
+		},
+		{
+			"name": "Uncommon Clout Card",
+			"id": 31085,
+			"ocount": 1
+		},
+		{
+			"name": "Varnell, Paul, on gays as market",
+			"id": 31093,
+			"ocount": 1
+		},
+		{
+			"name": "Kameny, Frank",
+			"id": 23944,
+			"ocount": 1
+		},
+		{
+			"name": "Marcuse, Herbert, on tolerance and referenda",
+			"id": 30766,
+			"ocount": 1
+		},
+		{
+			"name": "conspiracy, argument from -- used against gay liberation",
+			"id": 30408,
+			"ocount": 1
+		},
+		{
+			"name": "Gay Agenda",
+			"id": 30566,
+			"ocount": 1
+		},
+		{
+			"name": "Gay Rights, Special Rights",
+			"id": 30578,
+			"ocount": 1
+		},
+		{
+			"name": "Zarembka, Arlene",
+			"id": 31164,
+			"ocount": 1
+		},
+		{
+			"name": "American Revolution -- gay liberation compared to",
+			"id": 30243,
+			"ocount": 1
+		},
+		{
+			"name": "Debs, Eugene -- Camille Paglia compared to",
+			"id": 30457,
+			"ocount": 1
+		},
+		{
+			"name": "Paglia, Camille",
+			"id": 30845,
+			"ocount": 1
+		},
+		{
+			"name": "Phillips, Wendell -- Camille Paglia compared to",
+			"id": 30890,
+			"ocount": 1
+		},
+		{
+			"name": "Conte[fag], Marc",
+			"id": 30418,
+			"ocount": 1
+		},
+		{
+			"name": "Getty, Jeff",
+			"id": 30582,
+			"ocount": 1
+		},
+		{
+			"name": "Queer Nation",
+			"id": 30942,
+			"ocount": 1
+		},
+		{
+			"name": "Scarce [Homoscarce], Mike",
+			"id": 30990,
+			"ocount": 1
+		},
+		{
+			"name": "Carmichael, Stokely, and economic bases of black power",
+			"id": 30352,
+			"ocount": 1
+		},
+		{
+			"name": "Debord, Guy, on contemporary spectacle",
+			"id": 30447,
+			"ocount": 1
+		},
+		{
+			"name": "DuBois, W. E. B., on economics as basis of power",
+			"id": 30478,
+			"ocount": 1
+		},
+		{
+			"name": "Hamilton, Charles, economic program for black power",
+			"id": 30601,
+			"ocount": 1
+		},
+		{
+			"name": "X, Malcolm",
+			"id": 3739,
+			"ocount": 1
+		},
+		{
+			"name": "pollution (as economic right)",
+			"id": 30914,
+			"ocount": 1
+		},
+		{
+			"name": "Dahrendorf, Ralf, on the logic of economics as basis of politics",
+			"id": 30441,
+			"ocount": 1
+		},
+		{
+			"name": "Moody, Rick, The Ring of Brightest Angels around Heaven",
+			"id": 30798,
+			"ocount": 1
+		},
+		{
+			"name": "Wheatley, Mickey",
+			"id": 31142,
+			"ocount": 1
+		},
+		{
+			"name": "Blake, William -- \"The Marriage of Heaven and Hell\"",
+			"id": 30307,
+			"ocount": 1
+		},
+		{
+			"name": "Black, Edwin -- on the genuinely revolutionary",
+			"id": 30306,
+			"ocount": 1
+		},
+		{
+			"name": "Arnold, Matthew -- \"The Proof from Prophecy\"",
+			"id": 30273,
+			"ocount": 1
+		},
+		{
+			"name": "Calvin, John -- in American thought",
+			"id": 30344,
+			"ocount": 1
+		},
+		{
+			"name": "Exodus, American",
+			"id": 30524,
+			"ocount": 1
+		},
+		{
+			"name": "Clinton, Bill -- \"New Covenant\"",
+			"id": 30376,
+			"ocount": 1
+		},
+		{
+			"name": "Johnson, Lyndon Baines, \"Great Society\" theme",
+			"id": 30692,
+			"ocount": 1
+		},
+		{
+			"name": "Kennedy, John F., \"New Frontier\"",
+			"id": 30708,
+			"ocount": 1
+		},
+		{
+			"name": "Roosevelt, Franklin Delano, the \"New Deal\"",
+			"id": 30978,
+			"ocount": 1
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- in the American radical tradition",
+			"id": 31034,
+			"ocount": 1
+		},
+		{
+			"name": "May, Henry, on decay of consensus in America",
+			"id": 30774,
+			"ocount": 1
+		},
+		{
+			"name": "Otis, James -- and American radical tradition",
+			"id": 30841,
+			"ocount": 1
+		},
+		{
+			"name": "Paine, Thomas -- and American radical tradition",
+			"id": 30846,
+			"ocount": 1
+		},
+		{
+			"name": "conservatism -- and the urge to order",
+			"id": 30401,
+			"ocount": 1
+		},
+		{
+			"name": "freedom -- as liberal value",
+			"id": 30551,
+			"ocount": 1
+		},
+		{
+			"name": "sacred -- diminution of",
+			"id": 30981,
+			"ocount": 1
+		},
+		{
+			"name": "Thoreau, Henry David",
+			"id": 3068,
+			"ocount": 1
+		},
+		{
+			"name": "Nietzsche, Friedrich -- admiration for Old Testament mythology",
+			"id": 30820,
+			"ocount": 1
+		},
+		{
+			"name": "Arnold, Matthew -- \"Dover Beach\"",
+			"id": 30272,
+			"ocount": 1
+		},
+		{
+			"name": "civility -- misplaced value of",
+			"id": 30370,
+			"ocount": 1
+		},
+		{
+			"name": "civility -- decay of in contemporary U.S.",
+			"id": 30369,
+			"ocount": 2
+		},
+		{
+			"name": "Bell, Daniel",
+			"id": 6080,
+			"ocount": 2
+		},
+		{
+			"name": "Berger, Peter L.",
+			"id": 35251,
+			"ocount": 2
+		},
+		{
+			"name": "Plato",
+			"id": 2974,
+			"ocount": 2
+		},
+		{
+			"name": "sacred principle",
+			"id": 30814,
+			"ocount": 2
+		},
+		{
+			"name": "Strauss, Leo",
+			"id": 15252,
+			"ocount": 2
+		},
+		{
+			"name": "Weaver, Richard",
+			"id": 31118,
+			"ocount": 2
+		},
+		{
+			"name": "Aristotle -- on civility",
+			"id": 30265,
+			"ocount": 2
+		},
+		{
+			"name": "Perelman, Chaim",
+			"id": 30870,
+			"ocount": 2
+		},
+		{
+			"name": "Himmelfarb, Gertrude, on the decay of contemporary society",
+			"id": 30627,
+			"ocount": 2
+		},
+		{
+			"name": "religious right",
+			"id": 30969,
+			"ocount": 2
+		},
+		{
+			"name": "Fortas, Abe, on radical discourse of 1960s",
+			"id": 30540,
+			"ocount": 2
+		},
+		{
+			"name": "Haiman, Franklyn, \"Farewell to Rational Discourse\"",
+			"id": 30600,
+			"ocount": 2
+		},
+		{
+			"name": "Newfield, Jack, on radical rhetoric of 1960s",
+			"id": 30816,
+			"ocount": 2
+		},
+		{
+			"name": "Nixon, Richard -- on radical rhetoric of 1960s",
+			"id": 30828,
+			"ocount": 2
+		},
+		{
+			"name": "Elshtain, Jean Bethke, on reasonable public discourse",
+			"id": 30497,
+			"ocount": 2
+		},
+		{
+			"name": "1980s",
+			"id": 30825,
+			"ocount": 2
+		},
+		{
+			"name": "White, James Boyd",
+			"id": 31144,
+			"ocount": 2
+		},
+		{
+			"name": "genre",
+			"id": 5397,
+			"ocount": 2
+		},
+		{
+			"name": "Bercovitch, Sacvan, on American jeremiad",
+			"id": 30291,
+			"ocount": 2
+		},
+		{
+			"name": "Joan of Arc -- George Bernard Shaw's",
+			"id": 30689,
+			"ocount": 2
+		},
+		{
+			"name": "reason -- liberal view of",
+			"id": 30959,
+			"ocount": 2
+		},
+		{
+			"name": "Shaw, George Bernard, Saint Joan",
+			"id": 31026,
+			"ocount": 2
+		},
+		{
+			"name": "freedom -- contemporary trivialization of",
+			"id": 30557,
+			"ocount": 2
+		},
+		{
+			"name": "radicalism -- versus economics",
+			"id": 30950,
+			"ocount": 2
+		},
+		{
+			"name": "radicalism -- versus the personal",
+			"id": 30951,
+			"ocount": 2
+		},
+		{
+			"name": "reason -- as economics",
+			"id": 30957,
+			"ocount": 2
+		},
+		{
+			"name": "logos -- in American Revolution",
+			"id": 30744,
+			"ocount": 2
+		},
+		{
+			"name": "pathos -- Wendell Phillips's",
+			"id": 30862,
+			"ocount": 2
+		},
+		{
+			"name": "McCarthy, Joseph",
+			"id": 13279,
+			"ocount": 2
+		},
+		{
+			"name": "Welch, Robert -- compared to Debs",
+			"id": 31128,
+			"ocount": 2
+		},
+		{
+			"name": "Welch, Robert -- compared to Joe McCarthy",
+			"id": 31135,
+			"ocount": 2
+		},
+		{
+			"name": "gay liberation -- versus the law",
+			"id": 30573,
+			"ocount": 2
+		},
+		{
+			"name": "gay liberation -- versus science",
+			"id": 30576,
+			"ocount": 2
+		},
+		{
+			"name": "New Israel, United States as",
+			"id": 30817,
+			"ocount": 2
+		},
+		{
+			"name": "messenger formula",
+			"id": 30790,
+			"ocount": 2
+		},
+		{
+			"name": "Aristotle -- on demonstration",
+			"id": 30266,
+			"ocount": 2
+		},
+		{
+			"name": "Blank, Sheldon",
+			"id": 30309,
+			"ocount": 2
+		},
+		{
+			"name": "self-evidence -- radicalism of",
+			"id": 31018,
+			"ocount": 2
+		},
+		{
+			"name": "Bittner, Egon, on radicalism",
+			"id": 30303,
+			"ocount": 2
+		},
+		{
+			"name": "radicalism -- and conservatism",
+			"id": 30949,
+			"ocount": 2
+		},
+		{
+			"name": "rîb pattern in prophetic speech",
+			"id": 30971,
+			"ocount": 2
+		},
+		{
+			"name": "Westermann, Claus",
+			"id": 31140,
+			"ocount": 2
+		},
+		{
+			"name": "Bible -- in American Revolution",
+			"id": 30296,
+			"ocount": 2
+		},
+		{
+			"name": "Hosea",
+			"id": 30648,
+			"ocount": 2
+		},
+		{
+			"name": "judgment",
+			"id": 12575,
+			"ocount": 2
+		},
+		{
+			"name": "pathos -- related to ethos",
+			"id": 30859,
+			"ocount": 2
+		},
+		{
+			"name": "abolitionism",
+			"id": 30227,
+			"ocount": 2
+		},
+		{
+			"name": "servitude (in prophecy)",
+			"id": 31022,
+			"ocount": 2
+		},
+		{
+			"name": "Jonah",
+			"id": 30694,
+			"ocount": 2
+		},
+		{
+			"name": "rebirth -- prophetic",
+			"id": 30343,
+			"ocount": 2
+		},
+		{
+			"name": "Aristotle -- on virtue",
+			"id": 30269,
+			"ocount": 2
+		},
+		{
+			"name": "freedom -- and duty in prophecy",
+			"id": 30548,
+			"ocount": 2
+		},
+		{
+			"name": "argumentum ad personam",
+			"id": 30264,
+			"ocount": 2
+		},
+		{
+			"name": "Crenshaw, James",
+			"id": 30428,
+			"ocount": 2
+		},
+		{
+			"name": "Weber, Max -- on charisma",
+			"id": 31120,
+			"ocount": 2
+		},
+		{
+			"name": "Deutero-Isaiah",
+			"id": 30469,
+			"ocount": 2
+		},
+		{
+			"name": "psychopathology -- martyrdom and",
+			"id": 30927,
+			"ocount": 2
+		},
+		{
+			"name": "biography (prophetic)",
+			"id": 30301,
+			"ocount": 2
+		},
+		{
+			"name": "Lincoln, Abraham -- Debs compared to",
+			"id": 30735,
+			"ocount": 2
+		},
+		{
+			"name": "self-evidence",
+			"id": 31013,
+			"ocount": 2
+		},
+		{
+			"name": "Bailyn, Bernard, on American Revolutionaries",
+			"id": 30279,
+			"ocount": 2
+		},
+		{
+			"name": "reason -- as civility",
+			"id": 30956,
+			"ocount": 2
+		},
+		{
+			"name": "Second Continental Congress",
+			"id": 31010,
+			"ocount": 2
+		},
+		{
+			"name": "Galloway, Joseph",
+			"id": 30562,
+			"ocount": 2
+		},
+		{
+			"name": "natural law -- in American Revolution",
+			"id": 30807,
+			"ocount": 2
+		},
+		{
+			"name": "Lucas, Stephen -- on American Revolution",
+			"id": 30757,
+			"ocount": 2
+		},
+		{
+			"name": "sacred principle -- argument from, in American Revolution",
+			"id": 30984,
+			"ocount": 2
+		},
+		{
+			"name": "Hobbes, Thomas -- on the social contract",
+			"id": 30638,
+			"ocount": 2
+		},
+		{
+			"name": "authority -- governmental, legitimate",
+			"id": 30276,
+			"ocount": 2
+		},
+		{
+			"name": "freedom -- versus slavery in American Revolution",
+			"id": 30553,
+			"ocount": 2
+		},
+		{
+			"name": "West, Samuel",
+			"id": 22898,
+			"ocount": 2
+		},
+		{
+			"name": "covenant -- in American Revolution",
+			"id": 30421,
+			"ocount": 2
+		},
+		{
+			"name": "Reid, Thomas",
+			"id": 30968,
+			"ocount": 2
+		},
+		{
+			"name": "Massachusettensis",
+			"id": 30773,
+			"ocount": 2
+		},
+		{
+			"name": "Leonard, Daniel",
+			"id": 30730,
+			"ocount": 2
+		},
+		{
+			"name": "self-evidence -- elitism and",
+			"id": 31016,
+			"ocount": 2
+		},
+		{
+			"name": "James, William -- \"the will to believe\"",
+			"id": 30677,
+			"ocount": 2
+		},
+		{
+			"name": "Kant -- Immanuel",
+			"id": 17941,
+			"ocount": 2
+		},
+		{
+			"name": "judgment -- in American Revolution",
+			"id": 30696,
+			"ocount": 2
+		},
+		{
+			"name": "Bartlett, Irving, on Debs",
+			"id": 30282,
+			"ocount": 2
+		},
+		{
+			"name": "Phillips, Wendell -- and John Brown",
+			"id": 30879,
+			"ocount": 2
+		},
+		{
+			"name": "Phillips, Wendell -- on U.S. Constitution",
+			"id": 30881,
+			"ocount": 2
+		},
+		{
+			"name": "Davis, David Brion, on slavery",
+			"id": 30444,
+			"ocount": 2
+		},
+		{
+			"name": "intoxication, as metaphor -- Wendell Phillips's use of",
+			"id": 30666,
+			"ocount": 2
+		},
+		{
+			"name": "Scott, Donald M., on abolitionist commitment",
+			"id": 31001,
+			"ocount": 2
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- Phillips's use of",
+			"id": 31109,
+			"ocount": 2
+		},
+		{
+			"name": "jeremiad",
+			"id": 30683,
+			"ocount": 2
+		},
+		{
+			"name": "Chapman, Maria Weston",
+			"id": 30358,
+			"ocount": 2
+		},
+		{
+			"name": "history -- sacred",
+			"id": 30635,
+			"ocount": 2
+		},
+		{
+			"name": "Phillips, Wendell -- American Revolution as model",
+			"id": 30878,
+			"ocount": 2
+		},
+		{
+			"name": "American Revolution -- in Wendell Phillips's rhetoric",
+			"id": 30246,
+			"ocount": 2
+		},
+		{
+			"name": "Otis, James -- in Phillips's rhetoric",
+			"id": 30843,
+			"ocount": 2
+		},
+		{
+			"name": "Wolf, Hazel Catherine, on martyrdom in abolitionism",
+			"id": 31153,
+			"ocount": 2
+		},
+		{
+			"name": "ethos -- and melodrama",
+			"id": 30516,
+			"ocount": 2
+		},
+		{
+			"name": "conservatism -- in Debs",
+			"id": 30400,
+			"ocount": 2
+		},
+		{
+			"name": "Hofstadter, Richard -- on industrialization in America",
+			"id": 30641,
+			"ocount": 2
+		},
+		{
+			"name": "American Revolution -- in Eugene Debs's rhetoric",
+			"id": 30241,
+			"ocount": 2
+		},
+		{
+			"name": "Bible -- in Debs's rhetoric",
+			"id": 30297,
+			"ocount": 2
+		},
+		{
+			"name": "Kraditor, Aileen -- on Debs",
+			"id": 30716,
+			"ocount": 2
+		},
+		{
+			"name": "Marxism -- in Debs's rhetoric",
+			"id": 30771,
+			"ocount": 2
+		},
+		{
+			"name": "Garrison, William Lloyd -- in Debs's rhetoric",
+			"id": 30565,
+			"ocount": 2
+		},
+		{
+			"name": "Henry, Patrick -- in Debs's rhetoric",
+			"id": 30616,
+			"ocount": 2
+		},
+		{
+			"name": "legend -- Debs's",
+			"id": 30728,
+			"ocount": 2
+		},
+		{
+			"name": "Kopelin, Louis, on Debs",
+			"id": 30713,
+			"ocount": 2
+		},
+		{
+			"name": "O'Hare, Kate Richards, on Debs",
+			"id": 30834,
+			"ocount": 2
+		},
+		{
+			"name": "charisma -- in Debs",
+			"id": 30359,
+			"ocount": 2
+		},
+		{
+			"name": "ethos -- Debs's",
+			"id": 30513,
+			"ocount": 2
+		},
+		{
+			"name": "pathos -- in Debs's rhetoric",
+			"id": 30858,
+			"ocount": 2
+		},
+		{
+			"name": "Brown, John -- in Debs's rhetoric",
+			"id": 30321,
+			"ocount": 2
+		},
+		{
+			"name": "Christ -- Debs compared to",
+			"id": 30361,
+			"ocount": 2
+		},
+		{
+			"name": "Howe, Irving, on Debs",
+			"id": 30649,
+			"ocount": 2
+		},
+		{
+			"name": "Daniel (biblical book of)",
+			"id": 30443,
+			"ocount": 2
+		},
+		{
+			"name": "American Revolution -- and community",
+			"id": 30240,
+			"ocount": 2
+		},
+		{
+			"name": "Debs, Eugene -- and American community",
+			"id": 30448,
+			"ocount": 2
+		},
+		{
+			"name": "Phillips, Wendell -- and American community",
+			"id": 30876,
+			"ocount": 2
+		},
+		{
+			"name": "abolitionism -- and American radical tradition",
+			"id": 30228,
+			"ocount": 2
+		},
+		{
+			"name": "perfectionism",
+			"id": 30872,
+			"ocount": 2
+		},
+		{
+			"name": "poetic",
+			"id": 30658,
+			"ocount": 2
+		},
+		{
+			"name": "prophecy -- and monotheism",
+			"id": 30923,
+			"ocount": 2
+		},
+		{
+			"name": "Exile, Babylonian",
+			"id": 17755,
+			"ocount": 2
+		},
+		{
+			"name": "apocalyptic -- as pessimistic",
+			"id": 30261,
+			"ocount": 2
+		},
+		{
+			"name": "Hanson, Paul, on apocalyptic",
+			"id": 30602,
+			"ocount": 2
+		},
+		{
+			"name": "Weaver, Richard -- Ideas Have Consequences",
+			"id": 31119,
+			"ocount": 2
+		},
+		{
+			"name": "fantastic -- as secular apocalyptic",
+			"id": 30530,
+			"ocount": 2
+		},
+		{
+			"name": "poetic -- Old Testament as",
+			"id": 30905,
+			"ocount": 2
+		},
+		{
+			"name": "poetic -- as ritual",
+			"id": 30908,
+			"ocount": 2
+		},
+		{
+			"name": "conservatism -- in poetic",
+			"id": 30402,
+			"ocount": 2
+		},
+		{
+			"name": "Welch, Robert -- as imitator",
+			"id": 31133,
+			"ocount": 2
+		},
+		{
+			"name": "Eisenstadt, S. N. -- on centrifugal movement of modern world",
+			"id": 30494,
+			"ocount": 2
+		},
+		{
+			"name": "Berger, Peter -- on secularization in society",
+			"id": 30292,
+			"ocount": 2
+		},
+		{
+			"name": "Dewey, John -- on the decay of community in America",
+			"id": 30470,
+			"ocount": 2
+		},
+		{
+			"name": "Brothers Karamozov",
+			"id": 30319,
+			"ocount": 2
+		},
+		{
+			"name": "tolerance -- nature of",
+			"id": 31078,
+			"ocount": 2
+		},
+		{
+			"name": "Kelly, Walt, Pogo",
+			"id": 30705,
+			"ocount": 2
+		},
+		{
+			"name": "1950s",
+			"id": 30823,
+			"ocount": 2
+		},
+		{
+			"name": "A-bomb",
+			"id": 30230,
+			"ocount": 2
+		},
+		{
+			"name": "Lattimore, Owen",
+			"id": 30721,
+			"ocount": 2
+		},
+		{
+			"name": "McCarthy, Joseph -- on U.S. China policy",
+			"id": 30778,
+			"ocount": 2
+		},
+		{
+			"name": "Todorov, Tzvetan, on the fantastic",
+			"id": 31075,
+			"ocount": 2
+		},
+		{
+			"name": "Hoover, J. Edgar",
+			"id": 24299,
+			"ocount": 2
+		},
+		{
+			"name": "Acheson, Dean",
+			"id": 30231,
+			"ocount": 2
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- as used by McCarthy",
+			"id": 31037,
+			"ocount": 2
+		},
+		{
+			"name": "Oshinsky, David, on McCarthy",
+			"id": 30839,
+			"ocount": 2
+		},
+		{
+			"name": "Rovere, Richard, on McCarthy",
+			"id": 30979,
+			"ocount": 2
+		},
+		{
+			"name": "John Birch Society",
+			"id": 30691,
+			"ocount": 2
+		},
+		{
+			"name": "conspiracy, argument from -- in Welch's rhetoric",
+			"id": 30411,
+			"ocount": 2
+		},
+		{
+			"name": "martyrdom -- in Welch's rhetoric",
+			"id": 30770,
+			"ocount": 2
+		},
+		{
+			"name": "Holmes, Oliver Wendell, as poetic inspiration for Welch",
+			"id": 30644,
+			"ocount": 2
+		},
+		{
+			"name": "Noyes, Alfred -- \"To Alfred Noyes\"",
+			"id": 30831,
+			"ocount": 2
+		},
+		{
+			"name": "poetic -- in Welch",
+			"id": 30912,
+			"ocount": 2
+		},
+		{
+			"name": "Shelley, Percy Bysshe",
+			"id": 4934,
+			"ocount": 2
+		},
+		{
+			"name": "Welch, Robert -- cyclical view of history",
+			"id": 31127,
+			"ocount": 2
+		},
+		{
+			"name": "Unitarianism -- and poetic",
+			"id": 30911,
+			"ocount": 2
+		},
+		{
+			"name": "history -- as didactic narrative",
+			"id": 30634,
+			"ocount": 2
+		},
+		{
+			"name": "Unitarianism",
+			"id": 31086,
+			"ocount": 2
+		},
+		{
+			"name": "Wichelns, Herbert, on Emerson",
+			"id": 31150,
+			"ocount": 2
+		},
+		{
+			"name": "perfectionism -- in Welch",
+			"id": 30873,
+			"ocount": 2
+		},
+		{
+			"name": "psychopathology -- and gay liberation",
+			"id": 30926,
+			"ocount": 2
+		},
+		{
+			"name": "science -- and homosexuality",
+			"id": 30999,
+			"ocount": 2
+		},
+		{
+			"name": "White, Edmund",
+			"id": 31143,
+			"ocount": 2
+		},
+		{
+			"name": "natural law -- versus gay liberation",
+			"id": 30811,
+			"ocount": 2
+		},
+		{
+			"name": "postmodernism -- and religious decay",
+			"id": 30920,
+			"ocount": 2
+		},
+		{
+			"name": "Bryant, Anita, campaign against gay rights",
+			"id": 30327,
+			"ocount": 2
+		},
+		{
+			"name": "Cincinnati, gay rights struggle in",
+			"id": 30366,
+			"ocount": 2
+		},
+		{
+			"name": "Colorado, gay rights battle in",
+			"id": 30382,
+			"ocount": 2
+		},
+		{
+			"name": "Miami (Dade Co.), gay rights struggle in",
+			"id": 30792,
+			"ocount": 2
+		},
+		{
+			"name": "Oregon, gay rights struggle in",
+			"id": 30837,
+			"ocount": 2
+		},
+		{
+			"name": "Wisconsin, gay rights struggle in",
+			"id": 31152,
+			"ocount": 2
+		},
+		{
+			"name": "Mattachine Society",
+			"id": 23945,
+			"ocount": 2
+		},
+		{
+			"name": "Human Rights Campaign Fund",
+			"id": 30651,
+			"ocount": 2
+		},
+		{
+			"name": "Tucker, Scott",
+			"id": 31080,
+			"ocount": 2
+		},
+		{
+			"name": "IKEA, marketing to gay community",
+			"id": 30659,
+			"ocount": 2
+		},
+		{
+			"name": "POZ magazine",
+			"id": 30921,
+			"ocount": 2
+		},
+		{
+			"name": "AIDS",
+			"id": 33368,
+			"ocount": 2
+		},
+		{
+			"name": "National Gay and Lesbian Task Force",
+			"id": 30805,
+			"ocount": 2
+		},
+		{
+			"name": "Romer v. Evans -- Antonin Scalia's dissent",
+			"id": 30977,
+			"ocount": 2
+		},
+		{
+			"name": "duty -- in American tradition",
+			"id": 30483,
+			"ocount": 2
+		},
+		{
+			"name": "gay liberation -- and American radical tradition",
+			"id": 30569,
+			"ocount": 2
+		},
+		{
+			"name": "Hartz, Louis, on conflicts in the American tradition",
+			"id": 30606,
+			"ocount": 2
+		},
+		{
+			"name": "Locke, John -- and liberalism in American thought",
+			"id": 30739,
+			"ocount": 2
+		},
+		{
+			"name": "McCarthy, Joseph -- and American radical tradition",
+			"id": 30776,
+			"ocount": 2
+		},
+		{
+			"name": "conservatism -- in American radical tradition",
+			"id": 30398,
+			"ocount": 2
+		},
+		{
+			"name": "Welch, Robert -- and American radical tradition",
+			"id": 31126,
+			"ocount": 2
+		},
+		{
+			"name": "radicalism",
+			"id": 30946,
+			"ocount": 3
+		},
+		{
+			"name": "Washington, George",
+			"id": 3104,
+			"ocount": 3
+		},
+		{
+			"name": "Colorado, gay rights battle in -- Amendment",
+			"id": 30383,
+			"ocount": 3
+		},
+		{
+			"name": "Glendon, Mary Ann, on the decay of public discourse",
+			"id": 30587,
+			"ocount": 3
+		},
+		{
+			"name": "1990s",
+			"id": 30826,
+			"ocount": 3
+		},
+		{
+			"name": "Hebraism, Matthew Arnold's conception of",
+			"id": 30612,
+			"ocount": 3
+		},
+		{
+			"name": "Hellenism, Matthew Arnold's conception of",
+			"id": 30615,
+			"ocount": 3
+		},
+		{
+			"name": "Graeco-Roman tradition (in rhetoric) -- contrasted to Hebraic tradition",
+			"id": 30593,
+			"ocount": 3
+		},
+		{
+			"name": "economics (v. politics)",
+			"id": 30489,
+			"ocount": 3
+		},
+		{
+			"name": "logos -- prophetic",
+			"id": 30748,
+			"ocount": 3
+		},
+		{
+			"name": "postmodernism",
+			"id": 35792,
+			"ocount": 3
+		},
+		{
+			"name": "gay liberation",
+			"id": 30568,
+			"ocount": 3
+		},
+		{
+			"name": "gay liberation -- versus religion",
+			"id": 30575,
+			"ocount": 3
+		},
+		{
+			"name": "prophecy",
+			"id": 30922,
+			"ocount": 3
+		},
+		{
+			"name": "apodeictic",
+			"id": 30263,
+			"ocount": 3
+		},
+		{
+			"name": "covenant -- and community",
+			"id": 30423,
+			"ocount": 3
+		},
+		{
+			"name": "messenger (prophet as)",
+			"id": 30789,
+			"ocount": 3
+		},
+		{
+			"name": "Micah",
+			"id": 18024,
+			"ocount": 3
+		},
+		{
+			"name": "Szofoniás próféta",
+			"id": 31165,
+			"ocount": 3
+		},
+		{
+			"name": "Heschel, Abraham -- on pathos in prophecy",
+			"id": 30622,
+			"ocount": 3
+		},
+		{
+			"name": "ethos -- and pathos in prophecy",
+			"id": 30517,
+			"ocount": 3
+		},
+		{
+			"name": "calling, prophetic",
+			"id": 30342,
+			"ocount": 3
+		},
+		{
+			"name": "Rad, Gerhard von.",
+			"id": 14497,
+			"ocount": 3
+		},
+		{
+			"name": "martyrdom",
+			"id": 13274,
+			"ocount": 3
+		},
+		{
+			"name": "Christ",
+			"id": 17925,
+			"ocount": 3
+		},
+		{
+			"name": "conservatism -- in American Revolution",
+			"id": 30399,
+			"ocount": 3
+		},
+		{
+			"name": "Fliegleman, Jay, on late-eighteenth-century rhetoric",
+			"id": 30538,
+			"ocount": 3
+		},
+		{
+			"name": "Adams, Samuel",
+			"id": 22307,
+			"ocount": 3
+		},
+		{
+			"name": "Novanglus",
+			"id": 30830,
+			"ocount": 3
+		},
+		{
+			"name": "White, Morton, on American Revolution",
+			"id": 31145,
+			"ocount": 3
+		},
+		{
+			"name": "reason -- as negotiation",
+			"id": 30961,
+			"ocount": 3
+		},
+		{
+			"name": "Stewart, James, on Phillips",
+			"id": 31057,
+			"ocount": 3
+		},
+		{
+			"name": "Brown, John -- Phillips on",
+			"id": 30322,
+			"ocount": 3
+		},
+		{
+			"name": "Lovejoy, Elijah -- Wendell Phillips on",
+			"id": 30755,
+			"ocount": 3
+		},
+		{
+			"name": "Bible -- in Phillips's rhetoric",
+			"id": 30299,
+			"ocount": 3
+		},
+		{
+			"name": "Calvinism",
+			"id": 19782,
+			"ocount": 3
+		},
+		{
+			"name": "slavery, and U.S. Constitution -- in Debs's rhetoric",
+			"id": 31029,
+			"ocount": 3
+		},
+		{
+			"name": "Phillips, Wendell -- influence on Debs",
+			"id": 30882,
+			"ocount": 3
+		},
+		{
+			"name": "Debs, Eugene -- Bible and",
+			"id": 30450,
+			"ocount": 3
+		},
+		{
+			"name": "Christ -- in Debs's rhetoric",
+			"id": 30362,
+			"ocount": 3
+		},
+		{
+			"name": "freedom -- economics and",
+			"id": 30549,
+			"ocount": 3
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity -- Debs's use of",
+			"id": 31104,
+			"ocount": 3
+		},
+		{
+			"name": "Sinclair, Upton, on Debs",
+			"id": 31027,
+			"ocount": 3
+		},
+		{
+			"name": "Reynolds, Stephen Marion, on Debs",
+			"id": 30970,
+			"ocount": 3
+		},
+		{
+			"name": "Roman Catholic Church",
+			"id": 17294,
+			"ocount": 3
+		},
+		{
+			"name": "Hurt, Walter, on Debs",
+			"id": 30655,
+			"ocount": 3
+		},
+		{
+			"name": "World War One",
+			"id": 3130,
+			"ocount": 3
+		},
+		{
+			"name": "Harvey, David, on the postmodern",
+			"id": 30607,
+			"ocount": 3
+		},
+		{
+			"name": "pluralism -- and postmodernism",
+			"id": 30900,
+			"ocount": 3
+		},
+		{
+			"name": "Persian dualism",
+			"id": 30874,
+			"ocount": 3
+		},
+		{
+			"name": "poetic -- as form",
+			"id": 30903,
+			"ocount": 3
+		},
+		{
+			"name": "history -- absence of, in postmodernism",
+			"id": 30630,
+			"ocount": 3
+		},
+		{
+			"name": "Habermas, Jürgen -- on tendencies toward rationalization of the world",
+			"id": 30599,
+			"ocount": 3
+		},
+		{
+			"name": "Marshall, George",
+			"id": 30767,
+			"ocount": 3
+		},
+		{
+			"name": "conspiracy, argument from -- McCarthys use of",
+			"id": 30409,
+			"ocount": 3
+		},
+		{
+			"name": "Republican Party",
+			"id": 10602,
+			"ocount": 3
+		},
+		{
+			"name": "Frye, Northrop -- on Romantic poets",
+			"id": 30559,
+			"ocount": 3
+		},
+		{
+			"name": "American Revolution -- Robert Welch compared to",
+			"id": 30248,
+			"ocount": 3
+		},
+		{
+			"name": "Bawer, Bruce",
+			"id": 23866,
+			"ocount": 3
+		},
+		{
+			"name": "Advocate magazine",
+			"id": 30233,
+			"ocount": 3
+		},
+		{
+			"name": "Phillips, Wendell -- and American radical tradition",
+			"id": 30877,
+			"ocount": 3
+		},
+		{
+			"name": "Arnold, Matthew",
+			"id": 4404,
+			"ocount": 4
+		},
+		{
+			"name": "Jefferson, Thomas",
+			"id": 13209,
+			"ocount": 4
+		},
+		{
+			"name": "Cicero",
+			"id": 30364,
+			"ocount": 4
+		},
+		{
+			"name": "Gitlin, Todd, on the decay of contemporary community",
+			"id": 30585,
+			"ocount": 4
+		},
+		{
+			"name": "Graeco-Roman tradition (in rhetoric)",
+			"id": 30592,
+			"ocount": 4
+		},
+		{
+			"name": "Bible -- in American culture and rhetoric",
+			"id": 30295,
+			"ocount": 4
+		},
+		{
+			"name": "radicalism -- American",
+			"id": 30947,
+			"ocount": 4
+		},
+		{
+			"name": "pathos -- prophetic",
+			"id": 30863,
+			"ocount": 4
+		},
+		{
+			"name": "Welch, Robert",
+			"id": 31124,
+			"ocount": 4
+		},
+		{
+			"name": "Amos",
+			"id": 30249,
+			"ocount": 4
+		},
+		{
+			"name": "Zulick, Margaret",
+			"id": 31166,
+			"ocount": 4
+		},
+		{
+			"name": "sleep (as metaphor for moral failure) -- in Old Testament",
+			"id": 31038,
+			"ocount": 4
+		},
+		{
+			"name": "crisis -- nature of",
+			"id": 30433,
+			"ocount": 4
+		},
+		{
+			"name": "Frye, Northrop",
+			"id": 14661,
+			"ocount": 4
+		},
+		{
+			"name": "prophecy -- optimism of",
+			"id": 30924,
+			"ocount": 4
+		},
+		{
+			"name": "authority -- prophetic",
+			"id": 30277,
+			"ocount": 4
+		},
+		{
+			"name": "Adams, John Quincy",
+			"id": 19727,
+			"ocount": 4
+		},
+		{
+			"name": "slavery, and U.S. Constitution -- Whig conception",
+			"id": 31032,
+			"ocount": 4
+		},
+		{
+			"name": "covenant -- American",
+			"id": 30420,
+			"ocount": 4
+		},
+		{
+			"name": "Second Great Awakening",
+			"id": 25688,
+			"ocount": 4
+		},
+		{
+			"name": "psychopathology -- radicalism conceived as",
+			"id": 30933,
+			"ocount": 4
+		},
+		{
+			"name": "community -- and prophecy",
+			"id": 30391,
+			"ocount": 4
+		},
+		{
+			"name": "Salvatore, Nick, on Debs",
+			"id": 30989,
+			"ocount": 4
+		},
+		{
+			"name": "Weber, Max -- on secularization in society",
+			"id": 31121,
+			"ocount": 4
+		},
+		{
+			"name": "Welch, Robert -- Emerson as model",
+			"id": 31131,
+			"ocount": 4
+		},
+		{
+			"name": "World War II",
+			"id": 3131,
+			"ocount": 4
+		},
+		{
+			"name": "crisis -- McCarthy and",
+			"id": 30432,
+			"ocount": 4
+		},
+		{
+			"name": "Korean War",
+			"id": 30714,
+			"ocount": 4
+		},
+		{
+			"name": "Truman, Harry",
+			"id": 13909,
+			"ocount": 4
+		},
+		{
+			"name": "Rabkin, Eric, on fantasy",
+			"id": 30945,
+			"ocount": 4
+		},
+		{
+			"name": "McCarthy, Joseph -- Robert Welch compared to",
+			"id": 30783,
+			"ocount": 4
+		},
+		{
+			"name": "Acquired Immune Deficiency Syndrome (AIDS) -- AIDS Coalition to Unleash Power (ACT-UP)",
+			"id": 30232,
+			"ocount": 4
+		},
+		{
+			"name": "Graham, Billy, on decay of American society",
+			"id": 30594,
+			"ocount": 5
+		},
+		{
+			"name": "Debs, Eugene",
+			"id": 14647,
+			"ocount": 5
+		},
+		{
+			"name": "ethos -- prophetic",
+			"id": 30518,
+			"ocount": 5
+		},
+		{
+			"name": "covenant -- Old Testament",
+			"id": 30426,
+			"ocount": 5
+		},
+		{
+			"name": "Paine, Thomas",
+			"id": 18046,
+			"ocount": 5
+		},
+		{
+			"name": "freedom -- and duty in American tradition",
+			"id": 30547,
+			"ocount": 5
+		},
+		{
+			"name": "science -- versus religion",
+			"id": 30983,
+			"ocount": 5
+		},
+		{
+			"name": "Debs, Eugene -- and American radical tradition",
+			"id": 30449,
+			"ocount": 5
+		},
+		{
+			"name": "Jackson, Rosemary, on the fantastic",
+			"id": 30669,
+			"ocount": 5
+		},
+		{
+			"name": "Eisenhower, Dwight D.",
+			"id": 4540,
+			"ocount": 5
+		},
+		{
+			"name": "Phillips, Wendell -- Welch compared to",
+			"id": 30894,
+			"ocount": 5
+		},
+		{
+			"name": "Bellah, Robert N.",
+			"id": 30289,
+			"ocount": 6
+		},
+		{
+			"name": "fire (as radical metaphor) -- \"fire and strength\"",
+			"id": 30535,
+			"ocount": 6
+		},
+		{
+			"name": "Locke, John -- in American Revolutionary thought",
+			"id": 30738,
+			"ocount": 6
+		},
+		{
+			"name": "Phillips, Wendell",
+			"id": 30875,
+			"ocount": 6
+		},
+		{
+			"name": "logos -- related to pathos",
+			"id": 30747,
+			"ocount": 6
+		},
+		{
+			"name": "charisma",
+			"id": 12783,
+			"ocount": 6
+		},
+		{
+			"name": "Declaration of Independence",
+			"id": 19846,
+			"ocount": 6
+		},
+		{
+			"name": "Emerson, Ralph Waldo -- as model for Welch",
+			"id": 30506,
+			"ocount": 6
+		},
+		{
+			"name": "American revolution",
+			"id": 19747,
+			"ocount": 7
+		},
+		{
+			"name": "Debs, Eugene -- Welch compared to",
+			"id": 30462,
+			"ocount": 7
+		},
+		{
+			"name": "Ezekiel",
+			"id": 30525,
+			"ocount": 7
+		},
+		{
+			"name": "vision, as metaphor for moral (in)capacity",
+			"id": 31103,
+			"ocount": 7
+		},
+		{
+			"name": "Otis, James",
+			"id": 30840,
+			"ocount": 7
+		},
+		{
+			"name": "American Revolution -- and American radical tradition",
+			"id": 30239,
+			"ocount": 7
+		},
+		{
+			"name": "community -- American",
+			"id": 30387,
+			"ocount": 8
+		},
+		{
+			"name": "tradition, American radical",
+			"id": 31079,
+			"ocount": 8
+		},
+		{
+			"name": "1960s",
+			"id": 30824,
+			"ocount": 9
+		},
+		{
+			"name": "World War II -- as marker of postmodernism",
+			"id": 31161,
+			"ocount": 9
+		},
+		{
+			"name": "Isaiah",
+			"id": 17922,
+			"ocount": 10
+		},
+		{
+			"name": "Garrison, William Lloyd",
+			"id": 30564,
+			"ocount": 10
+		},
+		{
+			"name": "Jeremiah",
+			"id": 30684,
+			"ocount": 15
+		}
+	],
+	"links":
+	[
+		{
+			"source": 12915,
+			"target": 10166
+		},
+		{
+			"source": 19782,
+			"target": 37377
+		},
+		{
+			"source": 19846,
+			"target": 19747
+		},
+		{
+			"source": 30227,
+			"target": 30228
+		},
+		{
+			"source": 30227,
+			"target": 30229
+		},
+		{
+			"source": 19747,
+			"target": 30239
+		},
+		{
+			"source": 19747,
+			"target": 30240
+		},
+		{
+			"source": 19747,
+			"target": 30241
+		},
+		{
+			"source": 19747,
+			"target": 30242
+		},
+		{
+			"source": 19747,
+			"target": 30243
+		},
+		{
+			"source": 19747,
+			"target": 30244
+		},
+		{
+			"source": 19747,
+			"target": 30245
+		},
+		{
+			"source": 19747,
+			"target": 30246
+		},
+		{
+			"source": 19747,
+			"target": 30247
+		},
+		{
+			"source": 19747,
+			"target": 30248
+		},
+		{
+			"source": 30254,
+			"target": 30255
+		},
+		{
+			"source": 30254,
+			"target": 30256
+		},
+		{
+			"source": 30254,
+			"target": 30257
+		},
+		{
+			"source": 30254,
+			"target": 30258
+		},
+		{
+			"source": 30254,
+			"target": 30259
+		},
+		{
+			"source": 30254,
+			"target": 30260
+		},
+		{
+			"source": 30254,
+			"target": 30261
+		},
+		{
+			"source": 30254,
+			"target": 30262
+		},
+		{
+			"source": 15335,
+			"target": 30265
+		},
+		{
+			"source": 15335,
+			"target": 30266
+		},
+		{
+			"source": 15335,
+			"target": 30267
+		},
+		{
+			"source": 15335,
+			"target": 30268
+		},
+		{
+			"source": 15335,
+			"target": 30269
+		},
+		{
+			"source": 30270,
+			"target": 30271
+		},
+		{
+			"source": 4404,
+			"target": 30272
+		},
+		{
+			"source": 4404,
+			"target": 30273
+		},
+		{
+			"source": 22333,
+			"target": 30276
+		},
+		{
+			"source": 22333,
+			"target": 30277
+		},
+		{
+			"source": 30287,
+			"target": 30288
+		},
+		{
+			"source": 35251,
+			"target": 30292
+		},
+		{
+			"source": 17764,
+			"target": 30295
+		},
+		{
+			"source": 17764,
+			"target": 30296
+		},
+		{
+			"source": 17764,
+			"target": 30297
+		},
+		{
+			"source": 17764,
+			"target": 30298
+		},
+		{
+			"source": 17764,
+			"target": 30299
+		},
+		{
+			"source": 17764,
+			"target": 30300
+		},
+		{
+			"source": 30304,
+			"target": 30305
+		},
+		{
+			"source": 30304,
+			"target": 30306
+		},
+		{
+			"source": 4440,
+			"target": 30307
+		},
+		{
+			"source": 4440,
+			"target": 30308
+		},
+		{
+			"source": 30315,
+			"target": 30316
+		},
+		{
+			"source": 30315,
+			"target": 30317
+		},
+		{
+			"source": 8664,
+			"target": 30320
+		},
+		{
+			"source": 8664,
+			"target": 30321
+		},
+		{
+			"source": 8664,
+			"target": 30322
+		},
+		{
+			"source": 30324,
+			"target": 30325
+		},
+		{
+			"source": 30324,
+			"target": 30326
+		},
+		{
+			"source": 7532,
+			"target": 30331
+		},
+		{
+			"source": 7532,
+			"target": 30332
+		},
+		{
+			"source": 35270,
+			"target": 30333
+		},
+		{
+			"source": 35270,
+			"target": 30334
+		},
+		{
+			"source": 35270,
+			"target": 30335
+		},
+		{
+			"source": 35270,
+			"target": 30336
+		},
+		{
+			"source": 35270,
+			"target": 30337
+		},
+		{
+			"source": 30342,
+			"target": 30343
+		},
+		{
+			"source": 37377,
+			"target": 30344
+		},
+		{
+			"source": 19782,
+			"target": 30345
+		},
+		{
+			"source": 2566,
+			"target": 30346
+		},
+		{
+			"source": 2566,
+			"target": 30347
+		},
+		{
+			"source": 14000,
+			"target": 30349
+		},
+		{
+			"source": 14000,
+			"target": 30350
+		},
+		{
+			"source": 14000,
+			"target": 30351
+		},
+		{
+			"source": 12783,
+			"target": 30359
+		},
+		{
+			"source": 17925,
+			"target": 30361
+		},
+		{
+			"source": 17925,
+			"target": 30362
+		},
+		{
+			"source": 17925,
+			"target": 30363
+		},
+		{
+			"source": 30364,
+			"target": 30365
+		},
+		{
+			"source": 10890,
+			"target": 30367
+		},
+		{
+			"source": 10890,
+			"target": 30368
+		},
+		{
+			"source": 10890,
+			"target": 30369
+		},
+		{
+			"source": 10890,
+			"target": 30370
+		},
+		{
+			"source": 30370,
+			"target": 30765
+		},
+		{
+			"source": 19800,
+			"target": 30373
+		},
+		{
+			"source": 12805,
+			"target": 30374
+		},
+		{
+			"source": 12805,
+			"target": 30375
+		},
+		{
+			"source": 12805,
+			"target": 30376
+		},
+		{
+			"source": 2589,
+			"target": 30379
+		},
+		{
+			"source": 2589,
+			"target": 30380
+		},
+		{
+			"source": 30382,
+			"target": 30383
+		},
+		{
+			"source": 30382,
+			"target": 30384
+		},
+		{
+			"source": 17313,
+			"target": 30387
+		},
+		{
+			"source": 17313,
+			"target": 30388
+		},
+		{
+			"source": 17313,
+			"target": 30389
+		},
+		{
+			"source": 17313,
+			"target": 30390
+		},
+		{
+			"source": 17313,
+			"target": 30391
+		},
+		{
+			"source": 30393,
+			"target": 30394
+		},
+		{
+			"source": 30393,
+			"target": 30395
+		},
+		{
+			"source": 30393,
+			"target": 30396
+		},
+		{
+			"source": 10971,
+			"target": 30398
+		},
+		{
+			"source": 10971,
+			"target": 30399
+		},
+		{
+			"source": 10971,
+			"target": 30400
+		},
+		{
+			"source": 10971,
+			"target": 30401
+		},
+		{
+			"source": 10971,
+			"target": 30402
+		},
+		{
+			"source": 10971,
+			"target": 30403
+		},
+		{
+			"source": 10971,
+			"target": 30404
+		},
+		{
+			"source": 30405,
+			"target": 30406
+		},
+		{
+			"source": 30405,
+			"target": 30407
+		},
+		{
+			"source": 30405,
+			"target": 30408
+		},
+		{
+			"source": 30405,
+			"target": 30409
+		},
+		{
+			"source": 30405,
+			"target": 30410
+		},
+		{
+			"source": 30405,
+			"target": 30411
+		},
+		{
+			"source": 3080,
+			"target": 30412
+		},
+		{
+			"source": 3080,
+			"target": 30413
+		},
+		{
+			"source": 3080,
+			"target": 30414
+		},
+		{
+			"source": 3080,
+			"target": 30415
+		},
+		{
+			"source": 3080,
+			"target": 30416
+		},
+		{
+			"source": 30419,
+			"target": 30420
+		},
+		{
+			"source": 30419,
+			"target": 30421
+		},
+		{
+			"source": 30419,
+			"target": 30422
+		},
+		{
+			"source": 30419,
+			"target": 30423
+		},
+		{
+			"source": 30419,
+			"target": 30424
+		},
+		{
+			"source": 30419,
+			"target": 30425
+		},
+		{
+			"source": 30419,
+			"target": 30426
+		},
+		{
+			"source": 30429,
+			"target": 30430
+		},
+		{
+			"source": 30429,
+			"target": 30431
+		},
+		{
+			"source": 30429,
+			"target": 30432
+		},
+		{
+			"source": 30429,
+			"target": 30433
+		},
+		{
+			"source": 30429,
+			"target": 30434
+		},
+		{
+			"source": 30429,
+			"target": 30435
+		},
+		{
+			"source": 30429,
+			"target": 30436
+		},
+		{
+			"source": 30429,
+			"target": 30437
+		},
+		{
+			"source": 30445,
+			"target": 30446
+		},
+		{
+			"source": 14647,
+			"target": 30448
+		},
+		{
+			"source": 14647,
+			"target": 30449
+		},
+		{
+			"source": 14647,
+			"target": 30450
+		},
+		{
+			"source": 14647,
+			"target": 30451
+		},
+		{
+			"source": 14647,
+			"target": 30452
+		},
+		{
+			"source": 14647,
+			"target": 30453
+		},
+		{
+			"source": 14647,
+			"target": 30454
+		},
+		{
+			"source": 14647,
+			"target": 30455
+		},
+		{
+			"source": 14647,
+			"target": 30456
+		},
+		{
+			"source": 14647,
+			"target": 30457
+		},
+		{
+			"source": 14647,
+			"target": 30458
+		},
+		{
+			"source": 14647,
+			"target": 30459
+		},
+		{
+			"source": 14647,
+			"target": 30460
+		},
+		{
+			"source": 14647,
+			"target": 31100
+		},
+		{
+			"source": 14647,
+			"target": 30462
+		},
+		{
+			"source": 19846,
+			"target": 30464
+		},
+		{
+			"source": 19846,
+			"target": 30465
+		},
+		{
+			"source": 27325,
+			"target": 30468
+		},
+		{
+			"source": 506,
+			"target": 30470
+		},
+		{
+			"source": 506,
+			"target": 30471
+		},
+		{
+			"source": 22413,
+			"target": 30473
+		},
+		{
+			"source": 21489,
+			"target": 30482
+		},
+		{
+			"source": 21489,
+			"target": 30483
+		},
+		{
+			"source": 21489,
+			"target": 30484
+		},
+		{
+			"source": 21489,
+			"target": 30485
+		},
+		{
+			"source": 21489,
+			"target": 30486
+		},
+		{
+			"source": 21489,
+			"target": 30487
+		},
+		{
+			"source": 30493,
+			"target": 30494
+		},
+		{
+			"source": 1622,
+			"target": 30498
+		},
+		{
+			"source": 1622,
+			"target": 30499
+		},
+		{
+			"source": 1622,
+			"target": 30500
+		},
+		{
+			"source": 1622,
+			"target": 30501
+		},
+		{
+			"source": 1622,
+			"target": 30502
+		},
+		{
+			"source": 1622,
+			"target": 30503
+		},
+		{
+			"source": 1622,
+			"target": 30504
+		},
+		{
+			"source": 1622,
+			"target": 30505
+		},
+		{
+			"source": 1622,
+			"target": 30506
+		},
+		{
+			"source": 30507,
+			"target": 30508
+		},
+		{
+			"source": 30510,
+			"target": 30511
+		},
+		{
+			"source": 30510,
+			"target": 30512
+		},
+		{
+			"source": 30510,
+			"target": 30513
+		},
+		{
+			"source": 30510,
+			"target": 30514
+		},
+		{
+			"source": 30510,
+			"target": 30515
+		},
+		{
+			"source": 30510,
+			"target": 30516
+		},
+		{
+			"source": 30510,
+			"target": 30517
+		},
+		{
+			"source": 30510,
+			"target": 30518
+		},
+		{
+			"source": 30765,
+			"target": 30519
+		},
+		{
+			"source": 30765,
+			"target": 30520
+		},
+		{
+			"source": 30522,
+			"target": 30523
+		},
+		{
+			"source": 30526,
+			"target": 30527
+		},
+		{
+			"source": 30526,
+			"target": 30528
+		},
+		{
+			"source": 30526,
+			"target": 30529
+		},
+		{
+			"source": 30526,
+			"target": 30530
+		},
+		{
+			"source": 30533,
+			"target": 30534
+		},
+		{
+			"source": 30533,
+			"target": 30535
+		},
+		{
+			"source": 30541,
+			"target": 30542
+		},
+		{
+			"source": 30541,
+			"target": 30543
+		},
+		{
+			"source": 19161,
+			"target": 30547
+		},
+		{
+			"source": 19161,
+			"target": 30548
+		},
+		{
+			"source": 19161,
+			"target": 30549
+		},
+		{
+			"source": 19161,
+			"target": 30550
+		},
+		{
+			"source": 19161,
+			"target": 30551
+		},
+		{
+			"source": 19161,
+			"target": 30552
+		},
+		{
+			"source": 19161,
+			"target": 30553
+		},
+		{
+			"source": 19161,
+			"target": 30554
+		},
+		{
+			"source": 19161,
+			"target": 30555
+		},
+		{
+			"source": 19161,
+			"target": 30556
+		},
+		{
+			"source": 19161,
+			"target": 30557
+		},
+		{
+			"source": 14661,
+			"target": 30559
+		},
+		{
+			"source": 30564,
+			"target": 30565
+		},
+		{
+			"source": 30568,
+			"target": 30569
+		},
+		{
+			"source": 30568,
+			"target": 30570
+		},
+		{
+			"source": 30568,
+			"target": 30571
+		},
+		{
+			"source": 30568,
+			"target": 30572
+		},
+		{
+			"source": 30568,
+			"target": 30573
+		},
+		{
+			"source": 30568,
+			"target": 30574
+		},
+		{
+			"source": 30568,
+			"target": 30575
+		},
+		{
+			"source": 30568,
+			"target": 30576
+		},
+		{
+			"source": 5397,
+			"target": 30579
+		},
+		{
+			"source": 30579,
+			"target": 30507
+		},
+		{
+			"source": 30579,
+			"target": 30528
+		},
+		{
+			"source": 30579,
+			"target": 30580
+		},
+		{
+			"source": 30579,
+			"target": 7832
+		},
+		{
+			"source": 30592,
+			"target": 30593
+		},
+		{
+			"source": 9678,
+			"target": 30598
+		},
+		{
+			"source": 9678,
+			"target": 30599
+		},
+		{
+			"source": 17884,
+			"target": 30613
+		},
+		{
+			"source": 17884,
+			"target": 30614
+		},
+		{
+			"source": 19927,
+			"target": 30616
+		},
+		{
+			"source": 19927,
+			"target": 30617
+		},
+		{
+			"source": 30618,
+			"target": 30619
+		},
+		{
+			"source": 30618,
+			"target": 30620
+		},
+		{
+			"source": 30618,
+			"target": 30621
+		},
+		{
+			"source": 30618,
+			"target": 30622
+		},
+		{
+			"source": 30618,
+			"target": 30623
+		},
+		{
+			"source": 30618,
+			"target": 30624
+		},
+		{
+			"source": 30618,
+			"target": 30625
+		},
+		{
+			"source": 30618,
+			"target": 30626
+		},
+		{
+			"source": 27418,
+			"target": 30629
+		},
+		{
+			"source": 27418,
+			"target": 30630
+		},
+		{
+			"source": 27418,
+			"target": 30631
+		},
+		{
+			"source": 27418,
+			"target": 30632
+		},
+		{
+			"source": 27418,
+			"target": 30633
+		},
+		{
+			"source": 27418,
+			"target": 30634
+		},
+		{
+			"source": 27418,
+			"target": 30635
+		},
+		{
+			"source": 27418,
+			"target": 30636
+		},
+		{
+			"source": 4643,
+			"target": 30637
+		},
+		{
+			"source": 4643,
+			"target": 30638
+		},
+		{
+			"source": 30640,
+			"target": 30641
+		},
+		{
+			"source": 30640,
+			"target": 30642
+		},
+		{
+			"source": 30645,
+			"target": 30646
+		},
+		{
+			"source": 30651,
+			"target": 30652
+		},
+		{
+			"source": 16410,
+			"target": 30653
+		},
+		{
+			"source": 16410,
+			"target": 30654
+		},
+		{
+			"source": 30657,
+			"target": 30658
+		},
+		{
+			"source": 30477,
+			"target": 30663
+		},
+		{
+			"source": 30477,
+			"target": 30664
+		},
+		{
+			"source": 30477,
+			"target": 30665
+		},
+		{
+			"source": 30477,
+			"target": 30666
+		},
+		{
+			"source": 23109,
+			"target": 30671
+		},
+		{
+			"source": 23109,
+			"target": 30672
+		},
+		{
+			"source": 23109,
+			"target": 30673
+		},
+		{
+			"source": 23109,
+			"target": 30674
+		},
+		{
+			"source": 23109,
+			"target": 30675
+		},
+		{
+			"source": 23109,
+			"target": 30676
+		},
+		{
+			"source": 23109,
+			"target": 30677
+		},
+		{
+			"source": 13209,
+			"target": 30679
+		},
+		{
+			"source": 13209,
+			"target": 30680
+		},
+		{
+			"source": 13209,
+			"target": 30681
+		},
+		{
+			"source": 30686,
+			"target": 30687
+		},
+		{
+			"source": 30686,
+			"target": 30688
+		},
+		{
+			"source": 30686,
+			"target": 30689
+		},
+		{
+			"source": 12575,
+			"target": 30695
+		},
+		{
+			"source": 12575,
+			"target": 30696
+		},
+		{
+			"source": 12575,
+			"target": 30697
+		},
+		{
+			"source": 12575,
+			"target": 30698
+		},
+		{
+			"source": 12575,
+			"target": 30699
+		},
+		{
+			"source": 12575,
+			"target": 30700
+		},
+		{
+			"source": 12575,
+			"target": 30701
+		},
+		{
+			"source": 30580,
+			"target": 30702
+		},
+		{
+			"source": 30580,
+			"target": 30703
+		},
+		{
+			"source": 30706,
+			"target": 30707
+		},
+		{
+			"source": 30708,
+			"target": 30709
+		},
+		{
+			"source": 2822,
+			"target": 30711
+		},
+		{
+			"source": 30715,
+			"target": 30716
+		},
+		{
+			"source": 30715,
+			"target": 30717
+		},
+		{
+			"source": 30721,
+			"target": 30722
+		},
+		{
+			"source": 30727,
+			"target": 30728
+		},
+		{
+			"source": 2847,
+			"target": 30734
+		},
+		{
+			"source": 2847,
+			"target": 30735
+		},
+		{
+			"source": 5828,
+			"target": 30738
+		},
+		{
+			"source": 5828,
+			"target": 30739
+		},
+		{
+			"source": 5828,
+			"target": 30740
+		},
+		{
+			"source": 5828,
+			"target": 30741
+		},
+		{
+			"source": 5828,
+			"target": 30742
+		},
+		{
+			"source": 5829,
+			"target": 30743
+		},
+		{
+			"source": 5829,
+			"target": 30744
+		},
+		{
+			"source": 5829,
+			"target": 30745
+		},
+		{
+			"source": 5829,
+			"target": 30746
+		},
+		{
+			"source": 5829,
+			"target": 30747
+		},
+		{
+			"source": 5829,
+			"target": 30748
+		},
+		{
+			"source": 30753,
+			"target": 30754
+		},
+		{
+			"source": 30753,
+			"target": 30755
+		},
+		{
+			"source": 30756,
+			"target": 30757
+		},
+		{
+			"source": 3739,
+			"target": 30763
+		},
+		{
+			"source": 13274,
+			"target": 30768
+		},
+		{
+			"source": 13274,
+			"target": 30769
+		},
+		{
+			"source": 13274,
+			"target": 30770
+		},
+		{
+			"source": 14715,
+			"target": 30771
+		},
+		{
+			"source": 14715,
+			"target": 30772
+		},
+		{
+			"source": 13279,
+			"target": 30776
+		},
+		{
+			"source": 13279,
+			"target": 30777
+		},
+		{
+			"source": 13279,
+			"target": 30778
+		},
+		{
+			"source": 13279,
+			"target": 30779
+		},
+		{
+			"source": 13279,
+			"target": 30780
+		},
+		{
+			"source": 13279,
+			"target": 30781
+		},
+		{
+			"source": 13279,
+			"target": 30782
+		},
+		{
+			"source": 13279,
+			"target": 30783
+		},
+		{
+			"source": 7832,
+			"target": 30787
+		},
+		{
+			"source": 7832,
+			"target": 30516
+		},
+		{
+			"source": 30790,
+			"target": 30791
+		},
+		{
+			"source": 4782,
+			"target": 30796
+		},
+		{
+			"source": 30800,
+			"target": 30342
+		},
+		{
+			"source": 30806,
+			"target": 30807
+		},
+		{
+			"source": 30806,
+			"target": 30808
+		},
+		{
+			"source": 30806,
+			"target": 30809
+		},
+		{
+			"source": 30806,
+			"target": 30810
+		},
+		{
+			"source": 30806,
+			"target": 30811
+		},
+		{
+			"source": 30806,
+			"target": 30812
+		},
+		{
+			"source": 30806,
+			"target": 30813
+		},
+		{
+			"source": 30813,
+			"target": 30814
+		},
+		{
+			"source": 12333,
+			"target": 30820
+		},
+		{
+			"source": 12333,
+			"target": 30821
+		},
+		{
+			"source": 12333,
+			"target": 30822
+		},
+		{
+			"source": 13345,
+			"target": 30827
+		},
+		{
+			"source": 13345,
+			"target": 30828
+		},
+		{
+			"source": 30831,
+			"target": 30832
+		},
+		{
+			"source": 30831,
+			"target": 30831
+		},
+		{
+			"source": 30840,
+			"target": 30841
+		},
+		{
+			"source": 30840,
+			"target": 30842
+		},
+		{
+			"source": 30840,
+			"target": 30843
+		},
+		{
+			"source": 18046,
+			"target": 30846
+		},
+		{
+			"source": 18046,
+			"target": 30847
+		},
+		{
+			"source": 18046,
+			"target": 30848
+		},
+		{
+			"source": 18046,
+			"target": 30849
+		},
+		{
+			"source": 18046,
+			"target": 30850
+		},
+		{
+			"source": 30854,
+			"target": 30855
+		},
+		{
+			"source": 30854,
+			"target": 30856
+		},
+		{
+			"source": 30854,
+			"target": 30857
+		},
+		{
+			"source": 30854,
+			"target": 30858
+		},
+		{
+			"source": 30854,
+			"target": 30859
+		},
+		{
+			"source": 30854,
+			"target": 30747
+		},
+		{
+			"source": 30854,
+			"target": 30860
+		},
+		{
+			"source": 30854,
+			"target": 30861
+		},
+		{
+			"source": 30854,
+			"target": 30862
+		},
+		{
+			"source": 30854,
+			"target": 30863
+		},
+		{
+			"source": 30854,
+			"target": 30864
+		},
+		{
+			"source": 30854,
+			"target": 30865
+		},
+		{
+			"source": 30854,
+			"target": 30866
+		},
+		{
+			"source": 30870,
+			"target": 30871
+		},
+		{
+			"source": 30872,
+			"target": 30873
+		},
+		{
+			"source": 30875,
+			"target": 30876
+		},
+		{
+			"source": 30875,
+			"target": 30877
+		},
+		{
+			"source": 30875,
+			"target": 30878
+		},
+		{
+			"source": 30875,
+			"target": 30879
+		},
+		{
+			"source": 30875,
+			"target": 30880
+		},
+		{
+			"source": 30875,
+			"target": 30881
+		},
+		{
+			"source": 30875,
+			"target": 30882
+		},
+		{
+			"source": 30875,
+			"target": 30883
+		},
+		{
+			"source": 30875,
+			"target": 30884
+		},
+		{
+			"source": 30875,
+			"target": 30885
+		},
+		{
+			"source": 30875,
+			"target": 30886
+		},
+		{
+			"source": 30875,
+			"target": 30887
+		},
+		{
+			"source": 30875,
+			"target": 30888
+		},
+		{
+			"source": 30875,
+			"target": 30889
+		},
+		{
+			"source": 30875,
+			"target": 30890
+		},
+		{
+			"source": 30875,
+			"target": 30891
+		},
+		{
+			"source": 30875,
+			"target": 30892
+		},
+		{
+			"source": 30875,
+			"target": 30893
+		},
+		{
+			"source": 30875,
+			"target": 30894
+		},
+		{
+			"source": 2974,
+			"target": 30896
+		},
+		{
+			"source": 2974,
+			"target": 30897
+		},
+		{
+			"source": 2974,
+			"target": 30898
+		},
+		{
+			"source": 27053,
+			"target": 30899
+		},
+		{
+			"source": 27053,
+			"target": 30900
+		},
+		{
+			"source": 27053,
+			"target": 30901
+		},
+		{
+			"source": 30658,
+			"target": 30902
+		},
+		{
+			"source": 30658,
+			"target": 30903
+		},
+		{
+			"source": 30658,
+			"target": 30904
+		},
+		{
+			"source": 30658,
+			"target": 30905
+		},
+		{
+			"source": 30658,
+			"target": 30906
+		},
+		{
+			"source": 30658,
+			"target": 30907
+		},
+		{
+			"source": 30658,
+			"target": 30908
+		},
+		{
+			"source": 30658,
+			"target": 30909
+		},
+		{
+			"source": 30658,
+			"target": 30910
+		},
+		{
+			"source": 30658,
+			"target": 30911
+		},
+		{
+			"source": 30658,
+			"target": 30912
+		},
+		{
+			"source": 35792,
+			"target": 30918
+		},
+		{
+			"source": 35792,
+			"target": 30919
+		},
+		{
+			"source": 35792,
+			"target": 30630
+		},
+		{
+			"source": 35792,
+			"target": 30920
+		},
+		{
+			"source": 30922,
+			"target": 30391
+		},
+		{
+			"source": 30922,
+			"target": 30923
+		},
+		{
+			"source": 30922,
+			"target": 30924
+		},
+		{
+			"source": 13688,
+			"target": 30925
+		},
+		{
+			"source": 13688,
+			"target": 30926
+		},
+		{
+			"source": 13688,
+			"target": 30927
+		},
+		{
+			"source": 13688,
+			"target": 30928
+		},
+		{
+			"source": 13688,
+			"target": 30929
+		},
+		{
+			"source": 13688,
+			"target": 30930
+		},
+		{
+			"source": 13688,
+			"target": 30931
+		},
+		{
+			"source": 13688,
+			"target": 30932
+		},
+		{
+			"source": 13688,
+			"target": 30933
+		},
+		{
+			"source": 13688,
+			"target": 30934
+		},
+		{
+			"source": 13688,
+			"target": 30935
+		},
+		{
+			"source": 30937,
+			"target": 30938
+		},
+		{
+			"source": 30937,
+			"target": 30939
+		},
+		{
+			"source": 30937,
+			"target": 30940
+		},
+		{
+			"source": 30937,
+			"target": 30941
+		},
+		{
+			"source": 30946,
+			"target": 30947
+		},
+		{
+			"source": 30946,
+			"target": 30948
+		},
+		{
+			"source": 30946,
+			"target": 30949
+		},
+		{
+			"source": 30946,
+			"target": 30950
+		},
+		{
+			"source": 30946,
+			"target": 30951
+		},
+		{
+			"source": 30946,
+			"target": 30952
+		},
+		{
+			"source": 30946,
+			"target": 30953
+		},
+		{
+			"source": 30946,
+			"target": 30954
+		},
+		{
+			"source": 23201,
+			"target": 30956
+		},
+		{
+			"source": 23201,
+			"target": 30957
+		},
+		{
+			"source": 23201,
+			"target": 30958
+		},
+		{
+			"source": 23201,
+			"target": 30959
+		},
+		{
+			"source": 23201,
+			"target": 30960
+		},
+		{
+			"source": 23201,
+			"target": 30961
+		},
+		{
+			"source": 23201,
+			"target": 30962
+		},
+		{
+			"source": 23201,
+			"target": 30963
+		},
+		{
+			"source": 30964,
+			"target": 30965
+		},
+		{
+			"source": 30964,
+			"target": 30966
+		},
+		{
+			"source": 30964,
+			"target": 30343
+		},
+		{
+			"source": 17294,
+			"target": 30975
+		},
+		{
+			"source": 17294,
+			"target": 30976
+		},
+		{
+			"source": 26275,
+			"target": 30977
+		},
+		{
+			"source": 30980,
+			"target": 30981
+		},
+		{
+			"source": 30980,
+			"target": 30982
+		},
+		{
+			"source": 30982,
+			"target": 30983
+		},
+		{
+			"source": 30814,
+			"target": 30984
+		},
+		{
+			"source": 30814,
+			"target": 30985
+		},
+		{
+			"source": 30814,
+			"target": 30986
+		},
+		{
+			"source": 30814,
+			"target": 30987
+		},
+		{
+			"source": 30992,
+			"target": 30993
+		},
+		{
+			"source": 30992,
+			"target": 30994
+		},
+		{
+			"source": 30992,
+			"target": 30995
+		},
+		{
+			"source": 3033,
+			"target": 30999
+		},
+		{
+			"source": 3033,
+			"target": 31000
+		},
+		{
+			"source": 3033,
+			"target": 30983
+		},
+		{
+			"source": 31002,
+			"target": 31003
+		},
+		{
+			"source": 31002,
+			"target": 31004
+		},
+		{
+			"source": 31002,
+			"target": 31005
+		},
+		{
+			"source": 31006,
+			"target": 31007
+		},
+		{
+			"source": 31006,
+			"target": 31008
+		},
+		{
+			"source": 31006,
+			"target": 31009
+		},
+		{
+			"source": 31009,
+			"target": 30968
+		},
+		{
+			"source": 31010,
+			"target": 31011
+		},
+		{
+			"source": 31012,
+			"target": 13929
+		},
+		{
+			"source": 31013,
+			"target": 31014
+		},
+		{
+			"source": 31013,
+			"target": 31015
+		},
+		{
+			"source": 31013,
+			"target": 31016
+		},
+		{
+			"source": 31013,
+			"target": 31017
+		},
+		{
+			"source": 31013,
+			"target": 31018
+		},
+		{
+			"source": 31019,
+			"target": 31020
+		},
+		{
+			"source": 31019,
+			"target": 31021
+		},
+		{
+			"source": 31028,
+			"target": 31029
+		},
+		{
+			"source": 31028,
+			"target": 31030
+		},
+		{
+			"source": 31028,
+			"target": 31031
+		},
+		{
+			"source": 31028,
+			"target": 31032
+		},
+		{
+			"source": 31033,
+			"target": 31034
+		},
+		{
+			"source": 31033,
+			"target": 31035
+		},
+		{
+			"source": 31033,
+			"target": 31036
+		},
+		{
+			"source": 31033,
+			"target": 31037
+		},
+		{
+			"source": 31033,
+			"target": 31038
+		},
+		{
+			"source": 31033,
+			"target": 31039
+		},
+		{
+			"source": 31033,
+			"target": 31040
+		},
+		{
+			"source": 31059,
+			"target": 31060
+		},
+		{
+			"source": 31059,
+			"target": 31061
+		},
+		{
+			"source": 31065,
+			"target": 31012
+		},
+		{
+			"source": 31065,
+			"target": 13929
+		},
+		{
+			"source": 31066,
+			"target": 31067
+		},
+		{
+			"source": 31066,
+			"target": 31068
+		},
+		{
+			"source": 31076,
+			"target": 31077
+		},
+		{
+			"source": 31076,
+			"target": 31078
+		},
+		{
+			"source": 6030,
+			"target": 31084
+		},
+		{
+			"source": 31086,
+			"target": 31087
+		},
+		{
+			"source": 31086,
+			"target": 30911
+		},
+		{
+			"source": 3080,
+			"target": 31090
+		},
+		{
+			"source": 3080,
+			"target": 31091
+		},
+		{
+			"source": 14557,
+			"target": 31094
+		},
+		{
+			"source": 14557,
+			"target": 31095
+		},
+		{
+			"source": 14557,
+			"target": 31096
+		},
+		{
+			"source": 14557,
+			"target": 31097
+		},
+		{
+			"source": 13929,
+			"target": 31098
+		},
+		{
+			"source": 13929,
+			"target": 31099
+		},
+		{
+			"source": 13929,
+			"target": 31100
+		},
+		{
+			"source": 13929,
+			"target": 31101
+		},
+		{
+			"source": 13929,
+			"target": 31102
+		},
+		{
+			"source": 31103,
+			"target": 31104
+		},
+		{
+			"source": 31103,
+			"target": 31105
+		},
+		{
+			"source": 31103,
+			"target": 31106
+		},
+		{
+			"source": 31103,
+			"target": 31107
+		},
+		{
+			"source": 31103,
+			"target": 31108
+		},
+		{
+			"source": 31103,
+			"target": 31109
+		},
+		{
+			"source": 31103,
+			"target": 31110
+		},
+		{
+			"source": 31111,
+			"target": 31112
+		},
+		{
+			"source": 31111,
+			"target": 31113
+		},
+		{
+			"source": 31113,
+			"target": 30342
+		},
+		{
+			"source": 31118,
+			"target": 31119
+		},
+		{
+			"source": 2098,
+			"target": 31120
+		},
+		{
+			"source": 2098,
+			"target": 31121
+		},
+		{
+			"source": 31124,
+			"target": 31125
+		},
+		{
+			"source": 31124,
+			"target": 31126
+		},
+		{
+			"source": 31124,
+			"target": 31127
+		},
+		{
+			"source": 31124,
+			"target": 31128
+		},
+		{
+			"source": 31124,
+			"target": 31129
+		},
+		{
+			"source": 31124,
+			"target": 31130
+		},
+		{
+			"source": 31124,
+			"target": 31131
+		},
+		{
+			"source": 31124,
+			"target": 31132
+		},
+		{
+			"source": 31124,
+			"target": 31133
+		},
+		{
+			"source": 31124,
+			"target": 31134
+		},
+		{
+			"source": 31124,
+			"target": 31135
+		},
+		{
+			"source": 31124,
+			"target": 31136
+		},
+		{
+			"source": 31124,
+			"target": 31137
+		},
+		{
+			"source": 31124,
+			"target": 31138
+		},
+		{
+			"source": 31124,
+			"target": 31139
+		},
+		{
+			"source": 5011,
+			"target": 31146
+		},
+		{
+			"source": 5011,
+			"target": 31147
+		},
+		{
+			"source": 5014,
+			"target": 31148
+		},
+		{
+			"source": 5014,
+			"target": 31149
+		},
+		{
+			"source": 3130,
+			"target": 31158
+		},
+		{
+			"source": 3130,
+			"target": 31159
+		},
+		{
+			"source": 3131,
+			"target": 31160
+		},
+		{
+			"source": 3131,
+			"target": 31161
+		},
+		{
+			"source": 33368,
+			"target": 30232
+		},
+		{
+			"source": 33932,
+			"target": 17294
+		},
+		{
+			"source": 4290,
+			"target": 9957
+		},
+		{
+			"source": 30823,
+			"target": 30833
+		},
+		{
+			"source": 30823,
+			"target": 30819
+		},
+		{
+			"source": 30823,
+			"target": 30994
+		},
+		{
+			"source": 30824,
+			"target": 30540
+		},
+		{
+			"source": 30824,
+			"target": 30816
+		},
+		{
+			"source": 30824,
+			"target": 30828
+		},
+		{
+			"source": 30227,
+			"target": 30717
+		},
+		{
+			"source": 30227,
+			"target": 30407
+		},
+		{
+			"source": 30227,
+			"target": 31153
+		},
+		{
+			"source": 30227,
+			"target": 30743
+		},
+		{
+			"source": 30227,
+			"target": 30941
+		},
+		{
+			"source": 30387,
+			"target": 30448
+		},
+		{
+			"source": 30387,
+			"target": 30876
+		},
+		{
+			"source": 30387,
+			"target": 30240
+		},
+		{
+			"source": 30420,
+			"target": 30421
+		},
+		{
+			"source": 30420,
+			"target": 31125
+		},
+		{
+			"source": 19747,
+			"target": 31098
+		},
+		{
+			"source": 30254,
+			"target": 30381
+		},
+		{
+			"source": 30254,
+			"target": 30422
+		},
+		{
+			"source": 30254,
+			"target": 30698
+		},
+		{
+			"source": 30254,
+			"target": 30530
+		},
+		{
+			"source": 30254,
+			"target": 30602
+		},
+		{
+			"source": 30254,
+			"target": 30631
+		},
+		{
+			"source": 30254,
+			"target": 30777
+		},
+		{
+			"source": 30254,
+			"target": 30918
+		},
+		{
+			"source": 15335,
+			"target": 30512
+		},
+		{
+			"source": 15335,
+			"target": 30745
+		},
+		{
+			"source": 15335,
+			"target": 30857
+		},
+		{
+			"source": 17764,
+			"target": 30450
+		},
+		{
+			"source": 8664,
+			"target": 30879
+		},
+		{
+			"source": 30322,
+			"target": 30879
+		},
+		{
+			"source": 19782,
+			"target": 30975
+		},
+		{
+			"source": 19782,
+			"target": 31054
+		},
+		{
+			"source": 33932,
+			"target": 30976
+		},
+		{
+			"source": 12783,
+			"target": 30451
+		},
+		{
+			"source": 12783,
+			"target": 31120
+		},
+		{
+			"source": 12783,
+			"target": 30909
+		},
+		{
+			"source": 12783,
+			"target": 30910
+		},
+		{
+			"source": 30359,
+			"target": 30451
+		},
+		{
+			"source": 10890,
+			"target": 30603
+		},
+		{
+			"source": 10890,
+			"target": 30956
+		},
+		{
+			"source": 17313,
+			"target": 30585
+		},
+		{
+			"source": 17313,
+			"target": 30423
+		},
+		{
+			"source": 17313,
+			"target": 30919
+		},
+		{
+			"source": 17313,
+			"target": 30508
+		},
+		{
+			"source": 17313,
+			"target": 30527
+		},
+		{
+			"source": 17313,
+			"target": 30659
+		},
+		{
+			"source": 30393,
+			"target": 30452
+		},
+		{
+			"source": 30393,
+			"target": 30948
+		},
+		{
+			"source": 10971,
+			"target": 31015
+		},
+		{
+			"source": 10971,
+			"target": 31051
+		},
+		{
+			"source": 10971,
+			"target": 30949
+		},
+		{
+			"source": 10971,
+			"target": 30974
+		},
+		{
+			"source": 30949,
+			"target": 30403
+		},
+		{
+			"source": 30415,
+			"target": 30881
+		},
+		{
+			"source": 30419,
+			"target": 30899
+		},
+		{
+			"source": 30429,
+			"target": 30491
+		},
+		{
+			"source": 30429,
+			"target": 30577
+		},
+		{
+			"source": 30429,
+			"target": 30598
+		},
+		{
+			"source": 30429,
+			"target": 31044
+		},
+		{
+			"source": 14647,
+			"target": 30521
+		},
+		{
+			"source": 14647,
+			"target": 31088
+		},
+		{
+			"source": 21489,
+			"target": 30548
+		},
+		{
+			"source": 21489,
+			"target": 31130
+		},
+		{
+			"source": 30510,
+			"target": 30780
+		},
+		{
+			"source": 30510,
+			"target": 30746
+		},
+		{
+			"source": 30510,
+			"target": 30859
+		},
+		{
+			"source": 30526,
+			"target": 30669
+		},
+		{
+			"source": 30526,
+			"target": 31075
+		},
+		{
+			"source": 30573,
+			"target": 30811
+		},
+		{
+			"source": 30573,
+			"target": 30723
+		},
+		{
+			"source": 30568,
+			"target": 30926
+		},
+		{
+			"source": 27418,
+			"target": 30904
+		},
+		{
+			"source": 13274,
+			"target": 30888
+		},
+		{
+			"source": 13274,
+			"target": 30927
+		},
+		{
+			"source": 14715,
+			"target": 31000
+		},
+		{
+			"source": 30854,
+			"target": 30891
+		},
+		{
+			"source": 2974,
+			"target": 30930
+		},
+		{
+			"source": 30922,
+			"target": 30932
+		},
+		{
+			"source": 30922,
+			"target": 30940
+		},
+		{
+			"source": 30922,
+			"target": 30952
+		},
+		{
+			"source": 3021,
+			"target": 31147
+		},
+		{
+			"source": 3021,
+			"target": 31157
+		},
+		{
+			"source": 30955,
+			"target": 30793
+		},
+		{
+			"source": 30984,
+			"target": 30406
+		},
+		{
+			"source": 30569,
+			"target": 30243
+		},
+		{
+			"source": 30960,
+			"target": 30807
+		},
+		{
+			"source": 30664,
+			"target": 30534
+		},
+		{
+			"source": 30960,
+			"target": 30810
+		},
+		{
+			"source": 30878,
+			"target": 30247
+		},
+		{
+			"source": 30877,
+			"target": 30247
+		},
+		{
+			"source": 30876,
+			"target": 30247
+		},
+		{
+			"source": 30534,
+			"target": 30239
+		},
+		{
+			"source": 30702,
+			"target": 30241
+		},
+		{
+			"source": 30702,
+			"target": 30246
+		},
+		{
+			"source": 31125,
+			"target": 30248
+		},
+		{
+			"source": 31126,
+			"target": 30248
+		},
+		{
+			"source": 31126,
+			"target": 30228
+		},
+		{
+			"source": 31126,
+			"target": 30239
+		},
+		{
+			"source": 31126,
+			"target": 30398
+		},
+		{
+			"source": 31126,
+			"target": 30449
+		},
+		{
+			"source": 31126,
+			"target": 30569
+		},
+		{
+			"source": 31126,
+			"target": 30695
+		},
+		{
+			"source": 31126,
+			"target": 30776
+		},
+		{
+			"source": 31126,
+			"target": 30846
+		},
+		{
+			"source": 31126,
+			"target": 30877
+		},
+		{
+			"source": 30877,
+			"target": 30228
+		},
+		{
+			"source": 30877,
+			"target": 30239
+		},
+		{
+			"source": 30877,
+			"target": 30398
+		},
+		{
+			"source": 30877,
+			"target": 30449
+		},
+		{
+			"source": 30877,
+			"target": 30569
+		},
+		{
+			"source": 30877,
+			"target": 30695
+		},
+		{
+			"source": 30877,
+			"target": 30776
+		},
+		{
+			"source": 30877,
+			"target": 30846
+		},
+		{
+			"source": 30846,
+			"target": 30228
+		},
+		{
+			"source": 30846,
+			"target": 30239
+		},
+		{
+			"source": 30846,
+			"target": 30398
+		},
+		{
+			"source": 30846,
+			"target": 30449
+		},
+		{
+			"source": 30846,
+			"target": 30569
+		},
+		{
+			"source": 30846,
+			"target": 30695
+		},
+		{
+			"source": 30846,
+			"target": 30776
+		},
+		{
+			"source": 30776,
+			"target": 30228
+		},
+		{
+			"source": 30776,
+			"target": 30239
+		},
+		{
+			"source": 30776,
+			"target": 30398
+		},
+		{
+			"source": 30776,
+			"target": 30449
+		},
+		{
+			"source": 30776,
+			"target": 30569
+		},
+		{
+			"source": 30776,
+			"target": 30695
+		},
+		{
+			"source": 30695,
+			"target": 30228
+		},
+		{
+			"source": 30695,
+			"target": 30239
+		},
+		{
+			"source": 30695,
+			"target": 30398
+		},
+		{
+			"source": 30695,
+			"target": 30449
+		},
+		{
+			"source": 30695,
+			"target": 30569
+		},
+		{
+			"source": 30569,
+			"target": 30228
+		},
+		{
+			"source": 30569,
+			"target": 30239
+		},
+		{
+			"source": 30569,
+			"target": 30398
+		},
+		{
+			"source": 30569,
+			"target": 30449
+		},
+		{
+			"source": 30449,
+			"target": 30228
+		},
+		{
+			"source": 30449,
+			"target": 30239
+		},
+		{
+			"source": 30449,
+			"target": 30398
+		},
+		{
+			"source": 30398,
+			"target": 30228
+		},
+		{
+			"source": 30398,
+			"target": 30239
+		},
+		{
+			"source": 30239,
+			"target": 30228
+		},
+		{
+			"source": 31115,
+			"target": 31069
+		},
+		{
+			"source": 30480,
+			"target": 30338
+		},
+		{
+			"source": 30480,
+			"target": 30374
+		},
+		{
+			"source": 30374,
+			"target": 30338
+		},
+		{
+			"source": 30804,
+			"target": 30586
+		},
+		{
+			"source": 30890,
+			"target": 30457
+		},
+		{
+			"source": 31030,
+			"target": 31009
+		},
+		{
+			"source": 30827,
+			"target": 30709
+		},
+		{
+			"source": 31132,
+			"target": 30243
+		},
+		{
+			"source": 31132,
+			"target": 30885
+		},
+		{
+			"source": 30885,
+			"target": 30243
+		},
+		{
+			"source": 30320,
+			"target": 30235
+		},
+		{
+			"source": 31135,
+			"target": 30783
+		},
+		{
+			"source": 30783,
+			"target": 30248
+		},
+		{
+			"source": 31151,
+			"target": 30431
+		},
+		{
+			"source": 30565,
+			"target": 30298
+		},
+		{
+			"source": 30572,
+			"target": 30408
+		},
+		{
+			"source": 30593,
+			"target": 30335
+		},
+		{
+			"source": 31023,
+			"target": 30712
+		},
+		{
+			"source": 31026,
+			"target": 30689
+		},
+		{
+			"source": 30414,
+			"target": 30244
+		},
+		{
+			"source": 30711,
+			"target": 30244
+		},
+		{
+			"source": 30711,
+			"target": 30414
+		},
+		{
+			"source": 2822,
+			"target": 30244
+		},
+		{
+			"source": 2822,
+			"target": 30414
+		},
+		{
+			"source": 30811,
+			"target": 30723
+		},
+		{
+			"source": 30779,
+			"target": 30665
+		},
+		{
+			"source": 31131,
+			"target": 30506
+		},
+		{
+			"source": 31104,
+			"target": 31036
+		},
+		{
+			"source": 31107,
+			"target": 31037
+		},
+		{
+			"source": 31110,
+			"target": 31040
+		},
+		{
+			"source": 30894,
+			"target": 30247
+		},
+		{
+			"source": 30894,
+			"target": 30288
+		},
+		{
+			"source": 30890,
+			"target": 30247
+		},
+		{
+			"source": 30890,
+			"target": 30288
+		},
+		{
+			"source": 30288,
+			"target": 30247
+		},
+		{
+			"source": 31109,
+			"target": 30446
+		},
+		{
+			"source": 30883,
+			"target": 30755
+		},
+		{
+			"source": 31108,
+			"target": 30643
+		},
+		{
+			"source": 31108,
+			"target": 30718
+		},
+		{
+			"source": 30718,
+			"target": 30643
+		},
+		{
+			"source": 30601,
+			"target": 30352
+		},
+		{
+			"source": 30828,
+			"target": 30816
+		},
+		{
+			"source": 31152,
+			"target": 30366
+		},
+		{
+			"source": 31152,
+			"target": 30837
+		},
+		{
+			"source": 30837,
+			"target": 30366
+		},
+		{
+			"source": 31110,
+			"target": 30446
+		},
+		{
+			"source": 31110,
+			"target": 31037
+		},
+		{
+			"source": 31110,
+			"target": 31039
+		},
+		{
+			"source": 31109,
+			"target": 31037
+		},
+		{
+			"source": 31109,
+			"target": 31039
+		},
+		{
+			"source": 31109,
+			"target": 31040
+		},
+		{
+			"source": 31107,
+			"target": 30446
+		},
+		{
+			"source": 31107,
+			"target": 31039
+		},
+		{
+			"source": 31107,
+			"target": 31040
+		},
+		{
+			"source": 31104,
+			"target": 30446
+		},
+		{
+			"source": 31104,
+			"target": 31037
+		},
+		{
+			"source": 31104,
+			"target": 31039
+		},
+		{
+			"source": 31104,
+			"target": 31040
+		},
+		{
+			"source": 31040,
+			"target": 30446
+		},
+		{
+			"source": 31039,
+			"target": 30446
+		},
+		{
+			"source": 31037,
+			"target": 30446
+		},
+		{
+			"source": 31088,
+			"target": 30521
+		},
+		{
+			"source": 31031,
+			"target": 30414
+		},
+		{
+			"source": 31128,
+			"target": 30462
+		},
+		{
+			"source": 30666,
+			"target": 30446
+		},
+		{
+			"source": 30613,
+			"target": 30500
+		},
+		{
+			"source": 30416,
+			"target": 30227
+		},
+		{
+			"source": 30464,
+			"target": 30227
+		},
+		{
+			"source": 30663,
+			"target": 30227
+		},
+		{
+			"source": 30768,
+			"target": 30227
+		},
+		{
+			"source": 30855,
+			"target": 30227
+		},
+		{
+			"source": 31001,
+			"target": 30227
+		},
+		{
+			"source": 31031,
+			"target": 30227
+		},
+		{
+			"source": 31090,
+			"target": 30227
+		},
+		{
+			"source": 30230,
+			"target": 30313
+		},
+		{
+			"source": 21489,
+			"target": 30547
+		},
+		{
+			"source": 30510,
+			"target": 30334
+		},
+		{
+			"source": 30510,
+			"target": 30650
+		},
+		{
+			"source": 5829,
+			"target": 30514
+		},
+		{
+			"source": 30854,
+			"target": 30517
+		},
+		{
+			"source": 30854,
+			"target": 31094
+		},
+		{
+			"source": 30854,
+			"target": 30622
+		},
+		{
+			"source": 31022,
+			"target": 30854
+		},
+		{
+			"source": 30980,
+			"target": 30635
+		},
+		{
+			"source": 30980,
+			"target": 30814
+		},
+		{
+			"source": 30980,
+			"target": 30481
+		},
+		{
+			"source": 30980,
+			"target": 30985
+		},
+		{
+			"source": 30980,
+			"target": 30986
+		},
+		{
+			"source": 30980,
+			"target": 30987
+		},
+		{
+			"source": 30980,
+			"target": 30984
+		},
+		{
+			"source": 30429,
+			"target": 31003
+		},
+		{
+			"source": 17922,
+			"target": 30469
+		},
+		{
+			"source": 23109,
+			"target": 30613
+		},
+		{
+			"source": 30658,
+			"target": 30402
+		},
+		{
+			"source": 30658,
+			"target": 30280
+		},
+		{
+			"source": 30658,
+			"target": 30328
+		},
+		{
+			"source": 30658,
+			"target": 30644
+		},
+		{
+			"source": 23201,
+			"target": 30741
+		},
+		{
+			"source": 23201,
+			"target": 30849
+		},
+		{
+			"source": 23201,
+			"target": 30653
+		},
+		{
+			"source": 23201,
+			"target": 30864
+		},
+		{
+			"source": 13929,
+			"target": 30365
+		},
+		{
+			"source": 13929,
+			"target": 30269
+		},
+		{
+			"source": 19161,
+			"target": 30331
+		},
+		{
+			"source": 27418,
+			"target": 30349
+		},
+		{
+			"source": 27418,
+			"target": 31127
+		},
+		{
+			"source": 27418,
+			"target": 31050
+		},
+		{
+			"source": 30964,
+			"target": 30459
+		},
+		{
+			"source": 30964,
+			"target": 30675
+		},
+		{
+			"source": 30964,
+			"target": 30934
+		},
+		{
+			"source": 3033,
+			"target": 30576
+		},
+		{
+			"source": 3033,
+			"target": 30772
+		},
+		{
+			"source": 33932,
+			"target": 30975
+		},
+		{
+			"source": 10890,
+			"target": 30265
+		},
+		{
+			"source": 30419,
+			"target": 30376
+		},
+		{
+			"source": 30419,
+			"target": 31125
+		},
+		{
+			"source": 30683,
+			"target": 30291
+		},
+		{
+			"source": 12575,
+			"target": 30258
+		},
+		{
+			"source": 30922,
+			"target": 30579
+		},
+		{
+			"source": 30922,
+			"target": 30514
+		},
+		{
+			"source": 30922,
+			"target": 30395
+		},
+		{
+			"source": 30922,
+			"target": 30517
+		},
+		{
+			"source": 30922,
+			"target": 30548
+		},
+		{
+			"source": 30922,
+			"target": 30435
+		},
+		{
+			"source": 30922,
+			"target": 30703
+		},
+		{
+			"source": 30922,
+			"target": 31003
+		},
+		{
+			"source": 30922,
+			"target": 31004
+		},
+		{
+			"source": 30922,
+			"target": 30273
+		},
+		{
+			"source": 30922,
+			"target": 30622
+		},
+		{
+			"source": 30922,
+			"target": 30546
+		},
+		{
+			"source": 30922,
+			"target": 31097
+		},
+		{
+			"source": 30922,
+			"target": 30619
+		},
+		{
+			"source": 30922,
+			"target": 30355
+		},
+		{
+			"source": 30922,
+			"target": 30621
+		},
+		{
+			"source": 30922,
+			"target": 30906
+		},
+		{
+			"source": 30922,
+			"target": 30718
+		},
+		{
+			"source": 30922,
+			"target": 31022
+		},
+		{
+			"source": 19782,
+			"target": 31087
+		},
+		{
+			"source": 17313,
+			"target": 30448
+		},
+		{
+			"source": 17313,
+			"target": 30240
+		},
+		{
+			"source": 17313,
+			"target": 30470
+		},
+		{
+			"source": 17313,
+			"target": 30876
+		},
+		{
+			"source": 17313,
+			"target": 30325
+		},
+		{
+			"source": 13274,
+			"target": 30552
+		},
+		{
+			"source": 13274,
+			"target": 30455
+		},
+		{
+			"source": 13274,
+			"target": 30671
+		},
+		{
+			"source": 13274,
+			"target": 30821
+		},
+		{
+			"source": 13274,
+			"target": 30336
+		},
+		{
+			"source": 13274,
+			"target": 30717
+		},
+		{
+			"source": 13274,
+			"target": 31153
+		},
+		{
+			"source": 7832,
+			"target": 30670
+		},
+		{
+			"source": 7832,
+			"target": 30318
+		},
+		{
+			"source": 7832,
+			"target": 31084
+		},
+		{
+			"source": 27053,
+			"target": 30647
+		},
+		{
+			"source": 27053,
+			"target": 30542
+		},
+		{
+			"source": 31076,
+			"target": 30850
+		},
+		{
+			"source": 31076,
+			"target": 30995
+		},
+		{
+			"source": 31076,
+			"target": 30766
+		},
+		{
+			"source": 31076,
+			"target": 31154
+		},
+		{
+			"source": 3130,
+			"target": 3131
+		},
+		{
+			"source": 3130,
+			"target": 31160
+		},
+		{
+			"source": 30393,
+			"target": 30392
+		},
+		{
+			"source": 14647,
+			"target": 30346
+		},
+		{
+			"source": 30946,
+			"target": 30303
+		},
+		{
+			"source": 30946,
+			"target": 31018
+		},
+		{
+			"source": 30946,
+			"target": 30403
+		},
+		{
+			"source": 30946,
+			"target": 30720
+		},
+		{
+			"source": 30946,
+			"target": 31055
+		},
+		{
+			"source": 30946,
+			"target": 30933
+		},
+		{
+			"source": 30946,
+			"target": 31156
+		},
+		{
+			"source": 30806,
+			"target": 30268
+		},
+		{
+			"source": 30806,
+			"target": 30960
+		},
+		{
+			"source": 30806,
+			"target": 30678
+		},
+		{
+			"source": 3021,
+			"target": 30897
+		},
+		{
+			"source": 3021,
+			"target": 30614
+		},
+		{
+			"source": 3021,
+			"target": 30308
+		},
+		{
+			"source": 3021,
+			"target": 30504
+		},
+		{
+			"source": 3021,
+			"target": 30380
+		},
+		{
+			"source": 3021,
+			"target": 30340
+		},
+		{
+			"source": 30912,
+			"target": 30644
+		},
+		{
+			"source": 31124,
+			"target": 30944
+		},
+		{
+			"source": 31124,
+			"target": 30281
+		},
+		{
+			"source": 31124,
+			"target": 30783
+		},
+		{
+			"source": 31124,
+			"target": 30248
+		},
+		{
+			"source": 30388,
+			"target": 30448
+		},
+		{
+			"source": 13264,
+			"target": 2822
+		},
+		{
+			"source": 13264,
+			"target": 30711
+		},
+		{
+			"source": 13264,
+			"target": 30244
+		},
+		{
+			"source": 13264,
+			"target": 30414
+		},
+		{
+			"source": 30872,
+			"target": 31072
+		},
+		{
+			"source": 35792,
+			"target": 30900
+		},
+		{
+			"source": 35792,
+			"target": 31042
+		},
+		{
+			"source": 35792,
+			"target": 31161
+		},
+		{
+			"source": 14803,
+			"target": 30955
+		},
+		{
+			"source": 30342,
+			"target": 31005
+		},
+		{
+			"source": 30342,
+			"target": 31096
+		},
+		{
+			"source": 30568,
+			"target": 30454
+		},
+		{
+			"source": 30568,
+			"target": 30229
+		},
+		{
+			"source": 30568,
+			"target": 31132
+		},
+		{
+			"source": 30568,
+			"target": 30413
+		},
+		{
+			"source": 30568,
+			"target": 30885
+		},
+		{
+			"source": 30568,
+			"target": 30243
+		},
+		{
+			"source": 30568,
+			"target": 30408
+		},
+		{
+			"source": 2822,
+			"target": 30711
+		},
+		{
+			"source": 2822,
+			"target": 30244
+		},
+		{
+			"source": 30875,
+			"target": 30434
+		},
+		{
+			"source": 30875,
+			"target": 30589
+		},
+		{
+			"source": 30875,
+			"target": 30755
+		},
+		{
+			"source": 30875,
+			"target": 30347
+		},
+		{
+			"source": 30875,
+			"target": 30288
+		},
+		{
+			"source": 30907,
+			"target": 30328
+		},
+		{
+			"source": 30983,
+			"target": 30772
+		},
+		{
+			"source": 30580,
+			"target": 30465
+		},
+		{
+			"source": 30789,
+			"target": 30624
+		},
+		{
+			"source": 19846,
+			"target": 30286
+		},
+		{
+			"source": 19846,
+			"target": 30412
+		},
+		{
+			"source": 31079,
+			"target": 30228
+		},
+		{
+			"source": 31124,
+			"target": 31102
+		},
+		{
+			"source": 31035,
+			"target": 31103
+		},
+		{
+			"source": 14647,
+			"target": 31104
+		},
+		{
+			"source": 1622,
+			"target": 31106
+		},
+		{
+			"source": 13279,
+			"target": 31107
+		},
+		{
+			"source": 30875,
+			"target": 31109
+		},
+		{
+			"source": 31124,
+			"target": 31110
+		},
+		{
+			"source": 14647,
+			"target": 31112
+		},
+		{
+			"source": 30875,
+			"target": 31113
+		},
+		{
+			"source": 14647,
+			"target": 30234
+		},
+		{
+			"source": 14647,
+			"target": 30235
+		},
+		{
+			"source": 13279,
+			"target": 30245
+		},
+		{
+			"source": 14647,
+			"target": 30735
+		},
+		{
+			"source": 14647,
+			"target": 30716
+		},
+		{
+			"source": 14647,
+			"target": 30250
+		},
+		{
+			"source": 14647,
+			"target": 30688
+		},
+		{
+			"source": 14647,
+			"target": 30985
+		},
+		{
+			"source": 14647,
+			"target": 30993
+		},
+		{
+			"source": 14647,
+			"target": 30372
+		},
+		{
+			"source": 14647,
+			"target": 30282
+		},
+		{
+			"source": 14647,
+			"target": 30377
+		},
+		{
+			"source": 14647,
+			"target": 30320
+		},
+		{
+			"source": 14647,
+			"target": 30339
+		},
+		{
+			"source": 14647,
+			"target": 30359
+		},
+		{
+			"source": 14647,
+			"target": 30749
+		},
+		{
+			"source": 14647,
+			"target": 30760
+		},
+		{
+			"source": 14647,
+			"target": 30361
+		},
+		{
+			"source": 14647,
+			"target": 30363
+		},
+		{
+			"source": 14647,
+			"target": 30388
+		},
+		{
+			"source": 14647,
+			"target": 30475
+		},
+		{
+			"source": 14647,
+			"target": 30499
+		},
+		{
+			"source": 14647,
+			"target": 31128
+		},
+		{
+			"source": 14647,
+			"target": 31048
+		},
+		{
+			"source": 14647,
+			"target": 30396
+		},
+		{
+			"source": 14647,
+			"target": 30400
+		},
+		{
+			"source": 14647,
+			"target": 30424
+		},
+		{
+			"source": 14647,
+			"target": 30439
+		},
+		{
+			"source": 14647,
+			"target": 30440
+		},
+		{
+			"source": 14647,
+			"target": 31024
+		},
+		{
+			"source": 14647,
+			"target": 30484
+		},
+		{
+			"source": 14647,
+			"target": 30680
+		},
+		{
+			"source": 14647,
+			"target": 30555
+		},
+		{
+			"source": 14647,
+			"target": 30584
+		},
+		{
+			"source": 14647,
+			"target": 30661
+		},
+		{
+			"source": 14647,
+			"target": 31148
+		},
+		{
+			"source": 14647,
+			"target": 31117
+		},
+		{
+			"source": 14647,
+			"target": 30649
+		},
+		{
+			"source": 14647,
+			"target": 30655
+		},
+		{
+			"source": 14647,
+			"target": 30882
+		},
+		{
+			"source": 14647,
+			"target": 31146
+		},
+		{
+			"source": 14647,
+			"target": 31049
+		},
+		{
+			"source": 14647,
+			"target": 30834
+		},
+		{
+			"source": 14647,
+			"target": 30463
+		},
+		{
+			"source": 14647,
+			"target": 30713
+		},
+		{
+			"source": 14647,
+			"target": 30726
+		},
+		{
+			"source": 14647,
+			"target": 30729
+		},
+		{
+			"source": 14647,
+			"target": 30731
+		},
+		{
+			"source": 14647,
+			"target": 30733
+		},
+		{
+			"source": 14647,
+			"target": 30785
+		},
+		{
+			"source": 14647,
+			"target": 31089
+		},
+		{
+			"source": 14647,
+			"target": 30970
+		},
+		{
+			"source": 14647,
+			"target": 30787
+		},
+		{
+			"source": 14647,
+			"target": 30989
+		},
+		{
+			"source": 14647,
+			"target": 31073
+		},
+		{
+			"source": 14647,
+			"target": 30865
+		},
+		{
+			"source": 14647,
+			"target": 30925
+		},
+		{
+			"source": 14647,
+			"target": 31020
+		},
+		{
+			"source": 14647,
+			"target": 31027
+		},
+		{
+			"source": 30947,
+			"target": 31156
+		},
+		{
+			"source": 19747,
+			"target": 30296
+		},
+		{
+			"source": 19747,
+			"target": 30367
+		},
+		{
+			"source": 19747,
+			"target": 30399
+		},
+		{
+			"source": 19747,
+			"target": 30421
+		},
+		{
+			"source": 19747,
+			"target": 30482
+		},
+		{
+			"source": 19747,
+			"target": 30511
+		},
+		{
+			"source": 19747,
+			"target": 30696
+		},
+		{
+			"source": 19747,
+			"target": 30744
+		},
+		{
+			"source": 19747,
+			"target": 30856
+		},
+		{
+			"source": 19747,
+			"target": 30938
+		},
+		{
+			"source": 19747,
+			"target": 30406
+		},
+		{
+			"source": 19747,
+			"target": 30316
+		},
+		{
+			"source": 19747,
+			"target": 30553
+		},
+		{
+			"source": 19747,
+			"target": 30664
+		},
+		{
+			"source": 19747,
+			"target": 30702
+		},
+		{
+			"source": 19747,
+			"target": 30807
+		},
+		{
+			"source": 19747,
+			"target": 30757
+		},
+		{
+			"source": 19747,
+			"target": 31145
+		},
+		{
+			"source": 19747,
+			"target": 30984
+		},
+		{
+			"source": 19747,
+			"target": 30534
+		},
+		{
+			"source": 19747,
+			"target": 31156
+		},
+		{
+			"source": 19747,
+			"target": 30960
+		},
+		{
+			"source": 19747,
+			"target": 30878
+		},
+		{
+			"source": 19747,
+			"target": 30407
+		},
+		{
+			"source": 19747,
+			"target": 30786
+		},
+		{
+			"source": 19747,
+			"target": 31007
+		},
+		{
+			"source": 19747,
+			"target": 31035
+		},
+		{
+			"source": 19747,
+			"target": 30812
+		},
+		{
+			"source": 30258,
+			"target": 30698
+		},
+		{
+			"source": 4404,
+			"target": 30368
+		},
+		{
+			"source": 4404,
+			"target": 30612
+		},
+		{
+			"source": 4404,
+			"target": 30615
+		},
+		{
+			"source": 30342,
+			"target": 30623
+		},
+		{
+			"source": 30845,
+			"target": 30457
+		},
+		{
+			"source": 30845,
+			"target": 30890
+		},
+		{
+			"source": 30386,
+			"target": 30544
+		},
+		{
+			"source": 3080,
+			"target": 31028
+		},
+		{
+			"source": 3080,
+			"target": 30881
+		},
+		{
+			"source": 3080,
+			"target": 31032
+		},
+		{
+			"source": 3080,
+			"target": 31029
+		},
+		{
+			"source": 3080,
+			"target": 31031
+		},
+		{
+			"source": 3080,
+			"target": 31030
+		},
+		{
+			"source": 30487,
+			"target": 31130
+		},
+		{
+			"source": 22423,
+			"target": 23891
+		},
+		{
+			"source": 30515,
+			"target": 30780
+		},
+		{
+			"source": 30518,
+			"target": 30650
+		},
+		{
+			"source": 31013,
+			"target": 30871
+		},
+		{
+			"source": 30568,
+			"target": 30811
+		},
+		{
+			"source": 30568,
+			"target": 30723
+		},
+		{
+			"source": 23109,
+			"target": 30500
+		},
+		{
+			"source": 31123,
+			"target": 30783
+		},
+		{
+			"source": 31000,
+			"target": 30772
+		},
+		{
+			"source": 30875,
+			"target": 30247
+		},
+		{
+			"source": 30875,
+			"target": 30701
+		},
+		{
+			"source": 31059,
+			"target": 31139
+		},
+		{
+			"source": 30775,
+			"target": 30793
+		},
+		{
+			"source": 30775,
+			"target": 30955
+		},
+		{
+			"source": 30483,
+			"target": 30547
+		},
+		{
+			"source": 31079,
+			"target": 30398
+		},
+		{
+			"source": 31079,
+			"target": 30695
+		},
+		{
+			"source": 31079,
+			"target": 30239
+		},
+		{
+			"source": 31079,
+			"target": 30449
+		},
+		{
+			"source": 31079,
+			"target": 30569
+		},
+		{
+			"source": 31079,
+			"target": 30841
+		},
+		{
+			"source": 31079,
+			"target": 30776
+		},
+		{
+			"source": 31079,
+			"target": 30846
+		},
+		{
+			"source": 31079,
+			"target": 30877
+		},
+		{
+			"source": 31079,
+			"target": 31126
+		},
+		{
+			"source": 31079,
+			"target": 31034
+		},
+		{
+			"source": 30691,
+			"target": 30539
+		},
+		{
+			"source": 30691,
+			"target": 30737
+		},
+		{
+			"source": 30564,
+			"target": 30298
+		},
+		{
+			"source": 30636,
+			"target": 31050
+		},
+		{
+			"source": 31061,
+			"target": 31139
+		},
+		{
+			"source": 31090,
+			"target": 31031
+		},
+		{
+			"source": 30406,
+			"target": 30407
+		},
+		{
+			"source": 30807,
+			"target": 30960
+		},
+		{
+			"source": 30807,
+			"target": 30812
+		},
+		{
+			"source": 30416,
+			"target": 31031
+		},
+		{
+			"source": 13279,
+			"target": 30283
+		},
+		{
+			"source": 13279,
+			"target": 31135
+		},
+		{
+			"source": 30875,
+			"target": 30341
+		},
+		{
+			"source": 14647,
+			"target": 30513
+		},
+		{
+			"source": 14647,
+			"target": 30728
+		},
+		{
+			"source": 14647,
+			"target": 30965
+		},
+		{
+			"source": 14647,
+			"target": 30297
+		},
+		{
+			"source": 14647,
+			"target": 30362
+		},
+		{
+			"source": 14647,
+			"target": 30697
+		},
+		{
+			"source": 14647,
+			"target": 30769
+		},
+		{
+			"source": 14647,
+			"target": 30771
+		},
+		{
+			"source": 14647,
+			"target": 30858
+		},
+		{
+			"source": 14647,
+			"target": 30687
+		},
+		{
+			"source": 14647,
+			"target": 30321
+		},
+		{
+			"source": 14647,
+			"target": 31159
+		},
+		{
+			"source": 14647,
+			"target": 30754
+		},
+		{
+			"source": 14647,
+			"target": 30616
+		},
+		{
+			"source": 14647,
+			"target": 30848
+		},
+		{
+			"source": 14647,
+			"target": 30241
+		},
+		{
+			"source": 14647,
+			"target": 31029
+		},
+		{
+			"source": 14647,
+			"target": 30565
+		},
+		{
+			"source": 14647,
+			"target": 31036
+		},
+		{
+			"source": 30875,
+			"target": 30862
+		},
+		{
+			"source": 30875,
+			"target": 30966
+		},
+		{
+			"source": 30875,
+			"target": 30246
+		},
+		{
+			"source": 30875,
+			"target": 30666
+		},
+		{
+			"source": 30875,
+			"target": 30446
+		},
+		{
+			"source": 30415,
+			"target": 31091
+		},
+		{
+			"source": 30865,
+			"target": 30858
+		},
+		{
+			"source": 30891,
+			"target": 30862
+		},
+		{
+			"source": 31090,
+			"target": 30416
+		},
+		{
+			"source": 30688,
+			"target": 30687
+		},
+		{
+			"source": 30228,
+			"target": 30841
+		},
+		{
+			"source": 30228,
+			"target": 31034
+		},
+		{
+			"source": 30229,
+			"target": 30243
+		},
+		{
+			"source": 30229,
+			"target": 30454
+		},
+		{
+			"source": 30229,
+			"target": 30885
+		},
+		{
+			"source": 30229,
+			"target": 31132
+		},
+		{
+			"source": 30239,
+			"target": 30841
+		},
+		{
+			"source": 30239,
+			"target": 31034
+		},
+		{
+			"source": 30243,
+			"target": 30407
+		},
+		{
+			"source": 30243,
+			"target": 30454
+		},
+		{
+			"source": 30241,
+			"target": 30297
+		},
+		{
+			"source": 30241,
+			"target": 30321
+		},
+		{
+			"source": 30241,
+			"target": 30362
+		},
+		{
+			"source": 30241,
+			"target": 30448
+		},
+		{
+			"source": 30241,
+			"target": 30449
+		},
+		{
+			"source": 30241,
+			"target": 30565
+		},
+		{
+			"source": 30241,
+			"target": 30616
+		},
+		{
+			"source": 30241,
+			"target": 30687
+		},
+		{
+			"source": 30241,
+			"target": 30754
+		},
+		{
+			"source": 30241,
+			"target": 30769
+		},
+		{
+			"source": 30241,
+			"target": 30771
+		},
+		{
+			"source": 30241,
+			"target": 30848
+		},
+		{
+			"source": 30241,
+			"target": 30858
+		},
+		{
+			"source": 30241,
+			"target": 31029
+		},
+		{
+			"source": 30241,
+			"target": 31036
+		},
+		{
+			"source": 30246,
+			"target": 30299
+		},
+		{
+			"source": 30246,
+			"target": 30446
+		},
+		{
+			"source": 30246,
+			"target": 30617
+		},
+		{
+			"source": 30246,
+			"target": 30666
+		},
+		{
+			"source": 30246,
+			"target": 30701
+		},
+		{
+			"source": 30246,
+			"target": 30813
+		},
+		{
+			"source": 30246,
+			"target": 30843
+		},
+		{
+			"source": 30246,
+			"target": 30862
+		},
+		{
+			"source": 30246,
+			"target": 30878
+		},
+		{
+			"source": 30246,
+			"target": 30876
+		},
+		{
+			"source": 30246,
+			"target": 30877
+		},
+		{
+			"source": 30246,
+			"target": 30966
+		},
+		{
+			"source": 30248,
+			"target": 30407
+		},
+		{
+			"source": 30248,
+			"target": 31128
+		},
+		{
+			"source": 30248,
+			"target": 31135
+		},
+		{
+			"source": 30248,
+			"target": 31132
+		},
+		{
+			"source": 30247,
+			"target": 30407
+		},
+		{
+			"source": 30247,
+			"target": 30885
+		},
+		{
+			"source": 30271,
+			"target": 31071
+		},
+		{
+			"source": 30288,
+			"target": 30885
+		},
+		{
+			"source": 30297,
+			"target": 30321
+		},
+		{
+			"source": 30297,
+			"target": 30362
+		},
+		{
+			"source": 30297,
+			"target": 30565
+		},
+		{
+			"source": 30297,
+			"target": 30616
+		},
+		{
+			"source": 30297,
+			"target": 30687
+		},
+		{
+			"source": 30297,
+			"target": 30754
+		},
+		{
+			"source": 30297,
+			"target": 30769
+		},
+		{
+			"source": 30297,
+			"target": 30771
+		},
+		{
+			"source": 30297,
+			"target": 30848
+		},
+		{
+			"source": 30297,
+			"target": 30858
+		},
+		{
+			"source": 30297,
+			"target": 31029
+		},
+		{
+			"source": 30297,
+			"target": 31036
+		},
+		{
+			"source": 30299,
+			"target": 30617
+		},
+		{
+			"source": 30299,
+			"target": 30813
+		},
+		{
+			"source": 30299,
+			"target": 30843
+		},
+		{
+			"source": 30321,
+			"target": 30362
+		},
+		{
+			"source": 30321,
+			"target": 30565
+		},
+		{
+			"source": 30321,
+			"target": 30616
+		},
+		{
+			"source": 30321,
+			"target": 30687
+		},
+		{
+			"source": 30321,
+			"target": 30754
+		},
+		{
+			"source": 30321,
+			"target": 30769
+		},
+		{
+			"source": 30321,
+			"target": 30770
+		},
+		{
+			"source": 30321,
+			"target": 30771
+		},
+		{
+			"source": 30321,
+			"target": 30796
+		},
+		{
+			"source": 30321,
+			"target": 30848
+		},
+		{
+			"source": 30321,
+			"target": 30858
+		},
+		{
+			"source": 30321,
+			"target": 31029
+		},
+		{
+			"source": 30321,
+			"target": 31036
+		},
+		{
+			"source": 30335,
+			"target": 30592
+		},
+		{
+			"source": 30344,
+			"target": 30739
+		},
+		{
+			"source": 30344,
+			"target": 30738
+		},
+		{
+			"source": 30351,
+			"target": 30411
+		},
+		{
+			"source": 30351,
+			"target": 30770
+		},
+		{
+			"source": 30351,
+			"target": 30832
+		},
+		{
+			"source": 30351,
+			"target": 30848
+		},
+		{
+			"source": 30362,
+			"target": 30565
+		},
+		{
+			"source": 30362,
+			"target": 30616
+		},
+		{
+			"source": 30362,
+			"target": 30687
+		},
+		{
+			"source": 30362,
+			"target": 30754
+		},
+		{
+			"source": 30362,
+			"target": 30769
+		},
+		{
+			"source": 30362,
+			"target": 30770
+		},
+		{
+			"source": 30362,
+			"target": 30771
+		},
+		{
+			"source": 30362,
+			"target": 30848
+		},
+		{
+			"source": 30362,
+			"target": 30858
+		},
+		{
+			"source": 30362,
+			"target": 31029
+		},
+		{
+			"source": 30362,
+			"target": 31036
+		},
+		{
+			"source": 30366,
+			"target": 30792
+		},
+		{
+			"source": 30368,
+			"target": 30612
+		},
+		{
+			"source": 30368,
+			"target": 30615
+		},
+		{
+			"source": 30398,
+			"target": 30841
+		},
+		{
+			"source": 30398,
+			"target": 31034
+		},
+		{
+			"source": 30407,
+			"target": 30984
+		},
+		{
+			"source": 30411,
+			"target": 30770
+		},
+		{
+			"source": 30411,
+			"target": 30832
+		},
+		{
+			"source": 30408,
+			"target": 30571
+		},
+		{
+			"source": 30446,
+			"target": 30665
+		},
+		{
+			"source": 30446,
+			"target": 30862
+		},
+		{
+			"source": 30446,
+			"target": 30966
+		},
+		{
+			"source": 30446,
+			"target": 31036
+		},
+		{
+			"source": 30446,
+			"target": 31106
+		},
+		{
+			"source": 30449,
+			"target": 30841
+		},
+		{
+			"source": 30449,
+			"target": 31034
+		},
+		{
+			"source": 30454,
+			"target": 30885
+		},
+		{
+			"source": 30454,
+			"target": 31132
+		},
+		{
+			"source": 30488,
+			"target": 30656
+		},
+		{
+			"source": 30534,
+			"target": 31035
+		},
+		{
+			"source": 30534,
+			"target": 31034
+		},
+		{
+			"source": 30539,
+			"target": 30737
+		},
+		{
+			"source": 30565,
+			"target": 30616
+		},
+		{
+			"source": 30565,
+			"target": 30687
+		},
+		{
+			"source": 30565,
+			"target": 30754
+		},
+		{
+			"source": 30565,
+			"target": 30769
+		},
+		{
+			"source": 30565,
+			"target": 30771
+		},
+		{
+			"source": 30565,
+			"target": 30848
+		},
+		{
+			"source": 30565,
+			"target": 30858
+		},
+		{
+			"source": 30565,
+			"target": 31029
+		},
+		{
+			"source": 30565,
+			"target": 31036
+		},
+		{
+			"source": 30569,
+			"target": 30841
+		},
+		{
+			"source": 30569,
+			"target": 31034
+		},
+		{
+			"source": 30612,
+			"target": 30615
+		},
+		{
+			"source": 30616,
+			"target": 30687
+		},
+		{
+			"source": 30616,
+			"target": 30754
+		},
+		{
+			"source": 30616,
+			"target": 30769
+		},
+		{
+			"source": 30616,
+			"target": 30771
+		},
+		{
+			"source": 30616,
+			"target": 30848
+		},
+		{
+			"source": 30616,
+			"target": 30858
+		},
+		{
+			"source": 30616,
+			"target": 31029
+		},
+		{
+			"source": 30616,
+			"target": 31036
+		},
+		{
+			"source": 30617,
+			"target": 30813
+		},
+		{
+			"source": 30617,
+			"target": 30843
+		},
+		{
+			"source": 30664,
+			"target": 31035
+		},
+		{
+			"source": 30665,
+			"target": 31037
+		},
+		{
+			"source": 30665,
+			"target": 31104
+		},
+		{
+			"source": 30665,
+			"target": 31107
+		},
+		{
+			"source": 30665,
+			"target": 31109
+		},
+		{
+			"source": 30665,
+			"target": 31110
+		},
+		{
+			"source": 30666,
+			"target": 30862
+		},
+		{
+			"source": 30666,
+			"target": 30966
+		},
+		{
+			"source": 30666,
+			"target": 31039
+		},
+		{
+			"source": 30666,
+			"target": 31104
+		},
+		{
+			"source": 30666,
+			"target": 31107
+		},
+		{
+			"source": 30666,
+			"target": 31109
+		},
+		{
+			"source": 30666,
+			"target": 31110
+		},
+		{
+			"source": 30689,
+			"target": 30770
+		},
+		{
+			"source": 30687,
+			"target": 30754
+		},
+		{
+			"source": 30687,
+			"target": 30769
+		},
+		{
+			"source": 30687,
+			"target": 30770
+		},
+		{
+			"source": 30687,
+			"target": 30771
+		},
+		{
+			"source": 30687,
+			"target": 30848
+		},
+		{
+			"source": 30687,
+			"target": 30858
+		},
+		{
+			"source": 30687,
+			"target": 31029
+		},
+		{
+			"source": 30687,
+			"target": 31036
+		},
+		{
+			"source": 30688,
+			"target": 30770
+		},
+		{
+			"source": 30695,
+			"target": 30841
+		},
+		{
+			"source": 30695,
+			"target": 31034
+		},
+		{
+			"source": 30718,
+			"target": 30906
+		},
+		{
+			"source": 30724,
+			"target": 30811
+		},
+		{
+			"source": 30754,
+			"target": 30769
+		},
+		{
+			"source": 30754,
+			"target": 30771
+		},
+		{
+			"source": 30754,
+			"target": 30848
+		},
+		{
+			"source": 30754,
+			"target": 30858
+		},
+		{
+			"source": 30754,
+			"target": 31029
+		},
+		{
+			"source": 30754,
+			"target": 31036
+		},
+		{
+			"source": 30769,
+			"target": 30771
+		},
+		{
+			"source": 30769,
+			"target": 30848
+		},
+		{
+			"source": 30769,
+			"target": 30858
+		},
+		{
+			"source": 30769,
+			"target": 31029
+		},
+		{
+			"source": 30769,
+			"target": 31036
+		},
+		{
+			"source": 30770,
+			"target": 30796
+		},
+		{
+			"source": 30770,
+			"target": 30832
+		},
+		{
+			"source": 30770,
+			"target": 30858
+		},
+		{
+			"source": 30771,
+			"target": 30848
+		},
+		{
+			"source": 30771,
+			"target": 30858
+		},
+		{
+			"source": 30771,
+			"target": 31029
+		},
+		{
+			"source": 30771,
+			"target": 31036
+		},
+		{
+			"source": 30776,
+			"target": 30841
+		},
+		{
+			"source": 30776,
+			"target": 31034
+		},
+		{
+			"source": 30783,
+			"target": 31128
+		},
+		{
+			"source": 30783,
+			"target": 31132
+		},
+		{
+			"source": 30779,
+			"target": 31037
+		},
+		{
+			"source": 30779,
+			"target": 31107
+		},
+		{
+			"source": 30792,
+			"target": 30837
+		},
+		{
+			"source": 30792,
+			"target": 31152
+		},
+		{
+			"source": 30804,
+			"target": 30805
+		},
+		{
+			"source": 30813,
+			"target": 30843
+		},
+		{
+			"source": 30812,
+			"target": 30960
+		},
+		{
+			"source": 30841,
+			"target": 30846
+		},
+		{
+			"source": 30841,
+			"target": 30877
+		},
+		{
+			"source": 30841,
+			"target": 31034
+		},
+		{
+			"source": 30841,
+			"target": 31126
+		},
+		{
+			"source": 30846,
+			"target": 31034
+		},
+		{
+			"source": 30848,
+			"target": 30858
+		},
+		{
+			"source": 30848,
+			"target": 31029
+		},
+		{
+			"source": 30848,
+			"target": 31036
+		},
+		{
+			"source": 30858,
+			"target": 31029
+		},
+		{
+			"source": 30858,
+			"target": 31036
+		},
+		{
+			"source": 30862,
+			"target": 30966
+		},
+		{
+			"source": 30877,
+			"target": 31034
+		},
+		{
+			"source": 30881,
+			"target": 31091
+		},
+		{
+			"source": 31029,
+			"target": 31036
+		},
+		{
+			"source": 31029,
+			"target": 31091
+		},
+		{
+			"source": 31031,
+			"target": 31091
+		},
+		{
+			"source": 31036,
+			"target": 31106
+		},
+		{
+			"source": 31036,
+			"target": 31107
+		},
+		{
+			"source": 31036,
+			"target": 31109
+		},
+		{
+			"source": 31036,
+			"target": 31110
+		},
+		{
+			"source": 31034,
+			"target": 31126
+		},
+		{
+			"source": 30875,
+			"target": 30299
+		},
+		{
+			"source": 30245,
+			"target": 30244
+		},
+		{
+			"source": 30243,
+			"target": 30248
+		},
+		{
+			"source": 30243,
+			"target": 30247
+		},
+		{
+			"source": 30241,
+			"target": 30246
+		},
+		{
+			"source": 30246,
+			"target": 30247
+		},
+		{
+			"source": 30248,
+			"target": 30247
+		},
+		{
+			"source": 30297,
+			"target": 30299
+		},
+		{
+			"source": 30297,
+			"target": 30298
+		},
+		{
+			"source": 30299,
+			"target": 30298
+		},
+		{
+			"source": 30320,
+			"target": 30321
+		},
+		{
+			"source": 30409,
+			"target": 30408
+		},
+		{
+			"source": 30414,
+			"target": 30416
+		},
+		{
+			"source": 30414,
+			"target": 31090
+		},
+		{
+			"source": 30414,
+			"target": 31091
+		},
+		{
+			"source": 30416,
+			"target": 31091
+		},
+		{
+			"source": 30448,
+			"target": 30449
+		},
+		{
+			"source": 30457,
+			"target": 30454
+		},
+		{
+			"source": 30457,
+			"target": 30462
+		},
+		{
+			"source": 30454,
+			"target": 30462
+		},
+		{
+			"source": 30543,
+			"target": 30542
+		},
+		{
+			"source": 30616,
+			"target": 30617
+		},
+		{
+			"source": 30619,
+			"target": 30622
+		},
+		{
+			"source": 30619,
+			"target": 30621
+		},
+		{
+			"source": 30622,
+			"target": 30621
+		},
+		{
+			"source": 30625,
+			"target": 30626
+		},
+		{
+			"source": 30625,
+			"target": 30623
+		},
+		{
+			"source": 30626,
+			"target": 30623
+		},
+		{
+			"source": 30632,
+			"target": 30636
+		},
+		{
+			"source": 30665,
+			"target": 30666
+		},
+		{
+			"source": 30680,
+			"target": 30681
+		},
+		{
+			"source": 30689,
+			"target": 30687
+		},
+		{
+			"source": 30739,
+			"target": 30738
+		},
+		{
+			"source": 30769,
+			"target": 30770
+		},
+		{
+			"source": 30810,
+			"target": 30807
+		},
+		{
+			"source": 30810,
+			"target": 30812
+		},
+		{
+			"source": 30809,
+			"target": 30812
+		},
+		{
+			"source": 30878,
+			"target": 30876
+		},
+		{
+			"source": 30878,
+			"target": 30877
+		},
+		{
+			"source": 30876,
+			"target": 30877
+		},
+		{
+			"source": 30890,
+			"target": 30885
+		},
+		{
+			"source": 30890,
+			"target": 30894
+		},
+		{
+			"source": 30885,
+			"target": 30894
+		},
+		{
+			"source": 30984,
+			"target": 30985
+		},
+		{
+			"source": 30984,
+			"target": 30986
+		},
+		{
+			"source": 30985,
+			"target": 30986
+		},
+		{
+			"source": 31003,
+			"target": 31004
+		},
+		{
+			"source": 31030,
+			"target": 31032
+		},
+		{
+			"source": 31037,
+			"target": 31039
+		},
+		{
+			"source": 31037,
+			"target": 31040
+		},
+		{
+			"source": 31039,
+			"target": 31040
+		},
+		{
+			"source": 31035,
+			"target": 31034
+		},
+		{
+			"source": 31060,
+			"target": 31061
+		},
+		{
+			"source": 31067,
+			"target": 31068
+		},
+		{
+			"source": 31090,
+			"target": 31091
+		},
+		{
+			"source": 31105,
+			"target": 31108
+		},
+		{
+			"source": 31104,
+			"target": 31106
+		},
+		{
+			"source": 31104,
+			"target": 31107
+		},
+		{
+			"source": 31104,
+			"target": 31109
+		},
+		{
+			"source": 31104,
+			"target": 31110
+		},
+		{
+			"source": 31106,
+			"target": 31107
+		},
+		{
+			"source": 31106,
+			"target": 31109
+		},
+		{
+			"source": 31106,
+			"target": 31110
+		},
+		{
+			"source": 31107,
+			"target": 31109
+		},
+		{
+			"source": 31107,
+			"target": 31110
+		},
+		{
+			"source": 31109,
+			"target": 31110
+		},
+		{
+			"source": 31126,
+			"target": 31125
+		},
+		{
+			"source": 31128,
+			"target": 31135
+		},
+		{
+			"source": 31128,
+			"target": 31132
+		},
+		{
+			"source": 31135,
+			"target": 31132
+		},
+		{
+			"source": 30875,
+			"target": 30915
+		},
+		{
+			"source": 30875,
+			"target": 30656
+		},
+		{
+			"source": 30875,
+			"target": 30986
+		},
+		{
+			"source": 30875,
+			"target": 30323
+		},
+		{
+			"source": 30875,
+			"target": 30322
+		},
+		{
+			"source": 30875,
+			"target": 30345
+		},
+		{
+			"source": 30875,
+			"target": 30488
+		},
+		{
+			"source": 30875,
+			"target": 30373
+		},
+		{
+			"source": 30875,
+			"target": 31122
+		},
+		{
+			"source": 30875,
+			"target": 30523
+		},
+		{
+			"source": 30875,
+			"target": 31091
+		},
+		{
+			"source": 30875,
+			"target": 30415
+		},
+		{
+			"source": 30875,
+			"target": 30485
+		},
+		{
+			"source": 30875,
+			"target": 31039
+		},
+		{
+			"source": 30875,
+			"target": 30681
+		},
+		{
+			"source": 30875,
+			"target": 30556
+		},
+		{
+			"source": 30875,
+			"target": 30617
+		},
+		{
+			"source": 30875,
+			"target": 30642
+		},
+		{
+			"source": 30875,
+			"target": 31116
+		},
+		{
+			"source": 30875,
+			"target": 30740
+		},
+		{
+			"source": 30875,
+			"target": 30843
+		},
+		{
+			"source": 30875,
+			"target": 31057
+		},
+		{
+			"source": 30875,
+			"target": 30813
+		},
+		{
+			"source": 30875,
+			"target": 30803
+		},
+		{
+			"source": 30875,
+			"target": 30929
+		},
+		{
+			"source": 30875,
+			"target": 31021
+		},
+		{
+			"source": 31124,
+			"target": 30734
+		},
+		{
+			"source": 31124,
+			"target": 31067
+		},
+		{
+			"source": 31124,
+			"target": 31068
+		},
+		{
+			"source": 31124,
+			"target": 30832
+		},
+		{
+			"source": 31124,
+			"target": 30770
+		},
+		{
+			"source": 31124,
+			"target": 30411
+		},
+		{
+			"source": 31124,
+			"target": 30329
+		},
+		{
+			"source": 31124,
+			"target": 30351
+		},
+		{
+			"source": 31124,
+			"target": 30462
+		},
+		{
+			"source": 31124,
+			"target": 30894
+		},
+		{
+			"source": 31124,
+			"target": 30437
+		},
+		{
+			"source": 31124,
+			"target": 30487
+		},
+		{
+			"source": 31124,
+			"target": 30506
+		},
+		{
+			"source": 31124,
+			"target": 31040
+		},
+		{
+			"source": 31124,
+			"target": 30751
+		},
+		{
+			"source": 31124,
+			"target": 30644
+		},
+		{
+			"source": 31124,
+			"target": 30873
+		},
+		{
+			"source": 31124,
+			"target": 30901
+		},
+		{
+			"source": 31124,
+			"target": 30912
+		},
+		{
+			"source": 31124,
+			"target": 30935
+		},
+		{
+			"source": 31124,
+			"target": 31061
+		},
+		{
+			"source": 13345,
+			"target": 30709
+		},
+		{
+			"source": 1622,
+			"target": 30310
+		},
+		{
+			"source": 30770,
+			"target": 30854
+		},
+		{
+			"source": 30770,
+			"target": 8664
+		},
+		{
+			"source": 30770,
+			"target": 17925
+		},
+		{
+			"source": 30770,
+			"target": 30686
+		},
+		{
+			"source": 23891,
+			"target": 30491
+		},
+		{
+			"source": 31022,
+			"target": 30518
+		},
+		{
+			"source": 31022,
+			"target": 30790
+		},
+		{
+			"source": 12333,
+			"target": 30672
+		}
+	]
+
+}

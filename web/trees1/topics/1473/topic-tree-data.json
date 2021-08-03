@@ -1,0 +1,90 @@
+{
+	"id": 1473,
+	"children": [
+		{
+			"id": 38552,
+			"name": "Racism -- relationship to sexism and classism"
+		},
+		{
+			"id": 33031,
+			"name": "Sexism -- and language"
+		},
+		{
+			"id": 33033,
+			"name": "Sexism -- and silence"
+		},
+		{
+			"id": 40633,
+			"name": "Sexism -- and silencing of women"
+		},
+		{
+			"id": 29302,
+			"name": "Sexism -- and slavery"
+		},
+		{
+			"id": 29303,
+			"name": "Sexism -- and social interaction"
+		},
+		{
+			"id": 40630,
+			"name": "Sexism -- as excuse"
+		},
+		{
+			"id": 38559,
+			"name": "Sexism -- as suppressing bisexuality"
+		},
+		{
+			"id": 38566,
+			"name": "Sexism -- dismantling as goal of bisexual movement"
+		},
+		{
+			"id": 38561,
+			"name": "Sexism -- dismantling as goal of feminist movement"
+		},
+		{
+			"id": 40628,
+			"name": "Sexism -- in developmental theory"
+		},
+		{
+			"id": 40629,
+			"name": "Sexism -- in encouragement of leaders"
+		},
+		{
+			"id": 38563,
+			"name": "Sexism -- in heterosexual compared to lesbian relationships"
+		},
+		{
+			"id": 40634,
+			"name": "Sexism -- in social science"
+		},
+		{
+			"id": 33032,
+			"name": "Sexism -- in the military"
+		},
+		{
+			"id": 40631,
+			"name": "Sexism -- interview protocol on"
+		},
+		{
+			"id": 38565,
+			"name": "Sexism -- lesbian oppression as a form of"
+		},
+		{
+			"id": 38560,
+			"name": "Sexism -- of gay men"
+		},
+		{
+			"id": 40632,
+			"name": "Sexism -- perceptions of"
+		},
+		{
+			"id": 38562,
+			"name": "Sexism -- relationship to heterosexuality"
+		},
+		{
+			"id": 38564,
+			"name": "Sexism -- understanding of by heterosexual women"
+		}
+	],
+	"name": "sexism"
+}

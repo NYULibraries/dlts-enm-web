@@ -1,0 +1,122 @@
+{
+	"id": 13424,
+	"children": [
+		{
+			"id": 12517,
+			"name": "Agendas -- policy"
+		},
+		{
+			"id": 13425,
+			"name": "Policy -- alternatives"
+		},
+		{
+			"id": 13426,
+			"name": "Policy -- ambitions"
+		},
+		{
+			"id": 13427,
+			"name": "Policy -- architecture"
+		},
+		{
+			"id": 13428,
+			"name": "Policy -- aspirations"
+		},
+		{
+			"id": 13429,
+			"name": "Policy -- criticism"
+		},
+		{
+			"id": 13430,
+			"name": "Policy -- debates"
+		},
+		{
+			"id": 13431,
+			"name": "Policy -- decisions"
+		},
+		{
+			"id": 13432,
+			"name": "Policy -- dilemmas"
+		},
+		{
+			"id": 13433,
+			"name": "Policy -- efficacy"
+		},
+		{
+			"id": 13434,
+			"name": "Policy -- evaluation"
+		},
+		{
+			"id": 13435,
+			"name": "Policy -- framing and judgment"
+		},
+		{
+			"id": 13436,
+			"name": "Policy -- goals"
+		},
+		{
+			"id": 13437,
+			"name": "Policy -- ideology"
+		},
+		{
+			"id": 13438,
+			"name": "Policy -- initiatives"
+		},
+		{
+			"id": 13439,
+			"name": "Policy -- issues"
+		},
+		{
+			"id": 13440,
+			"name": "Policy -- judgment(s)"
+		},
+		{
+			"id": 13441,
+			"name": "Policy -- making"
+		},
+		{
+			"id": 13442,
+			"name": "Policy -- mastery"
+		},
+		{
+			"id": 13443,
+			"name": "Policy -- positions"
+		},
+		{
+			"id": 13444,
+			"name": "Policy -- positions of George Bush, William J. Clinton, and Ross Perot"
+		},
+		{
+			"id": 13445,
+			"name": "Policy -- preferences"
+		},
+		{
+			"id": 13446,
+			"name": "Policy -- problems"
+		},
+		{
+			"id": 13447,
+			"name": "Policy -- reasons for changes in after campaigns"
+		},
+		{
+			"id": 13448,
+			"name": "Policy -- resolution"
+		},
+		{
+			"id": 13449,
+			"name": "Policy -- structures"
+		},
+		{
+			"id": 13450,
+			"name": "Policy -- success"
+		},
+		{
+			"id": 13451,
+			"name": "Policy -- values"
+		},
+		{
+			"id": 13452,
+			"name": "Policy -- views"
+		}
+	],
+	"name": "policy"
+}

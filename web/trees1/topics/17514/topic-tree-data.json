@@ -1,0 +1,26 @@
+{
+	"id": 17514,
+	"children": [
+		{
+			"id": 43185,
+			"name": "Medicare -- AMA opposition to"
+		},
+		{
+			"id": 43189,
+			"name": "Medicare -- and segregated hospitals"
+		},
+		{
+			"id": 43186,
+			"name": "Medicare -- cuts to"
+		},
+		{
+			"id": 43187,
+			"name": "Medicare -- health care inflation"
+		},
+		{
+			"id": 43188,
+			"name": "Medicare -- passage of"
+		}
+	],
+	"name": "Medicare"
+}

@@ -1,0 +1,18 @@
+{
+	"id": 17325,
+	"children": [
+		{
+			"id": 17326,
+			"name": "Consumer activity -- boycotts"
+		},
+		{
+			"id": 17327,
+			"name": "Consumer activity -- handbilling"
+		},
+		{
+			"id": 17328,
+			"name": "Consumer activity -- picketing"
+		}
+	],
+	"name": "Consumer activity"
+}

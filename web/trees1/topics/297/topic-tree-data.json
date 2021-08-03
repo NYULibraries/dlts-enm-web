@@ -1,0 +1,38 @@
+{
+	"id": 297,
+	"children": [
+		{
+			"id": 3180,
+			"name": "Ann Arbor Committee for Human Rights in Latin America"
+		},
+		{
+			"id": 679,
+			"name": "Latin America -- Cultural Center"
+		},
+		{
+			"id": 28988,
+			"name": "Latin America -- export processing zones (EPZs)"
+		},
+		{
+			"id": 680,
+			"name": "Latin America -- immigrants"
+		},
+		{
+			"id": 28989,
+			"name": "Latin America -- mail-order brides"
+		},
+		{
+			"id": 3699,
+			"name": "Latin America -- Teach-in on Terror"
+		},
+		{
+			"id": 28990,
+			"name": "Latin America -- trafficking into Germany"
+		},
+		{
+			"id": 28991,
+			"name": "Latin America -- trafficking into Netherlands"
+		}
+	],
+	"name": "Latin America"
+}

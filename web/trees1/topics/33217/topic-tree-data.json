@@ -1,0 +1,46 @@
+{
+	"id": 33217,
+	"children": [
+		{
+			"id": 39019,
+			"name": "Interpretation -- canon debate"
+		},
+		{
+			"id": 39020,
+			"name": "Interpretation -- fundamental rights"
+		},
+		{
+			"id": 39021,
+			"name": "Interpretation -- interpretive jurisprudence"
+		},
+		{
+			"id": 39022,
+			"name": "Interpretation -- interpretive turn"
+		},
+		{
+			"id": 33218,
+			"name": "Interpretation -- of case law"
+		},
+		{
+			"id": 33219,
+			"name": "Interpretation -- of common law"
+		},
+		{
+			"id": 33220,
+			"name": "Interpretation -- of Constitution"
+		},
+		{
+			"id": 33221,
+			"name": "Interpretation -- of law"
+		},
+		{
+			"id": 33223,
+			"name": "Interpretation -- of statute"
+		},
+		{
+			"id": 33222,
+			"name": "Interpretation -- Princeton school"
+		}
+	],
+	"name": "Interpretation"
+}

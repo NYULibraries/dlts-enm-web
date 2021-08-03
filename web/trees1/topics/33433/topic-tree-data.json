@@ -1,0 +1,18 @@
+{
+	"id": 33433,
+	"children": [
+		{
+			"id": 33434,
+			"name": "Capitation -- critique"
+		},
+		{
+			"id": 33435,
+			"name": "Capitation -- definitions"
+		},
+		{
+			"id": 33436,
+			"name": "Capitation -- potential benefits"
+		}
+	],
+	"name": "Capitation"
+}

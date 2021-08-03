@@ -1,0 +1,22 @@
+{
+	"id": 17818,
+	"children": [
+		{
+			"id": 17819,
+			"name": "Finitude -- Hegel on"
+		},
+		{
+			"id": 17821,
+			"name": "Finitude -- Ibn Ezra on"
+		},
+		{
+			"id": 17822,
+			"name": "Finitude -- Krochmal on"
+		},
+		{
+			"id": 17820,
+			"name": "Finitude -- Schelling on"
+		}
+	],
+	"name": "Finitude"
+}

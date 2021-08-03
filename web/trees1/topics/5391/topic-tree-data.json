@@ -1,0 +1,14 @@
+{
+	"id": 5391,
+	"children": [
+		{
+			"id": 5392,
+			"name": "frame rate -- frames per second (fps)"
+		},
+		{
+			"id": 5393,
+			"name": "frame rate -- Game Boy"
+		}
+	],
+	"name": "frame rate"
+}

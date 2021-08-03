@@ -1,0 +1,34 @@
+{
+	"id": 13883,
+	"children": [
+		{
+			"id": 29812,
+			"name": "Gratification -- of superego"
+		},
+		{
+			"id": 30172,
+			"name": "Superego -- appeasement through suffering"
+		},
+		{
+			"id": 25198,
+			"name": "Superego -- assault on ego by"
+		},
+		{
+			"id": 25199,
+			"name": "Superego -- function as conscience"
+		},
+		{
+			"id": 25200,
+			"name": "Superego -- moral conflicts arbitrated by"
+		},
+		{
+			"id": 30173,
+			"name": "Superego -- prohibiting admiration for criminals"
+		},
+		{
+			"id": 25201,
+			"name": "Superego -- resistance governed by"
+		}
+	],
+	"name": "Superego"
+}

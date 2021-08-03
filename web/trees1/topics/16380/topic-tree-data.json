@@ -1,0 +1,156 @@
+{
+	"id": 16380,
+	"children": [
+		{
+			"id": 37539,
+			"name": "Father -- alcoholic"
+		},
+		{
+			"id": 16381,
+			"name": "Father -- ambivalence about, in Ewald Tragy"
+		},
+		{
+			"id": 37547,
+			"name": "Father -- and narcissism"
+		},
+		{
+			"id": 16382,
+			"name": "Father -- anger of, in Ewald Tragy"
+		},
+		{
+			"id": 37548,
+			"name": "Father -- as Satan"
+		},
+		{
+			"id": 37540,
+			"name": "Father -- background of"
+		},
+		{
+			"id": 37541,
+			"name": "Father -- background of respondents"
+		},
+		{
+			"id": 37542,
+			"name": "Father -- closest to"
+		},
+		{
+			"id": 16383,
+			"name": "Father -- encourages child's contact with external world"
+		},
+		{
+			"id": 16384,
+			"name": "Father -- encourages separation and differentiation of self and other"
+		},
+		{
+			"id": 37543,
+			"name": "Father -- father-daughter incest"
+		},
+		{
+			"id": 16385,
+			"name": "Father -- fear of a vengeful, punishing parent"
+		},
+		{
+			"id": 37544,
+			"name": "Father -- God"
+		},
+		{
+			"id": 37545,
+			"name": "Father -- honor thy"
+		},
+		{
+			"id": 16386,
+			"name": "Father -- images of the father in Rilke's writings"
+		},
+		{
+			"id": 37546,
+			"name": "Father -- incestuous vs. nonincestuous"
+		},
+		{
+			"id": 16387,
+			"name": "Father -- oedipal fathers in Kafka and Lawrence"
+		},
+		{
+			"id": 16388,
+			"name": "Father -- Rilke on effects of a father's death"
+		},
+		{
+			"id": 40331,
+			"name": "Father(s) -- abusive"
+		},
+		{
+			"id": 40335,
+			"name": "Father(s) -- as negative example"
+		},
+		{
+			"id": 40336,
+			"name": "Father(s) -- as negative force"
+		},
+		{
+			"id": 40338,
+			"name": "Father(s) -- as role models"
+		},
+		{
+			"id": 40332,
+			"name": "Father(s) -- Eva's relationship with"
+		},
+		{
+			"id": 40333,
+			"name": "Father(s) -- interview protocol on"
+		},
+		{
+			"id": 40334,
+			"name": "Father(s) -- Malcolm's relationship with"
+		},
+		{
+			"id": 40337,
+			"name": "Father(s) -- relationship with"
+		},
+		{
+			"id": 40339,
+			"name": "Father(s) -- willingness to challenge"
+		},
+		{
+			"id": 21565,
+			"name": "Fathers -- bad"
+		},
+		{
+			"id": 22453,
+			"name": "Fathers -- civic"
+		},
+		{
+			"id": 21556,
+			"children": [
+				{
+					"id": 40340,
+					"name": "Father figure(s) -- child as"
+				},
+				{
+					"id": 40341,
+					"name": "Father figure(s) -- mother as,  Male role model(s)"
+				},
+				{
+					"id": 21557,
+					"name": "Father figures -- in Bleak House"
+				},
+				{
+					"id": 21558,
+					"name": "Father figures -- in Great Expectations"
+				},
+				{
+					"id": 21559,
+					"name": "Father figures -- in Little Dorrit"
+				}
+			],
+			"name": "Fathers -- father figures"
+		},
+		{
+			"id": 22454,
+			"name": "Fathers -- forefathers"
+		},
+		{
+			"id": 22455,
+			"name": "Fathers -- honoring of"
+		}
+	],
+	"name": "Father(s)"
+}

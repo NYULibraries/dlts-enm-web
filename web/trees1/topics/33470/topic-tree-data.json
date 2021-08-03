@@ -1,0 +1,42 @@
+{
+	"id": 33470,
+	"children": [
+		{
+			"id": 33614,
+			"name": "Integrated mental health and medical care -- and freestanding mental health clinics"
+		},
+		{
+			"id": 33615,
+			"name": "Integrated mental health and medical care -- and managed care"
+		},
+		{
+			"id": 33610,
+			"name": "Integrated mental health and medical care -- assessment and treatment planning"
+		},
+		{
+			"id": 33618,
+			"name": "Integrated mental health and medical care -- at St. Joseph's Hospital and Medical Center, Paterson, NJ"
+		},
+		{
+			"id": 33611,
+			"name": "Integrated mental health and medical care -- barriers"
+		},
+		{
+			"id": 33612,
+			"name": "Integrated mental health and medical care -- characteristics"
+		},
+		{
+			"id": 33613,
+			"name": "Integrated mental health and medical care -- engagement of client"
+		},
+		{
+			"id": 33616,
+			"name": "Integrated mental health and medical care -- providers' mutual availability"
+		},
+		{
+			"id": 33617,
+			"name": "Integrated mental health and medical care -- readings"
+		}
+	],
+	"name": "Integrated mental health and medical care"
+}

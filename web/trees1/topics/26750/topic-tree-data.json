@@ -1,0 +1,38 @@
+{
+	"id": 26750,
+	"children": [
+		{
+			"id": 26751,
+			"name": "Asian -- and culture-based arguments"
+		},
+		{
+			"id": 26753,
+			"name": "Asian -- and discrimination"
+		},
+		{
+			"id": 26755,
+			"name": "Asian -- and separatism"
+		},
+		{
+			"id": 26756,
+			"name": "Asian -- and Silicon Valley industries"
+		},
+		{
+			"id": 26757,
+			"name": "Asian -- and Social Security"
+		},
+		{
+			"id": 26758,
+			"name": "Asian -- and welfare"
+		},
+		{
+			"id": 26752,
+			"name": "Asian -- demographics"
+		},
+		{
+			"id": 26754,
+			"name": "Asian -- employment"
+		}
+	],
+	"name": "Asian"
+}

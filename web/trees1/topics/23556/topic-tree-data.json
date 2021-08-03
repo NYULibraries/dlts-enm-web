@@ -1,0 +1,86 @@
+{
+	"id": 23556,
+	"children": [
+		{
+			"id": 37575,
+			"name": "Food -- \"real\""
+		},
+		{
+			"id": 37567,
+			"name": "Food -- and culture"
+		},
+		{
+			"id": 37568,
+			"name": "Food -- and destructive habits"
+		},
+		{
+			"id": 37569,
+			"name": "Food -- and identity"
+		},
+		{
+			"id": 37570,
+			"name": "Food -- and incest"
+		},
+		{
+			"id": 37579,
+			"name": "Food -- and self-blame"
+		},
+		{
+			"id": 37580,
+			"name": "Food -- and sexual abuse"
+		},
+		{
+			"id": 37581,
+			"name": "Food -- and sexuality/gender"
+		},
+		{
+			"id": 37582,
+			"name": "Food -- and weight"
+		},
+		{
+			"id": 37563,
+			"name": "Food -- as always available"
+		},
+		{
+			"id": 37571,
+			"name": "Food -- as legal drug"
+		},
+		{
+			"id": 37564,
+			"name": "Food -- bond"
+		},
+		{
+			"id": 37565,
+			"name": "Food -- comfort and"
+		},
+		{
+			"id": 37566,
+			"name": "Food -- coping techniques and"
+		},
+		{
+			"id": 37572,
+			"name": "Food -- preoccupied"
+		},
+		{
+			"id": 37573,
+			"name": "Food -- problematic relationship to"
+		},
+		{
+			"id": 37574,
+			"name": "Food -- protective"
+		},
+		{
+			"id": 37576,
+			"name": "Food -- refusal"
+		},
+		{
+			"id": 37577,
+			"name": "Food -- religion and"
+		},
+		{
+			"id": 37578,
+			"name": "Food -- rituals"
+		}
+	],
+	"name": "Foods"
+}

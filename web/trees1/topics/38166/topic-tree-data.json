@@ -1,0 +1,48 @@
+{
+	"id": 38166,
+	"children": [
+		{
+			"id": 38167,
+			"name": "Support -- context of"
+		},
+		{
+			"id": 38168,
+			"name": "Support -- emotional"
+		},
+		{
+			"id": 33785,
+			"children": [
+				{
+					"id": 33788,
+					"name": "Support groups -- for women"
+				},
+				{
+					"id": 33786,
+					"name": "Support groups -- in case management"
+				},
+				{
+					"id": 33787,
+					"name": "Support groups -- rural telephone groups"
+				}
+			],
+			"name": "Support -- groups"
+		},
+		{
+			"id": 38169,
+			"name": "Support -- ongoing"
+		},
+		{
+			"id": 38170,
+			"name": "Support -- peer"
+		},
+		{
+			"id": 38171,
+			"name": "Support -- psychosocial"
+		},
+		{
+			"id": 38172,
+			"name": "Support -- survivors need to find"
+		}
+	],
+	"name": "Support"
+}

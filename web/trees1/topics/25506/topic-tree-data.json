@@ -1,0 +1,14 @@
+{
+	"id": 25506,
+	"children": [
+		{
+			"id": 25507,
+			"name": "Preferences -- adaptive"
+		},
+		{
+			"id": 25508,
+			"name": "Preferences -- second-order"
+		}
+	],
+	"name": "Preferences"
+}

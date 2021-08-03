@@ -1,0 +1,54 @@
+{
+	"id": 42757,
+	"children": [
+		{
+			"id": 42931,
+			"name": "health -- and militarization"
+		},
+		{
+			"id": 42978,
+			"name": "home -- and militarization"
+		},
+		{
+			"id": 43209,
+			"name": "militarization -- and gender"
+		},
+		{
+			"id": 43213,
+			"name": "militarization -- and racism"
+		},
+		{
+			"id": 43214,
+			"name": "militarization -- and reproductive justice"
+		},
+		{
+			"id": 43215,
+			"name": "militarization -- and segregation"
+		},
+		{
+			"id": 43216,
+			"name": "militarization -- and suburbanization"
+		},
+		{
+			"id": 43217,
+			"name": "militarization -- and urban crisis"
+		},
+		{
+			"id": 43218,
+			"name": "militarization -- and white supremacy"
+		},
+		{
+			"id": 43210,
+			"name": "militarization -- Geyer on"
+		},
+		{
+			"id": 43211,
+			"name": "militarization -- of LAPD"
+		},
+		{
+			"id": 43212,
+			"name": "militarization -- of population"
+		}
+	],
+	"name": "militarization"
+}

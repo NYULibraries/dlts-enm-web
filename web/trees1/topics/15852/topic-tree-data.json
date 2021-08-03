@@ -1,0 +1,82 @@
+{
+	"id": 15852,
+	"children": [
+		{
+			"id": 24001,
+			"name": "Religion -- and attitudes toward homosexuality"
+		},
+		{
+			"id": 39669,
+			"name": "Religion -- and Clarence Thomas"
+		},
+		{
+			"id": 24002,
+			"name": "Religion -- and differences among LGBs between upbringing and present religion"
+		},
+		{
+			"id": 24003,
+			"name": "Religion -- and LGB self-identification rates"
+		},
+		{
+			"id": 15853,
+			"name": "Religion -- and morals"
+		},
+		{
+			"id": 39670,
+			"name": "Religion -- and U.S. civil rights"
+		},
+		{
+			"id": 20117,
+			"name": "Religion -- as foundation for morality and law in thought of Samuel Chase"
+		},
+		{
+			"id": 39668,
+			"name": "Religion -- as opium of the masses"
+		},
+		{
+			"id": 40934,
+			"name": "Religion -- civil religion in the United States"
+		},
+		{
+			"id": 40935,
+			"name": "Religion -- creationism"
+		},
+		{
+			"id": 40936,
+			"name": "Religion -- diversity in the United States"
+		},
+		{
+			"id": 40937,
+			"name": "Religion -- framers' views and the First Amendment"
+		},
+		{
+			"id": 20118,
+			"name": "Religion -- importance for John Jay"
+		},
+		{
+			"id": 22026,
+			"name": "Religion -- in Leavis"
+		},
+		{
+			"id": 22027,
+			"name": "Religion -- in punitive upbringing of children"
+		},
+		{
+			"id": 22028,
+			"name": "Religion -- in Victorian society"
+		},
+		{
+			"id": 15854,
+			"name": "Religion -- story of dead boy"
+		},
+		{
+			"id": 24004,
+			"name": "Religion -- suppression of LGB self-identification based on denomination"
+		},
+		{
+			"id": 40938,
+			"name": "Religion -- theory of evolution and the law"
+		}
+	],
+	"name": "religion"
+}

@@ -1,0 +1,26 @@
+{
+	"id": 2255,
+	"children": [
+		{
+			"id": 2256,
+			"name": "Hybridization -- Ideological"
+		},
+		{
+			"id": 2257,
+			"name": "Hybridization -- Ideological frame"
+		},
+		{
+			"id": 2258,
+			"name": "Hybridization -- Ideological hegemony (effects, conditioning)"
+		},
+		{
+			"id": 2259,
+			"name": "Hybridization -- Ideological orientations"
+		},
+		{
+			"id": 2260,
+			"name": "Hybridization -- Ideological parameters (limits, spectrum)"
+		}
+	],
+	"name": "Hybridization"
+}
