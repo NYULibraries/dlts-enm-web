@@ -1,0 +1,34 @@
+{
+	"id": 7076,
+	"children": [
+		{
+			"id": 15752,
+			"name": "High school -- attendance, graduation rates"
+		},
+		{
+			"id": 7077,
+			"name": "high school -- Bill Gates on"
+		},
+		{
+			"id": 7078,
+			"name": "high school -- collaboration with universities"
+		},
+		{
+			"id": 7079,
+			"name": "high school -- dropping out of"
+		},
+		{
+			"id": 15753,
+			"name": "High school -- entrance requirements"
+		},
+		{
+			"id": 15754,
+			"name": "High school -- rankings"
+		},
+		{
+			"id": 15755,
+			"name": "High school -- tracking"
+		}
+	],
+	"name": "high school"
+}

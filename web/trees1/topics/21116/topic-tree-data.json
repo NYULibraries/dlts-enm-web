@@ -1,0 +1,22 @@
+{
+	"id": 21116,
+	"children": [
+		{
+			"id": 21119,
+			"name": "Rice -- as domestic public good"
+		},
+		{
+			"id": 21117,
+			"name": "Rice -- controlling"
+		},
+		{
+			"id": 21118,
+			"name": "Rice -- decreased consumption of"
+		},
+		{
+			"id": 21120,
+			"name": "Rice -- for overseas aid"
+		}
+	],
+	"name": "Rice"
+}

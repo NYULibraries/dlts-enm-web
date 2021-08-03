@@ -1,0 +1,30 @@
+{
+	"id": 42145,
+	"children": [
+		{
+			"id": 42077,
+			"name": "DJ culture -- Bay Area"
+		},
+		{
+			"id": 42148,
+			"name": "DJ culture -- exclusion of Filipino DJs"
+		},
+		{
+			"id": 42149,
+			"name": "DJ culture -- gendered space"
+		},
+		{
+			"id": 42150,
+			"name": "DJ culture -- racialized aspects"
+		},
+		{
+			"id": 42151,
+			"name": "DJ culture -- racially neutral aspects"
+		},
+		{
+			"id": 42152,
+			"name": "DJ culture -- status hierarchy"
+		}
+	],
+	"name": "DJ culture"
+}

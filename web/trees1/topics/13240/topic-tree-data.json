@@ -1,0 +1,46 @@
+{
+	"id": 13240,
+	"children": [
+		{
+			"id": 13241,
+			"name": "Leadership, presidential -- assessment of during presidential campaigns"
+		},
+		{
+			"id": 13242,
+			"name": "Leadership, presidential -- character and"
+		},
+		{
+			"id": 13243,
+			"name": "Leadership, presidential -- decisions"
+		},
+		{
+			"id": 13244,
+			"name": "Leadership, presidential -- enactment"
+		},
+		{
+			"id": 13245,
+			"name": "Leadership, presidential -- nature of"
+		},
+		{
+			"id": 13246,
+			"name": "Leadership, presidential -- performance"
+		},
+		{
+			"id": 13247,
+			"name": "Leadership, presidential -- public education and"
+		},
+		{
+			"id": 13248,
+			"name": "Leadership, presidential -- resources"
+		},
+		{
+			"id": 13249,
+			"name": "Leadership, presidential -- skills"
+		},
+		{
+			"id": 13250,
+			"name": "Leadership, presidential -- style"
+		}
+	],
+	"name": "President(ial) -- leadership"
+}

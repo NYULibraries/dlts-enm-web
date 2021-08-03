@@ -1,0 +1,34 @@
+{
+	"id": 13197,
+	"children": [
+		{
+			"id": 13202,
+			"name": "Intrapsychic -- and interpersonal processes"
+		},
+		{
+			"id": 13198,
+			"name": "Intrapsychic -- compensation"
+		},
+		{
+			"id": 13199,
+			"name": "Intrapsychic -- difficulties"
+		},
+		{
+			"id": 13200,
+			"name": "Intrapsychic -- elements"
+		},
+		{
+			"id": 13201,
+			"name": "Intrapsychic -- factors"
+		},
+		{
+			"id": 13203,
+			"name": "Intrapsychic -- psychological dispositions"
+		},
+		{
+			"id": 13204,
+			"name": "Intrapsychic -- world"
+		}
+	],
+	"name": "Intrapsychic"
+}

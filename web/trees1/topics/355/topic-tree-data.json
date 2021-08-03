@@ -1,0 +1,36 @@
+{
+	"id": 355,
+	"children": [
+		{
+			"id": 356,
+			"name": "Sweden -- and economy"
+		},
+		{
+			"id": 357,
+			"name": "Sweden -- and politics"
+		},
+		{
+			"id": 358,
+			"name": "Sweden -- and society"
+		},
+		{
+			"id": 29030,
+			"name": "Sweden -- Malmo project on elimination of prostitution"
+		},
+		{
+			"id": 29228,
+			"children": [
+				{
+					"id": 29229,
+					"name": "Prostitution Group (Sweden) -- consciousness raising programs"
+				},
+				{
+					"id": 29230,
+					"name": "Prostitution Group (Sweden) -- prostitute women and pimps"
+				}
+			],
+			"name": "Sweden -- Prostitution Group"
+		}
+	],
+	"name": "Sweden"
+}

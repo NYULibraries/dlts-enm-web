@@ -1,0 +1,42 @@
+{
+	"id": 13902,
+	"children": [
+		{
+			"id": 20717,
+			"name": "Defense -- trade and"
+		},
+		{
+			"id": 27153,
+			"name": "Trade -- agreements"
+		},
+		{
+			"id": 27154,
+			"name": "Trade -- and immigrants"
+		},
+		{
+			"id": 21220,
+			"name": "Trade -- assets"
+		},
+		{
+			"id": 20951,
+			"name": "Trade -- managed"
+		},
+		{
+			"id": 21221,
+			"name": "Trade -- sacrificing"
+		},
+		{
+			"id": 27155,
+			"name": "Trade -- theory and immigration"
+		},
+		{
+			"id": 13903,
+			"name": "Trade -- with China"
+		},
+		{
+			"id": 13904,
+			"name": "Trade -- with Japan"
+		}
+	],
+	"name": "Trade"
+}

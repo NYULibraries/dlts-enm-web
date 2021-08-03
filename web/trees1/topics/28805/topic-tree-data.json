@@ -1,0 +1,36 @@
+{
+	"id": 28805,
+	"children": [
+		{
+			"id": 28786,
+			"name": "Economic development -- and sexual exploitation"
+		},
+		{
+			"id": 29312,
+			"name": "Sexual exploitation -- and choice"
+		},
+		{
+			"id": 29311,
+			"name": "Sexual exploitation -- approaches to study of"
+		},
+		{
+			"id": 28700,
+			"children": [
+				{
+					"id": 28701,
+					"name": "Convention Against Sexual Exploitation -- 1994 draft"
+				}
+			],
+			"name": "Sexual exploitation -- Convention Against Sexual Exploitation"
+		},
+		{
+			"id": 29313,
+			"name": "Sexual exploitation -- definition"
+		},
+		{
+			"id": 29314,
+			"name": "Sexual exploitation -- stages of"
+		}
+	],
+	"name": "Sexual exploitation"
+}

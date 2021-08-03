@@ -1,0 +1,34 @@
+{
+	"id": 241,
+	"children": [
+		{
+			"id": 341,
+			"name": "public service broadcasting -- and competition"
+		},
+		{
+			"id": 343,
+			"name": "public service broadcasting -- and editorial independence"
+		},
+		{
+			"id": 344,
+			"name": "public service broadcasting -- and license fee"
+		},
+		{
+			"id": 345,
+			"name": "public service broadcasting -- and national identity"
+		},
+		{
+			"id": 346,
+			"name": "public service broadcasting -- and television programming"
+		},
+		{
+			"id": 342,
+			"name": "public service broadcasting -- concept of"
+		},
+		{
+			"id": 348,
+			"name": "public service broadcasting -- Sami people"
+		}
+	],
+	"name": "Public Broadcasting Service"
+}

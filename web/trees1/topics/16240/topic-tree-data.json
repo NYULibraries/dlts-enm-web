@@ -1,0 +1,22 @@
+{
+	"id": 16240,
+	"children": [
+		{
+			"id": 16242,
+			"name": "Aristocracy -- fantasies of ancestral heroes"
+		},
+		{
+			"id": 16241,
+			"name": "Aristocracy -- friends and patrons"
+		},
+		{
+			"id": 16243,
+			"name": "Aristocracy -- myth of aristocratic Rilkes"
+		},
+		{
+			"id": 16244,
+			"name": "Aristocracy -- Rilke's persona"
+		}
+	],
+	"name": "Aristocracy"
+}

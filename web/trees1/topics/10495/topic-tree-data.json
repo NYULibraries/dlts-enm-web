@@ -1,0 +1,38 @@
+{
+	"id": 10495,
+	"children": [
+		{
+			"id": 22932,
+			"name": "Motivations -- allocentric"
+		},
+		{
+			"id": 23161,
+			"name": "Motivations -- and social context"
+		},
+		{
+			"id": 22961,
+			"name": "Motivations -- axiological"
+		},
+		{
+			"id": 23156,
+			"name": "Motivations -- for altruism"
+		},
+		{
+			"id": 23158,
+			"name": "Motivations -- normocentric"
+		},
+		{
+			"id": 23157,
+			"name": "Motivations -- of interveners in Armenian Genocide"
+		},
+		{
+			"id": 23159,
+			"name": "Motivations -- of rescuers of Jews"
+		},
+		{
+			"id": 23160,
+			"name": "Motivations -- self-oriented"
+		}
+	],
+	"name": "Motivation(s)"
+}

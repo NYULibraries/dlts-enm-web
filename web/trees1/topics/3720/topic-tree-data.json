@@ -1,0 +1,30 @@
+{
+	"id": 3720,
+	"children": [
+		{
+			"id": 43125,
+			"name": "Los Angeles Times -- civil rights, coverage of"
+		},
+		{
+			"id": 43126,
+			"name": "Los Angeles Times -- desegregation, coverage of"
+		},
+		{
+			"id": 43127,
+			"name": "Los Angeles Times -- on police brutality"
+		},
+		{
+			"id": 43130,
+			"name": "Los Angeles Times -- on rising spending"
+		},
+		{
+			"id": 43128,
+			"name": "Los Angeles Times -- prepaid health programs, coverage of"
+		},
+		{
+			"id": 43129,
+			"name": "Los Angeles Times -- racism, denial of"
+		}
+	],
+	"name": "Los Angeles Times"
+}

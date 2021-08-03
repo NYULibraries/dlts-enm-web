@@ -1,0 +1,30 @@
+{
+	"id": 22318,
+	"children": [
+		{
+			"id": 22324,
+			"name": "Antifederalists -- against standing armies"
+		},
+		{
+			"id": 22319,
+			"name": "Antifederalists -- and change"
+		},
+		{
+			"id": 22320,
+			"name": "Antifederalists -- and families"
+		},
+		{
+			"id": 22321,
+			"name": "Antifederalists -- and language"
+		},
+		{
+			"id": 22323,
+			"name": "Antifederalists -- and prerogative"
+		},
+		{
+			"id": 22322,
+			"name": "Antifederalists -- and the natural aristocracy"
+		}
+	],
+	"name": "Anti-Federalists"
+}

@@ -1,0 +1,30 @@
+{
+	"id": 5326,
+	"children": [
+		{
+			"id": 40742,
+			"name": "Artificial Intelligence -- artificial life"
+		},
+		{
+			"id": 40743,
+			"name": "Artificial Intelligence -- chess-playing machines"
+		},
+		{
+			"id": 40744,
+			"name": "Artificial Intelligence -- debate over computer consciousness"
+		},
+		{
+			"id": 40745,
+			"name": "Artificial Intelligence -- implications for human uniqueness"
+		},
+		{
+			"id": 40746,
+			"name": "Artificial Intelligence -- implications for legal definition of death"
+		},
+		{
+			"id": 40747,
+			"name": "Artificial Intelligence -- practical impact"
+		}
+	],
+	"name": "artificial intelligence"
+}

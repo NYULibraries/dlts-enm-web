@@ -1,0 +1,18 @@
+{
+	"id": 6806,
+	"children": [
+		{
+			"id": 6807,
+			"name": "social systems theory -- autopoiesis"
+		},
+		{
+			"id": 6808,
+			"name": "social systems theory -- circular dynamics"
+		},
+		{
+			"id": 6809,
+			"name": "social systems theory -- self-referential closure"
+		}
+	],
+	"name": "systems theory -- social"
+}

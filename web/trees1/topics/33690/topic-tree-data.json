@@ -1,0 +1,22 @@
+{
+	"id": 33690,
+	"children": [
+		{
+			"id": 33691,
+			"name": "Psychiatric conditions -- comorbidity with HIV/AIDS"
+		},
+		{
+			"id": 33692,
+			"name": "Psychiatric conditions -- diagnostic dilemmas"
+		},
+		{
+			"id": 33693,
+			"name": "Psychiatric conditions -- pharmacology"
+		},
+		{
+			"id": 33694,
+			"name": "Psychiatric conditions -- refining diagnostic subtypes"
+		}
+	],
+	"name": "Psychiatric conditions"
+}

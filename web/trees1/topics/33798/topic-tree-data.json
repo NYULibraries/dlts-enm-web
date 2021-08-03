@@ -1,0 +1,18 @@
+{
+	"id": 33798,
+	"children": [
+		{
+			"id": 33799,
+			"name": "Therapeutic relationship -- assessment"
+		},
+		{
+			"id": 33800,
+			"name": "Therapeutic relationship -- countertransference"
+		},
+		{
+			"id": 33801,
+			"name": "Therapeutic relationship -- psychotherapy and counseling"
+		}
+	],
+	"name": "Therapeutic relationship"
+}

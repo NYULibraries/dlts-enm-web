@@ -1,0 +1,44 @@
+{
+	"id": 43100,
+	"children": [
+		{
+			"id": 43107,
+			"name": "Los Angeles County -- defense industry in"
+		},
+		{
+			"id": 43108,
+			"name": "Los Angeles County -- health care costs"
+		},
+		{
+			"id": 43109,
+			"children": [
+				{
+					"id": 43067,
+					"name": "L. A. County-USC Hospital -- abortions, incomplete"
+				},
+				{
+					"id": 43069,
+					"name": "L. A. County-USC Hospital -- Madrigal v. Quilligan"
+				},
+				{
+					"id": 43068,
+					"name": "sterilization, forced -- at L. A. County-USC Hospital"
+				}
+			],
+			"name": "Los Angeles County -- hospitals"
+		},
+		{
+			"id": 43110,
+			"name": "Los Angeles County -- military sites in"
+		},
+		{
+			"id": 43111,
+			"name": "Los Angeles County -- minimal cities in"
+		},
+		{
+			"id": 43112,
+			"name": "Los Angeles County -- property values"
+		}
+	],
+	"name": "Los Angeles County"
+}

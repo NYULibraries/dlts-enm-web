@@ -1,0 +1,42 @@
+{
+	"id": 32303,
+	"children": [
+		{
+			"id": 32216,
+			"name": "Automobile industry -- employment in"
+		},
+		{
+			"id": 32304,
+			"name": "Employment -- and adjusted real wage"
+		},
+		{
+			"id": 32305,
+			"name": "Employment -- changes in 1945–56"
+		},
+		{
+			"id": 32306,
+			"name": "Employment -- data distortions"
+		},
+		{
+			"id": 32307,
+			"name": "Employment -- factory"
+		},
+		{
+			"id": 32308,
+			"name": "Employment -- government"
+		},
+		{
+			"id": 32309,
+			"name": "Employment -- racial differences in"
+		},
+		{
+			"id": 32310,
+			"name": "Employment -- steel industry"
+		},
+		{
+			"id": 32311,
+			"name": "Employment -- timber industry"
+		}
+	],
+	"name": "Employment"
+}

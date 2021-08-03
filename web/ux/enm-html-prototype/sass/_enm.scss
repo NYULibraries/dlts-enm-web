@@ -1,0 +1,161 @@
+$bordergray: #dddddd;
+$hoverColorTopics: #004646;
+$topicFont: 'Crimson Text',
+Georgia,
+serif;
+
+@mixin topicTreatment() {
+  font-family: $topicFont;
+  font-size: 1rem;
+  &:link,
+  &:visited {
+    color: teal !important;
+  }
+
+  &[href]:hover {
+    text-decoration: underline;
+    color: $hoverColorTopics !important;
+    text-decoration: none;
+    .enm-hitcount {
+      color: #000;
+    }
+    .enm-alt-names {
+      color: #222;
+    }
+  }
+  .enm-hitcount {
+    color: #444;
+    font-size: .9rem;
+  }
+}
+
+
+hr {
+  background-color: $bordergray;
+  &.enm-hr {
+    margin: 0;
+  }
+}
+
+
+
+/* Override bulma's weirdness */
+
+@media screen and (max-width: 1023px) {
+  .container.is-fluid {
+    margin-left: 32px;
+    margin-right: 32px;
+    max-width: none;
+    width: auto;
+  }
+}
+
+.enm-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-right: 50px;
+  a:link,
+  a:hover,
+  a:visited {
+    color: #4a4a4a;
+  }
+  @include until(500px) {
+    font-size: .9rem;
+    flex-shrink: 1;
+  }
+}
+
+.skipnav {
+  text-align: left;
+}
+
+.skipnav a {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skipnav a:focus,
+.skipnav a:active {
+  position: static;
+  left: 0;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  text-decoration: underline;
+}
+
+
+.enm-visually-hidden {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.enm-topnav {
+  //box-shadow: 0 4px 2px -2px $bordergray;
+  box-shadow: 0px 1px 4px #08403f;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  position: relative;
+  z-index: 2;
+  nav {
+    background-color: transparent;
+  }
+}
+
+.enm-thumbnail {
+  max-width: 90px;
+  height: auto;
+}
+
+
+footer {
+  box-shadow: 0 -2px 2px rgba(0, 0, 0, 0.12);
+  position: relative;
+  text-align: center;
+  height:2rem;
+  a:link,
+  a:visited {
+    color: #555;
+    text-transform: uppercase;
+  }
+  p {
+    color: #555;
+    font-size: .8rem;
+    padding-top: 6px;
+  }
+}
+
+.loader {
+  border: none !important;
+}
+
+.enm-notopics {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: .9rem;
+}
+
+
+
+
+/* checkboxes */
+
+.is-radio[type="radio"]+label::before,
+.is-checkbox[type="checkbox"]+label::before {
+  background-color: #c3d8d7;
+  background-color: #ffffff;
+}
+
+
+.enm-title {
+  font-size: .9rem;
+  text-transform: uppercase;
+  color: #525252;
+  margin-bottom: 5px;
+}

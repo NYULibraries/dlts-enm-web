@@ -1,0 +1,34 @@
+{
+	"id": 23857,
+	"children": [
+		{
+			"id": 38302,
+			"name": "Age -- age-ism"
+		},
+		{
+			"id": 23858,
+			"name": "Age -- as factor in LGB self-identification"
+		},
+		{
+			"id": 23859,
+			"name": "Age -- as factor in other differences among LGB voters"
+		},
+		{
+			"id": 38304,
+			"name": "Age -- attitudes of bisexuals of varying"
+		},
+		{
+			"id": 38303,
+			"name": "Age -- attitudes of lesbians of varying"
+		},
+		{
+			"id": 38301,
+			"name": "Age -- diversity of in lesbian communities"
+		},
+		{
+			"id": 38300,
+			"name": "Age -- of sample and survey staff"
+		}
+	],
+	"name": "Age"
+}

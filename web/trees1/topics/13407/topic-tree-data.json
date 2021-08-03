@@ -1,0 +1,50 @@
+{
+	"id": 13407,
+	"children": [
+		{
+			"id": 25329,
+			"name": "Command economies -- personality and"
+		},
+		{
+			"id": 25405,
+			"name": "Market -- effects on personality"
+		},
+		{
+			"id": 13408,
+			"name": "Personality -- disorders"
+		},
+		{
+			"id": 13409,
+			"name": "Personality -- distinguished from character"
+		},
+		{
+			"id": 13410,
+			"name": "Personality -- organizations"
+		},
+		{
+			"id": 13411,
+			"name": "Personality -- pathologies"
+		},
+		{
+			"id": 25501,
+			"name": "Personality -- primitive societies and"
+		},
+		{
+			"id": 13412,
+			"name": "Personality -- structure"
+		},
+		{
+			"id": 13413,
+			"name": "Personality -- system"
+		},
+		{
+			"id": 25502,
+			"name": "Personality -- theory of"
+		},
+		{
+			"id": 13414,
+			"name": "Personality -- traits"
+		}
+	],
+	"name": "personality"
+}

@@ -1,0 +1,64 @@
+{
+	"id": 43912,
+	"children": [
+		{
+			"id": 43918,
+			"name": "Chesnutt, Charles -- a conservation ethic attributed to"
+		},
+		{
+			"id": 43914,
+			"name": "Chesnutt, Charles -- antebellum settings"
+		},
+		{
+			"id": 43915,
+			"name": "Chesnutt, Charles -- antiracist position"
+		},
+		{
+			"id": 43922,
+			"name": "Chesnutt, Charles -- authorial voice"
+		},
+		{
+			"id": 43916,
+			"name": "Chesnutt, Charles -- conjure tales"
+		},
+		{
+			"id": 43919,
+			"name": "Chesnutt, Charles -- deconstruction of racism in"
+		},
+		{
+			"id": 43920,
+			"name": "Chesnutt, Charles -- frame narratives"
+		},
+		{
+			"id": 43917,
+			"name": "Chesnutt, Charles -- on conjuring as superstition"
+		},
+		{
+			"id": 43923,
+			"name": "Chesnutt, Charles -- rational skepticism of"
+		},
+		{
+			"id": 43921,
+			"name": "Chesnutt, Charles -- theme of human submersion into the natural world"
+		},
+		{
+			"id": 43924,
+			"children": [
+				{
+					"id": 43925,
+					"name": "Chesnutt, Charles -- works -- \"Post-Bellum—Pre-Harlem\""
+				},
+				{
+					"id": 43927,
+					"name": "Chesnutt, Charles -- works -- \"Superstitions and Folklore of the South\""
+				},
+				{
+					"id": 43929,
+					"name": "Chesnutt, Charles -- works -- \"The Future American\""
+				}
+			],
+			"name": "Chesnutt, Charles -- works"
+		}
+	],
+	"name": "Chesnutt, Charles"
+}

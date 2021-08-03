@@ -1,0 +1,22 @@
+{
+	"id": 987,
+	"children": [
+		{
+			"id": 27172,
+			"name": "Urban Institute -- response to findings of Huddle Report"
+		},
+		{
+			"id": 27173,
+			"name": "Urban Institute -- study of costs to public sector of immigrants"
+		},
+		{
+			"id": 27174,
+			"name": "Urban Institute -- study of Los Angeles County"
+		},
+		{
+			"id": 27175,
+			"name": "Urban Institute -- study on welfare and immigrants"
+		}
+	],
+	"name": "Urban Institute"
+}

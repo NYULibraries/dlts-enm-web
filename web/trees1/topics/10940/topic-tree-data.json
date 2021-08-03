@@ -1,0 +1,30 @@
+{
+	"id": 10940,
+	"children": [
+		{
+			"id": 36278,
+			"name": "Communication -- discipline of"
+		},
+		{
+			"id": 10941,
+			"name": "communication -- expanded modes of"
+		},
+		{
+			"id": 10942,
+			"name": "communication -- home to school"
+		},
+		{
+			"id": 10943,
+			"name": "communication -- media"
+		},
+		{
+			"id": 36279,
+			"name": "Communication -- person-centered"
+		},
+		{
+			"id": 10944,
+			"name": "communication -- social relationships and"
+		}
+	],
+	"name": "communication"
+}

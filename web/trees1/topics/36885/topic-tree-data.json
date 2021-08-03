@@ -1,0 +1,14 @@
+{
+	"id": 36885,
+	"children": [
+		{
+			"id": 36887,
+			"name": "intent -- structural bias"
+		},
+		{
+			"id": 36886,
+			"name": "intent -- unconscious bias"
+		}
+	],
+	"name": "intent"
+}

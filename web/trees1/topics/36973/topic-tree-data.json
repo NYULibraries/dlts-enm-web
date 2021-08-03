@@ -1,0 +1,30 @@
+{
+	"id": 36973,
+	"children": [
+		{
+			"id": 36974,
+			"name": "intelligence, group differences in measured -- age"
+		},
+		{
+			"id": 36975,
+			"name": "intelligence, group differences in measured -- ethnicity"
+		},
+		{
+			"id": 36976,
+			"name": "intelligence, group differences in measured -- gender"
+		},
+		{
+			"id": 36977,
+			"name": "intelligence, group differences in measured -- race"
+		},
+		{
+			"id": 36978,
+			"name": "intelligence, group differences in measured -- region"
+		},
+		{
+			"id": 36979,
+			"name": "intelligence, group differences in measured -- socio-economic class"
+		}
+	],
+	"name": "intelligence, group differences in measured"
+}

@@ -1,0 +1,62 @@
+{
+	"id": 13134,
+	"children": [
+		{
+			"id": 42877,
+			"name": "genocide -- and health care"
+		},
+		{
+			"id": 42942,
+			"name": "health care -- and cost inflation"
+		},
+		{
+			"id": 42946,
+			"name": "health care -- and racialized austerity"
+		},
+		{
+			"id": 42948,
+			"name": "health care -- and segregation"
+		},
+		{
+			"id": 42940,
+			"name": "health care -- anxieties about"
+		},
+		{
+			"id": 42941,
+			"name": "health care -- community-worker control"
+		},
+		{
+			"id": 17425,
+			"name": "Health care -- dental coverage"
+		},
+		{
+			"id": 17426,
+			"name": "Health care -- eye coverage"
+		},
+		{
+			"id": 17427,
+			"name": "Health care -- insurance"
+		},
+		{
+			"id": 42945,
+			"name": "health care -- national movement"
+		},
+		{
+			"id": 42947,
+			"name": "health care -- Red purges in"
+		},
+		{
+			"id": 42949,
+			"name": "health care -- social factors"
+		},
+		{
+			"id": 42950,
+			"name": "health care -- undocumented, scapegoating of"
+		},
+		{
+			"id": 42944,
+			"name": "health care -- v. health status"
+		}
+	],
+	"name": "health care"
+}

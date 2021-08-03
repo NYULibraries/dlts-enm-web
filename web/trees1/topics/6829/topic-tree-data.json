@@ -1,0 +1,32 @@
+{
+	"id": 6829,
+	"children": [
+		{
+			"id": 6562,
+			"name": "systems theory -- biological"
+		},
+		{
+			"id": 6806,
+			"children": [
+				{
+					"id": 6807,
+					"name": "social systems theory -- autopoiesis"
+				},
+				{
+					"id": 6808,
+					"name": "social systems theory -- circular dynamics"
+				},
+				{
+					"id": 6809,
+					"name": "social systems theory -- self-referential closure"
+				}
+			],
+			"name": "systems theory -- social"
+		},
+		{
+			"id": 6830,
+			"name": "systems theory -- strange relations"
+		}
+	],
+	"name": "systems theory"
+}

@@ -1,0 +1,34 @@
+{
+	"id": 10846,
+	"children": [
+		{
+			"id": 24682,
+			"name": "Behavior -- as type of remembering"
+		},
+		{
+			"id": 24679,
+			"name": "Behavior -- concerned with consequence of"
+		},
+		{
+			"id": 10847,
+			"name": "behavior -- disruptive"
+		},
+		{
+			"id": 24680,
+			"name": "Behavior -- obsessions and compulsive"
+		},
+		{
+			"id": 24681,
+			"name": "Behavior -- self-destructive"
+		},
+		{
+			"id": 10849,
+			"name": "behavior -- young people's risk"
+		},
+		{
+			"id": 10848,
+			"name": "school -- behavior and control in"
+		}
+	],
+	"name": "behavior"
+}

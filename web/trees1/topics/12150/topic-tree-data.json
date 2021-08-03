@@ -1,0 +1,22 @@
+{
+	"id": 12150,
+	"children": [
+		{
+			"id": 12151,
+			"name": "Education pattern -- in Antigone"
+		},
+		{
+			"id": 12152,
+			"name": "Education pattern -- in Great Expectations"
+		},
+		{
+			"id": 12153,
+			"name": "Education pattern -- in Jane Eyre"
+		},
+		{
+			"id": 12154,
+			"name": "Education pattern -- in The Mayor of Casterbridge"
+		}
+	],
+	"name": "Education pattern"
+}

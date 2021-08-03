@@ -1,0 +1,432 @@
+{
+	"id": 12073,
+	"children": [
+		{
+			"id": 12705,
+			"name": "Active-negative character type"
+		},
+		{
+			"id": 12499,
+			"name": "Active-positive character type"
+		},
+		{
+			"id": 12557,
+			"name": "Analysis -- of character"
+		},
+		{
+			"id": 34483,
+			"name": "Character -- and choice"
+		},
+		{
+			"id": 12731,
+			"name": "Character -- and psychological variables"
+		},
+		{
+			"id": 34490,
+			"name": "Character -- as a vertical and horizontal concept"
+		},
+		{
+			"id": 12713,
+			"name": "Character -- as defense"
+		},
+		{
+			"id": 35875,
+			"name": "Character -- as rhetorical device"
+		},
+		{
+			"id": 34482,
+			"name": "Character -- attacks on"
+		},
+		{
+			"id": 12707,
+			"name": "Character -- beliefs"
+		},
+		{
+			"id": 12708,
+			"name": "Character -- borderline"
+		},
+		{
+			"id": 12709,
+			"name": "Character -- candidate's"
+		},
+		{
+			"id": 12710,
+			"name": "Character -- character-based personality traits"
+		},
+		{
+			"id": 34488,
+			"name": "Character -- Clinton's view of"
+		},
+		{
+			"id": 12711,
+			"name": "Character -- composite nature of"
+		},
+		{
+			"id": 12712,
+			"name": "Character -- consolidation"
+		},
+		{
+			"id": 12714,
+			"name": "Character -- deficit"
+		},
+		{
+			"id": 34484,
+			"name": "Character -- definition of"
+		},
+		{
+			"id": 12715,
+			"name": "Character -- development and functioning"
+		},
+		{
+			"id": 12716,
+			"name": "Character -- disorders"
+		},
+		{
+			"id": 34486,
+			"name": "Character -- distinguished from other psychological concepts"
+		},
+		{
+			"id": 12717,
+			"name": "Character -- domain"
+		},
+		{
+			"id": 12718,
+			"name": "Character -- early formulations of"
+		},
+		{
+			"id": 12719,
+			"name": "Character -- elements"
+		},
+		{
+			"id": 12720,
+			"name": "Character -- experience"
+		},
+		{
+			"id": 34487,
+			"name": "Character -- external world and"
+		},
+		{
+			"id": 12721,
+			"name": "Character -- factors"
+		},
+		{
+			"id": 12722,
+			"name": "Character -- flaws"
+		},
+		{
+			"id": 12723,
+			"name": "Character -- functioning"
+		},
+		{
+			"id": 12724,
+			"name": "Character -- identity and"
+		},
+		{
+			"id": 12681,
+			"children": [
+				{
+					"id": 12744,
+					"name": "Character integrity -- and identity"
+				},
+				{
+					"id": 34491,
+					"name": "Character integrity -- as a basic character element"
+				},
+				{
+					"id": 34492,
+					"name": "Character integrity -- as definition of"
+				},
+				{
+					"id": 12739,
+					"name": "Character integrity -- basic beliefs and"
+				},
+				{
+					"id": 34493,
+					"name": "Character integrity -- drawing of boundaries and"
+				},
+				{
+					"id": 34494,
+					"name": "Character integrity -- effects of parents'"
+				},
+				{
+					"id": 12741,
+					"name": "Character integrity -- emotional attunement to others and"
+				},
+				{
+					"id": 34496,
+					"name": "Character integrity -- ethics in relation to"
+				},
+				{
+					"id": 34497,
+					"name": "Character integrity -- fidelity of interpersonal relations and"
+				},
+				{
+					"id": 13109,
+					"name": "Character integrity -- good enough president and"
+				},
+				{
+					"id": 12743,
+					"name": "Character integrity -- ideals and"
+				},
+				{
+					"id": 34495,
+					"name": "Character integrity -- ideals on development of"
+				},
+				{
+					"id": 12745,
+					"name": "Character integrity -- inconsistencies between personal and political identity and"
+				},
+				{
+					"id": 34499,
+					"name": "Character integrity -- origin of the sense of entitlement and"
+				},
+				{
+					"id": 12746,
+					"name": "Character integrity -- personas and"
+				},
+				{
+					"id": 12747,
+					"name": "Character integrity -- political leadership and"
+				},
+				{
+					"id": 34500,
+					"name": "Character integrity -- political persona and"
+				},
+				{
+					"id": 12748,
+					"name": "Character integrity -- pressure of campaigns and"
+				},
+				{
+					"id": 34501,
+					"name": "Character integrity -- reflected in policy"
+				},
+				{
+					"id": 34498,
+					"name": "Character integrity -- role of parents in setting firm, loving boundaries and development of"
+				},
+				{
+					"id": 12749,
+					"name": "Character integrity -- specific questions to ask candidates regarding"
+				},
+				{
+					"id": 12750,
+					"name": "Character integrity -- University of Michigan's evaluations of in candidates"
+				},
+				{
+					"id": 12740,
+					"name": "Character integrity -- William J. Clinton's"
+				}
+			],
+			"name": "Character -- integrity"
+		},
+		{
+			"id": 12725,
+			"name": "Character -- issues"
+		},
+		{
+			"id": 12726,
+			"name": "Character -- motivation and"
+		},
+		{
+			"id": 12727,
+			"name": "Character -- narcissistic"
+		},
+		{
+			"id": 12728,
+			"name": "Character -- operation"
+		},
+		{
+			"id": 12729,
+			"name": "Character -- organization"
+		},
+		{
+			"id": 35876,
+			"name": "Character -- Rorty's term"
+		},
+		{
+			"id": 12732,
+			"name": "Character -- structures"
+		},
+		{
+			"id": 12733,
+			"children": [
+				{
+					"id": 34505,
+					"name": "Character style -- definition of"
+				},
+				{
+					"id": 34506,
+					"name": "Character style -- motivations and"
+				}
+			],
+			"name": "Character -- style"
+		},
+		{
+			"id": 12734,
+			"name": "Character -- style elements"
+		},
+		{
+			"id": 12735,
+			"name": "Character -- syndromes"
+		},
+		{
+			"id": 34489,
+			"name": "Character -- talents as embedded in"
+		},
+		{
+			"id": 34485,
+			"name": "Character -- the development of"
+		},
+		{
+			"id": 12736,
+			"name": "Character -- theories of"
+		},
+		{
+			"id": 12737,
+			"name": "Character -- traits"
+		},
+		{
+			"id": 12738,
+			"name": "Character -- types"
+		},
+		{
+			"id": 46131,
+			"children": [
+				{
+					"id": 12752,
+					"name": "Character issues -- attacks"
+				},
+				{
+					"id": 12753,
+					"name": "Character issues -- candidates' views of"
+				},
+				{
+					"id": 12754,
+					"name": "Character issues -- change in candidates' policies from campaigning to governing and"
+				},
+				{
+					"id": 12756,
+					"name": "Character issues -- decline of faith in policy solutions and"
+				},
+				{
+					"id": 12757,
+					"name": "Character issues -- emergence of a framework for analysis and"
+				},
+				{
+					"id": 12758,
+					"name": "Character issues -- evaluations and"
+				},
+				{
+					"id": 12759,
+					"name": "Character issues -- expectations of policy mastery and"
+				},
+				{
+					"id": 12760,
+					"name": "Character issues -- Gary Hart and"
+				},
+				{
+					"id": 12761,
+					"name": "Character issues -- ideological ambiguity and the rise of"
+				},
+				{
+					"id": 12762,
+					"name": "Character issues -- increasing importance of leaders and rise of"
+				},
+				{
+					"id": 12763,
+					"name": "Character issues -- Johnson administration and rise of"
+				},
+				{
+					"id": 12764,
+					"name": "Character issues -- judgments regarding"
+				},
+				{
+					"id": 12765,
+					"name": "Character issues -- length of campaigns and assessments of"
+				},
+				{
+					"id": 12766,
+					"name": "Character issues -- media and the rise of"
+				},
+				{
+					"id": 12767,
+					"name": "Character issues -- Nixon administration and rise of"
+				},
+				{
+					"id": 12768,
+					"name": "Character issues -- problems with one-factor assessments of"
+				},
+				{
+					"id": 12769,
+					"name": "Character issues -- public experience with presidents and"
+				},
+				{
+					"id": 12770,
+					"name": "Character issues -- public reaction to"
+				},
+				{
+					"id": 12771,
+					"name": "Character issues -- reactions to novel circumstances and"
+				},
+				{
+					"id": 12772,
+					"name": "Character issues -- substantive political and policy issues and"
+				},
+				{
+					"id": 12773,
+					"name": "Character issues -- why they matter"
+				},
+				{
+					"id": 12755,
+					"name": "Character issues -- William J. Clinton and"
+				}
+			],
+			"name": "Character issues"
+		},
+		{
+			"id": 12076,
+			"name": "Characters -- a Horneyan approach to"
+		},
+		{
+			"id": 12074,
+			"name": "Characters -- as \"creations inside a creation\""
+		},
+		{
+			"id": 12077,
+			"name": "Characters -- as imagined human beings"
+		},
+		{
+			"id": 21363,
+			"name": "Characters -- as projections of inner life of author"
+		},
+		{
+			"id": 21361,
+			"name": "Characters -- Dickens's identification with"
+		},
+		{
+			"id": 12075,
+			"name": "Characters -- formal analysis of"
+		},
+		{
+			"id": 21362,
+			"name": "Characters -- fulfillment of"
+		},
+		{
+			"id": 12078,
+			"name": "Characters -- mimetic in conflict with plot and rhetoric"
+		},
+		{
+			"id": 12079,
+			"name": "Characters -- psychological analysis of"
+		},
+		{
+			"id": 12080,
+			"name": "Characters -- thematic analysis of"
+		},
+		{
+			"id": 12730,
+			"name": "President(ial) -- character"
+		}
+	],
+	"name": "Characters"
+}

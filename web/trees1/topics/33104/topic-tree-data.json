@@ -1,0 +1,30 @@
+{
+	"id": 33104,
+	"children": [
+		{
+			"id": 36777,
+			"name": "Women's studies -- classrooms"
+		},
+		{
+			"id": 36778,
+			"name": "Women's studies -- commitment to social justice"
+		},
+		{
+			"id": 36779,
+			"name": "Women's studies -- faculty"
+		},
+		{
+			"id": 36780,
+			"name": "Women's studies -- literature"
+		},
+		{
+			"id": 36781,
+			"name": "Women's studies -- minor"
+		},
+		{
+			"id": 36782,
+			"name": "Women's studies -- teaching"
+		}
+	],
+	"name": "Women's studies"
+}

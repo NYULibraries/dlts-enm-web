@@ -1,0 +1,24 @@
+{
+	"id": 7523,
+	"children": [
+		{
+			"id": 12059,
+			"name": "Brontë, Emily -- analysis of Wuthering Heights"
+		},
+		{
+			"id": 12060,
+			"name": "Brontë, Emily -- psychological conflicts of"
+		},
+		{
+			"id": 12484,
+			"children": [
+				{
+					"id": 12059,
+					"name": "Brontë, Emily -- analysis of Wuthering Heights"
+				}
+			],
+			"name": "Brontë, Emily -- Wuthering Heights"
+		}
+	],
+	"name": "Bronte, Emily"
+}

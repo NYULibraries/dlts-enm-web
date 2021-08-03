@@ -1,0 +1,22 @@
+{
+	"id": 26335,
+	"children": [
+		{
+			"id": 38840,
+			"name": "Formalism -- constitutional"
+		},
+		{
+			"id": 38950,
+			"name": "Formalism -- legal and interdisciplinary"
+		},
+		{
+			"id": 38951,
+			"name": "Formalism -- rise of legal"
+		},
+		{
+			"id": 38952,
+			"name": "Formalism -- scientism"
+		}
+	],
+	"name": "formalism"
+}

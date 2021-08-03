@@ -1,0 +1,58 @@
+{
+	"id": 11170,
+	"children": [
+		{
+			"id": 11171,
+			"name": "fieldwork -- challenges"
+		},
+		{
+			"id": 11172,
+			"name": "fieldwork -- day in life at home"
+		},
+		{
+			"id": 11173,
+			"name": "fieldwork -- day in life at school"
+		},
+		{
+			"id": 11174,
+			"name": "fieldwork -- ethnographic approach"
+		},
+		{
+			"id": 11175,
+			"name": "fieldwork -- parental consent"
+		},
+		{
+			"id": 11176,
+			"name": "fieldwork -- Progress Day"
+		},
+		{
+			"id": 11179,
+			"name": "fieldwork -- social network visualization"
+		},
+		{
+			"id": 11180,
+			"name": "fieldwork -- transcription conventions"
+		},
+		{
+			"id": 11181,
+			"name": "fieldwork -- verbatim quotations and"
+		},
+		{
+			"id": 11182,
+			"name": "fieldwork -- year in life of the class"
+		},
+		{
+			"id": 11183,
+			"name": "migration -- young people in fieldwork and"
+		},
+		{
+			"id": 11177,
+			"name": "research -- design overview of, in fieldwork"
+		},
+		{
+			"id": 11178,
+			"name": "research -- methods of, in fieldwork"
+		}
+	],
+	"name": "fieldwork"
+}

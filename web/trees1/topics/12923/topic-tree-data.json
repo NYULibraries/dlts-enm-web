@@ -1,0 +1,46 @@
+{
+	"id": 12923,
+	"children": [
+		{
+			"id": 12559,
+			"name": "Development(al) -- analysis"
+		},
+		{
+			"id": 12924,
+			"name": "Development(al) -- arrest"
+		},
+		{
+			"id": 12926,
+			"name": "Development(al) -- difficulties"
+		},
+		{
+			"id": 12927,
+			"name": "Development(al) -- dilemmas"
+		},
+		{
+			"id": 12928,
+			"name": "Development(al) -- experiences"
+		},
+		{
+			"id": 12929,
+			"name": "Development(al) -- history"
+		},
+		{
+			"id": 12930,
+			"name": "Development(al) -- interpretations"
+		},
+		{
+			"id": 12931,
+			"name": "Development(al) -- issues"
+		},
+		{
+			"id": 12925,
+			"name": "Development(al) -- of consolidated identity"
+		},
+		{
+			"id": 12932,
+			"name": "Development(al) -- theorists"
+		}
+	],
+	"name": "Development(al)"
+}

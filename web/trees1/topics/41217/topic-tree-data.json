@@ -1,0 +1,26 @@
+{
+	"id": 41217,
+	"children": [
+		{
+			"id": 41656,
+			"name": "Military forces -- International Rapid Reaction forces"
+		},
+		{
+			"id": 41657,
+			"name": "Military forces -- Slovenian Territorial Defense Forces"
+		},
+		{
+			"id": 41658,
+			"name": "Military forces -- Yugoslav Federation Army"
+		},
+		{
+			"id": 41659,
+			"name": "Military forces -- Yugoslav Federation Army defeated by Slovenian defense forces"
+		},
+		{
+			"id": 41660,
+			"name": "Military forces -- Yugoslav National Army capture of Croatian territory"
+		}
+	],
+	"name": "military forces"
+}

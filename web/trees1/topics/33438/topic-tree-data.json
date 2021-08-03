@@ -1,0 +1,42 @@
+{
+	"id": 33438,
+	"children": [
+		{
+			"id": 33439,
+			"name": "Case management -- Ahalaya Project"
+		},
+		{
+			"id": 33440,
+			"name": "Case management -- barriers"
+		},
+		{
+			"id": 33441,
+			"name": "Case management -- coordination of services"
+		},
+		{
+			"id": 33447,
+			"name": "Case management -- for women"
+		},
+		{
+			"id": 33442,
+			"name": "Case management -- goals"
+		},
+		{
+			"id": 33445,
+			"name": "Case management -- in psychotherapy"
+		},
+		{
+			"id": 33443,
+			"name": "Case management -- monitoring function"
+		},
+		{
+			"id": 33444,
+			"name": "Case management -- process"
+		},
+		{
+			"id": 33446,
+			"name": "Case management -- readings"
+		}
+	],
+	"name": "Case management"
+}

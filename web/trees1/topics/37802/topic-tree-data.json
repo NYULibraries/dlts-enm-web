@@ -1,0 +1,54 @@
+{
+	"id": 37802,
+	"children": [
+		{
+			"id": 37813,
+			"name": "Nurturing -- and support"
+		},
+		{
+			"id": 37814,
+			"name": "Nurturing -- and Twelve-Step programs"
+		},
+		{
+			"id": 37803,
+			"name": "Nurturing -- counterfeit"
+		},
+		{
+			"id": 37804,
+			"name": "Nurturing -- courage"
+		},
+		{
+			"id": 37805,
+			"name": "Nurturing -- domestic labor"
+		},
+		{
+			"id": 37806,
+			"name": "Nurturing -- food"
+		},
+		{
+			"id": 37807,
+			"name": "Nurturing -- goddess imagery"
+		},
+		{
+			"id": 37808,
+			"name": "Nurturing -- inner authority"
+		},
+		{
+			"id": 37809,
+			"name": "Nurturing -- protection and"
+		},
+		{
+			"id": 37810,
+			"name": "Nurturing -- relationships"
+		},
+		{
+			"id": 37811,
+			"name": "Nurturing -- repair"
+		},
+		{
+			"id": 37812,
+			"name": "Nurturing -- self-compassion"
+		}
+	],
+	"name": "Nurturing"
+}

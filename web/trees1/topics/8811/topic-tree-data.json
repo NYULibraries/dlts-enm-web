@@ -1,0 +1,26 @@
+{
+	"id": 8811,
+	"children": [
+		{
+			"id": 8812,
+			"name": "Digital Humanities -- Beginnings (1949–early 1970s)"
+		},
+		{
+			"id": 8813,
+			"name": "Digital Humanities -- Consolidation (1970s–mid-1980s)"
+		},
+		{
+			"id": 8814,
+			"name": "Digital Humanities -- definition"
+		},
+		{
+			"id": 8815,
+			"name": "Digital Humanities -- Era of the Internet (1990s forward)"
+		},
+		{
+			"id": 8816,
+			"name": "Digital Humanities -- New Developments (mid-1980s–early 1990s)"
+		}
+	],
+	"name": "Digital Humanities"
+}

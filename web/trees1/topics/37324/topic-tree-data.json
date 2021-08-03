@@ -1,0 +1,74 @@
+{
+	"id": 37324,
+	"children": [
+		{
+			"id": 38206,
+			"name": "Theology -- and abuse"
+		},
+		{
+			"id": 38207,
+			"name": "Theology -- and atonement"
+		},
+		{
+			"id": 38208,
+			"name": "Theology -- and counseling"
+		},
+		{
+			"id": 38209,
+			"name": "Theology -- and female body"
+		},
+		{
+			"id": 38213,
+			"name": "Theology -- and methodology"
+		},
+		{
+			"id": 38214,
+			"name": "Theology -- and misogyny"
+		},
+		{
+			"id": 38216,
+			"name": "Theology -- and myths"
+		},
+		{
+			"id": 38217,
+			"name": "Theology -- and paternalism"
+		},
+		{
+			"id": 38220,
+			"name": "Theology -- and transference"
+		},
+		{
+			"id": 38210,
+			"name": "Theology -- feminist"
+		},
+		{
+			"id": 38212,
+			"name": "Theology -- key findings"
+		},
+		{
+			"id": 38215,
+			"name": "Theology -- monotheistic"
+		},
+		{
+			"id": 38211,
+			"name": "Theology -- of incest survivors"
+		},
+		{
+			"id": 38219,
+			"name": "Theology -- of suffering"
+		},
+		{
+			"id": 38218,
+			"name": "Theology -- reductionistic"
+		},
+		{
+			"id": 38221,
+			"name": "Theology -- Twelve-Step"
+		},
+		{
+			"id": 38222,
+			"name": "Theology -- virtues"
+		}
+	],
+	"name": "Theology"
+}

@@ -1,0 +1,22 @@
+{
+	"id": 28993,
+	"children": [
+		{
+			"id": 29003,
+			"name": "Legal change -- and women's movement"
+		},
+		{
+			"id": 29000,
+			"name": "Legal change -- campaign against legalized prostitution"
+		},
+		{
+			"id": 29001,
+			"name": "Legal change -- criminalization of customers"
+		},
+		{
+			"id": 29002,
+			"name": "Legal change -- de-criminalization of prostitute women"
+		}
+	],
+	"name": "Legal change"
+}

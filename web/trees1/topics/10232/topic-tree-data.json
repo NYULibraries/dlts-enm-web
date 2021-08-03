@@ -1,0 +1,66 @@
+{
+	"id": 10232,
+	"children": [
+		{
+			"id": 37498,
+			"name": "Faith -- and God"
+		},
+		{
+			"id": 37496,
+			"name": "Faith -- community"
+		},
+		{
+			"id": 37497,
+			"name": "Faith -- disenchanting"
+		},
+		{
+			"id": 37500,
+			"name": "Faith -- in \"just world\""
+		},
+		{
+			"id": 37509,
+			"name": "Faith -- in \"right\" relationships"
+		},
+		{
+			"id": 37499,
+			"name": "Faith -- in higher power"
+		},
+		{
+			"id": 37501,
+			"name": "Faith -- lost"
+		},
+		{
+			"id": 37502,
+			"name": "Faith -- loyalist"
+		},
+		{
+			"id": 37503,
+			"name": "Faith -- negative feelings and"
+		},
+		{
+			"id": 37504,
+			"name": "Faith -- never easy"
+		},
+		{
+			"id": 37505,
+			"name": "Faith -- of origin"
+		},
+		{
+			"id": 37506,
+			"name": "Faith -- person of"
+		},
+		{
+			"id": 37507,
+			"name": "Faith -- quest"
+		},
+		{
+			"id": 37508,
+			"name": "Faith -- recovery is about"
+		},
+		{
+			"id": 37510,
+			"name": "Faith -- trauma and"
+		}
+	],
+	"name": "Faith"
+}

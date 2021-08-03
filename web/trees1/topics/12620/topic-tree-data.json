@@ -1,0 +1,66 @@
+{
+	"id": 12620,
+	"children": [
+		{
+			"id": 37313,
+			"name": "Beliefs -- body"
+		},
+		{
+			"id": 12621,
+			"name": "Beliefs -- character-based"
+		},
+		{
+			"id": 37315,
+			"name": "Beliefs -- female worth after sexual abuse"
+		},
+		{
+			"id": 37316,
+			"name": "Beliefs -- food"
+		},
+		{
+			"id": 37317,
+			"name": "Beliefs -- forgiveness"
+		},
+		{
+			"id": 12622,
+			"name": "Beliefs -- mastery"
+		},
+		{
+			"id": 37320,
+			"name": "Beliefs -- politics"
+		},
+		{
+			"id": 37321,
+			"name": "Beliefs -- questioned"
+		},
+		{
+			"id": 37322,
+			"name": "Beliefs -- seduction"
+		},
+		{
+			"id": 37323,
+			"name": "Beliefs -- self"
+		},
+		{
+			"id": 12624,
+			"name": "Beliefs -- systems"
+		},
+		{
+			"id": 37314,
+			"name": "Family -- beliefs about"
+		},
+		{
+			"id": 37318,
+			"name": "God -- belief in"
+		},
+		{
+			"id": 37319,
+			"name": "Higher Power -- belief in"
+		},
+		{
+			"id": 12623,
+			"name": "Relationship(s) -- beliefs"
+		}
+	],
+	"name": "Beliefs"
+}

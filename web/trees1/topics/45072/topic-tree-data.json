@@ -1,0 +1,30 @@
+{
+	"id": 45072,
+	"children": [
+		{
+			"id": 45158,
+			"name": "North Korea -- moral differences from South"
+		},
+		{
+			"id": 45289,
+			"name": "South Korea -- Americanization"
+		},
+		{
+			"id": 45290,
+			"name": "South Korea -- capitalism"
+		},
+		{
+			"id": 45291,
+			"name": "South Korea -- developmentalism"
+		},
+		{
+			"id": 45292,
+			"name": "South Korea -- postwar subjectivities"
+		},
+		{
+			"id": 45293,
+			"name": "South Korea -- U.S. military presence"
+		}
+	],
+	"name": "South Korea"
+}

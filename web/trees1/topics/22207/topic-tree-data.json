@@ -1,0 +1,14 @@
+{
+	"id": 22207,
+	"children": [
+		{
+			"id": 22208,
+			"name": "Upbringing -- disturbed"
+		},
+		{
+			"id": 22209,
+			"name": "Upbringing -- harsh, punitive"
+		}
+	],
+	"name": "Upbringing"
+}

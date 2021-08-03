@@ -1,0 +1,18 @@
+{
+	"id": 1012,
+	"children": [
+		{
+			"id": 1013,
+			"name": "Xavier University of New Orleans -- Art Department"
+		},
+		{
+			"id": 1014,
+			"name": "Xavier University of New Orleans -- Center for Bioenvironmental Research"
+		},
+		{
+			"id": 1015,
+			"name": "Xavier University of New Orleans -- Community Arts Program"
+		}
+	],
+	"name": "Xavier University of New Orleans"
+}

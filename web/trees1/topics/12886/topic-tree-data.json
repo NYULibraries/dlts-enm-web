@@ -1,0 +1,18 @@
+{
+	"id": 12886,
+	"children": [
+		{
+			"id": 12887,
+			"name": "Cultural -- assumptions"
+		},
+		{
+			"id": 12888,
+			"name": "Cultural -- ideals"
+		},
+		{
+			"id": 12889,
+			"name": "Cultural -- rituals"
+		}
+	],
+	"name": "Cultural"
+}

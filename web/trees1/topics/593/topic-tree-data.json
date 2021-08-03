@@ -1,0 +1,38 @@
+{
+	"id": 593,
+	"children": [
+		{
+			"id": 26200,
+			"name": "Harvard University -- and alumni preference"
+		},
+		{
+			"id": 8929,
+			"name": "Harvard University -- DH Café"
+		},
+		{
+			"id": 26201,
+			"name": "Harvard University -- discrimination claim by Asian-Americans"
+		},
+		{
+			"id": 3571,
+			"name": "Harvard University -- Faculty Against the War"
+		},
+		{
+			"id": 3572,
+			"name": "Harvard University -- Kennedy School of Government"
+		},
+		{
+			"id": 8930,
+			"name": "Harvard University -- metaLAB"
+		},
+		{
+			"id": 594,
+			"name": "Harvard University -- Phillps Brooks House Association"
+		},
+		{
+			"id": 595,
+			"name": "Harvard University -- School of Government"
+		}
+	],
+	"name": "Harvard University"
+}

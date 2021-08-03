@@ -1,0 +1,38 @@
+{
+	"id": 12375,
+	"children": [
+		{
+			"id": 12558,
+			"name": "Analysis -- clinical and political"
+		},
+		{
+			"id": 12557,
+			"name": "Analysis -- of character"
+		},
+		{
+			"id": 12560,
+			"name": "Analysis -- of early experiences"
+		},
+		{
+			"id": 12562,
+			"name": "Analysis -- of presidential performance"
+		},
+		{
+			"id": 12563,
+			"name": "Analysis -- of psychological suitability"
+		},
+		{
+			"id": 12564,
+			"name": "Analysis -- theoretical rationale for"
+		},
+		{
+			"id": 12559,
+			"name": "Development(al) -- analysis"
+		},
+		{
+			"id": 12561,
+			"name": "Framework(s) -- of analysis"
+		}
+	],
+	"name": "Analysis"
+}

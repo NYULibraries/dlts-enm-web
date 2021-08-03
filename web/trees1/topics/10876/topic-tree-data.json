@@ -1,0 +1,30 @@
+{
+	"id": 10876,
+	"children": [
+		{
+			"id": 10878,
+			"name": "Catherine (class teacher) -- at Progress Day"
+		},
+		{
+			"id": 10877,
+			"name": "Catherine (class teacher) -- Hochschild on emotional labor"
+		},
+		{
+			"id": 10879,
+			"name": "Catherine (class teacher) -- registration"
+		},
+		{
+			"id": 10880,
+			"name": "Catherine (class teacher) -- school ritual"
+		},
+		{
+			"id": 10881,
+			"name": "Catherine (class teacher) -- seat assignment"
+		},
+		{
+			"id": 10882,
+			"name": "Catherine (class teacher) -- students' outside classroom information"
+		}
+	],
+	"name": "Catherine (class teacher)"
+}

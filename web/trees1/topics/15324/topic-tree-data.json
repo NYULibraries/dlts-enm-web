@@ -1,0 +1,26 @@
+{
+	"id": 15324,
+	"children": [
+		{
+			"id": 37200,
+			"name": "Abandonment -- concerns of"
+		},
+		{
+			"id": 37201,
+			"name": "Abandonment -- death and"
+		},
+		{
+			"id": 37202,
+			"name": "Abandonment -- emotional"
+		},
+		{
+			"id": 37203,
+			"name": "Abandonment -- feelings of"
+		},
+		{
+			"id": 37204,
+			"name": "Abandonment -- second"
+		}
+	],
+	"name": "Abandonment"
+}

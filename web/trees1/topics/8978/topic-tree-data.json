@@ -1,0 +1,22 @@
+{
+	"id": 8978,
+	"children": [
+		{
+			"id": 8979,
+			"name": "institutionalization -- affiliating"
+		},
+		{
+			"id": 8980,
+			"name": "institutionalization -- centering Digital Humanities"
+		},
+		{
+			"id": 8981,
+			"name": "institutionalization -- institutionalizing interdisciplinary fields"
+		},
+		{
+			"id": 8982,
+			"name": "institutionalization -- interdisciplinary structures and forms"
+		}
+	],
+	"name": "institutionalization"
+}

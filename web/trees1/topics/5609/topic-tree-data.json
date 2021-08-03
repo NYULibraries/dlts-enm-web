@@ -1,0 +1,42 @@
+{
+	"id": 5609,
+	"children": [
+		{
+			"id": 25330,
+			"name": "Commodification -- community and"
+		},
+		{
+			"id": 25331,
+			"name": "Commodification -- consequentialism and"
+		},
+		{
+			"id": 25332,
+			"name": "Commodification -- free exchange and"
+		},
+		{
+			"id": 25333,
+			"name": "Commodification -- incomplete"
+		},
+		{
+			"id": 25336,
+			"name": "Commodification -- of sexuality"
+		},
+		{
+			"id": 25334,
+			"name": "Commodification -- personhood and"
+		},
+		{
+			"id": 25335,
+			"name": "Commodification -- regulation and"
+		},
+		{
+			"id": 25337,
+			"name": "Commodification -- theory of justice and"
+		},
+		{
+			"id": 25338,
+			"name": "Commodification -- universal"
+		}
+	],
+	"name": "commodification"
+}

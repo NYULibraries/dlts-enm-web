@@ -1,0 +1,50 @@
+{
+	"id": 10669,
+	"children": [
+		{
+			"id": 36722,
+			"name": "Stereotype -- racial"
+		},
+		{
+			"id": 31494,
+			"name": "Stereotypes -- accuracy of"
+		},
+		{
+			"id": 31495,
+			"name": "Stereotypes -- consequences of"
+		},
+		{
+			"id": 40664,
+			"name": "Stereotypes -- dangers of"
+		},
+		{
+			"id": 21172,
+			"name": "Stereotypes -- dealing with"
+		},
+		{
+			"id": 23775,
+			"name": "Stereotypes -- Jewish American princess, as stereotype"
+		},
+		{
+			"id": 40666,
+			"name": "Stereotypes -- of urban youth"
+		},
+		{
+			"id": 31496,
+			"name": "Stereotypes -- persistence of"
+		},
+		{
+			"id": 31497,
+			"name": "Stereotypes -- public opinion polls"
+		},
+		{
+			"id": 40665,
+			"name": "Stereotypes -- racist, affirmation of"
+		},
+		{
+			"id": 31498,
+			"name": "Stereotypes -- sex stereotyping"
+		}
+	],
+	"name": "stereotypes"
+}

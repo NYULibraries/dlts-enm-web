@@ -1,0 +1,46 @@
+{
+	"id": 13181,
+	"children": [
+		{
+			"id": 13182,
+			"name": "Interpersonal -- character style"
+		},
+		{
+			"id": 13183,
+			"name": "Interpersonal -- connectedness"
+		},
+		{
+			"id": 13184,
+			"name": "Interpersonal -- definition of"
+		},
+		{
+			"id": 13185,
+			"name": "Interpersonal -- difficulties"
+		},
+		{
+			"id": 13186,
+			"name": "Interpersonal -- dimension"
+		},
+		{
+			"id": 13187,
+			"name": "Interpersonal -- marital difficulties"
+		},
+		{
+			"id": 13188,
+			"name": "Interpersonal -- relationships"
+		},
+		{
+			"id": 13189,
+			"name": "Interpersonal -- skills"
+		},
+		{
+			"id": 13190,
+			"name": "Interpersonal -- strengths"
+		},
+		{
+			"id": 13191,
+			"name": "Interpersonal -- style continuum"
+		}
+	],
+	"name": "Interpersonal"
+}

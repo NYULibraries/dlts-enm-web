@@ -1,0 +1,84 @@
+{
+	"id": 11902,
+	"children": [
+		{
+			"id": 11411,
+			"name": "learning -- technology role"
+		},
+		{
+			"id": 25090,
+			"name": "Psychoanalysis -- technology of"
+		},
+		{
+			"id": 33793,
+			"name": "Technology -- applications"
+		},
+		{
+			"id": 25215,
+			"name": "Technology -- causality role within"
+		},
+		{
+			"id": 25216,
+			"name": "Technology -- challenge of modern"
+		},
+		{
+			"id": 20690,
+			"children": [
+				{
+					"id": 20691,
+					"name": "Computer technology -- introduction of"
+				}
+			],
+			"name": "Technology -- computer"
+		},
+		{
+			"id": 25217,
+			"name": "Technology -- defining"
+		},
+		{
+			"id": 11084,
+			"name": "technology -- edutainment"
+		},
+		{
+			"id": 21202,
+			"name": "Technology -- energy-saving"
+		},
+		{
+			"id": 21203,
+			"name": "Technology -- improving"
+		},
+		{
+			"id": 21204,
+			"name": "Technology -- M\u0026As and"
+		},
+		{
+			"id": 25218,
+			"name": "Technology -- purpose of"
+		},
+		{
+			"id": 33794,
+			"name": "Technology -- rural telephone support groups"
+		},
+		{
+			"id": 33795,
+			"name": "Technology -- sources of HIV/AIDS information"
+		},
+		{
+			"id": 21168,
+			"name": "Technology -- space"
+		},
+		{
+			"id": 25219,
+			"name": "Technology -- truth and"
+		},
+		{
+			"id": 21205,
+			"name": "Technology -- U.S.–Japanese relations and"
+		},
+		{
+			"id": 33796,
+			"name": "Technology -- warm lines"
+		}
+	],
+	"name": "technology"
+}

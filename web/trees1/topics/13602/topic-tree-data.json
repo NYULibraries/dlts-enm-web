@@ -1,0 +1,42 @@
+{
+	"id": 13602,
+	"children": [
+		{
+			"id": 13603,
+			"name": "Psychoanalytic -- formulation"
+		},
+		{
+			"id": 13604,
+			"name": "Psychoanalytic -- framed analysis"
+		},
+		{
+			"id": 13605,
+			"name": "Psychoanalytic -- framework (of analysis)"
+		},
+		{
+			"id": 13606,
+			"name": "Psychoanalytic -- patients"
+		},
+		{
+			"id": 13607,
+			"name": "Psychoanalytic -- psychology"
+		},
+		{
+			"id": 13608,
+			"name": "Psychoanalytic -- psychotherapy"
+		},
+		{
+			"id": 13609,
+			"name": "Psychoanalytic -- theory"
+		},
+		{
+			"id": 13610,
+			"name": "Psychoanalytic -- therapy"
+		},
+		{
+			"id": 13611,
+			"name": "Psychoanalytic -- trained observer"
+		}
+	],
+	"name": "Psychoanalytical"
+}

@@ -1,0 +1,18 @@
+{
+	"id": 9402,
+	"children": [
+		{
+			"id": 9403,
+			"name": "University of Maryland -- Digital Humanities Center"
+		},
+		{
+			"id": 9404,
+			"name": "University of Maryland -- Maryland Institute for Technology in the Humanities"
+		},
+		{
+			"id": 9405,
+			"name": "University of Maryland -- School of Information"
+		}
+	],
+	"name": "Maryland, University of"
+}

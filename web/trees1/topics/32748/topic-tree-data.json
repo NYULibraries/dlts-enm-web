@@ -1,0 +1,22 @@
+{
+	"id": 32748,
+	"children": [
+		{
+			"id": 32860,
+			"name": "Legal system -- and immutability arguments"
+		},
+		{
+			"id": 32862,
+			"name": "Legal system -- and rational basis review"
+		},
+		{
+			"id": 32863,
+			"name": "Legal system -- and social change"
+		},
+		{
+			"id": 32861,
+			"name": "Legal system -- limitations of"
+		}
+	],
+	"name": "Legal system"
+}

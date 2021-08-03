@@ -1,0 +1,18 @@
+{
+	"id": 13837,
+	"children": [
+		{
+			"id": 13838,
+			"name": "Skills -- individual"
+		},
+		{
+			"id": 13839,
+			"name": "Skills -- of presidential candidates"
+		},
+		{
+			"id": 13840,
+			"name": "Skills -- rhetorical and interpersonal"
+		}
+	],
+	"name": "Skills"
+}

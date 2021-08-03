@@ -1,0 +1,54 @@
+{
+	"id": 37325,
+	"children": [
+		{
+			"id": 37326,
+			"name": "Betrayal -- body"
+		},
+		{
+			"id": 37327,
+			"name": "Betrayal -- core"
+		},
+		{
+			"id": 37328,
+			"name": "Betrayal -- emotional"
+		},
+		{
+			"id": 37329,
+			"name": "Betrayal -- family"
+		},
+		{
+			"id": 37330,
+			"name": "Betrayal -- God"
+		},
+		{
+			"id": 37331,
+			"name": "Betrayal -- incest"
+		},
+		{
+			"id": 37335,
+			"name": "Betrayal -- of trust"
+		},
+		{
+			"id": 37332,
+			"name": "Betrayal -- parental"
+		},
+		{
+			"id": 37333,
+			"name": "Betrayal -- past betrayers"
+		},
+		{
+			"id": 37334,
+			"name": "Betrayal -- remembering"
+		},
+		{
+			"id": 40214,
+			"name": "Boyfriend(s) -- betrayal by"
+		},
+		{
+			"id": 40215,
+			"name": "Friendship(s) -- betrayal in"
+		}
+	],
+	"name": "Betrayal"
+}

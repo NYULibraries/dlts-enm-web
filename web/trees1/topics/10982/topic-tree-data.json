@@ -1,0 +1,112 @@
+{
+	"id": 10982,
+	"children": [
+		{
+			"id": 10859,
+			"name": "Bourdieu, P. -- on cultural capital"
+		},
+		{
+			"id": 14875,
+			"name": "Cultural capital -- and critical thinking"
+		},
+		{
+			"id": 14877,
+			"name": "Cultural capital -- and future of literary study"
+		},
+		{
+			"id": 14879,
+			"name": "Cultural capital -- and productive capital"
+		},
+		{
+			"id": 10828,
+			"name": "cultural capital -- avant-garde"
+		},
+		{
+			"id": 10984,
+			"name": "cultural capital -- class distinctions"
+		},
+		{
+			"id": 14876,
+			"name": "Cultural capital -- discriminating function of"
+		},
+		{
+			"id": 10985,
+			"name": "cultural capital -- economics and"
+		},
+		{
+			"id": 10986,
+			"name": "cultural capital -- home to support school learning"
+		},
+		{
+			"id": 10987,
+			"name": "cultural capital -- learning spaces and"
+		},
+		{
+			"id": 10988,
+			"name": "cultural capital -- learning understanding by family"
+		},
+		{
+			"id": 10989,
+			"children": [
+				{
+					"id": 11446,
+					"name": "life trajectories, social mobility, and cultural capital -- career planning"
+				},
+				{
+					"id": 11447,
+					"name": "life trajectories, social mobility, and cultural capital -- fulfilling life plan"
+				},
+				{
+					"id": 11448,
+					"name": "life trajectories, social mobility, and cultural capital -- project of the self and"
+				},
+				{
+					"id": 11449,
+					"name": "life trajectories, social mobility, and cultural capital -- realistic futures"
+				},
+				{
+					"id": 11450,
+					"name": "life trajectories, social mobility, and cultural capital -- reflexivity"
+				},
+				{
+					"id": 11451,
+					"name": "life trajectories, social mobility, and cultural capital -- student responsibility for individual future path"
+				},
+				{
+					"id": 11452,
+					"name": "life trajectories, social mobility, and cultural capital -- transitions"
+				},
+				{
+					"id": 11453,
+					"name": "life trajectories, social mobility, and cultural capital -- uncertain futures"
+				}
+			],
+			"name": "cultural capital -- life trajectories, social mobility, and"
+		},
+		{
+			"id": 14878,
+			"name": "Cultural capital -- literary study as"
+		},
+		{
+			"id": 10990,
+			"name": "cultural capital -- music learning and"
+		},
+		{
+			"id": 10991,
+			"name": "cultural capital -- nonconvertible (sub-)"
+		},
+		{
+			"id": 10993,
+			"name": "cultural capital -- on technology fostering learning"
+		},
+		{
+			"id": 10992,
+			"name": "cultural capital -- social reproduction and"
+		},
+		{
+			"id": 10994,
+			"name": "cultural capital -- traditional"
+		}
+	],
+	"name": "cultural capital"
+}

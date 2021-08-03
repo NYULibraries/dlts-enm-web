@@ -1,0 +1,38 @@
+{
+	"id": 7896,
+	"children": [
+		{
+			"id": 44799,
+			"name": "art -- politics and"
+		},
+		{
+			"id": 45185,
+			"name": "politics -- aesthetics of"
+		},
+		{
+			"id": 44945,
+			"name": "politics -- in films"
+		},
+		{
+			"id": 45188,
+			"name": "politics -- North Korean"
+		},
+		{
+			"id": 45186,
+			"name": "politics -- of culture"
+		},
+		{
+			"id": 45187,
+			"name": "politics -- of enlightenment"
+		},
+		{
+			"id": 44966,
+			"name": "politics -- of filmmaking"
+		},
+		{
+			"id": 45189,
+			"name": "politics -- Shin's"
+		}
+	],
+	"name": "politics"
+}

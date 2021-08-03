@@ -1,0 +1,26 @@
+{
+	"id": 11327,
+	"children": [
+		{
+			"id": 11328,
+			"name": "individual -- achievement emphasis in school"
+		},
+		{
+			"id": 11074,
+			"name": "individual -- learning in education"
+		},
+		{
+			"id": 11329,
+			"name": "individual -- responsibility for future path"
+		},
+		{
+			"id": 35947,
+			"name": "Individual -- Rorty's term"
+		},
+		{
+			"id": 11330,
+			"name": "individual -- self-insufficiency"
+		}
+	],
+	"name": "individual"
+}

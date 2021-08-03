@@ -1,0 +1,58 @@
+{
+	"id": 2141,
+	"children": [
+		{
+			"id": 26134,
+			"name": "Canada -- and affirmative action"
+		},
+		{
+			"id": 26135,
+			"name": "Canada -- and pregnancy leave"
+		},
+		{
+			"id": 26136,
+			"name": "Canada -- and same-sex sexual harassment"
+		},
+		{
+			"id": 26137,
+			"name": "Canada -- and sexual orientation discimination"
+		},
+		{
+			"id": 17285,
+			"name": "Canada -- Automobile Workers"
+		},
+		{
+			"id": 15971,
+			"name": "Canada -- benefits in Ontario for same-sex couples"
+		},
+		{
+			"id": 15972,
+			"name": "Canada -- census data"
+		},
+		{
+			"id": 17286,
+			"name": "Canada -- class consciousness"
+		},
+		{
+			"id": 15973,
+			"name": "Canada -- federal benefits for same-sex couples"
+		},
+		{
+			"id": 17287,
+			"name": "Canada -- free trade agreement"
+		},
+		{
+			"id": 17288,
+			"name": "Canada -- international collective bargaining agreements"
+		},
+		{
+			"id": 17289,
+			"name": "Canada -- Steelworkers"
+		},
+		{
+			"id": 17290,
+			"name": "Canada -- trade union membership"
+		}
+	],
+	"name": "Canada"
+}

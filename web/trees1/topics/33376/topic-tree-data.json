@@ -1,0 +1,30 @@
+{
+	"id": 33376,
+	"children": [
+		{
+			"id": 33645,
+			"name": "Medical treatment -- and longevity"
+		},
+		{
+			"id": 33643,
+			"name": "Medical treatment -- costs"
+		},
+		{
+			"id": 33644,
+			"name": "Medical treatment -- drugs' adverse effects"
+		},
+		{
+			"id": 33642,
+			"name": "Medical treatment -- for asymptomatic persons"
+		},
+		{
+			"id": 33646,
+			"name": "Medical treatment -- mental health providers' knowledge"
+		},
+		{
+			"id": 33647,
+			"name": "Medical treatment -- psychiatric diagnostic dilemmas"
+		}
+	],
+	"name": "Medical treatment"
+}

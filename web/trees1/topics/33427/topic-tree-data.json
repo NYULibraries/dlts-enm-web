@@ -1,0 +1,34 @@
+{
+	"id": 33427,
+	"children": [
+		{
+			"id": 40240,
+			"name": "Burnout -- among teachers"
+		},
+		{
+			"id": 33428,
+			"name": "Burnout -- and death"
+		},
+		{
+			"id": 33430,
+			"name": "Burnout -- and supervision"
+		},
+		{
+			"id": 33429,
+			"name": "Burnout -- factors and prevention strategies"
+		},
+		{
+			"id": 33431,
+			"name": "Burnout -- training and balance in life"
+		},
+		{
+			"id": 33432,
+			"name": "Burnout -- trapped in work"
+		},
+		{
+			"id": 40239,
+			"name": "Burnout, among students"
+		}
+	],
+	"name": "Burnout"
+}

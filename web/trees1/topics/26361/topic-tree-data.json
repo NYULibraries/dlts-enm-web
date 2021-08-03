@@ -1,0 +1,18 @@
+{
+	"id": 26361,
+	"children": [
+		{
+			"id": 40799,
+			"name": "Free speech -- relation to science"
+		},
+		{
+			"id": 40800,
+			"name": "Free speech -- relation to technology"
+		},
+		{
+			"id": 40801,
+			"name": "Free speech -- tension with government funding"
+		}
+	],
+	"name": "free speech"
+}

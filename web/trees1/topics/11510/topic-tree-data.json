@@ -1,0 +1,158 @@
+{
+	"id": 11510,
+	"children": [
+		{
+			"id": 10844,
+			"name": "bedrooms -- media in"
+		},
+		{
+			"id": 10943,
+			"name": "communication -- media"
+		},
+		{
+			"id": 11148,
+			"name": "family -- media on crises of confidence in"
+		},
+		{
+			"id": 13294,
+			"name": "Media -- and rise of assessments of psychological suitability"
+		},
+		{
+			"id": 13297,
+			"name": "Media -- and structural amplification"
+		},
+		{
+			"id": 13282,
+			"name": "Media -- campaign commercials and"
+		},
+		{
+			"id": 13283,
+			"name": "Media -- candidates' manipulation of"
+		},
+		{
+			"id": 13284,
+			"name": "Media -- candidates' reaction to"
+		},
+		{
+			"id": 13285,
+			"name": "Media -- character attacks in"
+		},
+		{
+			"id": 11511,
+			"name": "media -- class members' use"
+		},
+		{
+			"id": 11512,
+			"name": "media -- considerable use of"
+		},
+		{
+			"id": 13287,
+			"name": "Media -- coverage of candidates"
+		},
+		{
+			"id": 11513,
+			"name": "media -- domestication of"
+		},
+		{
+			"id": 13288,
+			"name": "Media -- effect of instantaneous communications"
+		},
+		{
+			"id": 13289,
+			"name": "Media -- ethics of"
+		},
+		{
+			"id": 11515,
+			"name": "media -- family choice and negotiation"
+		},
+		{
+			"id": 11312,
+			"name": "media -- identity influenced by"
+		},
+		{
+			"id": 31359,
+			"name": "Media -- images"
+		},
+		{
+			"id": 11516,
+			"name": "media -- internet access"
+		},
+		{
+			"id": 13290,
+			"name": "Media -- need for context in character stories"
+		},
+		{
+			"id": 11517,
+			"name": "media -- norms and values"
+		},
+		{
+			"id": 20963,
+			"name": "Media -- on American affairs"
+		},
+		{
+			"id": 11514,
+			"name": "media -- on educational goals"
+		},
+		{
+			"id": 13291,
+			"name": "Media -- public's response to"
+		},
+		{
+			"id": 13292,
+			"name": "Media -- public's right to know and"
+		},
+		{
+			"id": 13293,
+			"name": "Media -- reporters' feelings toward candidates and presidents"
+		},
+		{
+			"id": 31360,
+			"name": "Media -- reporting"
+		},
+		{
+			"id": 11518,
+			"name": "media -- restricted use of"
+		},
+		{
+			"id": 13295,
+			"name": "Media -- role of in Eagleton story"
+		},
+		{
+			"id": 13296,
+			"name": "Media -- role of in ending Gary Hart's candidacy"
+		},
+		{
+			"id": 20964,
+			"name": "Media -- sensationalism by"
+		},
+		{
+			"id": 17512,
+			"name": "Media -- treatment of unions"
+		},
+		{
+			"id": 11519,
+			"name": "media -- UK access to"
+		},
+		{
+			"id": 11520,
+			"name": "media -- US family use of"
+		},
+		{
+			"id": 17513,
+			"name": "Media -- use of by unions"
+		},
+		{
+			"id": 11521,
+			"name": "media -- values influenced by"
+		},
+		{
+			"id": 13286,
+			"name": "Media -- William J. Clinton's candidacy and"
+		},
+		{
+			"id": 11522,
+			"name": "worldview, media influence on"
+		}
+	],
+	"name": "media"
+}

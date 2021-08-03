@@ -1,0 +1,46 @@
+{
+	"id": 45247,
+	"children": [
+		{
+			"id": 45257,
+			"name": "Shin Films -- as regional studio"
+		},
+		{
+			"id": 45248,
+			"name": "Shin Films -- closure"
+		},
+		{
+			"id": 45249,
+			"name": "Shin Films -- contract players"
+		},
+		{
+			"id": 45250,
+			"name": "Shin Films -- coproductions"
+		},
+		{
+			"id": 45251,
+			"name": "Shin Films -- distribution networks"
+		},
+		{
+			"id": 45252,
+			"name": "Shin Films -- establishment"
+		},
+		{
+			"id": 45253,
+			"name": "Shin Films -- Hollywood"
+		},
+		{
+			"id": 45254,
+			"name": "Shin Films -- ivory-tower image"
+		},
+		{
+			"id": 45255,
+			"name": "Shin Films -- North Korea"
+		},
+		{
+			"id": 45256,
+			"name": "Shin Films -- productivity"
+		}
+	],
+	"name": "Shin Films"
+}

@@ -1,0 +1,22 @@
+{
+	"id": 15847,
+	"children": [
+		{
+			"id": 15848,
+			"name": "Regimentation -- formats for assignments"
+		},
+		{
+			"id": 15849,
+			"name": "Regimentation -- questions about"
+		},
+		{
+			"id": 15850,
+			"name": "Regimentation -- school equipment"
+		},
+		{
+			"id": 15851,
+			"name": "Regimentation -- school life"
+		}
+	],
+	"name": "Regimentation"
+}

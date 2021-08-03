@@ -1,0 +1,82 @@
+{
+	"id": 2692,
+	"children": [
+		{
+			"id": 2693,
+			"name": "fair use -- cases"
+		},
+		{
+			"id": 5681,
+			"name": "Fair Use -- Complementary use"
+		},
+		{
+			"id": 5682,
+			"name": "Fair Use -- Creative process"
+		},
+		{
+			"id": 5683,
+			"name": "Fair Use -- Cultural criticism"
+		},
+		{
+			"id": 5684,
+			"name": "Fair Use -- De minimis doctrine"
+		},
+		{
+			"id": 5685,
+			"name": "Fair Use -- Derivative uses"
+		},
+		{
+			"id": 5686,
+			"name": "Fair Use -- Emphasis on melody"
+		},
+		{
+			"id": 5687,
+			"name": "Fair Use -- Four factor test"
+		},
+		{
+			"id": 2694,
+			"name": "fair use -- laws"
+		},
+		{
+			"id": 2695,
+			"name": "fair use -- limiting"
+		},
+		{
+			"id": 5688,
+			"name": "Fair Use -- Literal or fragmented similarity"
+		},
+		{
+			"id": 5689,
+			"name": "Fair Use -- Parodies"
+		},
+		{
+			"id": 5690,
+			"name": "Fair Use -- Racialized Doctrine"
+		},
+		{
+			"id": 5691,
+			"name": "Fair Use -- Secondary Use"
+		},
+		{
+			"id": 5692,
+			"name": "Fair Use -- Signifyin'"
+		},
+		{
+			"id": 5693,
+			"name": "Fair Use -- Substitutional copying"
+		},
+		{
+			"id": 5694,
+			"name": "Fair Use -- Trademark"
+		},
+		{
+			"id": 5695,
+			"name": "Fair Use -- Unfair Use"
+		},
+		{
+			"id": 5696,
+			"name": "Fair Use -- User"
+		}
+	],
+	"name": "fair use"
+}

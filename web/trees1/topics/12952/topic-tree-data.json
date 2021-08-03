@@ -1,0 +1,34 @@
+{
+	"id": 12952,
+	"children": [
+		{
+			"id": 42646,
+			"name": "capitalism -- and drugs"
+		},
+		{
+			"id": 42779,
+			"name": "drugs -- activism against"
+		},
+		{
+			"id": 28771,
+			"name": "Drugs -- and prostitution"
+		},
+		{
+			"id": 42780,
+			"name": "drugs -- criminalization of"
+		},
+		{
+			"id": 42781,
+			"name": "drugs -- overdoses"
+		},
+		{
+			"id": 28770,
+			"name": "Drugs -- prevention programs"
+		},
+		{
+			"id": 42782,
+			"name": "drugs -- treatment programs"
+		}
+	],
+	"name": "drugs"
+}

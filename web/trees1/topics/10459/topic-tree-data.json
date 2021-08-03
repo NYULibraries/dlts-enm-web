@@ -1,0 +1,26 @@
+{
+	"id": 10459,
+	"children": [
+		{
+			"id": 16496,
+			"name": "Mastery -- in Rilke's art"
+		},
+		{
+			"id": 16499,
+			"name": "Mastery -- in Rilke's relationship with Clara"
+		},
+		{
+			"id": 16497,
+			"name": "Mastery -- of his (Rilke's) father in his art"
+		},
+		{
+			"id": 16498,
+			"name": "Mastery -- Rilke mastering his fears through his art"
+		},
+		{
+			"id": 16500,
+			"name": "Mastery -- self-mastery"
+		}
+	],
+	"name": "Mastery"
+}

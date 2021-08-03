@@ -1,0 +1,42 @@
+{
+	"id": 12610,
+	"children": [
+		{
+			"id": 12611,
+			"name": "Behavior(al) -- adult"
+		},
+		{
+			"id": 12613,
+			"name": "Behavior(al) -- development of presidential"
+		},
+		{
+			"id": 12614,
+			"name": "Behavior(al) -- disorders"
+		},
+		{
+			"id": 12615,
+			"name": "Behavior(al) -- elements"
+		},
+		{
+			"id": 12612,
+			"name": "Behavior(al) -- of candidates"
+		},
+		{
+			"id": 12616,
+			"name": "Behavior(al) -- personal"
+		},
+		{
+			"id": 12617,
+			"name": "Behavior(al) -- presidential"
+		},
+		{
+			"id": 12618,
+			"name": "Behavior(al) -- studies"
+		},
+		{
+			"id": 12619,
+			"name": "Behavior(al) -- syndrome"
+		}
+	],
+	"name": "Behavior(al)"
+}

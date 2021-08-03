@@ -1,0 +1,164 @@
+{
+	"id": 62,
+	"children": [
+		{
+			"id": 10824,
+			"name": "attainment -- culture of anxiety over"
+		},
+		{
+			"id": 10939,
+			"name": "common culture -- popular culture as"
+		},
+		{
+			"id": 23004,
+			"name": "Culture -- affirming"
+		},
+		{
+			"id": 33487,
+			"name": "Culture -- American Indian"
+		},
+		{
+			"id": 31667,
+			"name": "culture -- and language"
+		},
+		{
+			"id": 33494,
+			"name": "Culture -- and mourning"
+		},
+		{
+			"id": 33497,
+			"name": "Culture -- and women"
+		},
+		{
+			"id": 33488,
+			"name": "Culture -- assessment"
+		},
+		{
+			"id": 33489,
+			"name": "Culture -- assessment instrument validity and"
+		},
+		{
+			"id": 10886,
+			"name": "culture -- child-centered"
+		},
+		{
+			"id": 33491,
+			"name": "Culture -- client identification with"
+		},
+		{
+			"id": 33492,
+			"name": "Culture -- client-therapist match"
+		},
+		{
+			"id": 31666,
+			"name": "culture -- defined"
+		},
+		{
+			"id": 63,
+			"name": "culture -- development of"
+		},
+		{
+			"id": 64,
+			"name": "culture -- identity"
+		},
+		{
+			"id": 33490,
+			"name": "Culture -- in biopsychosocial/spiritual model"
+		},
+		{
+			"id": 12891,
+			"name": "Culture -- internalization of"
+		},
+		{
+			"id": 31668,
+			"name": "culture -- militarized"
+		},
+		{
+			"id": 33493,
+			"name": "Culture -- of different disciplines"
+		},
+		{
+			"id": 31669,
+			"name": "culture -- of narcissism"
+		},
+		{
+			"id": 33496,
+			"name": "Culture -- of rural areas"
+		},
+		{
+			"id": 65,
+			"name": "culture -- paths through"
+		},
+		{
+			"id": 7805,
+			"children": [
+				{
+					"id": 10939,
+					"name": "common culture -- popular culture as"
+				},
+				{
+					"id": 11680,
+					"name": "popular culture -- classroom use of"
+				},
+				{
+					"id": 11681,
+					"name": "popular culture -- teachers' dated vision of"
+				}
+			],
+			"name": "culture -- popular"
+		},
+		{
+			"id": 33495,
+			"name": "Culture -- power and control issues"
+		},
+		{
+			"id": 10997,
+			"name": "culture -- social class and"
+		},
+		{
+			"id": 44878,
+			"name": "culture(s) -- American"
+		},
+		{
+			"id": 44879,
+			"name": "culture(s) -- colonial"
+		},
+		{
+			"id": 44880,
+			"name": "culture(s) -- conflicts in"
+		},
+		{
+			"id": 44881,
+			"name": "culture(s) -- developmentalist"
+		},
+		{
+			"id": 44882,
+			"name": "culture(s) -- enlightenment"
+		},
+		{
+			"id": 44883,
+			"name": "culture(s) -- film"
+		},
+		{
+			"id": 44884,
+			"name": "culture(s) -- Japanese"
+		},
+		{
+			"id": 44885,
+			"name": "culture(s) -- modern"
+		},
+		{
+			"id": 44886,
+			"name": "culture(s) -- nationalist"
+		},
+		{
+			"id": 44887,
+			"name": "culture(s) -- political"
+		},
+		{
+			"id": 44888,
+			"name": "culture(s) -- socialist"
+		}
+	],
+	"name": "culture(s)"
+}

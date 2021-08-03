@@ -1,0 +1,26 @@
+{
+	"id": 41300,
+	"children": [
+		{
+			"id": 43216,
+			"name": "militarization -- and suburbanization"
+		},
+		{
+			"id": 43610,
+			"name": "suburbanization -- and \"white flight\""
+		},
+		{
+			"id": 43607,
+			"name": "suburbanization -- and segregation"
+		},
+		{
+			"id": 43609,
+			"name": "suburbanization -- and urban blight"
+		},
+		{
+			"id": 43608,
+			"name": "suburbanization -- in Southern California"
+		}
+	],
+	"name": "suburbanization"
+}

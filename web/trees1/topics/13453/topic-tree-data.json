@@ -1,0 +1,438 @@
+{
+	"id": 13453,
+	"children": [
+		{
+			"id": 12518,
+			"name": "Agendas -- political"
+		},
+		{
+			"id": 12850,
+			"name": "Competence -- political"
+		},
+		{
+			"id": 13239,
+			"name": "Leaders -- political"
+		},
+		{
+			"id": 13477,
+			"name": "Political -- \"great man\" theories of"
+		},
+		{
+			"id": 13454,
+			"children": [
+				{
+					"id": 29131,
+					"name": "Political action -- and personal change"
+				},
+				{
+					"id": 29168,
+					"name": "Political action -- social action"
+				}
+			],
+			"name": "Political -- action"
+		},
+		{
+			"id": 13455,
+			"name": "Political -- advancement"
+		},
+		{
+			"id": 13456,
+			"name": "Political -- ambition"
+		},
+		{
+			"id": 13457,
+			"name": "Political -- arena"
+		},
+		{
+			"id": 13458,
+			"name": "Political -- authority"
+		},
+		{
+			"id": 13459,
+			"name": "Political -- campaign(s)"
+		},
+		{
+			"id": 13460,
+			"name": "Political -- candidates"
+		},
+		{
+			"id": 13461,
+			"name": "Political -- career"
+		},
+		{
+			"id": 13462,
+			"name": "Political -- charisma"
+		},
+		{
+			"id": 13463,
+			"name": "Political -- circumstances"
+		},
+		{
+			"id": 13464,
+			"name": "Political -- considerations"
+		},
+		{
+			"id": 13465,
+			"name": "Political -- context"
+		},
+		{
+			"id": 13466,
+			"name": "Political -- criteria"
+		},
+		{
+			"id": 13467,
+			"children": [
+				{
+					"id": 23998,
+					"name": "Political culture -- effects of, on coalition building"
+				},
+				{
+					"id": 23999,
+					"name": "Political culture -- viewed at the state level"
+				}
+			],
+			"name": "Political -- culture"
+		},
+		{
+			"id": 13468,
+			"name": "Political -- decisions"
+		},
+		{
+			"id": 13469,
+			"name": "Political -- domain"
+		},
+		{
+			"id": 13470,
+			"name": "Political -- efficacy"
+		},
+		{
+			"id": 13471,
+			"name": "Political -- elements"
+		},
+		{
+			"id": 13472,
+			"name": "Political -- empathy"
+		},
+		{
+			"id": 13473,
+			"name": "Political -- evaluations"
+		},
+		{
+			"id": 13474,
+			"name": "Political -- events"
+		},
+		{
+			"id": 13475,
+			"name": "Political -- experience"
+		},
+		{
+			"id": 13476,
+			"name": "Political -- feasibility (of decisions)"
+		},
+		{
+			"id": 13478,
+			"children": [
+				{
+					"id": 34897,
+					"name": "Political identity -- consolidation of"
+				},
+				{
+					"id": 34898,
+					"name": "Political identity -- distinguished from persona"
+				},
+				{
+					"id": 34899,
+					"name": "Political identity -- political functions of flexible"
+				},
+				{
+					"id": 34900,
+					"name": "Political identity -- political ideology and"
+				},
+				{
+					"id": 34901,
+					"name": "Political identity -- reconciling Left-Right issues and"
+				}
+			],
+			"name": "Political -- identity"
+		},
+		{
+			"id": 13479,
+			"name": "Political -- ideology"
+		},
+		{
+			"id": 13480,
+			"name": "Political -- interests"
+		},
+		{
+			"id": 13481,
+			"name": "Political -- issues"
+		},
+		{
+			"id": 13482,
+			"name": "Political -- judgment"
+		},
+		{
+			"id": 13483,
+			"children": [
+				{
+					"id": 34902,
+					"name": "Political leadership -- ambition and"
+				},
+				{
+					"id": 34917,
+					"name": "Political leadership -- as relationship"
+				},
+				{
+					"id": 34903,
+					"name": "Political leadership -- consolidation and"
+				},
+				{
+					"id": 34904,
+					"name": "Political leadership -- decline of faith in public policies and"
+				},
+				{
+					"id": 34905,
+					"name": "Political leadership -- definition of"
+				},
+				{
+					"id": 34906,
+					"name": "Political leadership -- differing views of"
+				},
+				{
+					"id": 34907,
+					"name": "Political leadership -- education as a primary function of"
+				},
+				{
+					"id": 34908,
+					"name": "Political leadership -- empathy and"
+				},
+				{
+					"id": 34909,
+					"name": "Political leadership -- fidelity to commitments and"
+				},
+				{
+					"id": 34910,
+					"name": "Political leadership -- fidelity to ideals as a political resource"
+				},
+				{
+					"id": 34911,
+					"name": "Political leadership -- focus and"
+				},
+				{
+					"id": 34912,
+					"name": "Political leadership -- good intentions and"
+				},
+				{
+					"id": 34913,
+					"name": "Political leadership -- identity and"
+				},
+				{
+					"id": 34914,
+					"name": "Political leadership -- mobilization and"
+				},
+				{
+					"id": 34915,
+					"name": "Political leadership -- orchestration and"
+				},
+				{
+					"id": 34916,
+					"name": "Political leadership -- policy experimentation and"
+				},
+				{
+					"id": 34918,
+					"name": "Political leadership -- reputation as resource"
+				},
+				{
+					"id": 34919,
+					"name": "Political leadership -- task of managing social and political change"
+				},
+				{
+					"id": 34920,
+					"name": "Political leadership -- time demands and"
+				},
+				{
+					"id": 34921,
+					"name": "Political leadership -- trust and"
+				}
+			],
+			"name": "Political -- leadership"
+		},
+		{
+			"id": 13484,
+			"name": "Political -- legitimacy"
+		},
+		{
+			"id": 13485,
+			"name": "Political -- maturity"
+		},
+		{
+			"id": 13486,
+			"name": "Political -- motivation"
+		},
+		{
+			"id": 13487,
+			"name": "Political -- office"
+		},
+		{
+			"id": 13488,
+			"name": "Political -- opinions"
+		},
+		{
+			"id": 13489,
+			"name": "Political -- opportunism"
+		},
+		{
+			"id": 13490,
+			"name": "Political -- opposition"
+		},
+		{
+			"id": 13491,
+			"children": [
+				{
+					"id": 34922,
+					"name": "Political parties -- functions as filters"
+				},
+				{
+					"id": 34923,
+					"name": "Political parties -- moderation of, in general elections"
+				}
+			],
+			"name": "Political -- parties"
+		},
+		{
+			"id": 13492,
+			"name": "Political -- performance"
+		},
+		{
+			"id": 13493,
+			"name": "Political -- performance criteria"
+		},
+		{
+			"id": 13494,
+			"name": "Political -- persona"
+		},
+		{
+			"id": 13495,
+			"name": "Political -- philosophy, beliefs, and policy stands"
+		},
+		{
+			"id": 13496,
+			"name": "Political -- power"
+		},
+		{
+			"id": 13497,
+			"name": "Political -- preferences"
+		},
+		{
+			"id": 13499,
+			"name": "Political -- preferences of analyst"
+		},
+		{
+			"id": 13498,
+			"name": "Political -- preferences of psychiatrists"
+		},
+		{
+			"id": 13500,
+			"name": "Political -- preferences of the press"
+		},
+		{
+			"id": 13501,
+			"name": "Political -- processes"
+		},
+		{
+			"id": 13502,
+			"name": "Political -- psychologist(s)"
+		},
+		{
+			"id": 13503,
+			"children": [
+				{
+					"id": 34924,
+					"name": "Political psychology -- limits of"
+				},
+				{
+					"id": 34925,
+					"name": "Political psychology -- limits of focus on childhood and"
+				},
+				{
+					"id": 34926,
+					"name": "Political psychology -- linking psychological development to theories of"
+				},
+				{
+					"id": 34927,
+					"name": "Political psychology -- theories of, and Clinton presidency"
+				},
+				{
+					"id": 34928,
+					"name": "Political psychology -- traits theories and"
+				}
+			],
+			"name": "Political -- psychology"
+		},
+		{
+			"id": 13504,
+			"name": "Political -- recruitment"
+		},
+		{
+			"id": 13505,
+			"name": "Political -- relationships"
+		},
+		{
+			"id": 13506,
+			"name": "Political -- risks"
+		},
+		{
+			"id": 13507,
+			"name": "Political -- roles"
+		},
+		{
+			"id": 13508,
+			"name": "Political -- science"
+		},
+		{
+			"id": 13509,
+			"name": "Political -- self"
+		},
+		{
+			"id": 13510,
+			"name": "Political -- skills"
+		},
+		{
+			"id": 13511,
+			"name": "Political -- structure"
+		},
+		{
+			"id": 13512,
+			"name": "Political -- style"
+		},
+		{
+			"id": 13513,
+			"name": "Political -- success"
+		},
+		{
+			"id": 13514,
+			"name": "Political -- suitability"
+		},
+		{
+			"id": 13515,
+			"name": "Political -- support"
+		},
+		{
+			"id": 13516,
+			"name": "Political -- theory"
+		},
+		{
+			"id": 13517,
+			"name": "Political -- uniqueness (Hart's view of his)"
+		},
+		{
+			"id": 13518,
+			"name": "Political -- values"
+		},
+		{
+			"id": 13519,
+			"name": "Political -- views"
+		}
+	],
+	"name": "Political"
+}

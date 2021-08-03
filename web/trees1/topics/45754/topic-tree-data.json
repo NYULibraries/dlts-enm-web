@@ -1,0 +1,38 @@
+{
+	"id": 45754,
+	"children": [
+		{
+			"id": 45780,
+			"name": "miniatures -- devotional objects"
+		},
+		{
+			"id": 45781,
+			"name": "miniatures -- dioramas"
+		},
+		{
+			"id": 45782,
+			"name": "miniatures -- dolls, dollhouses and"
+		},
+		{
+			"id": 45783,
+			"name": "miniatures -- equestrian figures, 201n2, pl. 6 and pl. 11"
+		},
+		{
+			"id": 45784,
+			"name": "miniatures -- finger puppets"
+		},
+		{
+			"id": 45785,
+			"name": "miniatures -- manuscript illuminations and"
+		},
+		{
+			"id": 45786,
+			"name": "miniatures -- universe and"
+		},
+		{
+			"id": 45787,
+			"name": "miniatures -- various other"
+		}
+	],
+	"name": "miniatures"
+}

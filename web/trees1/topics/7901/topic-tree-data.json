@@ -1,0 +1,88 @@
+{
+	"id": 7901,
+	"children": [
+		{
+			"id": 28724,
+			"name": "Criminalization of customers of prostitution"
+		},
+		{
+			"id": 28771,
+			"name": "Drugs -- and prostitution"
+		},
+		{
+			"id": 29094,
+			"children": [
+				{
+					"id": 29096,
+					"name": "Normalization of prostitution -- and regulation"
+				},
+				{
+					"id": 29095,
+					"name": "Normalization of prostitution -- industrialization of sex"
+				},
+				{
+					"id": 29097,
+					"name": "Normalization of prostitution -- Southeast Asia"
+				}
+			],
+			"name": "Normalization of prostitution"
+		},
+		{
+			"id": 29071,
+			"name": "Prostitution -- and murder"
+		},
+		{
+			"id": 29220,
+			"name": "Prostitution -- and power relations"
+		},
+		{
+			"id": 29221,
+			"name": "Prostitution -- and rape"
+		},
+		{
+			"id": 29223,
+			"name": "Prostitution -- and secrecy"
+		},
+		{
+			"id": 29224,
+			"name": "Prostitution -- and self-identity"
+		},
+		{
+			"id": 29216,
+			"name": "Prostitution -- decriminalization of women"
+		},
+		{
+			"id": 29217,
+			"name": "Prostitution -- dehumanization stages"
+		},
+		{
+			"id": 29218,
+			"name": "Prostitution -- industrialization of sex"
+		},
+		{
+			"id": 29219,
+			"name": "Prostitution -- leaving"
+		},
+		{
+			"id": 7902,
+			"name": "prostitution -- procuration"
+		},
+		{
+			"id": 29222,
+			"name": "Prostitution -- rural prostitution"
+		},
+		{
+			"id": 29225,
+			"name": "Prostitution -- silence of forgetting"
+		},
+		{
+			"id": 29226,
+			"name": "Prostitution -- statistics"
+		},
+		{
+			"id": 29227,
+			"name": "Prostitution -- studies of"
+		}
+	],
+	"name": "prostitution"
+}

@@ -1,0 +1,78 @@
+{
+	"id": 272,
+	"children": [
+		{
+			"id": 26184,
+			"name": "France -- and family leave"
+		},
+		{
+			"id": 26185,
+			"name": "France -- and financial assistance to parents"
+		},
+		{
+			"id": 26186,
+			"name": "France -- and medical leave"
+		},
+		{
+			"id": 1164,
+			"name": "France -- cultural policies"
+		},
+		{
+			"id": 1167,
+			"name": "France -- foreign cultural influences"
+		},
+		{
+			"id": 28843,
+			"name": "France -- growth of prostitution"
+		},
+		{
+			"id": 28844,
+			"name": "France -- immigrant prostitution"
+		},
+		{
+			"id": 1168,
+			"name": "France -- intellectual traditions"
+		},
+		{
+			"id": 1169,
+			"name": "France -- media production"
+		},
+		{
+			"id": 1170,
+			"name": "France -- national identity"
+		},
+		{
+			"id": 1171,
+			"name": "France -- racial tensions"
+		},
+		{
+			"id": 28845,
+			"name": "France -- regulation of prostitution"
+		},
+		{
+			"id": 1172,
+			"name": "France -- relationship to India"
+		},
+		{
+			"id": 1173,
+			"name": "France -- relationship to Japan"
+		},
+		{
+			"id": 1174,
+			"name": "France -- relationship to U.S."
+		},
+		{
+			"id": 1175,
+			"name": "France -- religious observances"
+		},
+		{
+			"id": 1176,
+			"name": "France -- television"
+		},
+		{
+			"id": 28846,
+			"name": "France -- trafficking from England"
+		}
+	],
+	"name": "France"
+}

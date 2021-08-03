@@ -1,0 +1,30 @@
+{
+	"id": 42494,
+	"children": [
+		{
+			"id": 42491,
+			"name": "antiracism -- and antiwar movement"
+		},
+		{
+			"id": 42496,
+			"name": "antiwar movement -- and Johnson, Lyndon"
+		},
+		{
+			"id": 42499,
+			"name": "antiwar movement -- and welfare"
+		},
+		{
+			"id": 42495,
+			"name": "antiwar movement -- feminist critique of"
+		},
+		{
+			"id": 42497,
+			"name": "antiwar movement -- organizing"
+		},
+		{
+			"id": 42498,
+			"name": "antiwar movement -- radicalization of"
+		}
+	],
+	"name": "anti-war movement"
+}

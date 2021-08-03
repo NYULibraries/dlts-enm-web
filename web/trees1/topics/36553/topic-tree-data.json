@@ -1,0 +1,34 @@
+{
+	"id": 36553,
+	"children": [
+		{
+			"id": 42018,
+			"name": "multicultural education -- and colorblind difference"
+		},
+		{
+			"id": 42019,
+			"name": "multicultural education -- and ELL"
+		},
+		{
+			"id": 42020,
+			"name": "multicultural education -- and ESL"
+		},
+		{
+			"id": 42021,
+			"name": "multicultural education -- and human relations"
+		},
+		{
+			"id": 42022,
+			"name": "multicultural education -- and learning styles"
+		},
+		{
+			"id": 42023,
+			"name": "multicultural education -- and powerblind sameness"
+		},
+		{
+			"id": 42024,
+			"name": "multicultural education -- and social class"
+		}
+	],
+	"name": "Multicultural -- education"
+}

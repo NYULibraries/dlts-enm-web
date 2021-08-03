@@ -1,0 +1,22 @@
+{
+	"id": 6835,
+	"children": [
+		{
+			"id": 6836,
+			"name": "tactics -- de Certeau"
+		},
+		{
+			"id": 6837,
+			"name": "tactics -- digital literary"
+		},
+		{
+			"id": 6838,
+			"name": "tactics -- subaltern"
+		},
+		{
+			"id": 6839,
+			"name": "tactics -- technics"
+		}
+	],
+	"name": "tactics"
+}

@@ -1,0 +1,50 @@
+{
+	"id": 12792,
+	"children": [
+		{
+			"id": 12793,
+			"name": "Clinical -- analysis"
+		},
+		{
+			"id": 12794,
+			"name": "Clinical -- arena"
+		},
+		{
+			"id": 12795,
+			"name": "Clinical -- data"
+		},
+		{
+			"id": 12796,
+			"name": "Clinical -- diagnosis"
+		},
+		{
+			"id": 12797,
+			"name": "Clinical -- evaluations"
+		},
+		{
+			"id": 12798,
+			"name": "Clinical -- judgment"
+		},
+		{
+			"id": 12799,
+			"name": "Clinical -- norms"
+		},
+		{
+			"id": 12800,
+			"name": "Clinical -- psychiatry"
+		},
+		{
+			"id": 12801,
+			"name": "Clinical -- psychoanalytic theory"
+		},
+		{
+			"id": 12802,
+			"name": "Clinical -- psychology"
+		},
+		{
+			"id": 12803,
+			"name": "Clinical -- studies"
+		}
+	],
+	"name": "Clinical"
+}

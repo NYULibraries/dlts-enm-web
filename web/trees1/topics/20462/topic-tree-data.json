@@ -1,0 +1,18 @@
+{
+	"id": 20462,
+	"children": [
+		{
+			"id": 20463,
+			"name": "Preference satisfaction -- desert and"
+		},
+		{
+			"id": 20464,
+			"name": "Preference satisfaction -- justice or fairness and"
+		},
+		{
+			"id": 20465,
+			"name": "Preference satisfaction -- maximization of"
+		}
+	],
+	"name": "Preference satisfaction"
+}

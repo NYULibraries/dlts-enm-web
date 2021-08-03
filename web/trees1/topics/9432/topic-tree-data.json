@@ -1,0 +1,26 @@
+{
+	"id": 9432,
+	"children": [
+		{
+			"id": 9433,
+			"name": "University of Victoria -- Digital Humanities Summer Institute"
+		},
+		{
+			"id": 9434,
+			"name": "University of Victoria -- Digital L2 Learning Lab"
+		},
+		{
+			"id": 9435,
+			"name": "University of Victoria -- Electronic Textual Cultures Lab"
+		},
+		{
+			"id": 9436,
+			"name": "University of Victoria -- Humanities Computing and Media Centre"
+		},
+		{
+			"id": 9437,
+			"name": "University of Victoria -- Maker Lab"
+		}
+	],
+	"name": "University of Victoria"
+}

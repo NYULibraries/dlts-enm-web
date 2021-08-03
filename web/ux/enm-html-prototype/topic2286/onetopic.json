@@ -1,0 +1,75 @@
+{
+
+    "nodes": [
+    {
+        "name": "Baghdad, Iraq",
+        "id": 8060,
+        "ocount": 3
+    },
+    {
+        "name": "Foreign -- policy",
+        "id": 13082,
+        "ocount": 14
+    },
+    {
+        "name": "Iran-Iraq war, Japan and",
+        "id": 20871,
+        "ocount": 1
+    },
+    {
+        "name": "Iraq",
+        "id": 2286,
+        "ocount": 7
+    },
+    {
+        "name": "Iraq, invasion of Kuwait",
+        "id": 32375,
+        "ocount": 1
+    },
+    {
+        "name": "Iraq: War",
+        "id": 8286,
+        "ocount": 4
+    },
+    {
+        "name": "Reuters -- Iraq",
+        "id": 8450,
+        "ocount": 1
+    },
+    {
+        "name": "Safire, William -- and Iraq",
+        "id": 39678,
+        "ocount": 1
+    }],
+
+    "links": [
+    {
+        "source": 2286,
+        "target": 13082
+    },
+    {
+        "source": 2286,
+        "target": 8450
+    },
+    {
+        "source": 2286,
+        "target": 39678
+    },
+    {
+        "source": 2286,
+        "target": 8286
+    },
+    {
+        "source": 2286,
+        "target": 20871
+    },
+    {
+        "source": 2286,
+        "target": 32375
+    },
+    {
+        "source": 2286,
+        "target": 8060
+    }]
+
+}

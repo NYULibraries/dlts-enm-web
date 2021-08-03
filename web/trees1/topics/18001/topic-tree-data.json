@@ -1,0 +1,38 @@
+{
+	"id": 18001,
+	"children": [
+		{
+			"id": 18008,
+			"name": "Maimonides -- and Krochmal's Guide"
+		},
+		{
+			"id": 18006,
+			"name": "Maimonides -- Guide of the Perplexed"
+		},
+		{
+			"id": 18009,
+			"name": "Maimonides -- Mishneh Torah"
+		},
+		{
+			"id": 18002,
+			"name": "Maimonides -- Moses"
+		},
+		{
+			"id": 18007,
+			"name": "Maimonides -- obsolescence of"
+		},
+		{
+			"id": 18003,
+			"name": "Maimonides -- on aggadah"
+		},
+		{
+			"id": 18004,
+			"name": "Maimonides -- on interpretation"
+		},
+		{
+			"id": 18005,
+			"name": "Maimonides -- on rabbinic laws"
+		}
+	],
+	"name": "Maimonides"
+}

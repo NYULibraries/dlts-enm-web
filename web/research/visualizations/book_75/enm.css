@@ -1,0 +1,176 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:hover,
+a:visited {
+  color: #2C5178;
+ /* font-weight: bold;*/
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.metaInfo a:link {
+  text-decoration: underline;
+}
+
+#book-title {
+  margin: 0 0 4px 0;
+}
+.press {
+  margin-bottom: 4px;
+}
+#book-subtitle {
+  display: inline-block;
+  padding-left: 20px;
+  font-size: .8em;
+  font-weight: normal;
+}
+.pipe {
+  color: #666;
+  padding: 0 2px;
+}
+.stopall {
+  padding: 5px;
+  font-size: 1rem;
+}
+
+svg .node {
+  background-color: gray;
+  padding: 10px;
+}
+
+.textlabel {
+  /*background-color: red;*/
+}
+
+.nodes circle {}
+
+#slideHold {
+  padding: 20px;
+  background-color: rgba(255, 255, 255, .9);
+  margin-top: -4px;
+  border: 1px solid #ccc;
+  border-top: none;
+  width: 800px;
+}
+
+#slideHold p {
+  margin-top: 0;
+  font-size: .8em;
+}
+
+#slideHold span {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: .8em;
+}
+
+td:nth-child(even) {
+  padding-right: 40px;
+}
+
+.slider {
+  width: 150px;
+  /*margin: 10px 15px;*/
+}
+
+.nodes circle.zeroOccurrences {
+  stroke: #2C5178;
+  stroke-width: 1px;
+  stroke-opacity: 0.5;
+  fill: white;
+}
+.node30747 circle {
+fill: orange;
+}
+.node:hover {
+  cursor: pointer;
+}
+
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.5;
+}
+
+.occurrencesList {
+  border: 1px solid #ccc;
+  float: right;
+  width: 370px;
+  padding: 20px;
+}
+.occurrencesList .o{
+  border-bottom: 1px solid #ccc;
+  
+  padding: 10px 0;
+}
+.occurrencesList .o:last-child{
+  border-bottom: none;
+}
+.masthead {
+  padding: 20px 50px;
+  background-color: black;
+  color: white;
+  width: 1300px;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+footer {
+ 
+  padding: 10px 50px;
+  background-color: #ddd;
+  color: #333;
+  width: 1300px;
+  margin: 0 auto;
+  font-size: .8rem;
+}
+
+.searchbox {
+  float: right;
+  background-color: #aaa;
+  padding: 3px 10px;
+}
+
+.all {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 50px 50px 140px ;
+  background-color: white;
+}
+
+.coverimg {
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.coverimg img {
+  width: 100%;
+  height: auto;
+}
+
+.description {
+  font-size: .9rem;
+  line-height: 1.3;
+  margin-left: 120px;
+  max-width: 53rem;
+}
+
+.metaInfo {
+  padding-bottom: 30px;
+}
+
+h4 {
+  margin-top: 0;
+}

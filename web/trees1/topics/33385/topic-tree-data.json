@@ -1,0 +1,38 @@
+{
+	"id": 33385,
+	"children": [
+		{
+			"id": 33386,
+			"name": "AIDS Dementia Complex -- assessment"
+		},
+		{
+			"id": 33387,
+			"name": "AIDS Dementia Complex -- cognitive rehabilitation literature"
+		},
+		{
+			"id": 33388,
+			"name": "AIDS Dementia Complex -- family concerns"
+		},
+		{
+			"id": 33389,
+			"name": "AIDS Dementia Complex -- group therapy for"
+		},
+		{
+			"id": 33390,
+			"name": "AIDS Dementia Complex -- in-home supportive care"
+		},
+		{
+			"id": 33391,
+			"name": "AIDS Dementia Complex -- prevalence"
+		},
+		{
+			"id": 33392,
+			"name": "AIDS Dementia Complex -- psychosocial implications"
+		},
+		{
+			"id": 33393,
+			"name": "AIDS Dementia Complex -- symptoms"
+		}
+	],
+	"name": "AIDS Dementia Complex"
+}

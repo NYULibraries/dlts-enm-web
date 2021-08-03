@@ -1,0 +1,22 @@
+{
+	"id": 33596,
+	"children": [
+		{
+			"id": 33597,
+			"name": "Human Immunodeficiency Virus testing -- description"
+		},
+		{
+			"id": 33598,
+			"name": "Human Immunodeficiency Virus testing -- exercises regarding testing and results"
+		},
+		{
+			"id": 33599,
+			"name": "Human Immunodeficiency Virus testing -- mandatory testing of newborns"
+		},
+		{
+			"id": 33600,
+			"name": "Human Immunodeficiency Virus testing -- partner testing"
+		}
+	],
+	"name": "Human Immunodeficiency Virus testing"
+}

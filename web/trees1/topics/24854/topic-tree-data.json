@@ -1,0 +1,42 @@
+{
+	"id": 24854,
+	"children": [
+		{
+			"id": 25206,
+			"name": "Technical papers (Freud) -- \"Analysis Terminable and Interminable\""
+		},
+		{
+			"id": 25211,
+			"name": "Technical papers (Freud) -- \"Observations on Transference-Love\""
+		},
+		{
+			"id": 25212,
+			"name": "Technical papers (Freud) -- \"On Psychotherapy\""
+		},
+		{
+			"id": 25213,
+			"name": "Technical papers (Freud) -- \"Recommendations to Physicians Practicing Psycho-analysis\""
+		},
+		{
+			"id": 25214,
+			"name": "Technical papers (Freud) -- \"Remembering, Repeating, and Working-Through\""
+		},
+		{
+			"id": 25209,
+			"name": "Technical papers (Freud) -- \"The Dynamics of Transference\""
+		},
+		{
+			"id": 25207,
+			"name": "Technical papers (Freud) -- described"
+		},
+		{
+			"id": 25208,
+			"name": "Technical papers (Freud) -- Durcharbei-tung"
+		},
+		{
+			"id": 26586,
+			"name": "Technical papers (Freud) -- Inhibitions, Symptoms and Anxiety"
+		}
+	],
+	"name": "Technical papers (Freud)"
+}

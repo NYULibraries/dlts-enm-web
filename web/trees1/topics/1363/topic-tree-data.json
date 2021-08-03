@@ -1,0 +1,42 @@
+{
+	"id": 1363,
+	"children": [
+		{
+			"id": 1987,
+			"name": "Modernity -- and Asian Olympic hosts"
+		},
+		{
+			"id": 1988,
+			"name": "Modernity -- and China"
+		},
+		{
+			"id": 1989,
+			"name": "Modernity -- and Japan's 1940 bid"
+		},
+		{
+			"id": 1991,
+			"name": "Modernity -- and technology"
+		},
+		{
+			"id": 1990,
+			"name": "Modernity -- and Tokyo 1964"
+		},
+		{
+			"id": 45116,
+			"name": "modernity -- capitalist"
+		},
+		{
+			"id": 45117,
+			"name": "modernity -- colonial"
+		},
+		{
+			"id": 45118,
+			"name": "modernity -- film's role in"
+		},
+		{
+			"id": 45119,
+			"name": "modernity -- postwar"
+		}
+	],
+	"name": "modernity"
+}
