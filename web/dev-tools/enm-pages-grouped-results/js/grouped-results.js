@@ -53,7 +53,7 @@ var queryFields = [
                         .join( '%20' ),
                     highlightFields = qf;
 
-                return 'http://dev-discovery.dlib.nyu.edu:8983/solr/enm-pages/select?' +
+                return 'http://devdiscovery.dlib.nyu.edu/solr/enm-pages/select?' +
                        'q=' + encodeURIComponent( this.query ) +
                        '&' +
                        'defType=edismax' +
